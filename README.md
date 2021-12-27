@@ -106,10 +106,7 @@ The LUCAS model available through this repository has four pre-built scenarios a
   <a href="https://github.com/bsleeter/lucas-national-assessment">
     <img src="images/multiprocessing.jpg" alt="Logo" width="600">
   </a>
-  
-  <a href="https://github.com/bsleeter/lucas-national-assessment">
-    <img src="images/ui.jpg" alt="Logo" width="600" >
-  </a>
+
 
 4. In the Library Explorer, navigate to the folder named "00 Final Scenarios" and select one or more of the pre-built scenarios to run. Right-click on a scenario and select "Run". The scenarios available include:
 
@@ -118,7 +115,7 @@ The LUCAS model available through this repository has four pre-built scenarios a
   * No effects: "Conus Historical [No Climate or LULC; Merged Disturbance; Imputed Age; 2001-2020; 1 MC]"
   * LULC effects only: "Conus Historical [No Climate; Merged Disturbance; Imputed Age; 2001-2020; 1 MC]"
 
-<a href="https://github.com/bsleeter/lucas-national-assessment">
+  <a href="https://github.com/bsleeter/lucas-national-assessment">
     <img src="images/scenarios.jpg" alt="Logo" width="600">
   </a>* 
 
@@ -152,7 +149,7 @@ Modify the scenario dependency using the new spatial multiprocessing mask file.
 * Once unchecked, replace the "Tiling raster" with the newly created raster.
 * Run model.
 
-<a href="https://github.com/bsleeter/lucas-national-assessment">
+  <a href="https://github.com/bsleeter/lucas-national-assessment">
     <img src="images/spatial-mp.jpg" alt="Logo" width="600">
   </a>* 
   
