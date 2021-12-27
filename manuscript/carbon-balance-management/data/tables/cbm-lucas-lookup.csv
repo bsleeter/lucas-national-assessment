@@ -1,0 +1,29 @@
+CBM_Ecozone,CBM_Province,CBM_Species,LUCAS_Species,a,b,Temp,MRI
+Mixedwood Plains,Ontario,Jack pine,Forest: White/Red/Jack Pine Group,239.99,0.04,6.81,125
+Atlantic Maritime,Quebec,Spruce - Genus type,Forest: Spruce/Fir Group,120.32,0.03,4.64,125
+Mixedwood Plains,Ontario,Pine - Genus type,Forest: Longleaf/Slash Pine Group,148.94,0.08,19.62,125
+Mixedwood Plains,Ontario,Pine - Genus type,Forest: Loblolly/Shortleaf Pine Group,225.7,0.08,17.47,125
+Montane Cordillera,British Columbia,Other softwoods,Forest: Pinyon/Juniper Group,56.62,0.02,9.74,150
+Pacific Maritime,British Columbia,Douglas-fir - Genus type,Forest: Douglas-fir Group,597.1,0.03,7.17,300
+Montane Cordillera,British Columbia,Ponderosa pine,Forest: Ponderosa Pine Group,152.73,0.03,7.56,150
+Pacific Maritime,British Columbia,Western white pine,Forest: Western White Pine Group,228.52,0.02,9.75,300
+Montane Cordillera,British Columbia,Mountain hemlock,Forest: Fir/Spruce/Mountain Hemlock Group,241.1,0.03,3.8,150
+Montane Cordillera,British Columbia,Lodgepole pine,Forest: Lodgepole Pine Group,203.42,0.03,3.14,150
+Pacific Maritime,British Columbia,Sitka spruce,Forest: Hemlock/Sitka Spruce Group,736.44,0.04,8.38,300
+Montane Cordillera,British Columbia,Western larch,Forest: Western Larch Group,298.51,0.03,5.31,150
+Pacific Maritime,British Columbia,Other softwoods,Forest: Redwood Group,1907.28,0.01,12.69,1000
+Montane Cordillera,British Columbia,Other softwoods,Forest: Other Western Softwood Group,138.36,0.01,2.47,150
+Montane Cordillera,British Columbia,Other softwoods,Forest: California Mixed Conifer Group,477.09,0.02,10.4,150
+Montane Cordillera,British Columbia,Other softwoods,Forest: Exotic Softwoods Group,363.02,0.03,7.63,150
+Mixedwood Plains,Ontario,Oak,Forest: Oak/Pine Group,191.02,0.05,16.8,125
+Mixedwood Plains,Ontario,Hickory,Forest: Oak/Hickory Group,206.02,0.04,13.22,125
+Mixedwood Plains,Ontario,Cypress,Forest: Oak/Gum/Cypress Group,289.99,0.03,18.33,125
+Mixedwood Plains,Ontario,Ash,Forest: Elm/Ash/Cottonwood Group,155.53,0.05,14.23,125
+Atlantic Maritime,Quebec,Maple,Forest: Maple/Beech/Birch Group,229.04,0.03,6.71,125
+Boreal Shield West,Ontario,Birch,Forest: Aspen/Birch Group,146.48,0.04,5.15,75
+Pacific Maritime,British Columbia,Alder,Forest: Alder/Maple Group,436.17,0.05,10.47,300
+Montane Cordillera,British Columbia,Oak,Forest: Western Oak Group,130.24,0.02,12.89,150
+Pacific Maritime,British Columbia,Other hardwoods,Forest: Tanoak/Laurel Group,476.9,0.04,13.12,300
+Montane Cordillera,British Columbia,Other hardwoods,Forest: Other Western Hardwoods Group,130.24,0.02,12.81,150
+Mixedwood Plains,Ontario,Other hardwoods,Forest: Tropical Hardwoods Group,206.48,0.02,22.08,125
+Mixedwood Plains,Ontario,Other hardwoods,Forest: Exotic Hardwoods Group,67.94,0.09,19.23,125

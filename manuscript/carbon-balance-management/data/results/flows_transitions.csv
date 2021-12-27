@@ -1,0 +1,1453 @@
+ScenarioID,Iteration,Timestep,FlowGroupID,TransitionTypeID,Amount
+160,1,2002,LULC: Harvest [Type],Urbanization: Open,816006.6932306392
+160,1,2002,LULC: Harvest [Type],Urbanization: Low,514274.9344998598
+160,1,2002,LULC: Harvest [Type],Urbanization: Medium,284171.5983456373
+160,1,2002,LULC: Harvest [Type],Urbanization: High,95220.11193275452
+160,1,2002,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,29777056.03969589
+160,1,2002,LULC: Harvest [Type],Forest Harvest: Forest Selection,2229240.7761400566
+160,1,2002,LULC: Harvest [Type],Ag Expansion: Pasture,460378.2303905487
+160,1,2002,LULC: Harvest [Type],Ag Expansion: Cropland,275298.4952804446
+160,1,2002,LULC: Emission [Type],Urbanization: Open,2467820.499400009
+160,1,2002,LULC: Emission [Type],Urbanization: Low,1628042.166639116
+160,1,2002,LULC: Emission [Type],Urbanization: Medium,929238.1055305363
+160,1,2002,LULC: Emission [Type],Urbanization: High,279301.341647692
+160,1,2002,LULC: Emission [Type],Fire: High Severity,7691931.9724729285
+160,1,2002,LULC: Emission [Type],Fire: Medium Severity,4970792.756198591
+160,1,2002,LULC: Emission [Type],Fire: Low Severity,7952084.434425134
+160,1,2002,LULC: Emission [Type],Ag Expansion: Pasture,517897.0983579091
+160,1,2002,LULC: Emission [Type],Ag Expansion: Cropland,326847.05388718913
+160,1,2002,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,3481853.5204339344
+160,1,2002,LULC: Mortality [Type],Fire: High Severity,11179180.035280688
+160,1,2002,LULC: Mortality [Type],Fire: Medium Severity,7176938.95286258
+160,1,2002,LULC: Mortality [Type],Fire: Low Severity,8562576.244532874
+160,1,2002,LULC: Mortality [Type],Insect: High Severity,5465419.58919391
+160,1,2002,LULC: Mortality [Type],Insect: Medium Severity,2367216.823396837
+160,1,2002,LULC: Mortality [Type],Insect: Low Severity,4974596.561046375
+160,1,2002,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,32235020.63632775
+160,1,2002,LULC: Mortality [Type],Forest Harvest: Forest Selection,2303529.4971249998
+160,1,2002,LULC: Mortality [Type],Ag Expansion: Pasture,249832.02006220818
+160,1,2002,LULC: Mortality [Type],Ag Expansion: Cropland,150507.69962780178
+160,1,2002,Net Biome Productivity,Urbanization: Open,-3283827.192630648
+160,1,2002,Net Biome Productivity,Urbanization: Low,-2142317.101138976
+160,1,2002,Net Biome Productivity,Urbanization: Medium,-1213409.7038761736
+160,1,2002,Net Biome Productivity,Urbanization: High,-374521.45358044654
+160,1,2002,Net Biome Productivity,Fire: High Severity,-7691931.9724729285
+160,1,2002,Net Biome Productivity,Fire: Medium Severity,-4970792.756198591
+160,1,2002,Net Biome Productivity,Fire: Low Severity,-7952084.434425134
+160,1,2002,Net Biome Productivity,Forest Harvest: Forest Clearcut,-29777056.03969589
+160,1,2002,Net Biome Productivity,Forest Harvest: Forest Selection,-2229240.7761400566
+160,1,2002,Net Biome Productivity,Ag Expansion: Pasture,-978275.3287484578
+160,1,2002,Net Biome Productivity,Ag Expansion: Cropland,-602145.5491676338
+160,1,2003,LULC: Harvest [Type],Urbanization: Open,809132.9154233302
+160,1,2003,LULC: Harvest [Type],Urbanization: Low,548473.8218459187
+160,1,2003,LULC: Harvest [Type],Urbanization: Medium,326830.9404991044
+160,1,2003,LULC: Harvest [Type],Urbanization: High,76227.16276920476
+160,1,2003,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,32714933.42894781
+160,1,2003,LULC: Harvest [Type],Forest Harvest: Forest Selection,2443826.9004185065
+160,1,2003,LULC: Harvest [Type],Ag Expansion: Pasture,489604.2707063494
+160,1,2003,LULC: Harvest [Type],Ag Expansion: Cropland,270233.72243795224
+160,1,2003,LULC: Emission [Type],Urbanization: Open,2316868.8375144256
+160,1,2003,LULC: Emission [Type],Urbanization: Low,1594798.8727332263
+160,1,2003,LULC: Emission [Type],Urbanization: Medium,934136.7534736828
+160,1,2003,LULC: Emission [Type],Urbanization: High,249589.4825026133
+160,1,2003,LULC: Emission [Type],Fire: High Severity,5339179.876140754
+160,1,2003,LULC: Emission [Type],Fire: Medium Severity,3572879.188915612
+160,1,2003,LULC: Emission [Type],Fire: Low Severity,5802716.122260368
+160,1,2003,LULC: Emission [Type],Ag Expansion: Pasture,542889.7387845817
+160,1,2003,LULC: Emission [Type],Ag Expansion: Cropland,313168.0131469043
+160,1,2003,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,3688565.884309833
+160,1,2003,LULC: Mortality [Type],Fire: High Severity,7178167.227818999
+160,1,2003,LULC: Mortality [Type],Fire: Medium Severity,4535694.650293695
+160,1,2003,LULC: Mortality [Type],Fire: Low Severity,5191799.202903006
+160,1,2003,LULC: Mortality [Type],Insect: High Severity,7206183.822040089
+160,1,2003,LULC: Mortality [Type],Insect: Medium Severity,3874018.713150505
+160,1,2003,LULC: Mortality [Type],Insect: Low Severity,8240207.196154764
+160,1,2003,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,34382832.86345728
+160,1,2003,LULC: Mortality [Type],Forest Harvest: Forest Selection,2385417.2561310753
+160,1,2003,LULC: Mortality [Type],Ag Expansion: Pasture,257088.8222798046
+160,1,2003,LULC: Mortality [Type],Ag Expansion: Cropland,150070.40988977367
+160,1,2003,Net Biome Productivity,Urbanization: Open,-3126001.7529377555
+160,1,2003,Net Biome Productivity,Urbanization: Low,-2143272.694579145
+160,1,2003,Net Biome Productivity,Urbanization: Medium,-1260967.6939727871
+160,1,2003,Net Biome Productivity,Urbanization: High,-325816.6452718181
+160,1,2003,Net Biome Productivity,Fire: High Severity,-5339179.876140754
+160,1,2003,Net Biome Productivity,Fire: Medium Severity,-3572879.188915612
+160,1,2003,Net Biome Productivity,Fire: Low Severity,-5802716.122260368
+160,1,2003,Net Biome Productivity,Forest Harvest: Forest Clearcut,-32714933.42894781
+160,1,2003,Net Biome Productivity,Forest Harvest: Forest Selection,-2443826.9004185065
+160,1,2003,Net Biome Productivity,Ag Expansion: Pasture,-1032494.009490931
+160,1,2003,Net Biome Productivity,Ag Expansion: Cropland,-583401.7355848566
+160,1,2004,LULC: Harvest [Type],Urbanization: Open,898440.6280166587
+160,1,2004,LULC: Harvest [Type],Urbanization: Low,623644.8650688409
+160,1,2004,LULC: Harvest [Type],Urbanization: Medium,391365.24076995475
+160,1,2004,LULC: Harvest [Type],Urbanization: High,90228.64993403354
+160,1,2004,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,35665379.86842602
+160,1,2004,LULC: Harvest [Type],Forest Harvest: Forest Selection,2493260.035215314
+160,1,2004,LULC: Harvest [Type],Ag Expansion: Pasture,487158.02694489807
+160,1,2004,LULC: Harvest [Type],Ag Expansion: Cropland,248443.96136411393
+160,1,2004,LULC: Emission [Type],Urbanization: Open,2532423.02122195
+160,1,2004,LULC: Emission [Type],Urbanization: Low,1769786.4028494377
+160,1,2004,LULC: Emission [Type],Urbanization: Medium,1122910.540596742
+160,1,2004,LULC: Emission [Type],Urbanization: High,246534.06685450076
+160,1,2004,LULC: Emission [Type],Fire: High Severity,1161406.9879787497
+160,1,2004,LULC: Emission [Type],Fire: Medium Severity,894969.0074316075
+160,1,2004,LULC: Emission [Type],Fire: Low Severity,1636634.2347438203
+160,1,2004,LULC: Emission [Type],Ag Expansion: Pasture,537701.41811041
+160,1,2004,LULC: Emission [Type],Ag Expansion: Cropland,295223.5003211909
+160,1,2004,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4142510.806675288
+160,1,2004,LULC: Mortality [Type],Fire: High Severity,1275461.751188972
+160,1,2004,LULC: Mortality [Type],Fire: Medium Severity,953272.1126001651
+160,1,2004,LULC: Mortality [Type],Fire: Low Severity,1177025.694825675
+160,1,2004,LULC: Mortality [Type],Insect: High Severity,5469500.05987369
+160,1,2004,LULC: Mortality [Type],Insect: Medium Severity,5507512.042596327
+160,1,2004,LULC: Mortality [Type],Insect: Low Severity,8149676.99605947
+160,1,2004,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,37117316.10164215
+160,1,2004,LULC: Mortality [Type],Forest Harvest: Forest Selection,2571315.187785238
+160,1,2004,LULC: Mortality [Type],Ag Expansion: Pasture,255828.29863502647
+160,1,2004,LULC: Mortality [Type],Ag Expansion: Cropland,140498.13545863118
+160,1,2004,Net Biome Productivity,Urbanization: Open,-3430863.649238609
+160,1,2004,Net Biome Productivity,Urbanization: Low,-2393431.2679182785
+160,1,2004,Net Biome Productivity,Urbanization: Medium,-1514275.7813666968
+160,1,2004,Net Biome Productivity,Urbanization: High,-336762.7167885343
+160,1,2004,Net Biome Productivity,Fire: High Severity,-1161406.9879787497
+160,1,2004,Net Biome Productivity,Fire: Medium Severity,-894969.0074316075
+160,1,2004,Net Biome Productivity,Fire: Low Severity,-1636634.2347438203
+160,1,2004,Net Biome Productivity,Forest Harvest: Forest Clearcut,-35665379.86842602
+160,1,2004,Net Biome Productivity,Forest Harvest: Forest Selection,-2493260.035215314
+160,1,2004,Net Biome Productivity,Ag Expansion: Pasture,-1024859.445055308
+160,1,2004,Net Biome Productivity,Ag Expansion: Cropland,-543667.4616853049
+160,1,2005,LULC: Harvest [Type],Urbanization: Open,850385.9787272911
+160,1,2005,LULC: Harvest [Type],Urbanization: Low,594082.9061278823
+160,1,2005,LULC: Harvest [Type],Urbanization: Medium,318048.0165584757
+160,1,2005,LULC: Harvest [Type],Urbanization: High,128887.64704739841
+160,1,2005,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,36234587.26388358
+160,1,2005,LULC: Harvest [Type],Forest Harvest: Forest Selection,1994701.7516333284
+160,1,2005,LULC: Harvest [Type],Ag Expansion: Pasture,461807.2818988136
+160,1,2005,LULC: Harvest [Type],Ag Expansion: Cropland,335940.4615643851
+160,1,2005,LULC: Emission [Type],Urbanization: Open,2347069.6490958654
+160,1,2005,LULC: Emission [Type],Urbanization: Low,1664343.4045716124
+160,1,2005,LULC: Emission [Type],Urbanization: Medium,983243.8475442093
+160,1,2005,LULC: Emission [Type],Urbanization: High,351322.10584011854
+160,1,2005,LULC: Emission [Type],Fire: High Severity,1392127.3298172168
+160,1,2005,LULC: Emission [Type],Fire: Medium Severity,1084185.309031472
+160,1,2005,LULC: Emission [Type],Fire: Low Severity,2033187.6759275694
+160,1,2005,LULC: Emission [Type],Ag Expansion: Pasture,511577.73319798644
+160,1,2005,LULC: Emission [Type],Ag Expansion: Cropland,399205.3443884237
+160,1,2005,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4221380.541595126
+160,1,2005,LULC: Mortality [Type],Fire: High Severity,1768427.8493413425
+160,1,2005,LULC: Mortality [Type],Fire: Medium Severity,1291663.9287748036
+160,1,2005,LULC: Mortality [Type],Fire: Low Severity,1644536.628743445
+160,1,2005,LULC: Mortality [Type],Insect: High Severity,5622507.853642176
+160,1,2005,LULC: Mortality [Type],Insect: Medium Severity,4994195.215218286
+160,1,2005,LULC: Mortality [Type],Insect: Low Severity,7450527.2650517635
+160,1,2005,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,37607076.221007355
+160,1,2005,LULC: Mortality [Type],Forest Harvest: Forest Selection,1993852.003695579
+160,1,2005,LULC: Mortality [Type],Ag Expansion: Pasture,240198.95770412136
+160,1,2005,LULC: Mortality [Type],Ag Expansion: Cropland,190513.62027340048
+160,1,2005,Net Biome Productivity,Urbanization: Open,-3197455.627823157
+160,1,2005,Net Biome Productivity,Urbanization: Low,-2258426.3106994946
+160,1,2005,Net Biome Productivity,Urbanization: Medium,-1301291.8641026851
+160,1,2005,Net Biome Productivity,Urbanization: High,-480209.7528875169
+160,1,2005,Net Biome Productivity,Fire: High Severity,-1392127.3298172168
+160,1,2005,Net Biome Productivity,Fire: Medium Severity,-1084185.309031472
+160,1,2005,Net Biome Productivity,Fire: Low Severity,-2033187.6759275694
+160,1,2005,Net Biome Productivity,Forest Harvest: Forest Clearcut,-36234587.26388358
+160,1,2005,Net Biome Productivity,Forest Harvest: Forest Selection,-1994701.7516333284
+160,1,2005,Net Biome Productivity,Ag Expansion: Pasture,-973385.0150968
+160,1,2005,Net Biome Productivity,Ag Expansion: Cropland,-735145.8059528088
+160,1,2006,LULC: Harvest [Type],Urbanization: Open,701119.6662434501
+160,1,2006,LULC: Harvest [Type],Urbanization: Low,516026.64728899015
+160,1,2006,LULC: Harvest [Type],Urbanization: Medium,300733.3764663873
+160,1,2006,LULC: Harvest [Type],Urbanization: High,100514.01100057221
+160,1,2006,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,33137979.40259415
+160,1,2006,LULC: Harvest [Type],Forest Harvest: Forest Selection,2144666.0572230285
+160,1,2006,LULC: Harvest [Type],Ag Expansion: Pasture,380966.81837473623
+160,1,2006,LULC: Harvest [Type],Ag Expansion: Cropland,331603.3234170939
+160,1,2006,LULC: Emission [Type],Urbanization: Open,1886746.9977674114
+160,1,2006,LULC: Emission [Type],Urbanization: Low,1349409.0482543549
+160,1,2006,LULC: Emission [Type],Urbanization: Medium,801625.9912038218
+160,1,2006,LULC: Emission [Type],Urbanization: High,270325.52451495815
+160,1,2006,LULC: Emission [Type],Fire: High Severity,4021363.1855217256
+160,1,2006,LULC: Emission [Type],Fire: Medium Severity,2554594.1679872167
+160,1,2006,LULC: Emission [Type],Fire: Low Severity,4071922.554942993
+160,1,2006,LULC: Emission [Type],Ag Expansion: Pasture,414988.2339905911
+160,1,2006,LULC: Emission [Type],Ag Expansion: Cropland,394209.0354035645
+160,1,2006,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4131241.8391025686
+160,1,2006,LULC: Mortality [Type],Fire: High Severity,5922702.291522657
+160,1,2006,LULC: Mortality [Type],Fire: Medium Severity,3613168.0715383785
+160,1,2006,LULC: Mortality [Type],Fire: Low Severity,4337775.553114163
+160,1,2006,LULC: Mortality [Type],Insect: High Severity,10035918.443598166
+160,1,2006,LULC: Mortality [Type],Insect: Medium Severity,3825008.3776259124
+160,1,2006,LULC: Mortality [Type],Insect: Low Severity,11042895.58930031
+160,1,2006,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,34276095.38724304
+160,1,2006,LULC: Mortality [Type],Forest Harvest: Forest Selection,2141997.7201329013
+160,1,2006,LULC: Mortality [Type],Ag Expansion: Pasture,191118.20840313443
+160,1,2006,LULC: Mortality [Type],Ag Expansion: Cropland,184958.88593334792
+160,1,2006,Net Biome Productivity,Urbanization: Open,-2587866.6640108614
+160,1,2006,Net Biome Productivity,Urbanization: Low,-1865435.6955433448
+160,1,2006,Net Biome Productivity,Urbanization: Medium,-1102359.3676702091
+160,1,2006,Net Biome Productivity,Urbanization: High,-370839.5355155303
+160,1,2006,Net Biome Productivity,Fire: High Severity,-4021363.1855217256
+160,1,2006,Net Biome Productivity,Fire: Medium Severity,-2554594.1679872167
+160,1,2006,Net Biome Productivity,Fire: Low Severity,-4071922.554942993
+160,1,2006,Net Biome Productivity,Forest Harvest: Forest Clearcut,-33137979.40259415
+160,1,2006,Net Biome Productivity,Forest Harvest: Forest Selection,-2144666.0572230285
+160,1,2006,Net Biome Productivity,Ag Expansion: Pasture,-795955.0523653273
+160,1,2006,Net Biome Productivity,Ag Expansion: Cropland,-725812.3588206584
+160,1,2007,LULC: Harvest [Type],Urbanization: Open,549130.727647948
+160,1,2007,LULC: Harvest [Type],Urbanization: Low,336056.4330138218
+160,1,2007,LULC: Harvest [Type],Urbanization: Medium,236603.80365860744
+160,1,2007,LULC: Harvest [Type],Urbanization: High,50183.472484518825
+160,1,2007,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,35692668.451776676
+160,1,2007,LULC: Harvest [Type],Forest Harvest: Forest Selection,2203683.216162496
+160,1,2007,LULC: Harvest [Type],Ag Expansion: Pasture,271188.87855649175
+160,1,2007,LULC: Harvest [Type],Ag Expansion: Cropland,131164.19831752166
+160,1,2007,LULC: Emission [Type],Urbanization: Open,1542216.0929339484
+160,1,2007,LULC: Emission [Type],Urbanization: Low,1017678.6084864478
+160,1,2007,LULC: Emission [Type],Urbanization: Medium,757042.414164416
+160,1,2007,LULC: Emission [Type],Urbanization: High,143699.08107347752
+160,1,2007,LULC: Emission [Type],Fire: High Severity,6383624.585262186
+160,1,2007,LULC: Emission [Type],Fire: Medium Severity,4006325.057388941
+160,1,2007,LULC: Emission [Type],Fire: Low Severity,6583887.511669535
+160,1,2007,LULC: Emission [Type],Ag Expansion: Pasture,331876.68444347987
+160,1,2007,LULC: Emission [Type],Ag Expansion: Cropland,203442.49247398102
+160,1,2007,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4172703.7796787317
+160,1,2007,LULC: Mortality [Type],Fire: High Severity,8442082.32413385
+160,1,2007,LULC: Mortality [Type],Fire: Medium Severity,5180558.461197054
+160,1,2007,LULC: Mortality [Type],Fire: Low Severity,6303585.348762955
+160,1,2007,LULC: Mortality [Type],Insect: High Severity,3665669.3654186632
+160,1,2007,LULC: Mortality [Type],Insect: Medium Severity,4920425.075564166
+160,1,2007,LULC: Mortality [Type],Insect: Low Severity,6465509.8068122715
+160,1,2007,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,36079048.906127304
+160,1,2007,LULC: Mortality [Type],Forest Harvest: Forest Selection,2208712.3673175257
+160,1,2007,LULC: Mortality [Type],Ag Expansion: Pasture,154330.53339049726
+160,1,2007,LULC: Mortality [Type],Ag Expansion: Cropland,89765.2444128502
+160,1,2007,Net Biome Productivity,Urbanization: Open,-2091346.8205818965
+160,1,2007,Net Biome Productivity,Urbanization: Low,-1353735.0415002697
+160,1,2007,Net Biome Productivity,Urbanization: Medium,-993646.2178230234
+160,1,2007,Net Biome Productivity,Urbanization: High,-193882.55355799635
+160,1,2007,Net Biome Productivity,Fire: High Severity,-6383624.585262186
+160,1,2007,Net Biome Productivity,Fire: Medium Severity,-4006325.057388941
+160,1,2007,Net Biome Productivity,Fire: Low Severity,-6583887.511669535
+160,1,2007,Net Biome Productivity,Forest Harvest: Forest Clearcut,-35692668.451776676
+160,1,2007,Net Biome Productivity,Forest Harvest: Forest Selection,-2203683.216162496
+160,1,2007,Net Biome Productivity,Ag Expansion: Pasture,-603065.5629999716
+160,1,2007,Net Biome Productivity,Ag Expansion: Cropland,-334606.6907915027
+160,1,2008,LULC: Harvest [Type],Urbanization: Open,587983.3610140722
+160,1,2008,LULC: Harvest [Type],Urbanization: Low,445162.26215801464
+160,1,2008,LULC: Harvest [Type],Urbanization: Medium,195615.48235982802
+160,1,2008,LULC: Harvest [Type],Urbanization: High,59839.58332108863
+160,1,2008,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,81092615.89196837
+160,1,2008,LULC: Harvest [Type],Forest Harvest: Forest Selection,2393045.457513003
+160,1,2008,LULC: Harvest [Type],Ag Expansion: Pasture,251024.27333107023
+160,1,2008,LULC: Harvest [Type],Ag Expansion: Cropland,210576.1754005545
+160,1,2008,LULC: Emission [Type],Urbanization: Open,1676271.3341278934
+160,1,2008,LULC: Emission [Type],Urbanization: Low,1191705.347004126
+160,1,2008,LULC: Emission [Type],Urbanization: Medium,551991.7011441342
+160,1,2008,LULC: Emission [Type],Urbanization: High,166246.8985802542
+160,1,2008,LULC: Emission [Type],Fire: High Severity,5840184.633121947
+160,1,2008,LULC: Emission [Type],Fire: Medium Severity,3953867.7326921937
+160,1,2008,LULC: Emission [Type],Fire: Low Severity,5636287.047049658
+160,1,2008,LULC: Emission [Type],Ag Expansion: Pasture,303091.33899887744
+160,1,2008,LULC: Emission [Type],Ag Expansion: Cropland,288484.34765061474
+160,1,2008,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9228585.30092489
+160,1,2008,LULC: Mortality [Type],Fire: High Severity,10391027.699087972
+160,1,2008,LULC: Mortality [Type],Fire: Medium Severity,6941338.855746736
+160,1,2008,LULC: Mortality [Type],Fire: Low Severity,7630966.922823023
+160,1,2008,LULC: Mortality [Type],Insect: High Severity,8898429.835770106
+160,1,2008,LULC: Mortality [Type],Insect: Medium Severity,7675240.269612366
+160,1,2008,LULC: Mortality [Type],Insect: Low Severity,7084214.218067048
+160,1,2008,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,79534279.20608161
+160,1,2008,LULC: Mortality [Type],Forest Harvest: Forest Selection,2383349.5397099643
+160,1,2008,LULC: Mortality [Type],Ag Expansion: Pasture,140084.2120051233
+160,1,2008,LULC: Mortality [Type],Ag Expansion: Cropland,132137.13866440835
+160,1,2008,Net Biome Productivity,Urbanization: Open,-2264254.6951419655
+160,1,2008,Net Biome Productivity,Urbanization: Low,-1636867.6091621409
+160,1,2008,Net Biome Productivity,Urbanization: Medium,-747607.1835039621
+160,1,2008,Net Biome Productivity,Urbanization: High,-226086.48190134284
+160,1,2008,Net Biome Productivity,Fire: High Severity,-5840184.633121947
+160,1,2008,Net Biome Productivity,Fire: Medium Severity,-3953867.7326921937
+160,1,2008,Net Biome Productivity,Fire: Low Severity,-5636287.047049658
+160,1,2008,Net Biome Productivity,Forest Harvest: Forest Clearcut,-81092615.89196837
+160,1,2008,Net Biome Productivity,Forest Harvest: Forest Selection,-2393045.457513003
+160,1,2008,Net Biome Productivity,Ag Expansion: Pasture,-554115.6123299478
+160,1,2008,Net Biome Productivity,Ag Expansion: Cropland,-499060.52305116924
+160,1,2009,LULC: Harvest [Type],Urbanization: Open,566136.0711824264
+160,1,2009,LULC: Harvest [Type],Urbanization: Low,419339.48473584215
+160,1,2009,LULC: Harvest [Type],Urbanization: Medium,205599.85371988607
+160,1,2009,LULC: Harvest [Type],Urbanization: High,82931.51410994612
+160,1,2009,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,71600435.95302068
+160,1,2009,LULC: Harvest [Type],Forest Harvest: Forest Selection,1830481.8806908946
+160,1,2009,LULC: Harvest [Type],Ag Expansion: Pasture,225568.14938016442
+160,1,2009,LULC: Harvest [Type],Ag Expansion: Cropland,173164.40597183813
+160,1,2009,LULC: Emission [Type],Urbanization: Open,1518327.0977035505
+160,1,2009,LULC: Emission [Type],Urbanization: Low,1074823.349621129
+160,1,2009,LULC: Emission [Type],Urbanization: Medium,590924.350509404
+160,1,2009,LULC: Emission [Type],Urbanization: High,221810.48068527406
+160,1,2009,LULC: Emission [Type],Fire: High Severity,1123486.9396819756
+160,1,2009,LULC: Emission [Type],Fire: Medium Severity,819164.8701346123
+160,1,2009,LULC: Emission [Type],Fire: Low Severity,1435250.3962599782
+160,1,2009,LULC: Emission [Type],Ag Expansion: Pasture,297136.27195503155
+160,1,2009,LULC: Emission [Type],Ag Expansion: Cropland,271867.0770881096
+160,1,2009,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,8207057.063641022
+160,1,2009,LULC: Mortality [Type],Fire: High Severity,1748171.2028733746
+160,1,2009,LULC: Mortality [Type],Fire: Medium Severity,1233643.5996732332
+160,1,2009,LULC: Mortality [Type],Fire: Low Severity,1723253.6503732495
+160,1,2009,LULC: Mortality [Type],Insect: High Severity,7337985.233835726
+160,1,2009,LULC: Mortality [Type],Insect: Medium Severity,11878638.464087848
+160,1,2009,LULC: Mortality [Type],Insect: Low Severity,9445876.057951566
+160,1,2009,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,69452178.04482125
+160,1,2009,LULC: Mortality [Type],Forest Harvest: Forest Selection,1777341.1669989107
+160,1,2009,LULC: Mortality [Type],Ag Expansion: Pasture,141754.75742616816
+160,1,2009,LULC: Mortality [Type],Ag Expansion: Cropland,124305.62567250094
+160,1,2009,Net Biome Productivity,Urbanization: Open,-2084463.168885977
+160,1,2009,Net Biome Productivity,Urbanization: Low,-1494162.8343569713
+160,1,2009,Net Biome Productivity,Urbanization: Medium,-796524.20422929
+160,1,2009,Net Biome Productivity,Urbanization: High,-304741.99479522015
+160,1,2009,Net Biome Productivity,Fire: High Severity,-1123486.9396819756
+160,1,2009,Net Biome Productivity,Fire: Medium Severity,-819164.8701346123
+160,1,2009,Net Biome Productivity,Fire: Low Severity,-1435250.3962599782
+160,1,2009,Net Biome Productivity,Forest Harvest: Forest Clearcut,-71600435.95302068
+160,1,2009,Net Biome Productivity,Forest Harvest: Forest Selection,-1830481.8806908946
+160,1,2009,Net Biome Productivity,Ag Expansion: Pasture,-522704.42133519595
+160,1,2009,Net Biome Productivity,Ag Expansion: Cropland,-445031.4830599477
+160,1,2010,LULC: Harvest [Type],Urbanization: Open,486739.6399012776
+160,1,2010,LULC: Harvest [Type],Urbanization: Low,369227.37436324934
+160,1,2010,LULC: Harvest [Type],Urbanization: Medium,247803.207800937
+160,1,2010,LULC: Harvest [Type],Urbanization: High,76420.1303999745
+160,1,2010,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,69458071.51278092
+160,1,2010,LULC: Harvest [Type],Forest Harvest: Forest Selection,1358578.097810014
+160,1,2010,LULC: Harvest [Type],Ag Expansion: Pasture,285245.71585476014
+160,1,2010,LULC: Harvest [Type],Ag Expansion: Cropland,191529.9512061475
+160,1,2010,LULC: Emission [Type],Urbanization: Open,1337587.48872245
+160,1,2010,LULC: Emission [Type],Urbanization: Low,1017704.7334376072
+160,1,2010,LULC: Emission [Type],Urbanization: Medium,706722.2187742848
+160,1,2010,LULC: Emission [Type],Urbanization: High,220163.9032493251
+160,1,2010,LULC: Emission [Type],Fire: High Severity,832383.5329509868
+160,1,2010,LULC: Emission [Type],Fire: Medium Severity,652775.8931204176
+160,1,2010,LULC: Emission [Type],Fire: Low Severity,1061402.416645047
+160,1,2010,LULC: Emission [Type],Ag Expansion: Pasture,363071.7811019107
+160,1,2010,LULC: Emission [Type],Ag Expansion: Cropland,302265.39364870236
+160,1,2010,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9142981.736707946
+160,1,2010,LULC: Mortality [Type],Fire: High Severity,1175516.324319773
+160,1,2010,LULC: Mortality [Type],Fire: Medium Severity,924274.1738372762
+160,1,2010,LULC: Mortality [Type],Fire: Low Severity,1006319.654232215
+160,1,2010,LULC: Mortality [Type],Insect: High Severity,6809667.74768466
+160,1,2010,LULC: Mortality [Type],Insect: Medium Severity,8205621.478749455
+160,1,2010,LULC: Mortality [Type],Insect: Low Severity,7672179.75288272
+160,1,2010,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,67375507.66683593
+160,1,2010,LULC: Mortality [Type],Forest Harvest: Forest Selection,1317221.8558112567
+160,1,2010,LULC: Mortality [Type],Ag Expansion: Pasture,161980.89709218385
+160,1,2010,LULC: Mortality [Type],Ag Expansion: Cropland,129614.80575225047
+160,1,2010,Net Biome Productivity,Urbanization: Open,-1824327.1286237277
+160,1,2010,Net Biome Productivity,Urbanization: Low,-1386932.1078008565
+160,1,2010,Net Biome Productivity,Urbanization: Medium,-954525.4265752218
+160,1,2010,Net Biome Productivity,Urbanization: High,-296584.0336492996
+160,1,2010,Net Biome Productivity,Fire: High Severity,-832383.5329509868
+160,1,2010,Net Biome Productivity,Fire: Medium Severity,-652775.8931204176
+160,1,2010,Net Biome Productivity,Fire: Low Severity,-1061402.416645047
+160,1,2010,Net Biome Productivity,Forest Harvest: Forest Clearcut,-69458071.51278092
+160,1,2010,Net Biome Productivity,Forest Harvest: Forest Selection,-1358578.097810014
+160,1,2010,Net Biome Productivity,Ag Expansion: Pasture,-648317.4969566709
+160,1,2010,Net Biome Productivity,Ag Expansion: Cropland,-493795.34485484986
+160,1,2011,LULC: Harvest [Type],Urbanization: Open,392513.87605598214
+160,1,2011,LULC: Harvest [Type],Urbanization: Low,258585.25161001054
+160,1,2011,LULC: Harvest [Type],Urbanization: Medium,158337.31924180762
+160,1,2011,LULC: Harvest [Type],Urbanization: High,62134.26615862782
+160,1,2011,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,66716055.34508863
+160,1,2011,LULC: Harvest [Type],Forest Harvest: Forest Selection,1573476.1875484432
+160,1,2011,LULC: Harvest [Type],Ag Expansion: Pasture,241459.6765455149
+160,1,2011,LULC: Harvest [Type],Ag Expansion: Cropland,208040.52881241377
+160,1,2011,LULC: Emission [Type],Urbanization: Open,1005128.7485219516
+160,1,2011,LULC: Emission [Type],Urbanization: Low,695958.0899236149
+160,1,2011,LULC: Emission [Type],Urbanization: Medium,421295.2335843355
+160,1,2011,LULC: Emission [Type],Urbanization: High,171943.81556585527
+160,1,2011,LULC: Emission [Type],Fire: High Severity,2854412.9995319895
+160,1,2011,LULC: Emission [Type],Fire: Medium Severity,3047253.8930620397
+160,1,2011,LULC: Emission [Type],Fire: Low Severity,6073260.603168751
+160,1,2011,LULC: Emission [Type],Ag Expansion: Pasture,297556.33845370775
+160,1,2011,LULC: Emission [Type],Ag Expansion: Cropland,300339.7383111896
+160,1,2011,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,7547667.586638978
+160,1,2011,LULC: Mortality [Type],Fire: High Severity,4000073.9158639316
+160,1,2011,LULC: Mortality [Type],Fire: Medium Severity,4474283.015362378
+160,1,2011,LULC: Mortality [Type],Fire: Low Severity,7037081.927788119
+160,1,2011,LULC: Mortality [Type],Insect: High Severity,7649587.30530284
+160,1,2011,LULC: Mortality [Type],Insect: Medium Severity,4829091.309862586
+160,1,2011,LULC: Mortality [Type],Insect: Low Severity,4277038.228205142
+160,1,2011,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,64413503.03808363
+160,1,2011,LULC: Mortality [Type],Forest Harvest: Forest Selection,1529661.91828842
+160,1,2011,LULC: Mortality [Type],Ag Expansion: Pasture,130870.6582607784
+160,1,2011,LULC: Mortality [Type],Ag Expansion: Cropland,133073.1114234665
+160,1,2011,Net Biome Productivity,Urbanization: Open,-1397642.6245779337
+160,1,2011,Net Biome Productivity,Urbanization: Low,-954543.3415336255
+160,1,2011,Net Biome Productivity,Urbanization: Medium,-579632.5528261431
+160,1,2011,Net Biome Productivity,Urbanization: High,-234078.08172448308
+160,1,2011,Net Biome Productivity,Fire: High Severity,-2854412.9995319895
+160,1,2011,Net Biome Productivity,Fire: Medium Severity,-3047253.8930620397
+160,1,2011,Net Biome Productivity,Fire: Low Severity,-6073260.603168751
+160,1,2011,Net Biome Productivity,Forest Harvest: Forest Clearcut,-66716055.34508863
+160,1,2011,Net Biome Productivity,Forest Harvest: Forest Selection,-1573476.1875484432
+160,1,2011,Net Biome Productivity,Ag Expansion: Pasture,-539016.0149992227
+160,1,2011,Net Biome Productivity,Ag Expansion: Cropland,-508380.2671236034
+160,1,2012,LULC: Harvest [Type],Urbanization: Open,310049.0395269438
+160,1,2012,LULC: Harvest [Type],Urbanization: Low,247730.3432889589
+160,1,2012,LULC: Harvest [Type],Urbanization: Medium,116689.51562753675
+160,1,2012,LULC: Harvest [Type],Urbanization: High,55031.18236976634
+160,1,2012,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,53178727.031295426
+160,1,2012,LULC: Harvest [Type],Forest Harvest: Forest Selection,1362340.875634986
+160,1,2012,LULC: Harvest [Type],Ag Expansion: Pasture,409089.3900455749
+160,1,2012,LULC: Harvest [Type],Ag Expansion: Cropland,360719.4316492828
+160,1,2012,LULC: Emission [Type],Urbanization: Open,815470.1239329365
+160,1,2012,LULC: Emission [Type],Urbanization: Low,598920.4922314805
+160,1,2012,LULC: Emission [Type],Urbanization: Medium,289990.9502426154
+160,1,2012,LULC: Emission [Type],Urbanization: High,143722.1590456329
+160,1,2012,LULC: Emission [Type],Fire: High Severity,7438278.604187708
+160,1,2012,LULC: Emission [Type],Fire: Medium Severity,5114158.22202604
+160,1,2012,LULC: Emission [Type],Fire: Low Severity,8851391.663515171
+160,1,2012,LULC: Emission [Type],Ag Expansion: Pasture,481575.61369299557
+160,1,2012,LULC: Emission [Type],Ag Expansion: Cropland,582763.7107467572
+160,1,2012,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,5841997.942604733
+160,1,2012,LULC: Mortality [Type],Fire: High Severity,10190604.963775853
+160,1,2012,LULC: Mortality [Type],Fire: Medium Severity,6917684.88553525
+160,1,2012,LULC: Mortality [Type],Fire: Low Severity,8792102.31377292
+160,1,2012,LULC: Mortality [Type],Insect: High Severity,2722336.2548248125
+160,1,2012,LULC: Mortality [Type],Insect: Medium Severity,2243202.500855566
+160,1,2012,LULC: Mortality [Type],Insect: Low Severity,3635177.4680420584
+160,1,2012,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,49764926.093034446
+160,1,2012,LULC: Mortality [Type],Forest Harvest: Forest Selection,1329374.931334664
+160,1,2012,LULC: Mortality [Type],Ag Expansion: Pasture,217361.4724204367
+160,1,2012,LULC: Mortality [Type],Ag Expansion: Cropland,256071.33095555377
+160,1,2012,Net Biome Productivity,Urbanization: Open,-1125519.1634598803
+160,1,2012,Net Biome Productivity,Urbanization: Low,-846650.8355204394
+160,1,2012,Net Biome Productivity,Urbanization: Medium,-406680.46587015217
+160,1,2012,Net Biome Productivity,Urbanization: High,-198753.34141539925
+160,1,2012,Net Biome Productivity,Fire: High Severity,-7438278.604187708
+160,1,2012,Net Biome Productivity,Fire: Medium Severity,-5114158.22202604
+160,1,2012,Net Biome Productivity,Fire: Low Severity,-8851391.663515171
+160,1,2012,Net Biome Productivity,Forest Harvest: Forest Clearcut,-53178727.031295426
+160,1,2012,Net Biome Productivity,Forest Harvest: Forest Selection,-1362340.875634986
+160,1,2012,Net Biome Productivity,Ag Expansion: Pasture,-890665.0037385705
+160,1,2012,Net Biome Productivity,Ag Expansion: Cropland,-943483.14239604
+160,1,2013,LULC: Harvest [Type],Urbanization: Open,402764.04791132075
+160,1,2013,LULC: Harvest [Type],Urbanization: Low,216736.34845771734
+160,1,2013,LULC: Harvest [Type],Urbanization: Medium,153285.32413445608
+160,1,2013,LULC: Harvest [Type],Urbanization: High,43374.07527292871
+160,1,2013,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,77134425.38994198
+160,1,2013,LULC: Harvest [Type],Forest Harvest: Forest Selection,1413648.112775895
+160,1,2013,LULC: Harvest [Type],Ag Expansion: Pasture,336605.16869432275
+160,1,2013,LULC: Harvest [Type],Ag Expansion: Cropland,397895.8825901221
+160,1,2013,LULC: Emission [Type],Urbanization: Open,975768.3006929286
+160,1,2013,LULC: Emission [Type],Urbanization: Low,576184.8692548717
+160,1,2013,LULC: Emission [Type],Urbanization: Medium,396713.90105005464
+160,1,2013,LULC: Emission [Type],Urbanization: High,108550.44721667419
+160,1,2013,LULC: Emission [Type],Fire: High Severity,4850870.710163353
+160,1,2013,LULC: Emission [Type],Fire: Medium Severity,3479880.574890169
+160,1,2013,LULC: Emission [Type],Fire: Low Severity,4971432.452539706
+160,1,2013,LULC: Emission [Type],Ag Expansion: Pasture,426285.04231187527
+160,1,2013,LULC: Emission [Type],Ag Expansion: Cropland,609923.1689719472
+160,1,2013,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9441476.041779192
+160,1,2013,LULC: Mortality [Type],Fire: High Severity,7299187.180069235
+160,1,2013,LULC: Mortality [Type],Fire: Medium Severity,5329877.740044682
+160,1,2013,LULC: Mortality [Type],Fire: Low Severity,5573126.560260731
+160,1,2013,LULC: Mortality [Type],Insect: High Severity,2490847.9887173674
+160,1,2013,LULC: Mortality [Type],Insect: Medium Severity,2071611.5642675
+160,1,2013,LULC: Mortality [Type],Insect: Low Severity,2535362.423685672
+160,1,2013,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,75280508.85746455
+160,1,2013,LULC: Mortality [Type],Forest Harvest: Forest Selection,1363623.6727747195
+160,1,2013,LULC: Mortality [Type],Ag Expansion: Pasture,192092.73530537615
+160,1,2013,LULC: Mortality [Type],Ag Expansion: Cropland,264263.3318672478
+160,1,2013,Net Biome Productivity,Urbanization: Open,-1378532.3486042493
+160,1,2013,Net Biome Productivity,Urbanization: Low,-792921.2177125891
+160,1,2013,Net Biome Productivity,Urbanization: Medium,-549999.2251845107
+160,1,2013,Net Biome Productivity,Urbanization: High,-151924.52248960288
+160,1,2013,Net Biome Productivity,Fire: High Severity,-4850870.710163353
+160,1,2013,Net Biome Productivity,Fire: Medium Severity,-3479880.574890169
+160,1,2013,Net Biome Productivity,Fire: Low Severity,-4971432.452539706
+160,1,2013,Net Biome Productivity,Forest Harvest: Forest Clearcut,-77134425.38994198
+160,1,2013,Net Biome Productivity,Forest Harvest: Forest Selection,-1413648.112775895
+160,1,2013,Net Biome Productivity,Ag Expansion: Pasture,-762890.211006198
+160,1,2013,Net Biome Productivity,Ag Expansion: Cropland,-1007819.0515620692
+160,1,2014,LULC: Harvest [Type],Urbanization: Open,354185.6501492638
+160,1,2014,LULC: Harvest [Type],Urbanization: Low,235005.14876974045
+160,1,2014,LULC: Harvest [Type],Urbanization: Medium,168846.29748602916
+160,1,2014,LULC: Harvest [Type],Urbanization: High,70307.77483815656
+160,1,2014,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,67383604.21944018
+160,1,2014,LULC: Harvest [Type],Forest Harvest: Forest Selection,1112715.3909486856
+160,1,2014,LULC: Harvest [Type],Ag Expansion: Pasture,361153.5919734844
+160,1,2014,LULC: Harvest [Type],Ag Expansion: Cropland,473084.9550236243
+160,1,2014,LULC: Emission [Type],Urbanization: Open,874503.7182764527
+160,1,2014,LULC: Emission [Type],Urbanization: Low,597752.6609771639
+160,1,2014,LULC: Emission [Type],Urbanization: Medium,389898.46469227324
+160,1,2014,LULC: Emission [Type],Urbanization: High,165583.6897781885
+160,1,2014,LULC: Emission [Type],Fire: High Severity,1190140.9868940422
+160,1,2014,LULC: Emission [Type],Fire: Medium Severity,893141.0112601836
+160,1,2014,LULC: Emission [Type],Fire: Low Severity,1545926.336607121
+160,1,2014,LULC: Emission [Type],Ag Expansion: Pasture,461405.2269705003
+160,1,2014,LULC: Emission [Type],Ag Expansion: Cropland,729100.0177943581
+160,1,2014,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,8023413.156269487
+160,1,2014,LULC: Mortality [Type],Fire: High Severity,1598738.8806136004
+160,1,2014,LULC: Mortality [Type],Fire: Medium Severity,1153986.7784209994
+160,1,2014,LULC: Mortality [Type],Fire: Low Severity,1462236.1997306223
+160,1,2014,LULC: Mortality [Type],Insect: High Severity,2970360.432126921
+160,1,2014,LULC: Mortality [Type],Insect: Medium Severity,2532756.702833277
+160,1,2014,LULC: Mortality [Type],Insect: Low Severity,3156517.155153316
+160,1,2014,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,65322015.27353691
+160,1,2014,LULC: Mortality [Type],Forest Harvest: Forest Selection,1053649.2568326164
+160,1,2014,LULC: Mortality [Type],Ag Expansion: Pasture,206757.0719332603
+160,1,2014,LULC: Mortality [Type],Ag Expansion: Cropland,306644.2075314967
+160,1,2014,Net Biome Productivity,Urbanization: Open,-1228689.3684257166
+160,1,2014,Net Biome Productivity,Urbanization: Low,-832757.8097469043
+160,1,2014,Net Biome Productivity,Urbanization: Medium,-558744.7621783024
+160,1,2014,Net Biome Productivity,Urbanization: High,-235891.46461634507
+160,1,2014,Net Biome Productivity,Fire: High Severity,-1190140.9868940422
+160,1,2014,Net Biome Productivity,Fire: Medium Severity,-893141.0112601836
+160,1,2014,Net Biome Productivity,Fire: Low Severity,-1545926.336607121
+160,1,2014,Net Biome Productivity,Forest Harvest: Forest Clearcut,-67383604.21944018
+160,1,2014,Net Biome Productivity,Forest Harvest: Forest Selection,-1112715.3909486856
+160,1,2014,Net Biome Productivity,Ag Expansion: Pasture,-822558.8189439847
+160,1,2014,Net Biome Productivity,Ag Expansion: Cropland,-1202184.9728179823
+160,1,2015,LULC: Harvest [Type],Urbanization: Open,345601.8450344749
+160,1,2015,LULC: Harvest [Type],Urbanization: Low,245394.64860116495
+160,1,2015,LULC: Harvest [Type],Urbanization: Medium,174290.19710574526
+160,1,2015,LULC: Harvest [Type],Urbanization: High,59260.62003204523
+160,1,2015,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,90678543.70697942
+160,1,2015,LULC: Harvest [Type],Forest Harvest: Forest Selection,2839603.2728517074
+160,1,2015,LULC: Harvest [Type],Ag Expansion: Pasture,470867.7087595078
+160,1,2015,LULC: Harvest [Type],Ag Expansion: Cropland,453598.5580512221
+160,1,2015,LULC: Emission [Type],Urbanization: Open,842097.4939494634
+160,1,2015,LULC: Emission [Type],Urbanization: Low,590609.4865051755
+160,1,2015,LULC: Emission [Type],Urbanization: Medium,418188.0502858271
+160,1,2015,LULC: Emission [Type],Urbanization: High,166909.97327709192
+160,1,2015,LULC: Emission [Type],Fire: High Severity,6425067.300872664
+160,1,2015,LULC: Emission [Type],Fire: Medium Severity,4101424.4419583785
+160,1,2015,LULC: Emission [Type],Fire: Low Severity,6371783.385413298
+160,1,2015,LULC: Emission [Type],Ag Expansion: Pasture,590403.6255908537
+160,1,2015,LULC: Emission [Type],Ag Expansion: Cropland,719510.6806429782
+160,1,2015,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,10439132.348203553
+160,1,2015,LULC: Mortality [Type],Fire: High Severity,8912510.95699764
+160,1,2015,LULC: Mortality [Type],Fire: Medium Severity,5751983.627765756
+160,1,2015,LULC: Mortality [Type],Fire: Low Severity,6648157.048254319
+160,1,2015,LULC: Mortality [Type],Insect: High Severity,8409807.145123148
+160,1,2015,LULC: Mortality [Type],Insect: Medium Severity,4484864.401355225
+160,1,2015,LULC: Mortality [Type],Insect: Low Severity,3366772.6949857525
+160,1,2015,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,86825835.30439351
+160,1,2015,LULC: Mortality [Type],Forest Harvest: Forest Selection,2623523.146210255
+160,1,2015,LULC: Mortality [Type],Ag Expansion: Pasture,262270.4111947821
+160,1,2015,LULC: Mortality [Type],Ag Expansion: Cropland,306242.34349540836
+160,1,2015,Net Biome Productivity,Urbanization: Open,-1187699.3389839383
+160,1,2015,Net Biome Productivity,Urbanization: Low,-836004.1351063405
+160,1,2015,Net Biome Productivity,Urbanization: Medium,-592478.2473915723
+160,1,2015,Net Biome Productivity,Urbanization: High,-226170.59330913716
+160,1,2015,Net Biome Productivity,Fire: High Severity,-6425067.300872664
+160,1,2015,Net Biome Productivity,Fire: Medium Severity,-4101424.4419583785
+160,1,2015,Net Biome Productivity,Fire: Low Severity,-6371783.385413298
+160,1,2015,Net Biome Productivity,Forest Harvest: Forest Clearcut,-90678543.70697942
+160,1,2015,Net Biome Productivity,Forest Harvest: Forest Selection,-2839603.2728517074
+160,1,2015,Net Biome Productivity,Ag Expansion: Pasture,-1061271.3343503615
+160,1,2015,Net Biome Productivity,Ag Expansion: Cropland,-1173109.2386942003
+160,1,2016,LULC: Harvest [Type],Urbanization: Open,286131.6744964928
+160,1,2016,LULC: Harvest [Type],Urbanization: Low,195685.0687446543
+160,1,2016,LULC: Harvest [Type],Urbanization: Medium,114069.13502415524
+160,1,2016,LULC: Harvest [Type],Urbanization: High,50800.88473846062
+160,1,2016,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,78485139.0372903
+160,1,2016,LULC: Harvest [Type],Forest Harvest: Forest Selection,2680159.709159692
+160,1,2016,LULC: Harvest [Type],Ag Expansion: Pasture,371533.4158544205
+160,1,2016,LULC: Harvest [Type],Ag Expansion: Cropland,474398.2880151503
+160,1,2016,LULC: Emission [Type],Urbanization: Open,742393.2803142705
+160,1,2016,LULC: Emission [Type],Urbanization: Low,474268.85563042475
+160,1,2016,LULC: Emission [Type],Urbanization: Medium,282864.84291628667
+160,1,2016,LULC: Emission [Type],Urbanization: High,124430.09035147248
+160,1,2016,LULC: Emission [Type],Fire: High Severity,3682513.870583066
+160,1,2016,LULC: Emission [Type],Fire: Medium Severity,2740127.345694495
+160,1,2016,LULC: Emission [Type],Fire: Low Severity,4836577.552081294
+160,1,2016,LULC: Emission [Type],Ag Expansion: Pasture,462130.58894996863
+160,1,2016,LULC: Emission [Type],Ag Expansion: Cropland,655615.7385750927
+160,1,2016,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9115905.266487425
+160,1,2016,LULC: Mortality [Type],Fire: High Severity,4958679.4550228855
+160,1,2016,LULC: Mortality [Type],Fire: Medium Severity,3516261.065506465
+160,1,2016,LULC: Mortality [Type],Fire: Low Severity,4667740.120741069
+160,1,2016,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,75914986.73384753
+160,1,2016,LULC: Mortality [Type],Forest Harvest: Forest Selection,2501917.1788825397
+160,1,2016,LULC: Mortality [Type],Ag Expansion: Pasture,208265.81528121786
+160,1,2016,LULC: Mortality [Type],Ag Expansion: Cropland,281963.7792477392
+160,1,2016,Net Biome Productivity,Urbanization: Open,-1028524.9548107634
+160,1,2016,Net Biome Productivity,Urbanization: Low,-669953.9243750791
+160,1,2016,Net Biome Productivity,Urbanization: Medium,-396933.97794044187
+160,1,2016,Net Biome Productivity,Urbanization: High,-175230.97508993308
+160,1,2016,Net Biome Productivity,Fire: High Severity,-3682513.870583066
+160,1,2016,Net Biome Productivity,Fire: Medium Severity,-2740127.345694495
+160,1,2016,Net Biome Productivity,Fire: Low Severity,-4836577.552081294
+160,1,2016,Net Biome Productivity,Forest Harvest: Forest Clearcut,-78485139.0372903
+160,1,2016,Net Biome Productivity,Forest Harvest: Forest Selection,-2680159.709159692
+160,1,2016,Net Biome Productivity,Ag Expansion: Pasture,-833664.0048043891
+160,1,2016,Net Biome Productivity,Ag Expansion: Cropland,-1130014.026590243
+160,1,2017,LULC: Harvest [Type],Urbanization: Open,1172780.9321660819
+160,1,2017,LULC: Harvest [Type],Urbanization: Low,829947.1685586368
+160,1,2017,LULC: Harvest [Type],Urbanization: Medium,534969.5470312687
+160,1,2017,LULC: Harvest [Type],Urbanization: High,124034.07314289473
+160,1,2017,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,65216242.72304041
+160,1,2017,LULC: Harvest [Type],Forest Harvest: Forest Selection,3593027.364691927
+160,1,2017,LULC: Harvest [Type],Ag Expansion: Pasture,926940.7456746126
+160,1,2017,LULC: Harvest [Type],Ag Expansion: Cropland,827776.058277163
+160,1,2017,LULC: Emission [Type],Urbanization: Open,2940672.046329493
+160,1,2017,LULC: Emission [Type],Urbanization: Low,1941407.308091902
+160,1,2017,LULC: Emission [Type],Urbanization: Medium,1350260.8064851188
+160,1,2017,LULC: Emission [Type],Urbanization: High,332245.4071379582
+160,1,2017,LULC: Emission [Type],Fire: High Severity,11773313.685312517
+160,1,2017,LULC: Emission [Type],Fire: Medium Severity,8360125.78969023
+160,1,2017,LULC: Emission [Type],Fire: Low Severity,12767443.80380996
+160,1,2017,LULC: Emission [Type],Ag Expansion: Pasture,971590.2122628387
+160,1,2017,LULC: Emission [Type],Ag Expansion: Cropland,1026941.3169439449
+160,1,2017,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,7592023.470722697
+160,1,2017,LULC: Mortality [Type],Fire: High Severity,17959346.240647852
+160,1,2017,LULC: Mortality [Type],Fire: Medium Severity,12428075.031357832
+160,1,2017,LULC: Mortality [Type],Fire: Low Severity,13943098.34828689
+160,1,2017,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,58820598.27416849
+160,1,2017,LULC: Mortality [Type],Forest Harvest: Forest Selection,3459057.512214086
+160,1,2017,LULC: Mortality [Type],Ag Expansion: Pasture,440651.79981989635
+160,1,2017,LULC: Mortality [Type],Ag Expansion: Cropland,435376.24001275573
+160,1,2017,Net Biome Productivity,Urbanization: Open,-4113452.978495575
+160,1,2017,Net Biome Productivity,Urbanization: Low,-2771354.476650539
+160,1,2017,Net Biome Productivity,Urbanization: Medium,-1885230.3535163875
+160,1,2017,Net Biome Productivity,Urbanization: High,-456279.480280853
+160,1,2017,Net Biome Productivity,Fire: High Severity,-11773313.685312517
+160,1,2017,Net Biome Productivity,Fire: Medium Severity,-8360125.78969023
+160,1,2017,Net Biome Productivity,Fire: Low Severity,-12767443.80380996
+160,1,2017,Net Biome Productivity,Forest Harvest: Forest Clearcut,-65216242.72304041
+160,1,2017,Net Biome Productivity,Forest Harvest: Forest Selection,-3593027.364691927
+160,1,2017,Net Biome Productivity,Ag Expansion: Pasture,-1898530.9579374513
+160,1,2017,Net Biome Productivity,Ag Expansion: Cropland,-1854717.3752211079
+160,1,2018,LULC: Harvest [Type],Urbanization: Open,822894.8696879247
+160,1,2018,LULC: Harvest [Type],Urbanization: Low,583418.1641344328
+160,1,2018,LULC: Harvest [Type],Urbanization: Medium,372254.35384462285
+160,1,2018,LULC: Harvest [Type],Urbanization: High,124772.72918527861
+160,1,2018,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,74079939.90167935
+160,1,2018,LULC: Harvest [Type],Forest Harvest: Forest Selection,3566950.630819851
+160,1,2018,LULC: Harvest [Type],Ag Expansion: Pasture,934588.3549506576
+160,1,2018,LULC: Harvest [Type],Ag Expansion: Cropland,917398.6762625234
+160,1,2018,LULC: Emission [Type],Urbanization: Open,2093777.902910884
+160,1,2018,LULC: Emission [Type],Urbanization: Low,1445686.5915080272
+160,1,2018,LULC: Emission [Type],Urbanization: Medium,953036.6605651141
+160,1,2018,LULC: Emission [Type],Urbanization: High,308772.0028936459
+160,1,2018,LULC: Emission [Type],Fire: High Severity,10600173.77201085
+160,1,2018,LULC: Emission [Type],Fire: Medium Severity,7033853.851383085
+160,1,2018,LULC: Emission [Type],Fire: Low Severity,11059593.976263734
+160,1,2018,LULC: Emission [Type],Ag Expansion: Pasture,990742.1986423675
+160,1,2018,LULC: Emission [Type],Ag Expansion: Cropland,1119563.6008829211
+160,1,2018,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,8552302.562138634
+160,1,2018,LULC: Mortality [Type],Fire: High Severity,15307369.613048501
+160,1,2018,LULC: Mortality [Type],Fire: Medium Severity,9742056.859979616
+160,1,2018,LULC: Mortality [Type],Fire: Low Severity,11632342.825442981
+160,1,2018,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,66512353.225746
+160,1,2018,LULC: Mortality [Type],Forest Harvest: Forest Selection,3424811.2670682487
+160,1,2018,LULC: Mortality [Type],Ag Expansion: Pasture,444502.6672636423
+160,1,2018,LULC: Mortality [Type],Ag Expansion: Cropland,481982.19328140066
+160,1,2018,Net Biome Productivity,Urbanization: Open,-2916672.7725988086
+160,1,2018,Net Biome Productivity,Urbanization: Low,-2029104.7556424597
+160,1,2018,Net Biome Productivity,Urbanization: Medium,-1325291.014409737
+160,1,2018,Net Biome Productivity,Urbanization: High,-433544.7320789245
+160,1,2018,Net Biome Productivity,Fire: High Severity,-10600173.77201085
+160,1,2018,Net Biome Productivity,Fire: Medium Severity,-7033853.851383085
+160,1,2018,Net Biome Productivity,Fire: Low Severity,-11059593.976263734
+160,1,2018,Net Biome Productivity,Forest Harvest: Forest Clearcut,-74079939.90167935
+160,1,2018,Net Biome Productivity,Forest Harvest: Forest Selection,-3566950.630819851
+160,1,2018,Net Biome Productivity,Ag Expansion: Pasture,-1925330.553593025
+160,1,2018,Net Biome Productivity,Ag Expansion: Cropland,-2036962.2771454444
+160,1,2019,LULC: Harvest [Type],Urbanization: Open,1118654.7236901768
+160,1,2019,LULC: Harvest [Type],Urbanization: Low,738517.8803326213
+160,1,2019,LULC: Harvest [Type],Urbanization: Medium,379388.72215806914
+160,1,2019,LULC: Harvest [Type],Urbanization: High,161813.2088671473
+160,1,2019,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,51638132.21722436
+160,1,2019,LULC: Harvest [Type],Forest Harvest: Forest Selection,1739087.4713272012
+160,1,2019,LULC: Harvest [Type],Ag Expansion: Pasture,1043229.8328078593
+160,1,2019,LULC: Harvest [Type],Ag Expansion: Cropland,1113482.8732974885
+160,1,2019,LULC: Emission [Type],Urbanization: Open,2616286.5456929724
+160,1,2019,LULC: Emission [Type],Urbanization: Low,1780031.5349343636
+160,1,2019,LULC: Emission [Type],Urbanization: Medium,933170.7724408491
+160,1,2019,LULC: Emission [Type],Urbanization: High,376772.1520780501
+160,1,2019,LULC: Emission [Type],Fire: High Severity,1036205.8973013534
+160,1,2019,LULC: Emission [Type],Fire: Medium Severity,972637.9360298953
+160,1,2019,LULC: Emission [Type],Fire: Low Severity,1747723.3729748768
+160,1,2019,LULC: Emission [Type],Ag Expansion: Pasture,1120941.2635758664
+160,1,2019,LULC: Emission [Type],Ag Expansion: Cropland,1340747.7257545874
+160,1,2019,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,5874151.949390517
+160,1,2019,LULC: Mortality [Type],Fire: High Severity,1567451.59383587
+160,1,2019,LULC: Mortality [Type],Fire: Medium Severity,1431652.1321341714
+160,1,2019,LULC: Mortality [Type],Fire: Low Severity,2058107.4218369627
+160,1,2019,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,46852021.50722451
+160,1,2019,LULC: Mortality [Type],Forest Harvest: Forest Selection,1760257.7020702437
+160,1,2019,LULC: Mortality [Type],Ag Expansion: Pasture,497859.9192005408
+160,1,2019,LULC: Mortality [Type],Ag Expansion: Cropland,583665.448699548
+160,1,2019,Net Biome Productivity,Urbanization: Open,-3734941.269383149
+160,1,2019,Net Biome Productivity,Urbanization: Low,-2518549.4152669846
+160,1,2019,Net Biome Productivity,Urbanization: Medium,-1312559.4945989181
+160,1,2019,Net Biome Productivity,Urbanization: High,-538585.3609451974
+160,1,2019,Net Biome Productivity,Fire: High Severity,-1036205.8973013534
+160,1,2019,Net Biome Productivity,Fire: Medium Severity,-972637.9360298953
+160,1,2019,Net Biome Productivity,Fire: Low Severity,-1747723.3729748768
+160,1,2019,Net Biome Productivity,Forest Harvest: Forest Clearcut,-51638132.21722436
+160,1,2019,Net Biome Productivity,Forest Harvest: Forest Selection,-1739087.4713272012
+160,1,2019,Net Biome Productivity,Ag Expansion: Pasture,-2164171.0963837258
+160,1,2019,Net Biome Productivity,Ag Expansion: Cropland,-2454230.599052076
+160,1,2020,LULC: Harvest [Type],Urbanization: Open,1019454.2537902065
+160,1,2020,LULC: Harvest [Type],Urbanization: Low,674571.3997178328
+160,1,2020,LULC: Harvest [Type],Urbanization: Medium,416538.7695555186
+160,1,2020,LULC: Harvest [Type],Urbanization: High,115192.09856178856
+160,1,2020,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,78916635.11225376
+160,1,2020,LULC: Harvest [Type],Forest Harvest: Forest Selection,2718932.694852603
+160,1,2020,LULC: Harvest [Type],Ag Expansion: Pasture,871458.8821341951
+160,1,2020,LULC: Harvest [Type],Ag Expansion: Cropland,970234.5192694953
+160,1,2020,LULC: Emission [Type],Urbanization: Open,2529739.541677031
+160,1,2020,LULC: Emission [Type],Urbanization: Low,1688588.78769386
+160,1,2020,LULC: Emission [Type],Urbanization: Medium,1056564.8197369173
+160,1,2020,LULC: Emission [Type],Urbanization: High,286078.4010251041
+160,1,2020,LULC: Emission [Type],Fire: High Severity,22822058.1996655
+160,1,2020,LULC: Emission [Type],Fire: Medium Severity,17049155.47445023
+160,1,2020,LULC: Emission [Type],Fire: Low Severity,25957744.056835417
+160,1,2020,LULC: Emission [Type],Ag Expansion: Pasture,924965.1863320487
+160,1,2020,LULC: Emission [Type],Ag Expansion: Cropland,1198572.9937215736
+160,1,2020,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9172097.113628555
+160,1,2020,LULC: Mortality [Type],Fire: High Severity,35317297.879739195
+160,1,2020,LULC: Mortality [Type],Fire: Medium Severity,25413542.339128
+160,1,2020,LULC: Mortality [Type],Fire: Low Severity,28210721.936318986
+160,1,2020,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,71118171.389041
+160,1,2020,LULC: Mortality [Type],Forest Harvest: Forest Selection,2661730.7689387808
+160,1,2020,LULC: Mortality [Type],Ag Expansion: Pasture,415560.09324008564
+160,1,2020,LULC: Mortality [Type],Ag Expansion: Cropland,513020.81537909014
+160,1,2020,Net Biome Productivity,Urbanization: Open,-3549193.795467238
+160,1,2020,Net Biome Productivity,Urbanization: Low,-2363160.1874116925
+160,1,2020,Net Biome Productivity,Urbanization: Medium,-1473103.589292436
+160,1,2020,Net Biome Productivity,Urbanization: High,-401270.49958689266
+160,1,2020,Net Biome Productivity,Fire: High Severity,-22822058.1996655
+160,1,2020,Net Biome Productivity,Fire: Medium Severity,-17049155.47445023
+160,1,2020,Net Biome Productivity,Fire: Low Severity,-25957744.056835417
+160,1,2020,Net Biome Productivity,Forest Harvest: Forest Clearcut,-78916635.11225376
+160,1,2020,Net Biome Productivity,Forest Harvest: Forest Selection,-2718932.694852603
+160,1,2020,Net Biome Productivity,Ag Expansion: Pasture,-1796424.0684662438
+160,1,2020,Net Biome Productivity,Ag Expansion: Cropland,-2168807.512991069
+161,1,2002,LULC: Harvest [Type],Urbanization: Open,826192.8467471898
+161,1,2002,LULC: Harvest [Type],Urbanization: Low,570713.2379552722
+161,1,2002,LULC: Harvest [Type],Urbanization: Medium,261996.8230447173
+161,1,2002,LULC: Harvest [Type],Urbanization: High,83686.17578029633
+161,1,2002,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,29793370.39586895
+161,1,2002,LULC: Harvest [Type],Forest Harvest: Forest Selection,2228984.2033832893
+161,1,2002,LULC: Harvest [Type],Ag Expansion: Pasture,388350.98227739334
+161,1,2002,LULC: Harvest [Type],Ag Expansion: Cropland,213123.31165254116
+161,1,2002,LULC: Emission [Type],Urbanization: Open,2496855.502942433
+161,1,2002,LULC: Emission [Type],Urbanization: Low,1696868.833445967
+161,1,2002,LULC: Emission [Type],Urbanization: Medium,831288.4242476972
+161,1,2002,LULC: Emission [Type],Urbanization: High,280217.9264820833
+161,1,2002,LULC: Emission [Type],Fire: High Severity,7858536.1106549315
+161,1,2002,LULC: Emission [Type],Fire: Medium Severity,5342335.3168641385
+161,1,2002,LULC: Emission [Type],Fire: Low Severity,7680556.320283628
+161,1,2002,LULC: Emission [Type],Ag Expansion: Pasture,432103.82576871663
+161,1,2002,LULC: Emission [Type],Ag Expansion: Cropland,259159.7175984457
+161,1,2002,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,3479728.2947641346
+161,1,2002,LULC: Mortality [Type],Fire: High Severity,11609123.853502817
+161,1,2002,LULC: Mortality [Type],Fire: Medium Severity,7765522.954337384
+161,1,2002,LULC: Mortality [Type],Fire: Low Severity,8242074.918665825
+161,1,2002,LULC: Mortality [Type],Insect: High Severity,5431779.590213102
+161,1,2002,LULC: Mortality [Type],Insect: Medium Severity,2374220.743836396
+161,1,2002,LULC: Mortality [Type],Insect: Low Severity,4980924.486979906
+161,1,2002,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,32245473.169197187
+161,1,2002,LULC: Mortality [Type],Forest Harvest: Forest Selection,2303237.7913697064
+161,1,2002,LULC: Mortality [Type],Ag Expansion: Pasture,212705.10974228382
+161,1,2002,LULC: Mortality [Type],Ag Expansion: Cropland,124354.57965731621
+161,1,2002,Net Biome Productivity,Urbanization: Open,-3323048.349689623
+161,1,2002,Net Biome Productivity,Urbanization: Low,-2267582.0714012394
+161,1,2002,Net Biome Productivity,Urbanization: Medium,-1093285.2472924145
+161,1,2002,Net Biome Productivity,Urbanization: High,-363904.1022623796
+161,1,2002,Net Biome Productivity,Fire: High Severity,-7858536.1106549315
+161,1,2002,Net Biome Productivity,Fire: Medium Severity,-5342335.3168641385
+161,1,2002,Net Biome Productivity,Fire: Low Severity,-7680556.320283628
+161,1,2002,Net Biome Productivity,Forest Harvest: Forest Clearcut,-29793370.39586895
+161,1,2002,Net Biome Productivity,Forest Harvest: Forest Selection,-2228984.2033832893
+161,1,2002,Net Biome Productivity,Ag Expansion: Pasture,-820454.80804611
+161,1,2002,Net Biome Productivity,Ag Expansion: Cropland,-472283.0292509869
+161,1,2003,LULC: Harvest [Type],Urbanization: Open,920923.5030288866
+161,1,2003,LULC: Harvest [Type],Urbanization: Low,564289.7112030742
+161,1,2003,LULC: Harvest [Type],Urbanization: Medium,305008.59409708396
+161,1,2003,LULC: Harvest [Type],Urbanization: High,71543.27956991982
+161,1,2003,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,32724926.625859637
+161,1,2003,LULC: Harvest [Type],Forest Harvest: Forest Selection,2455171.5047399476
+161,1,2003,LULC: Harvest [Type],Ag Expansion: Pasture,385016.0461940589
+161,1,2003,LULC: Harvest [Type],Ag Expansion: Cropland,286427.9772913238
+161,1,2003,LULC: Emission [Type],Urbanization: Open,2644739.0553866574
+161,1,2003,LULC: Emission [Type],Urbanization: Low,1664693.2945311333
+161,1,2003,LULC: Emission [Type],Urbanization: Medium,953817.831409526
+161,1,2003,LULC: Emission [Type],Urbanization: High,234016.51990397446
+161,1,2003,LULC: Emission [Type],Fire: High Severity,5112069.429751556
+161,1,2003,LULC: Emission [Type],Fire: Medium Severity,3766023.3516002405
+161,1,2003,LULC: Emission [Type],Fire: Low Severity,5719138.268034275
+161,1,2003,LULC: Emission [Type],Ag Expansion: Pasture,427098.3337483799
+161,1,2003,LULC: Emission [Type],Ag Expansion: Cropland,347742.25571223913
+161,1,2003,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,3693654.0947549744
+161,1,2003,LULC: Mortality [Type],Fire: High Severity,6799198.898462887
+161,1,2003,LULC: Mortality [Type],Fire: Medium Severity,4837595.209385
+161,1,2003,LULC: Mortality [Type],Fire: Low Severity,5197334.689081006
+161,1,2003,LULC: Mortality [Type],Insect: High Severity,7309380.791671542
+161,1,2003,LULC: Mortality [Type],Insect: Medium Severity,3924494.9760815185
+161,1,2003,LULC: Mortality [Type],Insect: Low Severity,8275378.899994231
+161,1,2003,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,34421142.80839848
+161,1,2003,LULC: Mortality [Type],Forest Harvest: Forest Selection,2400323.534376022
+161,1,2003,LULC: Mortality [Type],Ag Expansion: Pasture,203021.14930459778
+161,1,2003,LULC: Mortality [Type],Ag Expansion: Cropland,166497.43546484457
+161,1,2003,Net Biome Productivity,Urbanization: Open,-3565662.558415544
+161,1,2003,Net Biome Productivity,Urbanization: Low,-2228983.0057342076
+161,1,2003,Net Biome Productivity,Urbanization: Medium,-1258826.42550661
+161,1,2003,Net Biome Productivity,Urbanization: High,-305559.7994738943
+161,1,2003,Net Biome Productivity,Fire: High Severity,-5112069.429751556
+161,1,2003,Net Biome Productivity,Fire: Medium Severity,-3766023.3516002405
+161,1,2003,Net Biome Productivity,Fire: Low Severity,-5719138.268034275
+161,1,2003,Net Biome Productivity,Forest Harvest: Forest Clearcut,-32724926.625859637
+161,1,2003,Net Biome Productivity,Forest Harvest: Forest Selection,-2455171.5047399476
+161,1,2003,Net Biome Productivity,Ag Expansion: Pasture,-812114.3799424388
+161,1,2003,Net Biome Productivity,Ag Expansion: Cropland,-634170.233003563
+161,1,2004,LULC: Harvest [Type],Urbanization: Open,861780.4939343542
+161,1,2004,LULC: Harvest [Type],Urbanization: Low,631905.7792115657
+161,1,2004,LULC: Harvest [Type],Urbanization: Medium,304613.8454890382
+161,1,2004,LULC: Harvest [Type],Urbanization: High,87884.8856353052
+161,1,2004,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,35609672.52388762
+161,1,2004,LULC: Harvest [Type],Forest Harvest: Forest Selection,2493695.3143733502
+161,1,2004,LULC: Harvest [Type],Ag Expansion: Pasture,388070.2531510842
+161,1,2004,LULC: Harvest [Type],Ag Expansion: Cropland,238459.0971169271
+161,1,2004,LULC: Emission [Type],Urbanization: Open,2477962.163192385
+161,1,2004,LULC: Emission [Type],Urbanization: Low,1799101.0779945964
+161,1,2004,LULC: Emission [Type],Urbanization: Medium,891368.1064457613
+161,1,2004,LULC: Emission [Type],Urbanization: High,255576.94994277298
+161,1,2004,LULC: Emission [Type],Fire: High Severity,925135.3383994908
+161,1,2004,LULC: Emission [Type],Fire: Medium Severity,918861.5547094556
+161,1,2004,LULC: Emission [Type],Fire: Low Severity,1562353.023420013
+161,1,2004,LULC: Emission [Type],Ag Expansion: Pasture,434074.21772995027
+161,1,2004,LULC: Emission [Type],Ag Expansion: Cropland,285839.3136189624
+161,1,2004,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4174448.9294903334
+161,1,2004,LULC: Mortality [Type],Fire: High Severity,1122055.0684147964
+161,1,2004,LULC: Mortality [Type],Fire: Medium Severity,1024594.7648184693
+161,1,2004,LULC: Mortality [Type],Fire: Low Severity,1221529.9651736056
+161,1,2004,LULC: Mortality [Type],Insect: High Severity,5412218.26432604
+161,1,2004,LULC: Mortality [Type],Insect: Medium Severity,5561950.583203011
+161,1,2004,LULC: Mortality [Type],Insect: Low Severity,8199081.352026141
+161,1,2004,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,37022091.92822085
+161,1,2004,LULC: Mortality [Type],Forest Harvest: Forest Selection,2576364.8011409864
+161,1,2004,LULC: Mortality [Type],Ag Expansion: Pasture,204400.91008735748
+161,1,2004,LULC: Mortality [Type],Ag Expansion: Cropland,135675.5154513387
+161,1,2004,Net Biome Productivity,Urbanization: Open,-3339742.657126739
+161,1,2004,Net Biome Productivity,Urbanization: Low,-2431006.857206162
+161,1,2004,Net Biome Productivity,Urbanization: Medium,-1195981.9519347996
+161,1,2004,Net Biome Productivity,Urbanization: High,-343461.8355780782
+161,1,2004,Net Biome Productivity,Fire: High Severity,-925135.3383994908
+161,1,2004,Net Biome Productivity,Fire: Medium Severity,-918861.5547094556
+161,1,2004,Net Biome Productivity,Fire: Low Severity,-1562353.023420013
+161,1,2004,Net Biome Productivity,Forest Harvest: Forest Clearcut,-35609672.52388762
+161,1,2004,Net Biome Productivity,Forest Harvest: Forest Selection,-2493695.3143733502
+161,1,2004,Net Biome Productivity,Ag Expansion: Pasture,-822144.4708810344
+161,1,2004,Net Biome Productivity,Ag Expansion: Cropland,-524298.4107358896
+161,1,2005,LULC: Harvest [Type],Urbanization: Open,833842.044920063
+161,1,2005,LULC: Harvest [Type],Urbanization: Low,569823.526606287
+161,1,2005,LULC: Harvest [Type],Urbanization: Medium,363981.60274047474
+161,1,2005,LULC: Harvest [Type],Urbanization: High,113442.91756429014
+161,1,2005,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,36147411.74721754
+161,1,2005,LULC: Harvest [Type],Forest Harvest: Forest Selection,1998200.2412909626
+161,1,2005,LULC: Harvest [Type],Ag Expansion: Pasture,531161.076393403
+161,1,2005,LULC: Harvest [Type],Ag Expansion: Cropland,310088.4528269006
+161,1,2005,LULC: Emission [Type],Urbanization: Open,2325063.3297091513
+161,1,2005,LULC: Emission [Type],Urbanization: Low,1663118.018439727
+161,1,2005,LULC: Emission [Type],Urbanization: Medium,1043853.7586276522
+161,1,2005,LULC: Emission [Type],Urbanization: High,301082.2372127416
+161,1,2005,LULC: Emission [Type],Fire: High Severity,1194633.0826680346
+161,1,2005,LULC: Emission [Type],Fire: Medium Severity,1118394.6953239464
+161,1,2005,LULC: Emission [Type],Fire: Low Severity,2114763.124106405
+161,1,2005,LULC: Emission [Type],Ag Expansion: Pasture,577683.2909733008
+161,1,2005,LULC: Emission [Type],Ag Expansion: Cropland,375181.13573687716
+161,1,2005,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4250100.623157407
+161,1,2005,LULC: Mortality [Type],Fire: High Severity,1471601.3377841862
+161,1,2005,LULC: Mortality [Type],Fire: Medium Severity,1306262.8725753445
+161,1,2005,LULC: Mortality [Type],Fire: Low Severity,1713271.8045201653
+161,1,2005,LULC: Mortality [Type],Insect: High Severity,5643806.1604046775
+161,1,2005,LULC: Mortality [Type],Insect: Medium Severity,5004042.274357715
+161,1,2005,LULC: Mortality [Type],Insect: Low Severity,7483043.474862436
+161,1,2005,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,37391284.790243514
+161,1,2005,LULC: Mortality [Type],Forest Harvest: Forest Selection,2000162.175937716
+161,1,2005,LULC: Mortality [Type],Ag Expansion: Pasture,275039.52916490554
+161,1,2005,LULC: Mortality [Type],Ag Expansion: Cropland,175691.23125587802
+161,1,2005,Net Biome Productivity,Urbanization: Open,-3158905.3746292144
+161,1,2005,Net Biome Productivity,Urbanization: Low,-2232941.545046014
+161,1,2005,Net Biome Productivity,Urbanization: Medium,-1407835.361368127
+161,1,2005,Net Biome Productivity,Urbanization: High,-414525.15477703174
+161,1,2005,Net Biome Productivity,Fire: High Severity,-1194633.0826680346
+161,1,2005,Net Biome Productivity,Fire: Medium Severity,-1118394.6953239464
+161,1,2005,Net Biome Productivity,Fire: Low Severity,-2114763.124106405
+161,1,2005,Net Biome Productivity,Forest Harvest: Forest Clearcut,-36147411.74721754
+161,1,2005,Net Biome Productivity,Forest Harvest: Forest Selection,-1998200.2412909626
+161,1,2005,Net Biome Productivity,Ag Expansion: Pasture,-1108844.367366704
+161,1,2005,Net Biome Productivity,Ag Expansion: Cropland,-685269.5885637777
+161,1,2006,LULC: Harvest [Type],Urbanization: Open,647864.1661782004
+161,1,2006,LULC: Harvest [Type],Urbanization: Low,502165.33318233653
+161,1,2006,LULC: Harvest [Type],Urbanization: Medium,292224.3225683312
+161,1,2006,LULC: Harvest [Type],Urbanization: High,80590.7241465347
+161,1,2006,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,33128437.00446597
+161,1,2006,LULC: Harvest [Type],Forest Harvest: Forest Selection,2138214.0161719588
+161,1,2006,LULC: Harvest [Type],Ag Expansion: Pasture,592971.5630218491
+161,1,2006,LULC: Harvest [Type],Ag Expansion: Cropland,305400.0926955526
+161,1,2006,LULC: Emission [Type],Urbanization: Open,1752567.468239847
+161,1,2006,LULC: Emission [Type],Urbanization: Low,1324167.5920804064
+161,1,2006,LULC: Emission [Type],Urbanization: Medium,796545.3428414839
+161,1,2006,LULC: Emission [Type],Urbanization: High,213121.77326721023
+161,1,2006,LULC: Emission [Type],Fire: High Severity,4150542.3162969416
+161,1,2006,LULC: Emission [Type],Fire: Medium Severity,2677281.5101484717
+161,1,2006,LULC: Emission [Type],Fire: Low Severity,4625823.340722275
+161,1,2006,LULC: Emission [Type],Ag Expansion: Pasture,630764.777973779
+161,1,2006,LULC: Emission [Type],Ag Expansion: Cropland,358599.08181932126
+161,1,2006,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4159732.931209858
+161,1,2006,LULC: Mortality [Type],Fire: High Severity,5648434.715334239
+161,1,2006,LULC: Mortality [Type],Fire: Medium Severity,3474101.8070144374
+161,1,2006,LULC: Mortality [Type],Fire: Low Severity,4259731.840379089
+161,1,2006,LULC: Mortality [Type],Insect: High Severity,10360464.06157472
+161,1,2006,LULC: Mortality [Type],Insect: Medium Severity,3843675.9127177824
+161,1,2006,LULC: Mortality [Type],Insect: Low Severity,11035174.943207374
+161,1,2006,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,34237918.14878322
+161,1,2006,LULC: Mortality [Type],Forest Harvest: Forest Selection,2122966.4613994323
+161,1,2006,LULC: Mortality [Type],Ag Expansion: Pasture,288344.18398956436
+161,1,2006,LULC: Mortality [Type],Ag Expansion: Cropland,164264.51234107633
+161,1,2006,Net Biome Productivity,Urbanization: Open,-2400431.6344180475
+161,1,2006,Net Biome Productivity,Urbanization: Low,-1826332.925262743
+161,1,2006,Net Biome Productivity,Urbanization: Medium,-1088769.665409815
+161,1,2006,Net Biome Productivity,Urbanization: High,-293712.4974137449
+161,1,2006,Net Biome Productivity,Fire: High Severity,-4150542.3162969416
+161,1,2006,Net Biome Productivity,Fire: Medium Severity,-2677281.5101484717
+161,1,2006,Net Biome Productivity,Fire: Low Severity,-4625823.340722275
+161,1,2006,Net Biome Productivity,Forest Harvest: Forest Clearcut,-33128437.00446597
+161,1,2006,Net Biome Productivity,Forest Harvest: Forest Selection,-2138214.0161719588
+161,1,2006,Net Biome Productivity,Ag Expansion: Pasture,-1223736.3409956282
+161,1,2006,Net Biome Productivity,Ag Expansion: Cropland,-663999.1745148739
+161,1,2007,LULC: Harvest [Type],Urbanization: Open,566502.0038775832
+161,1,2007,LULC: Harvest [Type],Urbanization: Low,365101.1532307052
+161,1,2007,LULC: Harvest [Type],Urbanization: Medium,211337.24946242833
+161,1,2007,LULC: Harvest [Type],Urbanization: High,44000.9323385251
+161,1,2007,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,35666621.071547695
+161,1,2007,LULC: Harvest [Type],Forest Harvest: Forest Selection,2197959.9942638604
+161,1,2007,LULC: Harvest [Type],Ag Expansion: Pasture,260819.13275929258
+161,1,2007,LULC: Harvest [Type],Ag Expansion: Cropland,144737.40440680523
+161,1,2007,LULC: Emission [Type],Urbanization: Open,1540088.0947422427
+161,1,2007,LULC: Emission [Type],Urbanization: Low,1008016.6927911816
+161,1,2007,LULC: Emission [Type],Urbanization: Medium,611272.3333970568
+161,1,2007,LULC: Emission [Type],Urbanization: High,141954.13622656793
+161,1,2007,LULC: Emission [Type],Fire: High Severity,6635256.206848121
+161,1,2007,LULC: Emission [Type],Fire: Medium Severity,4261013.526063288
+161,1,2007,LULC: Emission [Type],Fire: Low Severity,6772774.204905285
+161,1,2007,LULC: Emission [Type],Ag Expansion: Pasture,310062.315195611
+161,1,2007,LULC: Emission [Type],Ag Expansion: Cropland,222224.29029293315
+161,1,2007,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,4197501.436797124
+161,1,2007,LULC: Mortality [Type],Fire: High Severity,8325221.086562295
+161,1,2007,LULC: Mortality [Type],Fire: Medium Severity,5290891.342737489
+161,1,2007,LULC: Mortality [Type],Fire: Low Severity,6130958.484053576
+161,1,2007,LULC: Mortality [Type],Insect: High Severity,3780677.700532192
+161,1,2007,LULC: Mortality [Type],Insect: Medium Severity,4911610.981315805
+161,1,2007,LULC: Mortality [Type],Insect: Low Severity,6464594.840396437
+161,1,2007,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,36046200.710114755
+161,1,2007,LULC: Mortality [Type],Forest Harvest: Forest Selection,2186309.412823867
+161,1,2007,LULC: Mortality [Type],Ag Expansion: Pasture,144542.94639995275
+161,1,2007,LULC: Mortality [Type],Ag Expansion: Cropland,105080.59352799864
+161,1,2007,Net Biome Productivity,Urbanization: Open,-2106590.098619826
+161,1,2007,Net Biome Productivity,Urbanization: Low,-1373117.8460218867
+161,1,2007,Net Biome Productivity,Urbanization: Medium,-822609.5828594852
+161,1,2007,Net Biome Productivity,Urbanization: High,-185955.06856509304
+161,1,2007,Net Biome Productivity,Fire: High Severity,-6635256.206848121
+161,1,2007,Net Biome Productivity,Fire: Medium Severity,-4261013.526063288
+161,1,2007,Net Biome Productivity,Fire: Low Severity,-6772774.204905285
+161,1,2007,Net Biome Productivity,Forest Harvest: Forest Clearcut,-35666621.071547695
+161,1,2007,Net Biome Productivity,Forest Harvest: Forest Selection,-2197959.9942638604
+161,1,2007,Net Biome Productivity,Ag Expansion: Pasture,-570881.4479549036
+161,1,2007,Net Biome Productivity,Ag Expansion: Cropland,-366961.6946997384
+161,1,2008,LULC: Harvest [Type],Urbanization: Open,542721.9807091816
+161,1,2008,LULC: Harvest [Type],Urbanization: Low,360985.70634490566
+161,1,2008,LULC: Harvest [Type],Urbanization: Medium,215505.197802113
+161,1,2008,LULC: Harvest [Type],Urbanization: High,80682.45030121822
+161,1,2008,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,81247309.58059216
+161,1,2008,LULC: Harvest [Type],Forest Harvest: Forest Selection,2388280.0728909387
+161,1,2008,LULC: Harvest [Type],Ag Expansion: Pasture,260792.5463568628
+161,1,2008,LULC: Harvest [Type],Ag Expansion: Cropland,155496.78396152932
+161,1,2008,LULC: Emission [Type],Urbanization: Open,1538698.2563793482
+161,1,2008,LULC: Emission [Type],Urbanization: Low,1027327.9822853119
+161,1,2008,LULC: Emission [Type],Urbanization: Medium,622552.1302857636
+161,1,2008,LULC: Emission [Type],Urbanization: High,247154.20763362283
+161,1,2008,LULC: Emission [Type],Fire: High Severity,6116530.98974556
+161,1,2008,LULC: Emission [Type],Fire: Medium Severity,3727162.616532389
+161,1,2008,LULC: Emission [Type],Fire: Low Severity,5640462.71845777
+161,1,2008,LULC: Emission [Type],Ag Expansion: Pasture,327213.6339880379
+161,1,2008,LULC: Emission [Type],Ag Expansion: Cropland,248362.38631754296
+161,1,2008,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9315248.752806943
+161,1,2008,LULC: Mortality [Type],Fire: High Severity,10973770.937630363
+161,1,2008,LULC: Mortality [Type],Fire: Medium Severity,6572985.439429741
+161,1,2008,LULC: Mortality [Type],Fire: Low Severity,7657122.875438166
+161,1,2008,LULC: Mortality [Type],Insect: High Severity,8904990.771464085
+161,1,2008,LULC: Mortality [Type],Insect: Medium Severity,7671375.576812814
+161,1,2008,LULC: Mortality [Type],Insect: Low Severity,7111579.513926106
+161,1,2008,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,80294805.50728762
+161,1,2008,LULC: Mortality [Type],Forest Harvest: Forest Selection,2388853.8050525687
+161,1,2008,LULC: Mortality [Type],Ag Expansion: Pasture,152707.91835718247
+161,1,2008,LULC: Mortality [Type],Ag Expansion: Cropland,112102.4201558505
+161,1,2008,Net Biome Productivity,Urbanization: Open,-2081420.2370885296
+161,1,2008,Net Biome Productivity,Urbanization: Low,-1388313.6886302175
+161,1,2008,Net Biome Productivity,Urbanization: Medium,-838057.3280878767
+161,1,2008,Net Biome Productivity,Urbanization: High,-327836.65793484106
+161,1,2008,Net Biome Productivity,Fire: High Severity,-6116530.98974556
+161,1,2008,Net Biome Productivity,Fire: Medium Severity,-3727162.616532389
+161,1,2008,Net Biome Productivity,Fire: Low Severity,-5640462.71845777
+161,1,2008,Net Biome Productivity,Forest Harvest: Forest Clearcut,-81247309.58059216
+161,1,2008,Net Biome Productivity,Forest Harvest: Forest Selection,-2388280.0728909387
+161,1,2008,Net Biome Productivity,Ag Expansion: Pasture,-588006.1803449007
+161,1,2008,Net Biome Productivity,Ag Expansion: Cropland,-403859.17027907225
+161,1,2009,LULC: Harvest [Type],Urbanization: Open,519757.1692079879
+161,1,2009,LULC: Harvest [Type],Urbanization: Low,367471.7319683461
+161,1,2009,LULC: Harvest [Type],Urbanization: Medium,193348.73084913066
+161,1,2009,LULC: Harvest [Type],Urbanization: High,58591.11118058628
+161,1,2009,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,71808633.35721722
+161,1,2009,LULC: Harvest [Type],Forest Harvest: Forest Selection,1852810.208354788
+161,1,2009,LULC: Harvest [Type],Ag Expansion: Pasture,263210.6604572489
+161,1,2009,LULC: Harvest [Type],Ag Expansion: Cropland,180218.52331952882
+161,1,2009,LULC: Emission [Type],Urbanization: Open,1397438.968170694
+161,1,2009,LULC: Emission [Type],Urbanization: Low,1034880.6339474175
+161,1,2009,LULC: Emission [Type],Urbanization: Medium,560816.9592707494
+161,1,2009,LULC: Emission [Type],Urbanization: High,154275.3755312265
+161,1,2009,LULC: Emission [Type],Fire: High Severity,1117907.1385095813
+161,1,2009,LULC: Emission [Type],Fire: Medium Severity,944579.0700607741
+161,1,2009,LULC: Emission [Type],Fire: Low Severity,1399290.2970450332
+161,1,2009,LULC: Emission [Type],Ag Expansion: Pasture,333297.66623147164
+161,1,2009,LULC: Emission [Type],Ag Expansion: Cropland,255887.020570542
+161,1,2009,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,8306380.984422602
+161,1,2009,LULC: Mortality [Type],Fire: High Severity,1726326.3265157642
+161,1,2009,LULC: Mortality [Type],Fire: Medium Severity,1444028.46504606
+161,1,2009,LULC: Mortality [Type],Fire: Low Severity,1652448.267368168
+161,1,2009,LULC: Mortality [Type],Insect: High Severity,7358978.116078036
+161,1,2009,LULC: Mortality [Type],Insect: Medium Severity,11909961.37323468
+161,1,2009,LULC: Mortality [Type],Insect: Low Severity,9440957.737462796
+161,1,2009,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,69935705.77384222
+161,1,2009,LULC: Mortality [Type],Forest Harvest: Forest Selection,1809088.9625353727
+161,1,2009,LULC: Mortality [Type],Ag Expansion: Pasture,156311.85881635844
+161,1,2009,LULC: Mortality [Type],Ag Expansion: Cropland,116245.93084744815
+161,1,2009,Net Biome Productivity,Urbanization: Open,-1917196.1373786821
+161,1,2009,Net Biome Productivity,Urbanization: Low,-1402352.3659157637
+161,1,2009,Net Biome Productivity,Urbanization: Medium,-754165.69011988
+161,1,2009,Net Biome Productivity,Urbanization: High,-212866.4867118128
+161,1,2009,Net Biome Productivity,Fire: High Severity,-1117907.1385095813
+161,1,2009,Net Biome Productivity,Fire: Medium Severity,-944579.0700607741
+161,1,2009,Net Biome Productivity,Fire: Low Severity,-1399290.2970450332
+161,1,2009,Net Biome Productivity,Forest Harvest: Forest Clearcut,-71808633.35721722
+161,1,2009,Net Biome Productivity,Forest Harvest: Forest Selection,-1852810.208354788
+161,1,2009,Net Biome Productivity,Ag Expansion: Pasture,-596508.3266887205
+161,1,2009,Net Biome Productivity,Ag Expansion: Cropland,-436105.5438900708
+161,1,2010,LULC: Harvest [Type],Urbanization: Open,527618.1761186945
+161,1,2010,LULC: Harvest [Type],Urbanization: Low,387863.5070978534
+161,1,2010,LULC: Harvest [Type],Urbanization: Medium,230072.57443704136
+161,1,2010,LULC: Harvest [Type],Urbanization: High,66053.08380186658
+161,1,2010,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,69581436.84851842
+161,1,2010,LULC: Harvest [Type],Forest Harvest: Forest Selection,1361054.4291584976
+161,1,2010,LULC: Harvest [Type],Ag Expansion: Pasture,259566.9442235936
+161,1,2010,LULC: Harvest [Type],Ag Expansion: Cropland,213965.4095471177
+161,1,2010,LULC: Emission [Type],Urbanization: Open,1434428.6575145049
+161,1,2010,LULC: Emission [Type],Urbanization: Low,1058654.5200141482
+161,1,2010,LULC: Emission [Type],Urbanization: Medium,617582.2415303963
+161,1,2010,LULC: Emission [Type],Urbanization: High,198959.43298795968
+161,1,2010,LULC: Emission [Type],Fire: High Severity,816683.2115691539
+161,1,2010,LULC: Emission [Type],Fire: Medium Severity,577291.3794517741
+161,1,2010,LULC: Emission [Type],Fire: Low Severity,1095838.3913633872
+161,1,2010,LULC: Emission [Type],Ag Expansion: Pasture,340149.2286590945
+161,1,2010,LULC: Emission [Type],Ag Expansion: Cropland,318088.012300744
+161,1,2010,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9065917.002154412
+161,1,2010,LULC: Mortality [Type],Fire: High Severity,1190347.2995184232
+161,1,2010,LULC: Mortality [Type],Fire: Medium Severity,788007.9829054832
+161,1,2010,LULC: Mortality [Type],Fire: Low Severity,1076308.4839266639
+161,1,2010,LULC: Mortality [Type],Insect: High Severity,6835537.197021234
+161,1,2010,LULC: Mortality [Type],Insect: Medium Severity,8205328.667831577
+161,1,2010,LULC: Mortality [Type],Insect: Low Severity,7659909.991929314
+161,1,2010,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,67443722.98818211
+161,1,2010,LULC: Mortality [Type],Forest Harvest: Forest Selection,1325433.4774522213
+161,1,2010,LULC: Mortality [Type],Ag Expansion: Pasture,151631.9292445802
+161,1,2010,LULC: Mortality [Type],Ag Expansion: Cropland,137460.02873666643
+161,1,2010,Net Biome Productivity,Urbanization: Open,-1962046.8336331993
+161,1,2010,Net Biome Productivity,Urbanization: Low,-1446518.0271120016
+161,1,2010,Net Biome Productivity,Urbanization: Medium,-847654.8159674376
+161,1,2010,Net Biome Productivity,Urbanization: High,-265012.5167898263
+161,1,2010,Net Biome Productivity,Fire: High Severity,-816683.2115691539
+161,1,2010,Net Biome Productivity,Fire: Medium Severity,-577291.3794517741
+161,1,2010,Net Biome Productivity,Fire: Low Severity,-1095838.3913633872
+161,1,2010,Net Biome Productivity,Forest Harvest: Forest Clearcut,-69581436.84851842
+161,1,2010,Net Biome Productivity,Forest Harvest: Forest Selection,-1361054.4291584976
+161,1,2010,Net Biome Productivity,Ag Expansion: Pasture,-599716.1728826881
+161,1,2010,Net Biome Productivity,Ag Expansion: Cropland,-532053.4218478617
+161,1,2011,LULC: Harvest [Type],Urbanization: Open,507146.8859670144
+161,1,2011,LULC: Harvest [Type],Urbanization: Low,304114.0952430445
+161,1,2011,LULC: Harvest [Type],Urbanization: Medium,152037.6556365467
+161,1,2011,LULC: Harvest [Type],Urbanization: High,79006.15063805452
+161,1,2011,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,66971220.55093739
+161,1,2011,LULC: Harvest [Type],Forest Harvest: Forest Selection,1563483.4783967007
+161,1,2011,LULC: Harvest [Type],Ag Expansion: Pasture,281523.5059611567
+161,1,2011,LULC: Harvest [Type],Ag Expansion: Cropland,194086.87502724666
+161,1,2011,LULC: Emission [Type],Urbanization: Open,1345853.2219772078
+161,1,2011,LULC: Emission [Type],Urbanization: Low,781747.3146596754
+161,1,2011,LULC: Emission [Type],Urbanization: Medium,428729.92881766026
+161,1,2011,LULC: Emission [Type],Urbanization: High,199912.18810052905
+161,1,2011,LULC: Emission [Type],Fire: High Severity,2854449.6780700283
+161,1,2011,LULC: Emission [Type],Fire: Medium Severity,3143032.8168664942
+161,1,2011,LULC: Emission [Type],Fire: Low Severity,6149290.581092528
+161,1,2011,LULC: Emission [Type],Ag Expansion: Pasture,345097.70940971986
+161,1,2011,LULC: Emission [Type],Ag Expansion: Cropland,286138.8072289062
+161,1,2011,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,7495365.444547645
+161,1,2011,LULC: Mortality [Type],Fire: High Severity,4075716.179579771
+161,1,2011,LULC: Mortality [Type],Fire: Medium Severity,4539342.608262786
+161,1,2011,LULC: Mortality [Type],Fire: Low Severity,7084403.86666058
+161,1,2011,LULC: Mortality [Type],Insect: High Severity,7612735.684414814
+161,1,2011,LULC: Mortality [Type],Insect: Medium Severity,4827434.452405936
+161,1,2011,LULC: Mortality [Type],Insect: Low Severity,4256066.706404882
+161,1,2011,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,64903656.469004534
+161,1,2011,LULC: Mortality [Type],Forest Harvest: Forest Selection,1526565.3954241795
+161,1,2011,LULC: Mortality [Type],Ag Expansion: Pasture,149875.08870994824
+161,1,2011,LULC: Mortality [Type],Ag Expansion: Cropland,127310.38093243603
+161,1,2011,Net Biome Productivity,Urbanization: Open,-1853000.1079442222
+161,1,2011,Net Biome Productivity,Urbanization: Low,-1085861.4099027198
+161,1,2011,Net Biome Productivity,Urbanization: Medium,-580767.584454207
+161,1,2011,Net Biome Productivity,Urbanization: High,-278918.33873858355
+161,1,2011,Net Biome Productivity,Fire: High Severity,-2854449.6780700283
+161,1,2011,Net Biome Productivity,Fire: Medium Severity,-3143032.8168664942
+161,1,2011,Net Biome Productivity,Fire: Low Severity,-6149290.581092528
+161,1,2011,Net Biome Productivity,Forest Harvest: Forest Clearcut,-66971220.55093739
+161,1,2011,Net Biome Productivity,Forest Harvest: Forest Selection,-1563483.4783967007
+161,1,2011,Net Biome Productivity,Ag Expansion: Pasture,-626621.2153708765
+161,1,2011,Net Biome Productivity,Ag Expansion: Cropland,-480225.68225615285
+161,1,2012,LULC: Harvest [Type],Urbanization: Open,413629.8280964784
+161,1,2012,LULC: Harvest [Type],Urbanization: Low,204457.4596452429
+161,1,2012,LULC: Harvest [Type],Urbanization: Medium,156770.72513576964
+161,1,2012,LULC: Harvest [Type],Urbanization: High,42722.0817832534
+161,1,2012,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,53320919.086776465
+161,1,2012,LULC: Harvest [Type],Forest Harvest: Forest Selection,1380253.9807270495
+161,1,2012,LULC: Harvest [Type],Ag Expansion: Pasture,392029.43239280547
+161,1,2012,LULC: Harvest [Type],Ag Expansion: Cropland,420028.2762933388
+161,1,2012,LULC: Emission [Type],Urbanization: Open,976279.2391402043
+161,1,2012,LULC: Emission [Type],Urbanization: Low,542936.1177626075
+161,1,2012,LULC: Emission [Type],Urbanization: Medium,399636.7495855149
+161,1,2012,LULC: Emission [Type],Urbanization: High,130796.74188707977
+161,1,2012,LULC: Emission [Type],Fire: High Severity,7221750.976686071
+161,1,2012,LULC: Emission [Type],Fire: Medium Severity,5263505.97874727
+161,1,2012,LULC: Emission [Type],Fire: Low Severity,8885935.877346646
+161,1,2012,LULC: Emission [Type],Ag Expansion: Pasture,469219.446546205
+161,1,2012,LULC: Emission [Type],Ag Expansion: Cropland,631675.2831804215
+161,1,2012,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,5958705.295496912
+161,1,2012,LULC: Mortality [Type],Fire: High Severity,9999583.954086851
+161,1,2012,LULC: Mortality [Type],Fire: Medium Severity,7040331.6941918675
+161,1,2012,LULC: Mortality [Type],Fire: Low Severity,8858033.12663551
+161,1,2012,LULC: Mortality [Type],Insect: High Severity,2782971.1434199824
+161,1,2012,LULC: Mortality [Type],Insect: Medium Severity,2280412.2754529235
+161,1,2012,LULC: Mortality [Type],Insect: Low Severity,3635678.2604847546
+161,1,2012,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,50295959.37352588
+161,1,2012,LULC: Mortality [Type],Forest Harvest: Forest Selection,1346241.5477707926
+161,1,2012,LULC: Mortality [Type],Ag Expansion: Pasture,210799.14747342272
+161,1,2012,LULC: Mortality [Type],Ag Expansion: Cropland,280134.82740056067
+161,1,2012,Net Biome Productivity,Urbanization: Open,-1389909.0672366826
+161,1,2012,Net Biome Productivity,Urbanization: Low,-747393.5774078504
+161,1,2012,Net Biome Productivity,Urbanization: Medium,-556407.4747212846
+161,1,2012,Net Biome Productivity,Urbanization: High,-173518.82367033316
+161,1,2012,Net Biome Productivity,Fire: High Severity,-7221750.976686071
+161,1,2012,Net Biome Productivity,Fire: Medium Severity,-5263505.97874727
+161,1,2012,Net Biome Productivity,Fire: Low Severity,-8885935.877346646
+161,1,2012,Net Biome Productivity,Forest Harvest: Forest Clearcut,-53320919.086776465
+161,1,2012,Net Biome Productivity,Forest Harvest: Forest Selection,-1380253.9807270495
+161,1,2012,Net Biome Productivity,Ag Expansion: Pasture,-861248.8789390104
+161,1,2012,Net Biome Productivity,Ag Expansion: Cropland,-1051703.5594737602
+161,1,2013,LULC: Harvest [Type],Urbanization: Open,396568.5769709907
+161,1,2013,LULC: Harvest [Type],Urbanization: Low,246923.4149396968
+161,1,2013,LULC: Harvest [Type],Urbanization: Medium,130623.85596734565
+161,1,2013,LULC: Harvest [Type],Urbanization: High,36654.76321989593
+161,1,2013,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,77539981.75780094
+161,1,2013,LULC: Harvest [Type],Forest Harvest: Forest Selection,1423083.4601279497
+161,1,2013,LULC: Harvest [Type],Ag Expansion: Pasture,372928.00434391445
+161,1,2013,LULC: Harvest [Type],Ag Expansion: Cropland,440509.94210655935
+161,1,2013,LULC: Emission [Type],Urbanization: Open,1021335.7265854215
+161,1,2013,LULC: Emission [Type],Urbanization: Low,611242.1494942454
+161,1,2013,LULC: Emission [Type],Urbanization: Medium,325795.674401277
+161,1,2013,LULC: Emission [Type],Urbanization: High,94936.28965751217
+161,1,2013,LULC: Emission [Type],Fire: High Severity,5165909.627014997
+161,1,2013,LULC: Emission [Type],Fire: Medium Severity,3268919.8181040245
+161,1,2013,LULC: Emission [Type],Fire: Low Severity,5026493.881730879
+161,1,2013,LULC: Emission [Type],Ag Expansion: Pasture,476496.98662709654
+161,1,2013,LULC: Emission [Type],Ag Expansion: Cropland,667794.2135072526
+161,1,2013,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9545948.904986853
+161,1,2013,LULC: Mortality [Type],Fire: High Severity,7745087.1391086355
+161,1,2013,LULC: Mortality [Type],Fire: Medium Severity,4917665.079464873
+161,1,2013,LULC: Mortality [Type],Fire: Low Severity,5643556.9962973045
+161,1,2013,LULC: Mortality [Type],Insect: High Severity,2478652.822758855
+161,1,2013,LULC: Mortality [Type],Insect: Medium Severity,2070625.4140671692
+161,1,2013,LULC: Mortality [Type],Insect: Low Severity,2558797.638802797
+161,1,2013,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,76098665.05766925
+161,1,2013,LULC: Mortality [Type],Forest Harvest: Forest Selection,1380678.236186
+161,1,2013,LULC: Mortality [Type],Ag Expansion: Pasture,214078.43880253128
+161,1,2013,LULC: Mortality [Type],Ag Expansion: Cropland,291367.8453273857
+161,1,2013,Net Biome Productivity,Urbanization: Open,-1417904.3035564122
+161,1,2013,Net Biome Productivity,Urbanization: Low,-858165.5644339422
+161,1,2013,Net Biome Productivity,Urbanization: Medium,-456419.5303686226
+161,1,2013,Net Biome Productivity,Urbanization: High,-131591.0528774081
+161,1,2013,Net Biome Productivity,Fire: High Severity,-5165909.627014997
+161,1,2013,Net Biome Productivity,Fire: Medium Severity,-3268919.8181040245
+161,1,2013,Net Biome Productivity,Fire: Low Severity,-5026493.881730879
+161,1,2013,Net Biome Productivity,Forest Harvest: Forest Clearcut,-77539981.75780094
+161,1,2013,Net Biome Productivity,Forest Harvest: Forest Selection,-1423083.4601279497
+161,1,2013,Net Biome Productivity,Ag Expansion: Pasture,-849424.990971011
+161,1,2013,Net Biome Productivity,Ag Expansion: Cropland,-1108304.155613812
+161,1,2014,LULC: Harvest [Type],Urbanization: Open,380147.0548187805
+161,1,2014,LULC: Harvest [Type],Urbanization: Low,253538.37924519
+161,1,2014,LULC: Harvest [Type],Urbanization: Medium,166289.13185686813
+161,1,2014,LULC: Harvest [Type],Urbanization: High,35080.59400536063
+161,1,2014,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,67798262.28273383
+161,1,2014,LULC: Harvest [Type],Forest Harvest: Forest Selection,1132574.1369776689
+161,1,2014,LULC: Harvest [Type],Ag Expansion: Pasture,346189.5151694657
+161,1,2014,LULC: Harvest [Type],Ag Expansion: Cropland,416023.04073848453
+161,1,2014,LULC: Emission [Type],Urbanization: Open,917232.5333677768
+161,1,2014,LULC: Emission [Type],Urbanization: Low,630129.5368347111
+161,1,2014,LULC: Emission [Type],Urbanization: Medium,417074.84018553345
+161,1,2014,LULC: Emission [Type],Urbanization: High,96045.10506902396
+161,1,2014,LULC: Emission [Type],Fire: High Severity,1279484.2908857372
+161,1,2014,LULC: Emission [Type],Fire: Medium Severity,887333.5967918822
+161,1,2014,LULC: Emission [Type],Fire: Low Severity,1554263.199973524
+161,1,2014,LULC: Emission [Type],Ag Expansion: Pasture,461138.45170079207
+161,1,2014,LULC: Emission [Type],Ag Expansion: Cropland,670542.302365317
+161,1,2014,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,8074967.901911113
+161,1,2014,LULC: Mortality [Type],Fire: High Severity,1652296.7984708843
+161,1,2014,LULC: Mortality [Type],Fire: Medium Severity,1125698.4202300191
+161,1,2014,LULC: Mortality [Type],Fire: Low Severity,1516488.5487219684
+161,1,2014,LULC: Mortality [Type],Insect: High Severity,2985613.59178486
+161,1,2014,LULC: Mortality [Type],Insect: Medium Severity,2556580.6295887777
+161,1,2014,LULC: Mortality [Type],Insect: Low Severity,3191230.1277764905
+161,1,2014,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,65903225.51225801
+161,1,2014,LULC: Mortality [Type],Forest Harvest: Forest Selection,1075500.362054651
+161,1,2014,LULC: Mortality [Type],Ag Expansion: Pasture,209020.75465716634
+161,1,2014,LULC: Mortality [Type],Ag Expansion: Cropland,285585.6633989417
+161,1,2014,Net Biome Productivity,Urbanization: Open,-1297379.5881865574
+161,1,2014,Net Biome Productivity,Urbanization: Low,-883667.916079901
+161,1,2014,Net Biome Productivity,Urbanization: Medium,-583363.9720424016
+161,1,2014,Net Biome Productivity,Urbanization: High,-131125.69907438458
+161,1,2014,Net Biome Productivity,Fire: High Severity,-1279484.2908857372
+161,1,2014,Net Biome Productivity,Fire: Medium Severity,-887333.5967918822
+161,1,2014,Net Biome Productivity,Fire: Low Severity,-1554263.199973524
+161,1,2014,Net Biome Productivity,Forest Harvest: Forest Clearcut,-67798262.28273383
+161,1,2014,Net Biome Productivity,Forest Harvest: Forest Selection,-1132574.1369776689
+161,1,2014,Net Biome Productivity,Ag Expansion: Pasture,-807327.9668702577
+161,1,2014,Net Biome Productivity,Ag Expansion: Cropland,-1086565.3431038016
+161,1,2015,LULC: Harvest [Type],Urbanization: Open,351944.73699594935
+161,1,2015,LULC: Harvest [Type],Urbanization: Low,233857.81173306413
+161,1,2015,LULC: Harvest [Type],Urbanization: Medium,153939.91952070777
+161,1,2015,LULC: Harvest [Type],Urbanization: High,40825.196885711506
+161,1,2015,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,91126917.76576824
+161,1,2015,LULC: Harvest [Type],Forest Harvest: Forest Selection,2871966.1456903433
+161,1,2015,LULC: Harvest [Type],Ag Expansion: Pasture,392280.1069917231
+161,1,2015,LULC: Harvest [Type],Ag Expansion: Cropland,464052.062509376
+161,1,2015,LULC: Emission [Type],Urbanization: Open,868043.0537779494
+161,1,2015,LULC: Emission [Type],Urbanization: Low,570991.8197465094
+161,1,2015,LULC: Emission [Type],Urbanization: Medium,394877.0731659437
+161,1,2015,LULC: Emission [Type],Urbanization: High,101397.49428734143
+161,1,2015,LULC: Emission [Type],Fire: High Severity,6850233.825441397
+161,1,2015,LULC: Emission [Type],Fire: Medium Severity,4208603.300477422
+161,1,2015,LULC: Emission [Type],Fire: Low Severity,6697278.367615818
+161,1,2015,LULC: Emission [Type],Ag Expansion: Pasture,507270.5652098834
+161,1,2015,LULC: Emission [Type],Ag Expansion: Cropland,754978.2019840016
+161,1,2015,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,10502224.042213386
+161,1,2015,LULC: Mortality [Type],Fire: High Severity,9283144.533842662
+161,1,2015,LULC: Mortality [Type],Fire: Medium Severity,5693408.4449212495
+161,1,2015,LULC: Mortality [Type],Fire: Low Severity,6566869.5033123875
+161,1,2015,LULC: Mortality [Type],Insect: High Severity,8746498.893190792
+161,1,2015,LULC: Mortality [Type],Insect: Medium Severity,4577394.233496759
+161,1,2015,LULC: Mortality [Type],Insect: Low Severity,3389651.3685073736
+161,1,2015,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,87423735.45861714
+161,1,2015,LULC: Mortality [Type],Forest Harvest: Forest Selection,2656802.0711162994
+161,1,2015,LULC: Mortality [Type],Ag Expansion: Pasture,225107.7168429117
+161,1,2015,LULC: Mortality [Type],Ag Expansion: Cropland,314497.5454572458
+161,1,2015,Net Biome Productivity,Urbanization: Open,-1219987.7907738988
+161,1,2015,Net Biome Productivity,Urbanization: Low,-804849.6314795736
+161,1,2015,Net Biome Productivity,Urbanization: Medium,-548816.9926866514
+161,1,2015,Net Biome Productivity,Urbanization: High,-142222.69117305294
+161,1,2015,Net Biome Productivity,Fire: High Severity,-6850233.825441397
+161,1,2015,Net Biome Productivity,Fire: Medium Severity,-4208603.300477422
+161,1,2015,Net Biome Productivity,Fire: Low Severity,-6697278.367615818
+161,1,2015,Net Biome Productivity,Forest Harvest: Forest Clearcut,-91126917.76576824
+161,1,2015,Net Biome Productivity,Forest Harvest: Forest Selection,-2871966.1456903433
+161,1,2015,Net Biome Productivity,Ag Expansion: Pasture,-899550.6722016064
+161,1,2015,Net Biome Productivity,Ag Expansion: Cropland,-1219030.2644933776
+161,1,2016,LULC: Harvest [Type],Urbanization: Open,225443.49628156048
+161,1,2016,LULC: Harvest [Type],Urbanization: Low,218738.77608709352
+161,1,2016,LULC: Harvest [Type],Urbanization: Medium,136760.40047241893
+161,1,2016,LULC: Harvest [Type],Urbanization: High,51937.374923708776
+161,1,2016,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,78823261.95099296
+161,1,2016,LULC: Harvest [Type],Forest Harvest: Forest Selection,2687975.5756503833
+161,1,2016,LULC: Harvest [Type],Ag Expansion: Pasture,433685.66571626335
+161,1,2016,LULC: Harvest [Type],Ag Expansion: Cropland,494900.2170746341
+161,1,2016,LULC: Emission [Type],Urbanization: Open,536947.2422753931
+161,1,2016,LULC: Emission [Type],Urbanization: Low,526413.0591112878
+161,1,2016,LULC: Emission [Type],Urbanization: Medium,350149.6377921775
+161,1,2016,LULC: Emission [Type],Urbanization: High,128305.2936171973
+161,1,2016,LULC: Emission [Type],Fire: High Severity,3733694.65042341
+161,1,2016,LULC: Emission [Type],Fire: Medium Severity,2986617.5932959053
+161,1,2016,LULC: Emission [Type],Fire: Low Severity,4996268.8736697715
+161,1,2016,LULC: Emission [Type],Ag Expansion: Pasture,526737.934911635
+161,1,2016,LULC: Emission [Type],Ag Expansion: Cropland,658396.4345455116
+161,1,2016,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9190973.31065018
+161,1,2016,LULC: Mortality [Type],Fire: High Severity,4880453.67627377
+161,1,2016,LULC: Mortality [Type],Fire: Medium Severity,3692932.597501028
+161,1,2016,LULC: Mortality [Type],Fire: Low Severity,4708704.086572113
+161,1,2016,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,76036023.94292878
+161,1,2016,LULC: Mortality [Type],Forest Harvest: Forest Selection,2517346.830110273
+161,1,2016,LULC: Mortality [Type],Ag Expansion: Pasture,229412.93704628476
+161,1,2016,LULC: Mortality [Type],Ag Expansion: Cropland,282204.86971912166
+161,1,2016,Net Biome Productivity,Urbanization: Open,-762390.7385569536
+161,1,2016,Net Biome Productivity,Urbanization: Low,-745151.8351983813
+161,1,2016,Net Biome Productivity,Urbanization: Medium,-486910.0382645964
+161,1,2016,Net Biome Productivity,Urbanization: High,-180242.66854090607
+161,1,2016,Net Biome Productivity,Fire: High Severity,-3733694.65042341
+161,1,2016,Net Biome Productivity,Fire: Medium Severity,-2986617.5932959053
+161,1,2016,Net Biome Productivity,Fire: Low Severity,-4996268.8736697715
+161,1,2016,Net Biome Productivity,Forest Harvest: Forest Clearcut,-78823261.95099296
+161,1,2016,Net Biome Productivity,Forest Harvest: Forest Selection,-2687975.5756503833
+161,1,2016,Net Biome Productivity,Ag Expansion: Pasture,-960423.6006278984
+161,1,2016,Net Biome Productivity,Ag Expansion: Cropland,-1153296.6516201457
+161,1,2017,LULC: Harvest [Type],Urbanization: Open,1016446.7270418649
+161,1,2017,LULC: Harvest [Type],Urbanization: Low,669888.6247060602
+161,1,2017,LULC: Harvest [Type],Urbanization: Medium,426284.13156041683
+161,1,2017,LULC: Harvest [Type],Urbanization: High,112455.02959050518
+161,1,2017,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,82403820.31319349
+161,1,2017,LULC: Harvest [Type],Forest Harvest: Forest Selection,2131334.9712540414
+161,1,2017,LULC: Harvest [Type],Ag Expansion: Pasture,828622.1676980255
+161,1,2017,LULC: Harvest [Type],Ag Expansion: Cropland,795684.511048339
+161,1,2017,LULC: Emission [Type],Urbanization: Open,2621545.6771151763
+161,1,2017,LULC: Emission [Type],Urbanization: Low,1663550.3100357722
+161,1,2017,LULC: Emission [Type],Urbanization: Medium,1127902.2607676638
+161,1,2017,LULC: Emission [Type],Urbanization: High,276615.7519264812
+161,1,2017,LULC: Emission [Type],Fire: High Severity,12212168.976652805
+161,1,2017,LULC: Emission [Type],Fire: Medium Severity,8844032.984425472
+161,1,2017,LULC: Emission [Type],Fire: Low Severity,13042931.941807967
+161,1,2017,LULC: Emission [Type],Ag Expansion: Pasture,878061.9730194571
+161,1,2017,LULC: Emission [Type],Ag Expansion: Cropland,989971.6590472932
+161,1,2017,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9644318.17421937
+161,1,2017,LULC: Mortality [Type],Fire: High Severity,18268964.815710004
+161,1,2017,LULC: Mortality [Type],Fire: Medium Severity,12684699.382695265
+161,1,2017,LULC: Mortality [Type],Fire: Low Severity,13735271.120918525
+161,1,2017,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,74022905.46336478
+161,1,2017,LULC: Mortality [Type],Forest Harvest: Forest Selection,2068019.9607097819
+161,1,2017,LULC: Mortality [Type],Ag Expansion: Pasture,396627.38433972595
+161,1,2017,LULC: Mortality [Type],Ag Expansion: Cropland,433401.3529875971
+161,1,2017,Net Biome Productivity,Urbanization: Open,-3637992.4041570416
+161,1,2017,Net Biome Productivity,Urbanization: Low,-2333438.9347418323
+161,1,2017,Net Biome Productivity,Urbanization: Medium,-1554186.3923280807
+161,1,2017,Net Biome Productivity,Urbanization: High,-389070.7815169864
+161,1,2017,Net Biome Productivity,Fire: High Severity,-12212168.976652805
+161,1,2017,Net Biome Productivity,Fire: Medium Severity,-8844032.984425472
+161,1,2017,Net Biome Productivity,Fire: Low Severity,-13042931.941807967
+161,1,2017,Net Biome Productivity,Forest Harvest: Forest Clearcut,-82403820.31319349
+161,1,2017,Net Biome Productivity,Forest Harvest: Forest Selection,-2131334.9712540414
+161,1,2017,Net Biome Productivity,Ag Expansion: Pasture,-1706684.1407174824
+161,1,2017,Net Biome Productivity,Ag Expansion: Cropland,-1785656.1700956323
+161,1,2018,LULC: Harvest [Type],Urbanization: Open,1155444.2287223341
+161,1,2018,LULC: Harvest [Type],Urbanization: Low,916698.9259796981
+161,1,2018,LULC: Harvest [Type],Urbanization: Medium,536905.2179853445
+161,1,2018,LULC: Harvest [Type],Urbanization: High,190765.19172516846
+161,1,2018,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,78800288.7732284
+161,1,2018,LULC: Harvest [Type],Forest Harvest: Forest Selection,1648091.0418651504
+161,1,2018,LULC: Harvest [Type],Ag Expansion: Pasture,924413.2915196964
+161,1,2018,LULC: Harvest [Type],Ag Expansion: Cropland,881949.0700765187
+161,1,2018,LULC: Emission [Type],Urbanization: Open,2834343.3292202284
+161,1,2018,LULC: Emission [Type],Urbanization: Low,2283468.4869118733
+161,1,2018,LULC: Emission [Type],Urbanization: Medium,1337526.1658452044
+161,1,2018,LULC: Emission [Type],Urbanization: High,469710.3434400996
+161,1,2018,LULC: Emission [Type],Fire: High Severity,10585336.573914738
+161,1,2018,LULC: Emission [Type],Fire: Medium Severity,7387394.402859921
+161,1,2018,LULC: Emission [Type],Fire: Low Severity,11311046.377290154
+161,1,2018,LULC: Emission [Type],Ag Expansion: Pasture,985532.247875738
+161,1,2018,LULC: Emission [Type],Ag Expansion: Cropland,1137948.430573729
+161,1,2018,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,9403189.985732803
+161,1,2018,LULC: Mortality [Type],Fire: High Severity,15055124.272101909
+161,1,2018,LULC: Mortality [Type],Fire: Medium Severity,10286350.082930788
+161,1,2018,LULC: Mortality [Type],Fire: Low Severity,11449047.113162775
+161,1,2018,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,70453021.54566233
+161,1,2018,LULC: Mortality [Type],Forest Harvest: Forest Selection,1579641.561607648
+161,1,2018,LULC: Mortality [Type],Ag Expansion: Pasture,442374.0706999397
+161,1,2018,LULC: Mortality [Type],Ag Expansion: Cropland,477170.2969871903
+161,1,2018,Net Biome Productivity,Urbanization: Open,-3989787.5579425627
+161,1,2018,Net Biome Productivity,Urbanization: Low,-3200167.4128915714
+161,1,2018,Net Biome Productivity,Urbanization: Medium,-1874431.3838305487
+161,1,2018,Net Biome Productivity,Urbanization: High,-660475.5351652681
+161,1,2018,Net Biome Productivity,Fire: High Severity,-10585336.573914738
+161,1,2018,Net Biome Productivity,Fire: Medium Severity,-7387394.402859921
+161,1,2018,Net Biome Productivity,Fire: Low Severity,-11311046.377290154
+161,1,2018,Net Biome Productivity,Forest Harvest: Forest Clearcut,-78800288.7732284
+161,1,2018,Net Biome Productivity,Forest Harvest: Forest Selection,-1648091.0418651504
+161,1,2018,Net Biome Productivity,Ag Expansion: Pasture,-1909945.5393954343
+161,1,2018,Net Biome Productivity,Ag Expansion: Cropland,-2019897.5006502478
+161,1,2019,LULC: Harvest [Type],Urbanization: Open,626509.7510594511
+161,1,2019,LULC: Harvest [Type],Urbanization: Low,516837.65888304065
+161,1,2019,LULC: Harvest [Type],Urbanization: Medium,304229.27667990426
+161,1,2019,LULC: Harvest [Type],Urbanization: High,79935.2582699021
+161,1,2019,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,78268535.45526181
+161,1,2019,LULC: Harvest [Type],Forest Harvest: Forest Selection,3326039.282368277
+161,1,2019,LULC: Harvest [Type],Ag Expansion: Pasture,894795.5847911974
+161,1,2019,LULC: Harvest [Type],Ag Expansion: Cropland,736064.2519448362
+161,1,2019,LULC: Emission [Type],Urbanization: Open,1479529.5256945395
+161,1,2019,LULC: Emission [Type],Urbanization: Low,1205316.4386244342
+161,1,2019,LULC: Emission [Type],Urbanization: Medium,811165.0676841696
+161,1,2019,LULC: Emission [Type],Urbanization: High,204899.41151311214
+161,1,2019,LULC: Emission [Type],Fire: High Severity,1182361.231152515
+161,1,2019,LULC: Emission [Type],Fire: Medium Severity,974472.0595885146
+161,1,2019,LULC: Emission [Type],Fire: Low Severity,1782276.663571534
+161,1,2019,LULC: Emission [Type],Ag Expansion: Pasture,937461.1402389321
+161,1,2019,LULC: Emission [Type],Ag Expansion: Cropland,916621.5088847089
+161,1,2019,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,8999278.673057992
+161,1,2019,LULC: Mortality [Type],Fire: High Severity,1747117.2258255787
+161,1,2019,LULC: Mortality [Type],Fire: Medium Severity,1394898.6745930084
+161,1,2019,LULC: Mortality [Type],Fire: Low Severity,2034514.3559621852
+161,1,2019,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,69900503.72967279
+161,1,2019,LULC: Mortality [Type],Forest Harvest: Forest Selection,3167786.993200956
+161,1,2019,LULC: Mortality [Type],Ag Expansion: Pasture,417727.7984046077
+161,1,2019,LULC: Mortality [Type],Ag Expansion: Cropland,388820.05146980274
+161,1,2019,Net Biome Productivity,Urbanization: Open,-2106039.2767539904
+161,1,2019,Net Biome Productivity,Urbanization: Low,-1722154.097507475
+161,1,2019,Net Biome Productivity,Urbanization: Medium,-1115394.3443640738
+161,1,2019,Net Biome Productivity,Urbanization: High,-284834.6697830142
+161,1,2019,Net Biome Productivity,Fire: High Severity,-1182361.231152515
+161,1,2019,Net Biome Productivity,Fire: Medium Severity,-974472.0595885146
+161,1,2019,Net Biome Productivity,Fire: Low Severity,-1782276.663571534
+161,1,2019,Net Biome Productivity,Forest Harvest: Forest Clearcut,-78268535.45526181
+161,1,2019,Net Biome Productivity,Forest Harvest: Forest Selection,-3326039.282368277
+161,1,2019,Net Biome Productivity,Ag Expansion: Pasture,-1832256.7250301295
+161,1,2019,Net Biome Productivity,Ag Expansion: Cropland,-1652685.760829545
+161,1,2020,LULC: Harvest [Type],Urbanization: Open,1150784.785425929
+161,1,2020,LULC: Harvest [Type],Urbanization: Low,748764.785817538
+161,1,2020,LULC: Harvest [Type],Urbanization: Medium,447941.21628578857
+161,1,2020,LULC: Harvest [Type],Urbanization: High,137027.22671223627
+161,1,2020,LULC: Harvest [Type],Forest Harvest: Forest Clearcut,93067431.03688541
+161,1,2020,LULC: Harvest [Type],Forest Harvest: Forest Selection,3088023.6201845217
+161,1,2020,LULC: Harvest [Type],Ag Expansion: Pasture,1006356.2506401822
+161,1,2020,LULC: Harvest [Type],Ag Expansion: Cropland,750243.4271340786
+161,1,2020,LULC: Emission [Type],Urbanization: Open,2843494.50588259
+161,1,2020,LULC: Emission [Type],Urbanization: Low,1873424.8933646935
+161,1,2020,LULC: Emission [Type],Urbanization: Medium,1122637.923907035
+161,1,2020,LULC: Emission [Type],Urbanization: High,353292.11221065937
+161,1,2020,LULC: Emission [Type],Fire: High Severity,23245807.16925469
+161,1,2020,LULC: Emission [Type],Fire: Medium Severity,17381307.979430083
+161,1,2020,LULC: Emission [Type],Fire: Low Severity,26514055.875540353
+161,1,2020,LULC: Emission [Type],Ag Expansion: Pasture,1058296.8800660623
+161,1,2020,LULC: Emission [Type],Ag Expansion: Cropland,969994.357170393
+161,1,2020,LULC: Transfer [Type],Forest Harvest: Forest Clearcut,10937388.277363915
+161,1,2020,LULC: Mortality [Type],Fire: High Severity,35645872.88980545
+161,1,2020,LULC: Mortality [Type],Fire: Medium Severity,24551963.282254953
+161,1,2020,LULC: Mortality [Type],Fire: Low Severity,27764538.089953218
+161,1,2020,LULC: Mortality [Type],Forest Harvest: Forest Clearcut,83104108.97113898
+161,1,2020,LULC: Mortality [Type],Forest Harvest: Forest Selection,3010172.4209937938
+161,1,2020,LULC: Mortality [Type],Ag Expansion: Pasture,470360.9299125855
+161,1,2020,LULC: Mortality [Type],Ag Expansion: Cropland,415365.26971602626
+161,1,2020,Net Biome Productivity,Urbanization: Open,-3994279.291308519
+161,1,2020,Net Biome Productivity,Urbanization: Low,-2622189.6791822314
+161,1,2020,Net Biome Productivity,Urbanization: Medium,-1570579.1401928237
+161,1,2020,Net Biome Productivity,Urbanization: High,-490319.3389228956
+161,1,2020,Net Biome Productivity,Fire: High Severity,-23245807.16925469
+161,1,2020,Net Biome Productivity,Fire: Medium Severity,-17381307.979430083
+161,1,2020,Net Biome Productivity,Fire: Low Severity,-26514055.875540353
+161,1,2020,Net Biome Productivity,Forest Harvest: Forest Clearcut,-93067431.03688541
+161,1,2020,Net Biome Productivity,Forest Harvest: Forest Selection,-3088023.6201845217
+161,1,2020,Net Biome Productivity,Ag Expansion: Pasture,-2064653.1307062446
+161,1,2020,Net Biome Productivity,Ag Expansion: Cropland,-1720237.7843044717

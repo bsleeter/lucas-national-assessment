@@ -1,0 +1,248 @@
+ScenarioID,Timestep,FromSecondaryStratumID,FromStockTypeID,FlowGroupID,Amount
+160,2002,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2002,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2002,California,Biomass: Foliage,LULC: Emission [Type],115125.00801632405
+160,2002,California,Biomass: Merchantable,LULC: Emission [Type],17566.663607362287
+160,2002,California,Biomass: Other Wood,LULC: Emission [Type],92035.5062652588
+160,2002,California,DOM: Aboveground Fast,LULC: Emission [Type],573192.7919600039
+160,2002,California,DOM: Aboveground Medium,LULC: Emission [Type],39101.04000425339
+160,2002,California,DOM: Aboveground Slow,LULC: Emission [Type],107805.03841400146
+160,2002,California,DOM: Aboveground Very Fast,LULC: Emission [Type],393823.1385723639
+160,2002,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2002,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2002,California,DOM: Snag Branch,LULC: Emission [Type],612288.0014388508
+160,2002,California,DOM: Snag Stem,LULC: Emission [Type],139579.55300656598
+160,2003,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2003,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2003,California,Biomass: Foliage,LULC: Emission [Type],74802.36002264122
+160,2003,California,Biomass: Merchantable,LULC: Emission [Type],3564.6495309633387
+160,2003,California,Biomass: Other Wood,LULC: Emission [Type],111204.06386919455
+160,2003,California,DOM: Aboveground Fast,LULC: Emission [Type],530953.5968408117
+160,2003,California,DOM: Aboveground Medium,LULC: Emission [Type],35142.93440863027
+160,2003,California,DOM: Aboveground Slow,LULC: Emission [Type],101062.23334428023
+160,2003,California,DOM: Aboveground Very Fast,LULC: Emission [Type],317628.2754740193
+160,2003,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2003,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2003,California,DOM: Snag Branch,LULC: Emission [Type],503977.95486069797
+160,2003,California,DOM: Snag Stem,LULC: Emission [Type],95706.01597058203
+160,2004,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2004,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2004,California,Biomass: Foliage,LULC: Emission [Type],57150.678363536616
+160,2004,California,Biomass: Merchantable,LULC: Emission [Type],98698.02035677986
+160,2004,California,Biomass: Other Wood,LULC: Emission [Type],95973.67440264428
+160,2004,California,DOM: Aboveground Fast,LULC: Emission [Type],272341.42098385014
+160,2004,California,DOM: Aboveground Medium,LULC: Emission [Type],11969.651485179898
+160,2004,California,DOM: Aboveground Slow,LULC: Emission [Type],66152.6536054084
+160,2004,California,DOM: Aboveground Very Fast,LULC: Emission [Type],214512.05635853932
+160,2004,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2004,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2004,California,DOM: Snag Branch,LULC: Emission [Type],267151.15712919034
+160,2004,California,DOM: Snag Stem,LULC: Emission [Type],42328.89150686948
+160,2005,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2005,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2005,California,Biomass: Foliage,LULC: Emission [Type],20350.517232017362
+160,2005,California,Biomass: Merchantable,LULC: Emission [Type],98388.66769852776
+160,2005,California,Biomass: Other Wood,LULC: Emission [Type],43580.86740395702
+160,2005,California,DOM: Aboveground Fast,LULC: Emission [Type],83127.83832488755
+160,2005,California,DOM: Aboveground Medium,LULC: Emission [Type],4088.3136224058544
+160,2005,California,DOM: Aboveground Slow,LULC: Emission [Type],13825.179359484016
+160,2005,California,DOM: Aboveground Very Fast,LULC: Emission [Type],55578.330471943926
+160,2005,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2005,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2005,California,DOM: Snag Branch,LULC: Emission [Type],73146.73352911085
+160,2005,California,DOM: Snag Stem,LULC: Emission [Type],15570.69470978441
+160,2006,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2006,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2006,California,Biomass: Foliage,LULC: Emission [Type],174039.33462257916
+160,2006,California,Biomass: Merchantable,LULC: Emission [Type],55584.89619861274
+160,2006,California,Biomass: Other Wood,LULC: Emission [Type],71203.75069637201
+160,2006,California,DOM: Aboveground Fast,LULC: Emission [Type],777919.3227769554
+160,2006,California,DOM: Aboveground Medium,LULC: Emission [Type],40665.177818515076
+160,2006,California,DOM: Aboveground Slow,LULC: Emission [Type],114341.60236317913
+160,2006,California,DOM: Aboveground Very Fast,LULC: Emission [Type],523225.7552933252
+160,2006,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2006,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2006,California,DOM: Snag Branch,LULC: Emission [Type],744273.3008843929
+160,2006,California,DOM: Snag Stem,LULC: Emission [Type],231585.29763352365
+160,2007,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2007,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2007,California,Biomass: Foliage,LULC: Emission [Type],93803.73285478137
+160,2007,California,Biomass: Merchantable,LULC: Emission [Type],42347.537504535525
+160,2007,California,Biomass: Other Wood,LULC: Emission [Type],88432.26995439072
+160,2007,California,DOM: Aboveground Fast,LULC: Emission [Type],442621.04068713693
+160,2007,California,DOM: Aboveground Medium,LULC: Emission [Type],25675.96550682723
+160,2007,California,DOM: Aboveground Slow,LULC: Emission [Type],84908.40418507915
+160,2007,California,DOM: Aboveground Very Fast,LULC: Emission [Type],337963.4910510675
+160,2007,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2007,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2007,California,DOM: Snag Branch,LULC: Emission [Type],442202.5874757646
+160,2007,California,DOM: Snag Stem,LULC: Emission [Type],95870.20257852269
+160,2008,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2008,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2008,California,Biomass: Foliage,LULC: Emission [Type],692440.6540401911
+160,2008,California,Biomass: Merchantable,LULC: Emission [Type],177239.87981268426
+160,2008,California,Biomass: Other Wood,LULC: Emission [Type],304041.48665127263
+160,2008,California,DOM: Aboveground Fast,LULC: Emission [Type],3595185.297090141
+160,2008,California,DOM: Aboveground Medium,LULC: Emission [Type],196736.38299130168
+160,2008,California,DOM: Aboveground Slow,LULC: Emission [Type],686453.571813831
+160,2008,California,DOM: Aboveground Very Fast,LULC: Emission [Type],2765720.825163529
+160,2008,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2008,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2008,California,DOM: Snag Branch,LULC: Emission [Type],3494469.7568718055
+160,2008,California,DOM: Snag Stem,LULC: Emission [Type],916142.5448772428
+160,2009,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2009,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2009,California,Biomass: Foliage,LULC: Emission [Type],51970.7893347192
+160,2009,California,Biomass: Merchantable,LULC: Emission [Type],18542.76838650697
+160,2009,California,Biomass: Other Wood,LULC: Emission [Type],33486.66493729359
+160,2009,California,DOM: Aboveground Fast,LULC: Emission [Type],259220.697841519
+160,2009,California,DOM: Aboveground Medium,LULC: Emission [Type],20706.526304252024
+160,2009,California,DOM: Aboveground Slow,LULC: Emission [Type],52087.39365143429
+160,2009,California,DOM: Aboveground Very Fast,LULC: Emission [Type],188364.0504190223
+160,2009,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2009,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2009,California,DOM: Snag Branch,LULC: Emission [Type],255112.79102687514
+160,2009,California,DOM: Snag Stem,LULC: Emission [Type],61530.39217327445
+160,2010,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2010,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2010,California,Biomass: Foliage,LULC: Emission [Type],10838.161777882327
+160,2010,California,Biomass: Merchantable,LULC: Emission [Type],5283.102130299457
+160,2010,California,Biomass: Other Wood,LULC: Emission [Type],4894.975238141926
+160,2010,California,DOM: Aboveground Fast,LULC: Emission [Type],59950.42967139027
+160,2010,California,DOM: Aboveground Medium,LULC: Emission [Type],3184.4184700250016
+160,2010,California,DOM: Aboveground Slow,LULC: Emission [Type],8467.192317347777
+160,2010,California,DOM: Aboveground Very Fast,LULC: Emission [Type],36079.96143476186
+160,2010,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2010,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2010,California,DOM: Snag Branch,LULC: Emission [Type],52568.20725871446
+160,2010,California,DOM: Snag Stem,LULC: Emission [Type],13320.536311924925
+160,2011,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2011,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2011,California,Biomass: Foliage,LULC: Emission [Type],26453.28031668437
+160,2011,California,Biomass: Merchantable,LULC: Emission [Type],9273.66914835568
+160,2011,California,Biomass: Other Wood,LULC: Emission [Type],14214.988773663235
+160,2011,California,DOM: Aboveground Fast,LULC: Emission [Type],114847.08488133631
+160,2011,California,DOM: Aboveground Medium,LULC: Emission [Type],6923.379657082649
+160,2011,California,DOM: Aboveground Slow,LULC: Emission [Type],23712.238162890386
+160,2011,California,DOM: Aboveground Very Fast,LULC: Emission [Type],95557.10631127708
+160,2011,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2011,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2011,California,DOM: Snag Branch,LULC: Emission [Type],108810.17364303977
+160,2011,California,DOM: Snag Stem,LULC: Emission [Type],28653.589419695818
+160,2012,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2012,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2012,California,Biomass: Foliage,LULC: Emission [Type],177815.1924174918
+160,2012,California,Biomass: Merchantable,LULC: Emission [Type],24591.219512168555
+160,2012,California,Biomass: Other Wood,LULC: Emission [Type],57712.96480564602
+160,2012,California,DOM: Aboveground Fast,LULC: Emission [Type],1008802.4852688095
+160,2012,California,DOM: Aboveground Medium,LULC: Emission [Type],61361.67992514785
+160,2012,California,DOM: Aboveground Slow,LULC: Emission [Type],156817.48944633265
+160,2012,California,DOM: Aboveground Very Fast,LULC: Emission [Type],666394.8345073798
+160,2012,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2012,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2012,California,DOM: Snag Branch,LULC: Emission [Type],840183.1180504932
+160,2012,California,DOM: Snag Stem,LULC: Emission [Type],221507.8315121293
+160,2013,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2013,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2013,California,Biomass: Foliage,LULC: Emission [Type],268541.12403703737
+160,2013,California,Biomass: Merchantable,LULC: Emission [Type],95004.849647564115
+160,2013,California,Biomass: Other Wood,LULC: Emission [Type],126053.92158399717
+160,2013,California,DOM: Aboveground Fast,LULC: Emission [Type],1281462.86182928
+160,2013,California,DOM: Aboveground Medium,LULC: Emission [Type],72817.77103896302
+160,2013,California,DOM: Aboveground Slow,LULC: Emission [Type],246266.6532252608
+160,2013,California,DOM: Aboveground Very Fast,LULC: Emission [Type],1007194.0394550376
+160,2013,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2013,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2013,California,DOM: Snag Branch,LULC: Emission [Type],1242090.7900241122
+160,2013,California,DOM: Snag Stem,LULC: Emission [Type],309009.56764807296
+160,2014,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2014,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2014,California,Biomass: Foliage,LULC: Emission [Type],28693.333170246075
+160,2014,California,Biomass: Merchantable,LULC: Emission [Type],36082.31873547851
+160,2014,California,Biomass: Other Wood,LULC: Emission [Type],36377.4527735368
+160,2014,California,DOM: Aboveground Fast,LULC: Emission [Type],198466.152532491
+160,2014,California,DOM: Aboveground Medium,LULC: Emission [Type],10011.209135267181
+160,2014,California,DOM: Aboveground Slow,LULC: Emission [Type],48626.76473317948
+160,2014,California,DOM: Aboveground Very Fast,LULC: Emission [Type],150433.06976673688
+160,2014,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2014,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2014,California,DOM: Snag Branch,LULC: Emission [Type],192268.01226831536
+160,2014,California,DOM: Snag Stem,LULC: Emission [Type],36047.96581490685
+160,2015,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2015,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2015,California,Biomass: Foliage,LULC: Emission [Type],152513.15389995574
+160,2015,California,Biomass: Merchantable,LULC: Emission [Type],49935.28089215623
+160,2015,California,Biomass: Other Wood,LULC: Emission [Type],83453.2289123871
+160,2015,California,DOM: Aboveground Fast,LULC: Emission [Type],801144.9672680491
+160,2015,California,DOM: Aboveground Medium,LULC: Emission [Type],42989.58871641193
+160,2015,California,DOM: Aboveground Slow,LULC: Emission [Type],219561.14687653029
+160,2015,California,DOM: Aboveground Very Fast,LULC: Emission [Type],598851.763977137
+160,2015,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2015,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2015,California,DOM: Snag Branch,LULC: Emission [Type],876787.27396085
+160,2015,California,DOM: Snag Stem,LULC: Emission [Type],139449.88405764906
+160,2016,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2016,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2016,California,Biomass: Foliage,LULC: Emission [Type],111036.46411938804
+160,2016,California,Biomass: Merchantable,LULC: Emission [Type],375489.8500684978
+160,2016,California,Biomass: Other Wood,LULC: Emission [Type],438762.8521704053
+160,2016,California,DOM: Aboveground Fast,LULC: Emission [Type],657474.0230097993
+160,2016,California,DOM: Aboveground Medium,LULC: Emission [Type],44975.98832568748
+160,2016,California,DOM: Aboveground Slow,LULC: Emission [Type],190197.44245949097
+160,2016,California,DOM: Aboveground Very Fast,LULC: Emission [Type],400921.8073757051
+160,2016,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2016,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2016,California,DOM: Snag Branch,LULC: Emission [Type],726562.9340197537
+160,2016,California,DOM: Snag Stem,LULC: Emission [Type],119771.35351975018
+160,2017,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2017,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2017,California,Biomass: Foliage,LULC: Emission [Type],453025.10328231327
+160,2017,California,Biomass: Merchantable,LULC: Emission [Type],487121.3085968571
+160,2017,California,Biomass: Other Wood,LULC: Emission [Type],373087.4807056176
+160,2017,California,DOM: Aboveground Fast,LULC: Emission [Type],2122255.2009558068
+160,2017,California,DOM: Aboveground Medium,LULC: Emission [Type],173827.0719751633
+160,2017,California,DOM: Aboveground Slow,LULC: Emission [Type],513708.74090426404
+160,2017,California,DOM: Aboveground Very Fast,LULC: Emission [Type],1493313.2949915198
+160,2017,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2017,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2017,California,DOM: Snag Branch,LULC: Emission [Type],2282516.3419613047
+160,2017,California,DOM: Snag Stem,LULC: Emission [Type],468428.5564030051
+160,2018,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2018,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2018,California,Biomass: Foliage,LULC: Emission [Type],715133.2275993571
+160,2018,California,Biomass: Merchantable,LULC: Emission [Type],542232.1588135108
+160,2018,California,Biomass: Other Wood,LULC: Emission [Type],593713.0377999574
+160,2018,California,DOM: Aboveground Fast,LULC: Emission [Type],3153362.363548585
+160,2018,California,DOM: Aboveground Medium,LULC: Emission [Type],211755.66225348163
+160,2018,California,DOM: Aboveground Slow,LULC: Emission [Type],735661.1659236607
+160,2018,California,DOM: Aboveground Very Fast,LULC: Emission [Type],2477578.7120396355
+160,2018,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2018,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2018,California,DOM: Snag Branch,LULC: Emission [Type],3224703.4133982705
+160,2018,California,DOM: Snag Stem,LULC: Emission [Type],650651.8314965684
+160,2019,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2019,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2019,California,Biomass: Foliage,LULC: Emission [Type],60206.945631885836
+160,2019,California,Biomass: Merchantable,LULC: Emission [Type],35356.81570188637
+160,2019,California,Biomass: Other Wood,LULC: Emission [Type],62076.405163860785
+160,2019,California,DOM: Aboveground Fast,LULC: Emission [Type],312036.2504198878
+160,2019,California,DOM: Aboveground Medium,LULC: Emission [Type],21517.83880498778
+160,2019,California,DOM: Aboveground Slow,LULC: Emission [Type],80917.34548556554
+160,2019,California,DOM: Aboveground Very Fast,LULC: Emission [Type],265655.55968865677
+160,2019,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2019,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2019,California,DOM: Snag Branch,LULC: Emission [Type],335335.34233754646
+160,2019,California,DOM: Snag Stem,LULC: Emission [Type],56062.23669377488
+160,2020,California,Biomass: Coarse Root,LULC: Emission [Type],0
+160,2020,California,Biomass: Fine Root,LULC: Emission [Type],0
+160,2020,California,Biomass: Foliage,LULC: Emission [Type],1944646.3915735902
+160,2020,California,Biomass: Merchantable,LULC: Emission [Type],2099289.2616694616
+160,2020,California,Biomass: Other Wood,LULC: Emission [Type],1850355.80259442
+160,2020,California,DOM: Aboveground Fast,LULC: Emission [Type],9069848.508928888
+160,2020,California,DOM: Aboveground Medium,LULC: Emission [Type],624523.2707281561
+160,2020,California,DOM: Aboveground Slow,LULC: Emission [Type],1883887.3215198773
+160,2020,California,DOM: Aboveground Very Fast,LULC: Emission [Type],6477903.165184024
+160,2020,California,DOM: Belowground Fast,LULC: Emission [Type],0
+160,2020,California,DOM: Belowground Very Fast,LULC: Emission [Type],0
+160,2020,California,DOM: Snag Branch,LULC: Emission [Type],8709534.400360279
+160,2020,California,DOM: Snag Stem,LULC: Emission [Type],2147410.884211427

@@ -1,0 +1,2214 @@
+---
+title: "Operational assessment tool for forest carbon dynamics for the United States: a new spatially explicit approach linking the LUCAS and CBM-CFS3 models"
+titlerunning: Linking the LUCAS and CBM-CFS3 models
+authorrunning: Sleeter, Frid, Rayfield, Zhu, and Marvin
+authors: 
+  
+- name: Benjamin M. Sleeter
+  address: U.S. Geological Survey
+  email: bsleeter@usgs.gov
+- name: Leonardo Frid
+  address: Apex Resource Management Solutions
+  email: leonardo.frid@apexrms.com
+- name: Bronwyn Rayfield
+  address: Apex Resource Management Solutions
+  email: bronwyn.rayfield@apexrms.com
+- name: Colin J. Daniel
+  address: Apex Resource Management Solutions
+  email: colin.daniel@apexrms.com
+- name: Zhiliang Zhu
+  address: U.S. Geological Survey
+  email: zzhu@usgs.gov
+- name: David Marvin
+  address: Salo Sciences
+  email: dave@salo.com
+bibliography: references.bib
+output: 
+  bookdown::pdf_document2:
+    dev: png
+    toc: FALSE
+header-includes:   
+- \usepackage[left]{lineno}
+- \linenumbers
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{multirow}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem}
+- \usepackage{makecell}
+- \floatplacement{figure}{H}
+- \usepackage{setspace}\doublespacing
+editor_options: 
+  chunk_output_type: console
+---
+
+Benjamin M. Sleeter^1^\*, Leonardo Frid^2^, Bronwyn Rayfield^2^, Colin Daniel^2^, Zhiliang Zhu^3^, David C. Marvin^4^
+
+**Affiliations**\
+^1^U.S. Geological Survey, Seattle, WA, USA; [bsleeter\@usgs.gov](mailto:bsleeter@usgs.gov){.email}; (253) 343-3363\
+^2^Apex Resource Management Solutions Ltd., Ottawa, ON, CAN\
+^3^U.S. Geological Survey, Reston, VA, USA\
+^4^Salo Sciences Inc, San Francisco, CA, USA
+
+**Date:** `r format(Sys.time(), '%B %d, %Y')`
+
+**Abstract**\
+**Background**: Quantifying the carbon balance of forested ecosystems has been the subject of intense study involving the development of numerous methodological approaches. Forest inventories, processes-based biogeochemical models, and inversion methods have all been used to estimate the contribution of U.S. forests to the global terrestrial carbon sink. However, estimates have ranged widely, largely based on the approach used, and no single system is appropriate for operational carbon quantification and forecasting. We present a new spatially explicit modeling framework utilizing a "gain-loss" approach, by linking the LUCAS model of land-use and land-cover change with the Carbon Budget Model of the Canadian Forest Sector (CBM-CFS3).
+
+**Results**: We estimated forest ecosystems in the conterminous United States stored 52.0 Pg C across all pools. Between 2001 and 2020, carbon storage increased by 2.4 Pg C at an annualized rate of 126 Tg C yr^-1^. Our results broadly agree with other studies using a variety of other methods to estimate the forest carbon sink. Climate variability and change was the primary driver of annual variability in the size of the net carbon sink, while land-use and land-cover change and disturbance were the primary drivers of the magnitude, reducing annual sink strength by 39%. Projections of carbon change under climate scenarios for the western U.S. find diverging estimates of carbon balance depending on the scenario. Under a moderate emissions scenario we estimated a 38% increase in the net sink of carbon, while under a high emissions scenario we estimated a reversal from a net sink to net source.
+
+**Conclusions**: The new approach provides a fully coupled modeling framework capable of producing spatially explicit estimates of carbon stocks and fluxes under a range of historical and/or future socioeconomic, climate, and land management futures.
+
+**Keywords:** land use, climate change, carbon balance, CBM-CFS3, LUCAS
+
+\pagebreak
+
+```{r, setup, warning=F, echo=F, message=F, echo=F}
+library(raster)
+library(sf)
+library(tidyverse)
+library(cowplot)
+library(dplyr)
+library(kableExtra)
+library(scales)
+library(viridis)
+library(patchwork)
+library(RColorBrewer)
+
+theme_custom <- function(...) {
+  theme_bw() +
+  theme(
+    text = element_text(family="Roboto Condensed"),
+    axis.text.x = element_text(size=8),
+    axis.text.y = element_text(size=8),
+    axis.title.x = element_text(size=8),
+    axis.title.y = element_text(size=8),
+    plot.margin = margin(3,3,1,3, unit="mm"),
+    strip.text = element_text(size=8),
+    panel.border = element_rect(fill=NA),
+    panel.spacing = unit(2, "mm"),
+    panel.grid.minor = element_blank(),
+    strip.background = element_blank(),
+    legend.text = element_text(size=8),
+    legend.title = element_text(size=8),
+    ...
+  )}
+
+crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"
+
+scenario_ids = data.frame(ScenarioID=c(160,155,156,161),
+                          ScenarioName = c("LULC-D+Climate", "Climate Only", "No Effects", "LULC-D Only"))
+
+# Copy output files to manuscript data directory
+
+files = c("flows_conus.csv", "flows_ecoregions.csv", "flows_states.csv", "flows_transitions.csv", 
+          "stateclass_conus.csv", "stocks_conus.csv", "stocks_ecoregions.csv", "stocks_states.csv",
+          "transitions_conus.csv", "flows_transitions_state.csv", "flows_transitions_state_stock.csv",
+          "california-fire-emissions.csv")
+dir = "F:/national-assessment/output/spatial/"
+files_to_copy = paste0(dir, files)
+#file.copy(files_to_copy, "data/results/", overwrite = T)
+
+spatial_files = c("flows-nbp-2020.tif", "stocks-tec-2001.tif", "stocks-tec-2020.tif")
+spatial_dir = "F:/national-assessment/output/spatial/raster/"
+spatial_files_to_copy = paste0(spatial_dir, spatial_files)
+#file.copy(spatial_files_to_copy, "F:/national-assessment/docs/lucas-cbm-methods/data/results/", overwrite = T)
+
+options(scipen=999)
+knitr::knit_hooks$set(inline = function(x) {
+  if(!is.numeric(x)){x}else{prettyNum(round(x,2), big.mark=",")}})
+
+knitr::opts_chunk$set(fig.pos = 'H', dpi=300)
+```
+
+```{r, resultdata, echo=F, warning=F, message=F}
+
+flowTypes_net = c("Net Primary Productivity", "Net Ecosystem Productivity", "Net Biome Productivity", "Emission: Total")
+
+flows_net = read_csv("data/results/flows_conus.csv") %>%
+  left_join(scenario_ids) %>%
+  filter(FlowGroupID %in% flowTypes_net) %>%
+  mutate(FlowGroupID = factor(FlowGroupID, levels=c("Net Primary Productivity","Emission: Total","Net Ecosystem Productivity", "Net Biome Productivity")))
+
+flows_net_mmt = flows_net %>% mutate(Amount=round(Amount/1000000,0))
+
+nbp_primary = flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Biome Productivity")
+nbp_primary_mean = round(mean(nbp_primary$Amount),0)
+nbp_primary_min = min(nbp_primary$Amount)
+nbp_primary_max = max(nbp_primary$Amount)
+
+nbp_lulc = flows_net_mmt %>% filter(ScenarioName=="LULC-D Only", FlowGroupID=="Net Biome Productivity")
+nbp_lulc_mean = round(mean(nbp_lulc$Amount),0)
+nbp_lulc_min = min(nbp_lulc$Amount)
+nbp_lulc_max = max(nbp_lulc$Amount)
+nbp_lulc_min_2019 = min(filter(nbp_lulc, Timestep<=2019)$Amount)
+
+nbp_climate = flows_net_mmt %>% filter(ScenarioName=="Climate Only", FlowGroupID=="Net Biome Productivity")
+nbp_climate_mean = round(mean(nbp_climate$Amount),0)
+nbp_climate_min = min(nbp_climate$Amount)
+nbp_climate_max = max(nbp_climate$Amount)
+
+npp_primary = flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Primary Productivity")
+npp_primary_mean = round(mean(npp_primary$Amount),0)
+
+npp_clim = flows_net_mmt %>% filter(ScenarioName=="Climate Only", FlowGroupID=="Net Primary Productivity")
+npp_clim_mean = round(mean(npp_clim$Amount),0)
+
+npp_lulc = flows_net_mmt %>% filter(ScenarioName=="LULC-D Only", FlowGroupID=="Net Primary Productivity")
+npp_lulc_mean = round(mean(npp_lulc$Amount),0)
+
+npp_lulc_pct = round((npp_clim_mean-npp_primary_mean)/npp_clim_mean*100,0)
+npp_clim_pct = round((npp_lulc_mean-npp_primary_mean)/npp_lulc_mean*100,0)
+
+npp_lulc_abs = round((npp_clim_mean-npp_primary_mean),0)
+npp_clim_abs = round((npp_lulc_mean-npp_primary_mean),0)
+
+rh_primary = flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Emission: Total")
+rh_primary_mean = round(mean(rh_primary$Amount),0)
+
+rh_clim = flows_net_mmt %>% filter(ScenarioName=="Climate Only", FlowGroupID=="Emission: Total")
+rh_clim_mean = round(mean(rh_clim$Amount),0)
+
+rh_lulc = flows_net_mmt %>% filter(ScenarioName=="LULC-D Only", FlowGroupID=="Emission: Total")
+rh_lulc_mean = round(mean(rh_lulc$Amount),0)
+
+nep_primary = flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Ecosystem Productivity")
+nep_primary_mean = round(mean(nep_primary$Amount),0)
+
+lulc_losses = nep_primary_mean-nbp_primary_mean
+
+flow_types_lulc = c("LULC: Emission [Type]", "LULC: Harvest [Type]", "LULC: Mortality [Type]")
+
+flows_lulc = read_csv("data/results/flows_conus.csv") %>%
+  left_join(scenario_ids) %>%
+  filter(FlowGroupID %in% flow_types_lulc, ScenarioName=="LULC-D+Climate") %>%
+  mutate(Amount=Amount/1000000)
+
+flows_harvest_prim = flows_lulc %>% filter(FlowGroupID=="LULC: Harvest [Type]")
+flows_harvest_prim_mean = round(mean(flows_harvest_prim$Amount),0)
+
+flows_emis_prim = flows_lulc %>% filter(FlowGroupID=="LULC: Emission [Type]")
+flows_emis_prim_mean = round(mean(flows_emis_prim$Amount),0)
+flows_emis_prim_2020 = (flows_lulc %>% filter(FlowGroupID=="LULC: Emission [Type]", Timestep==2020))$Amount
+
+flows_mort_prim = flows_lulc %>% filter(FlowGroupID=="LULC: Mortality [Type]")
+flows_mort_prim_mean = round(mean(flows_mort_prim$Amount),0)
+
+flows_harvest_prim_0820 = flows_lulc %>% filter(FlowGroupID=="LULC: Harvest [Type]", Timestep>2007, ScenarioID==160) %>%
+  group_by(Timestep, FlowGroupID) %>% summarise(Amount=sum(Amount)) %>%
+  group_by(FlowGroupID) %>% summarise(Amount=mean(Amount))
+flows_harvest_prim_0820_mean = round(mean(flows_harvest_prim_0820$Amount),0)
+```
+
+```{r, resultdata2, echo=F, message=F, warning=F}
+stockypes_live_dom_tec = c("Total Ecosystem", "Biomass: Total", "DOM: Deadwood")
+
+stocks_ipcc = read_csv("data/results/stocks_conus.csv") %>%
+  left_join(scenario_ids) %>%
+  filter(StockGroupID %in% c("Total Ecosystem", "Biomass: Total", "DOM: Deadwood", "DOM: Litter", "DOM: Soil"))
+
+tec_2001_mmt = round((stocks_ipcc %>% filter(ScenarioName=="LULC-D+Climate", StockGroupID=="Total Ecosystem", Timestep==2001))$Amount/1000000,0)
+tec_2020_mmt = round((stocks_ipcc %>% filter(ScenarioName=="LULC-D+Climate", StockGroupID=="Total Ecosystem", Timestep==2020))$Amount/1000000,0)
+
+stocks_litter = c("DOM: Aboveground Very Fast [Type]", "DOM: Aboveground Fast [Type]")
+stocks_soil = c("DOM: Aboveground Slow [Type]", "DOM: Belowground Slow [Type]", "DOM: Belowground Very Fast [Type]")
+
+stocks_primary = stocks_ipcc %>% filter(ScenarioName == "LULC-D+Climate") %>% mutate(Amount = Amount/1000000)
+stocks_tec_2001 = round((stocks_primary %>% filter(StockGroupID == "Total Ecosystem", Timestep==2001))$Amount,0)
+stocks_live_2001 = round((stocks_primary %>% filter(StockGroupID == "Biomass: Total", Timestep==2001))$Amount,0)
+stocks_live_2001_pct = round((stocks_live_2001/stocks_tec_2001)*100,0)
+stocks_live_2020 = round((stocks_primary %>% filter(StockGroupID == "Biomass: Total", Timestep==2020))$Amount,0)
+
+stocks_dom_2001 = round(sum((stocks_primary %>% filter(StockGroupID %in% c("DOM: Litter", "DOM: Deadwood", "DOM: Soil"), Timestep==2001))$Amount),0)
+stocks_dom_2001_pct = round((stocks_dom_2001/stocks_tec_2001)*100,0)
+stocks_dom_2020 = round(sum((stocks_primary %>% filter(StockGroupID %in% c("DOM: Litter", "DOM: Deadwood", "DOM: Soil"), Timestep==2020))$Amount),0)
+
+stocks_dead_2001 = round(sum((stocks_primary %>% filter(StockGroupID %in% c("DOM: Deadwood"), Timestep==2001))$Amount),0)
+stocks_litter_2001 = round(sum((stocks_primary %>% filter(StockGroupID %in% c("DOM: Litter"), Timestep==2001))$Amount),0)
+stocks_soil_2001 = round(sum((stocks_primary %>% filter(StockGroupID %in% c("DOM: Soil"), Timestep==2001))$Amount),0)
+
+stocks_dead_2001_pct = round((stocks_dead_2001/stocks_tec_2001)*100,0)
+stocks_litter_2001_pct = round((stocks_litter_2001/stocks_tec_2001)*100,0)
+stocks_soil_2001_pct = round((stocks_soil_2001/stocks_tec_2001)*100,0)
+
+stocks_ipcc_change = stocks_ipcc %>%
+  filter(Timestep %in% c(2001,2020)) %>%
+  arrange(Timestep) %>%
+  group_by(ScenarioID, ScenarioName, Iteration, StockGroupID) %>%
+  mutate(Change=Amount-lag(Amount)) %>%
+  filter(Timestep==2020) %>% arrange(StockGroupID) %>%
+  mutate(Change=Change/1000000)
+
+stocks_live_change_prim = round((stocks_ipcc_change %>% filter(ScenarioName=="LULC-D+Climate", StockGroupID=="Biomass: Total"))$Change,0)
+stocks_live_change_clim = round((stocks_ipcc_change %>% filter(ScenarioName=="Climate Only", StockGroupID=="Biomass: Total"))$Change,0)
+stocks_soil_change_prim = round((stocks_ipcc_change %>% filter(ScenarioName=="LULC-D+Climate", StockGroupID=="DOM: Soil"))$Change,0)
+
+tec_change_lulc = (stocks_ipcc_change %>% filter(ScenarioName == "LULC-D Only", StockGroupID == "Total Ecosystem"))$Change
+tec_change_clim = (stocks_ipcc_change %>% filter(ScenarioName == "Climate Only", StockGroupID == "Total Ecosystem"))$Change
+tec_change_lulc_pct = abs(round(((tec_change_lulc - tec_change_clim)/tec_change_clim)*100, 0))
+
+# Data for stock change table
+stock_groups = read_csv("data/tables/stock-groups.csv")
+
+stocks_table = read_csv("data/results/stocks_conus.csv") %>% 
+  left_join(scenario_ids) %>%
+  mutate(Amount=Amount/1000000) %>%
+  filter(Timestep %in% c(2001,2020), ScenarioName=="LULC-D+Climate") %>%
+  select(-ScenarioID, -Iteration, -ScenarioName) %>%
+  arrange(StockGroupID) %>%
+  right_join(stock_groups) %>%
+  arrange(StockGroup) %>%
+  select(StockGroup, StockGroupID, Timestep, Amount)
+
+stocks_table_sum = stocks_table %>%
+  group_by(StockGroup, Timestep) %>% summarise(Amount=sum(Amount)) %>%
+  mutate(StockGroupID = "Total")
+
+stock_table_total = stocks_table %>%
+  group_by(Timestep) %>%
+  summarise(Amount=sum(Amount)) %>%
+  mutate(StockGroupID = "Total", StockGroupID = "Total")
+
+stocks_table_merge = bind_rows(stocks_table, stocks_table_sum, stock_table_total) %>%
+  pivot_wider(names_from=Timestep, values_from=Amount) %>%
+  mutate(Change=`2020`-`2001`) %>%
+  mutate(PctChange = (`2020`-`2001`)/`2001`*100) %>%
+  arrange(StockGroup) %>%
+  mutate(StockGroup = factor(StockGroup, levels=c("Aboveground live", "Belowground live", "Deadwood", "Litter", "Soil"))) %>%
+  select(-StockGroup) %>%
+  mutate(StockGroupID = str_replace(StockGroupID, " \\[Type\\]", ""))
+
+stocks_snagstem_change_prim = round((stocks_table_merge %>% filter(StockGroupID=="DOM: Snag Stem [Type]"))$Change,0)
+```
+
+```{r, studycomparisondata, cache=T, echo=F, warning=F, message=F}
+
+stocks_comparison = read_csv("data/results/stocks_conus.csv") %>%
+  left_join(scenario_ids) %>%
+  filter(StockGroupID %in% c("Biomass: Total", "Biomass: Aboveground", "Biomass: Belowground", "DOM: Litter", "DOM: Deadwood", "DOM: Soil")) %>%
+  filter(ScenarioName=="LULC-D+Climate", Timestep<=2010) %>%
+  group_by(StockGroupID) %>% summarise(Mean=mean(Amount)) 
+
+study_comp = read_csv("data/tables/model-comparison.csv") %>%
+  select(1:6) %>%
+  pivot_longer(cols=c(-ModelStudy, -ha), names_to="Stock", values_to="tons") %>%
+  mutate(density=tons/ha) %>%
+  mutate(tons=ifelse(tons==0, NA, tons), density=ifelse(density==0, NA, density)) %>%
+  mutate(Stock = factor(Stock, levels=c("Live", "Deadwood", "Litter","Soil")))
+
+
+study_comp_range = study_comp %>% filter(ModelStudy!="This Study") %>%
+  mutate(tons=ifelse(tons==0, NA, tons), density=ifelse(density==0, NA, density)) %>%
+  group_by(Stock) %>%
+  summarise(mean=mean(tons, na.rm=T), min=min(tons, na.rm=T), max=max(tons, na.rm=T), 
+            meanden=mean(density, na.rm=T), minden=min(density, na.rm=T), maxden=max(density, na.rm=T))
+
+
+other_study = study_comp %>% filter(ModelStudy!="This Study")
+this_study = study_comp %>% filter(ModelStudy=="This Study")
+
+min_live_tons = min((other_study %>% filter(Stock=="Live"))$tons/1000000)
+max_live_tons = max((other_study %>% filter(Stock=="Live"))$tons/1000000)
+
+this_live_tons = round((this_study %>% filter(ModelStudy=="This Study", Stock=="Live"))$tons/1000000,0)
+this_live_density = round((this_study %>% filter(ModelStudy=="This Study", Stock=="Live"))$density,1)
+epa_live_tons = (other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Live"))$tons/1000000
+epa_live_density = round((other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Live"))$density,1)
+
+this_dead_tons = (this_study %>% filter(ModelStudy=="This Study", Stock=="Deadwood"))$tons/1000000
+this_dead_density = round((this_study %>% filter(ModelStudy=="This Study", Stock=="Deadwood"))$density,1)
+epa_dead_tons = (other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Deadwood"))$tons/1000000
+epa_dead_density = round((other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Deadwood"))$density,1)
+
+this_lit_tons = (this_study %>% filter(ModelStudy=="This Study", Stock=="Litter"))$tons/1000000
+this_lit_density = round((this_study %>% filter(ModelStudy=="This Study", Stock=="Litter"))$density,1)
+epa_lit_tons = (other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Litter"))$tons/1000000
+epa_lit_density = round((other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Litter"))$density,1)
+wilson_lit_tons = (other_study %>% filter(ModelStudy=="Wilson et al. (2013)", Stock=="Litter"))$tons/1000000
+wilson_lit_density = round((other_study %>% filter(ModelStudy=="Wilson et al. (2013)", Stock=="Litter"))$density,1)
+soccor2_lit_tons = (other_study %>% filter(ModelStudy=="SOCCOR2 (2018)", Stock=="Litter"))$tons/1000000
+soccor2_lit_density = round((other_study %>% filter(ModelStudy=="SOCCOR2 (2018)", Stock=="Litter"))$density,1)
+
+this_soil_tons = (this_study %>% filter(ModelStudy=="This Study", Stock=="Soil"))$tons/1000000
+this_soil_density = round((this_study %>% filter(ModelStudy=="This Study", Stock=="Soil"))$density,1)
+epa_soil_tons = (other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Soil"))$tons/1000000
+epa_soil_density = round((other_study %>% filter(ModelStudy=="EPA (2020)", Stock=="Soil"))$density,1)
+
+```
+
+```{r fluxcompdata, cache=T, echo=F, warning=F, message=F}
+
+flows_net_mmt_2001_2010_mean = flows_net_mmt %>%
+  filter(Timestep<=2010, ScenarioName=="LULC-D+Climate") %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_net_mmt_2011_2020_mean = flows_net_mmt %>%
+  filter(Timestep>2010, ScenarioName=="LULC-D+Climate") %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_net_mmt_2001_2020_mean = flows_net_mmt %>%
+  filter(ScenarioName=="LULC-D+Climate") %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_lulc = read_csv("data/results/flows_transitions.csv") %>%
+  left_join(scenario_ids) %>%
+  filter(FlowGroupID %in% c("LULC: Emission [Type]", "LULC: Mortality [Type]", "LULC: Harvest [Type]")) %>%
+  mutate(Amount=Amount/1000000)
+
+flows_fire_mmt_2001_2010 = flows_lulc %>%
+  filter(Timestep<=2010, ScenarioName=="LULC-D+Climate") %>%
+  filter(TransitionTypeID %in% c("Fire: High Severity", "Fire: Medium Severity", "Fire: Low Severity")) %>%
+  group_by(Timestep, FlowGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_fire_mmt_2011_2020 = flows_lulc %>%
+  filter(Timestep>=2010, ScenarioName=="LULC-D+Climate") %>%
+  filter(TransitionTypeID %in% c("Fire: High Severity", "Fire: Medium Severity", "Fire: Low Severity")) %>%
+  group_by(Timestep, FlowGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_fire_mmt_2001_2020 = flows_lulc %>%
+  filter(Timestep>=2001, ScenarioName=="LULC-D+Climate") %>%
+  filter(TransitionTypeID %in% c("Fire: High Severity", "Fire: Medium Severity", "Fire: Low Severity")) %>%
+  group_by(Timestep, FlowGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_harvest_mmt_2001_2010 = flows_lulc %>%
+  filter(Timestep<=2010, ScenarioName=="LULC-D+Climate") %>%
+  filter(TransitionTypeID %in% c("Forest Harvest: Forest Clearcut", "Forest Harvest: Forest Selection")) %>%
+  group_by(Timestep, FlowGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_harvest_mmt_2011_2020 = flows_lulc %>%
+  filter(Timestep>=2010, ScenarioName=="LULC-D+Climate") %>%
+  filter(TransitionTypeID %in% c("Forest Harvest: Forest Clearcut", "Forest Harvest: Forest Selection")) %>%
+  group_by(Timestep, FlowGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+flows_harvest_mmt_2001_2020 = flows_lulc %>%
+  filter(Timestep>=2001, ScenarioName=="LULC-D+Climate") %>%
+  filter(TransitionTypeID %in% c("Forest Harvest: Forest Clearcut", "Forest Harvest: Forest Selection")) %>%
+  group_by(Timestep, FlowGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  group_by(FlowGroupID) %>%
+  summarise(Mean=mean(Amount))
+
+
+netflux_comp = read_csv("data/tables/model-comparison-flux.csv") %>%
+  pivot_longer(cols=c(-ModelStudy, -ha), names_to="Flux", values_to="Amount") %>%
+  mutate(Flux_Density = (Amount*1000000)/ha)
+
+this_nbp_2001_2010 = round(mean((flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Biome Productivity", Timestep<=2010))$Amount),0)
+
+this_nbp_2011_2020 = round(mean((flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Biome Productivity", Timestep>2010))$Amount),0)
+
+this_nbp_2001_2014 = round(mean((flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Biome Productivity", Timestep<=2014))$Amount*1000000)/268728700,2)
+
+this_nbp_min = round(min((flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Biome Productivity"))$Amount),0)
+this_nbp_max = round(max((flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Biome Productivity"))$Amount),0)
+this_nbp_density = round(max((netflux_comp %>% filter(ModelStudy=="LUCAS (2001-2020)", Flux=="nbp"))$Flux_Density),2)
+
+soccr_nbp = (netflux_comp %>% filter(ModelStudy=="SOCCR2 (2018)", Flux=="nbp"))$Amount
+soccr_nbp_density = round((netflux_comp %>% filter(ModelStudy=="SOCCR2 (2018)", Flux=="nbp"))$Flux_Density,2)
+
+pibis_nbp = (netflux_comp %>% filter(ModelStudy=="Liu et al. (2001-2010)", Flux=="nbp"))$Amount
+pibis_nbp_density = round((netflux_comp %>% filter(ModelStudy=="Liu et al. (2001-2010)", Flux=="nbp"))$Flux_Density,2)
+
+```
+
+```{r, stockchangedata, echo=F, warning=F, message=F}
+live_change_tg = stocks_live_2020-stocks_live_2001
+live_change_pct = round(((stocks_live_2020-stocks_live_2001)/stocks_live_2001)*100,1)
+
+stocks_type = read_csv("data/results/stocks_conus.csv") %>% 
+  left_join(scenario_ids) %>%
+  mutate(Amount=round(Amount/1000000,0)) %>%
+  filter(Timestep %in% c(2001,2020), ScenarioName=="LULC-D+Climate") 
+
+merch_2001 = (stocks_type %>% filter(StockGroupID == "Biomass: Merchantable [Type]", Timestep == 2001))$Amount
+merch_2020 = (stocks_type %>% filter(StockGroupID == "Biomass: Merchantable [Type]", Timestep == 2020))$Amount
+merch_change_tg = merch_2020-merch_2001
+merch_change_pct = round(merch_change_tg/merch_2001*100,1)
+
+branch_2001 = (stocks_type %>% filter(StockGroupID == "Biomass: Other Wood [Type]", Timestep == 2001))$Amount
+branch_2020 = (stocks_type %>% filter(StockGroupID == "Biomass: Other Wood [Type]", Timestep == 2020))$Amount
+branch_change_tg = branch_2020-branch_2001
+branch_change_pct = round(branch_change_tg/branch_2001*100,1)
+
+croot_2001 = (stocks_type %>% filter(StockGroupID == "Biomass: Coarse Root [Type]", Timestep == 2001))$Amount
+croot_2020 = (stocks_type %>% filter(StockGroupID == "Biomass: Coarse Root [Type]", Timestep == 2020))$Amount
+croot_change_tg = croot_2020-croot_2001
+croot_change_pct = round(croot_change_tg/croot_2001*100,1)
+
+agl_2001 = (stocks_type %>% filter(StockGroupID == "Biomass: Aboveground", Timestep == 2001))$Amount
+agl_2020 = (stocks_type %>% filter(StockGroupID == "Biomass: Aboveground", Timestep == 2020))$Amount
+agl_change_tg = agl_2020-agl_2001
+agl_change_pct = round(agl_change_tg/agl_2001*100,1)
+
+bgl_2001 = (stocks_type %>% filter(StockGroupID == "Biomass: Belowground", Timestep == 2001))$Amount
+bgl_2020 = (stocks_type %>% filter(StockGroupID == "Biomass: Belowground", Timestep == 2020))$Amount
+bgl_change_tg = bgl_2020-bgl_2001
+bgl_change_pct = round(bgl_change_tg/bgl_2001*100,1)
+
+dom_2001 = (stocks_type %>% filter(StockGroupID == "DOM: Total", Timestep == 2001))$Amount
+dom_2020 = (stocks_type %>% filter(StockGroupID == "DOM: Total", Timestep == 2020))$Amount
+dom_change_tg = dom_2020-dom_2001
+dom_change_pct = round(dom_change_tg/dom_2001*100,1)
+
+snagstem_2001 = (stocks_type %>% filter(StockGroupID == "DOM: Snag Stem [Type]", Timestep == 2001))$Amount
+snagstem_2020 = (stocks_type %>% filter(StockGroupID == "DOM: Snag Stem [Type]", Timestep == 2020))$Amount
+snagstem_change_tg = snagstem_2020-snagstem_2001
+snagstem_change_pct = round(snagstem_change_tg/snagstem_2001*100,1)
+
+agm_2001 = (stocks_type %>% filter(StockGroupID == "DOM: Aboveground Medium [Type]", Timestep == 2001))$Amount
+agm_2020 = (stocks_type %>% filter(StockGroupID == "DOM: Aboveground Medium [Type]", Timestep == 2020))$Amount
+agm_change_tg = agm_2020-agm_2001
+agm_change_pct = round(agm_change_tg/agm_2001*100,1)
+
+dead_2001 = (stocks_type %>% filter(StockGroupID == "DOM: Deadwood", Timestep == 2001))$Amount
+dead_2020 = (stocks_type %>% filter(StockGroupID == "DOM: Deadwood", Timestep == 2020))$Amount
+dead_change_tg = dead_2020-dead_2001
+dead_change_pct = round(dead_change_tg/dead_2001*100,1)
+
+lit_2001 = (stocks_type %>% filter(StockGroupID == "DOM: Litter", Timestep == 2001))$Amount
+lit_2020 = (stocks_type %>% filter(StockGroupID == "DOM: Litter", Timestep == 2020))$Amount
+lit_change_tg = lit_2020-lit_2001
+lit_change_pct = round(lit_change_tg/lit_2001*100,1)
+
+soc_2001 = (stocks_type %>% filter(StockGroupID == "DOM: Soil", Timestep == 2001))$Amount
+soc_2020 = (stocks_type %>% filter(StockGroupID == "DOM: Soil", Timestep == 2020))$Amount
+soc_change_tg = soc_2020-soc_2001
+soc_change_pct = round(soc_change_tg/soc_2001*100,1)
+
+```
+
+```{r, netfluxdata, cache=T, warning=F, message=F, echo=F}
+nep_mean = round(mean((flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Ecosystem Productivity"))$Amount),0)
+nbp_mean = round(mean((flows_net_mmt %>% filter(ScenarioName=="LULC-D+Climate", FlowGroupID=="Net Biome Productivity"))$Amount),0)
+```
+
+```{r, lulcfluxdata, echo=F, warning=F, message=F}
+
+trans_types_by_group = read_csv("data/tables/transition-types-by-group.csv")
+
+lulc_removals = read_csv("data/results/flows_transitions.csv") %>% 
+  left_join(scenario_ids) %>%
+  filter(ScenarioName=="LULC-D+Climate", !FlowGroupID %in% c("Net Biome Productivity")) %>%
+  group_by(ScenarioName, FlowGroupID, TransitionTypeID) %>%
+  summarise(Amount=mean(Amount)/1000000) %>%
+  left_join(trans_types_by_group) %>%
+  ungroup() %>%
+  select(TransitionGroupID, TransitionTypeID, FlowGroupID, Amount) 
+
+lulc_removals_sum = lulc_removals %>%
+  group_by(TransitionGroupID, FlowGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  mutate(TransitionTypeID = "Total")
+
+lulc_removals = bind_rows(lulc_removals, lulc_removals_sum) %>%
+  pivot_wider(names_from = FlowGroupID, values_from = Amount) %>%
+  mutate(TransitionGroupID = factor(TransitionGroupID, levels = c("Ag Expansion", "Urbanization", "Forest Harvest", "Fire", "Insect"))) %>%
+  mutate(TransitionTypeID = factor(TransitionTypeID, 
+                                   levels=c("Ag Expansion: Cropland","Ag Expansion: Pasture",
+                                                              "Urbanization: High","Urbanization: Medium","Urbanization: Low","Urbanization: Open",
+                                                              "Forest Harvest: Forest Clearcut","Forest Harvest: Forest Selection",
+                                                              "Fire: High Severity","Fire: Medium Severity","Fire: Low Severity",
+                                                              "Insect: High Severity","Insect: Medium Severity","Insect: Low Severity",
+                                                              "Total"))) %>%
+  arrange(TransitionGroupID, TransitionTypeID) 
+
+fire_emissions = (lulc_removals %>% filter(TransitionGroupID=="Fire", TransitionTypeID=="Total"))$`LULC: Emission [Type]`
+urban_emissions = (lulc_removals %>% filter(TransitionGroupID=="Urbanization", TransitionTypeID=="Total"))$`LULC: Emission [Type]`
+ag_emissions = (lulc_removals %>% filter(TransitionGroupID=="Ag Expansion", TransitionTypeID=="Total"))$`LULC: Emission [Type]`
+total_emissions = sum((lulc_removals %>% filter(TransitionTypeID=="Total"))$`LULC: Emission [Type]`, na.rm=T)
+fire_emissions_pct = round((fire_emissions/total_emissions)*100,0)
+urban_emissions_pct = round((urban_emissions/total_emissions)*100,0)
+ag_emissions_pct = round((ag_emissions/total_emissions)*100,0)
+
+transition_area = read_csv("data/results/transitions_conus.csv") %>%
+  left_join(scenario_ids)
+fire_area = transition_area %>% filter(TransitionGroupID == "Fire", ScenarioName == "LULC-D+Climate")
+fire_area_mean = mean(fire_area$Amount/1000000)
+fire_area_2020 = round((fire_area %>% filter(Timestep==2020))$Amount/1000000,1)
+fire_area_2020_pct = round(fire_area_2020/fire_area_mean *100,0)
+
+clearcut_area_0120 = transition_area %>%
+  filter(TransitionGroupID == "Forest Harvest: Forest Clearcut [Type]",
+         ScenarioID == 160)
+
+selection_area_0120 = transition_area %>%
+  filter(TransitionGroupID == "Forest Harvest: Forest Selection [Type]",
+         ScenarioID == 160)
+
+clearcut_area_0107 = clearcut_area_0120 %>% filter(Timestep<=2007)
+clearcut_area_0820 = clearcut_area_0120 %>% filter(Timestep>2007)
+selection_area_0107 = selection_area_0120 %>% filter(Timestep<=2007)
+selection_area_0820 = selection_area_0120 %>% filter(Timestep>2007)
+
+clearcut_area_0120_mean = mean(clearcut_area_0120$Amount)
+selection_area_0120_mean = mean(selection_area_0120$Amount)
+clearcut_area_0107_mean = mean(clearcut_area_0107$Amount)
+clearcut_area_0820_mean = mean(clearcut_area_0820$Amount)
+selection_area_0107_mean = mean(selection_area_0107$Amount)
+selection_area_0820_mean = mean(selection_area_0820$Amount)
+
+harvest_area_0120_mean_mha = round((clearcut_area_0120_mean + selection_area_0120_mean)/1000000,2)
+
+harvest_area_0107_mean_mha = round((clearcut_area_0107_mean + selection_area_0107_mean)/1000000,2)
+
+harvest_area_0820_mean_mha = round((clearcut_area_0820_mean + selection_area_0820_mean)/1000000,2)
+```
+
+```{r, fluxprojectiondata, echo=F, warning=F, message=F}
+scenario_ids_proj = data.frame(ScenarioID = c(134,135,136,137,138),
+                               ScenarioName = c("Historical", 
+                                                "BAU CanESM2", 
+                                                "BAU HadGEM2-ES365", 
+                                                "Reforestation CanESM2", 
+                                                "Reforestation HadGEM2-ES365"))
+
+west_tec = read_csv("data/results/tec_by_state.csv") %>%
+  left_join(scenario_ids_proj) %>%
+  group_by(ScenarioID, ScenarioName, GCM, LUC, Timestep, StockGroupID) %>%
+  summarise(Amount=sum(Amount)) %>%
+  mutate(SecondaryStratumID = "Western US")
+
+west_tec_states = read_csv("data/results/tec_by_state.csv") %>%
+  left_join(scenario_ids_proj)
+
+west_tec_merge = bind_rows(west_tec, west_tec_states) %>%
+  mutate(SecondaryStratumID = factor(SecondaryStratumID, levels = c("Arizona", "California", "Colorado", "Idaho", "Montana","Nevada", "New Mexico", "Oregon", "Utah", "Washington", "Wyoming","Western US"))) %>%
+  group_by(SecondaryStratumID, StockGroupID) %>%
+  mutate(Amount_pct = Amount/first(Amount)) %>%
+  mutate(GCM = fct_relevel(GCM, "Historical", "CanESM2", "HadGEM2-ES365"),
+         LUC = fct_relevel(LUC, "Historical", "BAU", "Reforestation"))
+
+# Change in live carbon
+west_tec_change = west_tec_merge %>%
+  select(-Iteration) %>%
+  group_by(ScenarioName, GCM, LUC, SecondaryStratumID, StockGroupID) %>%
+  mutate(Change = Amount - lag(Amount)) %>%
+  filter(Timestep>2001, !is.na(Change)) %>%
+  group_by(ScenarioName, GCM, LUC, SecondaryStratumID, StockGroupID) %>%
+  summarise(Change = mean(Change))
+
+west_tec_change_mean = west_tec_change %>%
+  filter(SecondaryStratumID == "Western US")
+
+west_tec_change_mean_hist = round((west_tec_change_mean %>% filter(ScenarioName == "Historical"))$Change/1000000,1)
+west_tec_change_mean_canesm = round((west_tec_change_mean %>% filter(ScenarioName == "BAU CanESM2"))$Change/1000000,1)
+west_tec_change_mean_hadgem = round((west_tec_change_mean %>% filter(ScenarioName == "BAU HadGEM2-ES365"))$Change/1000000,1)
+
+west_tec_change_mean_canesm_reforest = round((west_tec_change_mean %>% filter(ScenarioName == "Reforestation CanESM2"))$Change/1000000,1)
+west_tec_change_mean_hadgem_reforest = round((west_tec_change_mean %>% filter(ScenarioName == "Reforestation HadGEM2-ES365"))$Change/1000000,1)
+
+reforest_diff_canesm_pct = round((west_tec_change_mean_canesm_reforest - west_tec_change_mean_canesm)/west_tec_change_mean_canesm*100,0)
+reforest_diff_hadgem_pct = round((west_tec_change_mean_hadgem_reforest - west_tec_change_mean_hadgem)/abs(west_tec_change_mean_hadgem)*100,0)
+
+west_tec_change_reforest = west_tec_merge %>%
+  select(GCM, LUC, Timestep, SecondaryStratumID, StockGroupID, Amount) %>%
+  filter(Timestep>2020) %>%
+  pivot_wider(names_from = LUC, values_from = Amount) %>%
+  mutate(Change = Reforestation - BAU) %>%
+  filter(Timestep==2050) %>%
+  group_by(Timestep, SecondaryStratumID, StockGroupID) %>%
+  summarise(BAU=mean(BAU), Reforestation=mean(Reforestation), Change_min=min(Change), Change_max=max(Change), Change=mean(Change)) %>%
+  mutate(State=fct_reorder(SecondaryStratumID, Change),
+         highlight = fct_other(State, keep = "Western US", other_level = "Named"))
+
+reforest_diff = round((west_tec_change_reforest %>% filter(SecondaryStratumID == "Western US"))$Change/1000000*3.67,1)
+reforest_diff_min = round((west_tec_change_reforest %>% filter(SecondaryStratumID == "Western US"))$Change_min/1000000*3.67,1)
+reforest_diff_max = round((west_tec_change_reforest %>% filter(SecondaryStratumID == "Western US"))$Change_max/1000000*3.67,1)
+```
+
+```{r, calfiredata, echo=F, message=F, warning=F}
+arb_emissions = read_csv("data/tables/arb-fire-emissions.csv")
+
+flows_transitions_state_stock = read_csv("data/results/flows_transitions_state_stock.csv") %>%
+  left_join(scenario_ids) 
+
+ca_fire_emissions = flows_transitions_state_stock %>%
+  filter(Amount>0) %>%
+  filter(FromSecondaryStratumID == "California", FlowGroupID == "LULC: Emission [Type]", str_detect(TransitionTypeID, "Fire"), ScenarioName == "LULC-D+Climate") %>%
+  group_by(ScenarioName, Timestep, FromSecondaryStratumID, FromStockTypeID, FlowGroupID) %>%
+  summarise(Amount = sum(Amount))
+
+ca_fire_emissions_total = ca_fire_emissions %>%
+  group_by(ScenarioName, Timestep, FlowGroupID) %>%
+  summarise(Amount=sum(Amount))
+
+ca_fire_emissions_2001_2019 = round(mean((ca_fire_emissions_total %>% filter(Timestep<=2019))$Amount)/1000000*3.67,2)
+ca_fire_emissions_2001_2010 = round(mean((ca_fire_emissions_total %>% filter(Timestep<2011))$Amount)/1000000*3.67,2)
+ca_fire_emissions_2011_2019 = round(mean((ca_fire_emissions_total %>% filter(Timestep>2010, Timestep<=2019))$Amount)/1000000*3.67,2)
+ca_fire_emissions_pct_change = round(((ca_fire_emissions_2011_2019- ca_fire_emissions_2001_2010) / ca_fire_emissions_2001_2010) *100, 0)
+ca_fire_emissions_2017 = round(mean((ca_fire_emissions_total %>% filter(Timestep==2017))$Amount)/1000000*3.67,2)
+ca_fire_emissions_2020 = round(mean((ca_fire_emissions_total %>% filter(Timestep==2020))$Amount)/1000000*3.67,2)
+ca_fire_emissions_2020_pct = round(((ca_fire_emissions_2020-ca_fire_emissions_2001_2019)/ca_fire_emissions_2001_2019)*100,0)
+
+```
+
+# Introduction {#intro}
+
+Forest ecosystems play a critical role in the global carbon cycle. Annually, the global forest sink has been estimated at \~1.1 Pg C yr^-1^ [@pan2011large], with more recent studies placing the sink as high as 2.0 Pg C yr^-1^ [@harris2021global], although uncertainties in those estimates are substantial. This net sink currently represents 25-50% of the global C emissions due to fossil fuels [@le2009trends; @pan2011large], highlighting the magnitude and importance the world's forests play in the global carbon cycle. The Intergovernmental Panel on Climate Change (IPCC) estimates that globally, forests have the capacity to absorb 25% of the atmospheric CO~2~ needed under a scenario limiting global warming to 2$^\circ$ C [@intergovernmental2018global]. Regionally, temperate forests of North America have been estimated as a large and persistent carbon sink at a rate of 0.3 - 0.9 Pg C yr^-1^ [@hayes2012reconciling], with U.S. forests accounting for \~80% of this net carbon uptake [@usgcrp2018soccr2]. The large contribution of U.S. forests has been attributed primarily to the growth of immature forests over the past several decades, as a result of the recovery of forests from harvest and other disturbances combined with the creation of new forests due to conversions from other land cover types. However, uncertainties in the size and future direction of this forest-based sink remain, due in large part to limitations regarding the methodological approaches used to estimate the net carbon flux [@hayes2012reconciling].
+
+Given their importance in the global carbon cycle, U.S. forests are increasingly looked to as a potential means of offsetting greenhouse-gas emissions from fossil fuel consumption and land use. The implementation of natural climate solutions, representing portfolios of land management policies and actions aimed at increasing sequestration of ecosystem carbon, provides an opportunity to make land management decisions today that will serve to maintain, and possibly increase, this key carbon sink into the future [@fargione2018natural; @griscom2017natural; @cameron2017ecosystem]. Such decisions, however, require robust methods and tools in order to meaningfully quantify, compare and contrast the projected response of U.S. carbon stocks and fluxes to these alternative land management strategies.
+
+Various approaches have been used to estimate past and future carbon stocks and fluxes in U.S. forests, including process-based ecosystem models, inventory-based "stock-change" methods, and carbon budget "stock-flow" models [@eggleston20062006; @kurz2009cbm]. For example, process-based ecosystem models are designed to represent underlying biogeochemical processes, including a wide range of carbon dynamics [@bachelet2015projected; @foley1996integrated; @sitch2003evaluation; @tian1999sensitivity]; such models are typically used to simulate vegetation responses to a range of controlling processes and applied at global to national scales. A key strength of this class of model is its ability to integrate the findings from manipulative experiments into projections of the effects of major controlling processes on carbon dynamics. Ecosystem models can also readily be applied across large geographic areas, and can be used to integrate and extend experimental understanding in order to generate projections under novel future conditions [@huntzinger2012north]. Future projections generated by ecosystem models generally come with high uncertainty, however, as these models often require a large number of input parameters, many of which can be difficult to estimate over large spatial extents [@hayes2012reconciling; @huntzinger2012north]. Furthermore, ecosystem models are typically limited in their ability to represent variation in forest types, often relying on generalizations to compensate for unknown parameters; for example, vegetation communities are often generalized into a small set of plant functional types, rather than retaining the specific forest types or species groups recorded in forest inventories. Finally, ecosystem models generally lack the ability to integrate the effects of complex socioeconomic processes, such as land conversions, into their projections of future ecosystem carbon dynamics [@bachelet2015projected; @liu2020critical], thus limiting their ability to project the consequences of alternative land management scenarios.
+
+An alternative to process-based ecosystem models for estimating forest carbon stocks and fluxes are inventory-based "stock-change" approaches, where field-based measurements are used directly to estimate changes in forest carbon stocks between two successive time periods [@eggleston20062006]. For example, using the U.S. Department of Agriculture Forest Inventory and Analysis (FIA) data, estimates of changes in carbon stocks are produced annually for U.S. ecosystems and reported to the United Nations Framework Convention on Climate [@epa2020inventory]. FIA data provide a comprehensive set of plot-level data characterizing forest attributes and have been used in a number of national studies aimed at quantifying the U.S. forest carbon sink [@birdsey1992carbon; @birdsey1995carbon; @woodbury2007carbon; @goodale2002forest; @hayes2012reconciling]. However, in the context of assessing the carbon consequences of land management alternatives, there are several limitations associated with inventory-based stock-change accounting, including: (1) assessments across large geographic extents can be cost-prohibitive due to the need for repeated plot measurements across a large number of sample sites in order to fully characterize ecosystem heterogeneity; (2) inventory-based approaches are not spatially explicit and thus often rely on inaccurate extrapolation methods to develop estimates in areas where no inventory exists [@marvin2016spatially]; (3) stock-change methods do not capture the underlying drivers of carbon fluxes that are typically required to separate the effects of land management alternatives in future projections; and (4) stock-change methods do not readily allow for projections under novel conditions (i.e., those outside of historical plot conditions), such as those that are expected to occur in the future under alternative global change scenarios. However, when applied in conjunction with other models, a robust forest inventory program can be used to calibrate and validate the parameters for other models, allowing model projections to be more readily extended across larger spatial extents and novel conditions [@kurz2009cbm; @liu2020critical].
+
+The third approach to estimating forest carbon stocks and fluxes is to use a stock-flow (also called "gain-loss" or "carbon budget") approach. Here the total ecosystem carbon is divided into a number of carbon pools, with the model then explicitly tracking the fluxes of carbon between pools over time [@eggleston20062006; @kurz2009cbm; @heath2010forcarb2]. With stock-flow models, flux rates between pools are typically derived from inventory data. By tracking the forest type and age of each simulated entity (e.g., stand or cohort), empirically derived regional stem wood "volume curves", representing the relationship between stem wood biomass and forest type/age, provide the foundation for calculating annual flux rates due to growth. Biomass expansion factors are then used to convert stem wood growth rates to fluxes in other biomass pools, such as roots, snags and branches [@eggleston20062006]. More complex stock-flow models also track the explicit dynamics of dead organic matter (DOM) pools, including soil carbon dynamics, based on empirically derived measurements of DOM decay and decomposition rates.
+
+A widely used stock-flow model is the CBM-CFS3, a carbon budget model originally developed for use in Canada [@kurz2009cbm]. The CBM-CFS3 tracks the annual carbon fluxes between 21 different pools (10 biomass and 11 DOM), including fluxes to wood products and to/from the atmosphere. Importantly, fluxes due to disturbances (e.g., fire, harvest, land conversion) are also considered, as are changes in flux rates over time to variation in temperature (e.g., due to climate change), making the approach well suited for forecasting the consequences of future land management scenarios on forest carbon. Thanks to its general and transparent structure, all of CBM-CFS3 input parameters can be customized to reflect regional conditions; as a result it has been applied in many different countries [@pilli2013application; @kim2017estimating; @jevvsenak2020effect; @pilli2018carbon], including studies within the U.S. [@dugan2018systems; @dugan2021opportunities]. A current limitation of the CBM-CFS3, however, is that it generates only spatially referenced (rather than spatially explicit) projections -- i.e., the model currently tracks carbon by landscape strata, rather than by spatial cells, and thus no spatial interactions between strata are possible. As a result the model is unable to account for complex spatial patterns of land cover change (e.g., urbanization, fire spread), such as those typically found in operational scenarios of land management; it is also not able to assign carbon values to specific locations (i.e., cells) across a landscape.
+
+To overcome some of these limitations in projecting the carbon consequences of future land management scenarios, we previously developed the Land Use and Carbon Simulator (LUCAS) [@sleeter2019effects]. LUCAS is a modeling framework capable of providing spatially explicit estimates of carbon stocks and fluxes in response to alternative future land management scenarios, and consists of two integrated components: a state-and-transition simulation model (STSM) of land use/land cover (LULC) change, combined with a stock-flow model of carbon dynamics [@daniel2016state; @daniel2018integrating]. The STSM portion of LUCAS projects the consequences of disturbances and land management actions (i.e., land cover conversions) across a landscape, with uncertainty, while the stock-flow carbon model then infers the carbon consequences of these changes. While LUCAS has already been applied in the U.S. at local [@sleeter2017carbon], state [@sleeter2019effects], and national [@sleeter2018effects] scales, in both spatially explicit and spatially referenced forms, to date the model's carbon budget flux rates have been derived from repeated simulations of the Integrated Biosphere Simulator (IBIS), a process-based ecosystem model [@liu2020critical; @sleeter2018effects]. When used with LUCAS, output from a suite of IBIS simulations is transformed into age and ecosystem-dependent carbon growth and turnover rates, providing the flux rates required for the LUCAS stock-flow carbon model. Like most process-based ecosystem models, however, IBIS is both: (1) limited to a relatively small number of discrete vegetation classes (plant functional types), which in turn limit its ability to represent the full heterogeneity of forested ecosystems across the U.S. and (2) computationally intensive, limiting its ability to run in a spatially explicit manner across larger landscapes.
+
+In this paper we present the results of our efforts to improve our existing LUCAS framework by adding the rich suite of carbon dynamics embodied within the existing CBM-CFS3, creating an operational forecasting tool capable of rapidly generating spatially explicit estimates of historical and future carbon stocks and fluxes, under alternative future land management scenarios, for any forested location in the conterminous U.S. (CONUS). We estimate historical (2001-2020) carbon stocks and flux and compare this to other CONUS-scale efforts to quantify carbon. To probe the sensitivity of the major controlling processes (climate, land-use land-cover change (LULC), disturbance) on ecosystem carbon, we ran additional simulations with these processes removed and compared the results to our historical reference scenario. We then demonstrate the ability of the model to extend annual projections into the future (2021-2050), based on climate change scenarios. Two regional case studies are also presented: first, an estimation of historical annual wildfire emissions for the state of California and, second, simulations of the effect of regional-scale reforestation on the carbon balance of forested ecosystems in the western U.S.
+
+# Results {#results}
+
+The integrated modeling approach described in this paper produces estimates of the composition of landscape classes and their attributes (e.g., age, time-since-transition), landscape transitions, carbon stocks, and carbon fluxes. For each variable type, the model can output both spatially explicit (i.e., raster maps) and spatially referenced estimates. Spatially referenced results are provided for each of the three stratification systems used in the model (ecoregions, states, and ownership). We also show how the approach can be used to develop future projections and to provide near real-time assessments of carbon fluxes from disturbances. We use net biome productivity (NBP) to reflect the net carbon sink in ecosystems after impacts from land use and disturbance are accounted for. We follow the convention where positive NBP values indicate a net sink of carbon in terrestrial ecosystems while negative values indicate a net source to the atmosphere.
+
+## Comparison of historical carbon stocks and flux estimates
+
+### Estimation of carbon storage in live, dead, and soil pools
+
+Using the linked LUCAS-CBM modeling approach, we estimated total ecosystem carbon storage (TEC; the sum of all carbon stored in live, DOM, and soil pools) in forested ecosystems of CONUS. In 2001, forest TEC was estimated at `r tec_2001_mmt` Tg C. Live carbon accounted for `r stocks_live_2001_pct`% (`r stocks_live_2001` Tg C) of TEC while DOM pools accounted for `r stocks_dom_2001_pct`% (`r stocks_dom_2001` Tg C). Within DOM pools, standing and down deadwood accounted for `r stocks_dead_2001_pct`% (`r stocks_dead_2001` Tg C), litter accounted for `r stocks_litter_2001_pct`% (`r stocks_litter_2001` Tg C), and soil organic carbon accounted for `r stocks_soil_2001_pct`% (`r stocks_soil_2001` Tg C) of TEC.
+
+```{r studycomp, cache=T, echo=F, warning=F, message=F, fig.width=8, fig.height=3.5, fig.cap="Comparison of estimates of forest carbon stocks and net flux with other studies. Panel a shows estimates of carbon stock density. Bars represent the range of values in other studies with the median shown as the black vertical bar. Panel b shows estimates of annual net biome productivity. Point and line ranges represent the reported net carbon sink and the time period reported in other studies using various methods. The red line shows the annual estimates from this study. Note, inventory methods reflect a range of studies, which include use of both FIA and US EPA greenhouse-gas inventory data."}
+
+library(ggrepel)
+df = read_csv("data/tables/model-comparison-flux2.csv")
+
+# Density values
+p1 = ggplot() +
+  geom_crossbar(data=study_comp_range, aes(x=Stock, ymin=minden, ymax=maxden, y=meanden), stat="identity", fill="grey95", size=0.1) +
+  geom_jitter(data=other_study, aes(x=Stock, y=density, fill=ModelStudy), shape=21, size=3, width=0.3) +
+  scale_fill_brewer(palette="Set1", name="Comparative Studies") +
+  geom_point(data=this_study, aes(x=Stock, y=density, color="This Study"), size=3, shape=15) +
+  scale_color_manual(name="LUCAS-CBM", values="black") +
+  coord_flip() +
+  theme_bw(8) +
+  theme(legend.position = "bottom") +
+  labs(x="", y=expression(Carbon~stock~density~(Tons~C~ha^-1)), color="LUCAS-CBM", fill="Comparative Studies") +
+  theme(legend.position = "bottom",
+        legend.justification = "left",
+        legend.direction = "vertical",
+        legend.text.align = 1,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        legend.key.height = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.grid.minor = element_blank()) +
+  guides(fill = guide_legend(direction = "horizontal",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0,
+                             nrow = 5,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black"))
+
+p2 = ggplot(df) +
+  geom_linerange(aes(xmin=Min_Year, xmax=Max_Year, y=Flux_Amount), size=0.1, color="grey30") +
+  geom_point(aes(x=Max_Year-(Max_Year-Min_Year)/2, y=Flux_Amount, shape=Method_Type), size=3, fill="grey70", color="grey30") +
+  scale_shape_manual(values=c(21,22,23,24,25)) +
+  #geom_text_repel(aes(label=StudyName), min.segment.length = 0.5, seed = 0, box.padding = 0.7, size=1.5, color="#4e4d47") +
+  geom_line(data=nbp_primary, aes(x=Timestep, y=Amount, color="This Study"), size=1) +
+  scale_color_manual(values = c("This Study" = "#98545F")) +
+  theme_bw(8) +
+  labs(x="Year", y=expression(Annual~net~flux~(Tg~C~yr^-1)), shape="Method", color="LUCAS-CBM") +
+  theme(legend.position = "bottom",
+        legend.justification = "left",
+        legend.direction = "vertical",
+        legend.text.align = 1,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        legend.key.height = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.grid.minor = element_blank()) +
+  guides(color = guide_legend(direction = "vertical",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0,
+                             nrow = 3,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black")) +
+  guides(shape = guide_legend(direction = "vertical",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0,
+                             nrow = 3,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black"))
+
+fig1 = p1 + p2
+fig1 + plot_annotation(tag_levels = 'a') & 
+  theme(plot.tag = element_text(size = 8))
+
+#plot_grid(p1, p2, nrow = 1, align = c("hv"), axis = c("tb"), labels="auto", label_size = 8, label_fontface = "plain")
+```
+
+Our estimates of total carbon storage compare well with other recent studies. For example, in the most recent national greenhouse gas inventory, the U.S. Environmental Protection Agency (EPA) estimated forested ecosystems stored `r epa_live_tons` Tg C in live biomass [@epa2020inventory], slightly higher than our estimate of `r this_live_tons` Tg C (mean estimated over the 2001-2010 period). When normalizing for differences in forest area (Fig. \@ref(fig:studycomp)), EPA estimated carbon storage in live vegetation was `r epa_live_density` tons C ha^-1^, compared to our estimate of `r this_live_density` tons C ha^-1^. Other carbon pool estimates also compared well with those from the EPA. We estimated carbon stored in dead biomass averaged `r this_dead_density` tons C ha^-1^ compared to EPA's estimate of `r epa_dead_density` tons C ha^-1^, while soil carbon storage was estimated at `r this_soil_density` tons C ha^-1^ compared to EPA's estimate of `r epa_soil_density` tons C ha^-1^. Our estimates of litter carbon density (`r this_lit_density` tons C ha^-1^) were toward to lower range of other studies and comparable to estimates from @wilson2013imputing (`r wilson_lit_density` tons C ha^-1^) and @usgcrp2018soccr2 (`r soccor2_lit_density` tons C ha^-1^), while the EPA estimated litter carbon density at `r epa_lit_density` tons C ha^-1^.
+
+### Net change in ecosystem carbon storage
+
+Between 2001 and 2020, TEC increased from `r tec_2001_mmt` Tg C to `r tec_2020_mmt` Tg C, resulting in a forest carbon sink of `r tec_2020_mmt-tec_2001_mmt` Tg C over the 19-year period. On an annualized basis, the net forest carbon sink was estimated to be `r round((tec_2020_mmt-tec_2001_mmt)/19,0)` Tg C yr^-1^, or `r (((tec_2020_mmt-tec_2001_mmt)/19)*1000000)/268728700` Tons C ha^-1^ yr^-1^. We estimated large variability in the size of the forest carbon sink over time, primarily due to the effects of weather and climate variability and its resulting effect on net primary production (NPP); variability in the rate of disturbance also played an important role, especially in the later part of the study period. For the 2001-2010 period we estimated the net forest sink to be `r this_nbp_2001_2010` Tg C yr^-1^ compared to `r this_nbp_2011_2020` Tg C yr^-1^ for the 2011-2020 period (Fig. \@ref(fig:studycomp)). On an annual basis, NBP ranged from a sink of `r this_nbp_max` Tg C yr^-1^ to a net source at a rate of `r this_nbp_min` Tg C yr^-1^. Figure \@ref(fig:nbpmapfig) shows the spatial distribution of NBP in U.S. forests. Forests in California and the Southeast were the largest drivers of carbon loss, with fire driving a majority of the change in the west and forest harvest driving changes in the Southeast. The largest sinks of carbon were located in the coastal Pacific Northwest and in redwood forests of California. In general, the largest carbon sink rates were located in young regenerating stands while older stands had smaller sink rates or were carbon neutral.
+
+Comparison of net carbon flux estimates between models and approaches can be difficult due to differences in boundary conditions, ecosystem processes included in models (e.g., effects of land use), and the temporal period covered. In general, our estimates of NBP are within the range of numerous other studies which generally range from a low of 47 Tg C yr^-1^ [@williams2012carbon] to a high of 282 Tg C yr^-1^ [@hayes2012reconciling]. @hayes2012reconciling found that on average, atmospheric inversion (282 Tg C yr^-1^) and inventory-based methods (244 Tg C yr^-1^) produced higher estimates of the net forest carbon sink than estimates derived using terrestrial biosphere models (158 Tg C yr^-1^). However, all approaches showed large uncertainties. The Second State of the Carbon Cycle Report estimated the U.S. forest carbon sink at `r soccr_nbp` Tg C yr^-1^ (`r soccr_nbp_density` tons C ha^-1^ yr^-1^) for the period 2000-2014 [@usgcrp2018soccr2]. Over a similar period (2001-2014), the LUCAS-CBM approach estimated a net sink rate of `r this_nbp_2001_2014` tons C ha^-1^ yr^-1^. Using a process-based dynamic global vegetation model, @liu2020critical estimated the net forest sink at `r pibis_nbp` Tg C yr^-1^ while over the same period we estimated the net sink at `r this_nbp_2001_2010` Tg C yr^-1^, which was similar to the mean estimate of terrestrial biosphere models evaluated by @hayes2012reconciling. @hayes2012reconciling reviewed 17 terrestrial biosphere models and found a mean net ecosystem exchange (NEE) in U.S. forests of -157.6 (SD=309.5) Tg C yr^-1^ (here, negative values denote a net sink of carbon in ecosystems and product pools). The Second State of the Carbon Cycle Report (SOCCR2) estimated an net carbon sink of 154 Tg C yr^-1^ for U.S. forested ecosystems (forestland remaining forestland). Our estimate for the 2001-2010 period was a net sink of 159 Tg C yr^-1^, which compares well to both SOCCR2's inventory based approach and the estimate derived from process models.
+
+```{r nbpmapfig, cache=T, echo=F, warning=F, message=F, fig.width=6, fig.cap="Map of the total estimated net biome productivity of conterminous U.S. forests for the period 2001-2020. Negative values indicate a net loss of carbon from ecosystems and positive values indicate a net sink of carbon. Very high negative NBP values are the result of disturbance losses, such as those resulting from harvesting and wildfire."}
+land_poly = st_read("data/vector/ne_10m_land.shp", quiet=T)
+states_poly = st_read("data/vector/cb_2018_us_state_20m.shp", quiet=T)
+nbp_raster = raster("data/results/flows-nbp-2020.tif")
+# nbp_raster = aggregate(nbp_raster, fact=4, na.rm=T)
+nbp_raster_df = as.data.frame(nbp_raster, xy=T) %>%
+  rename("Amount"="flows.nbp.2020") %>%
+  filter(!is.na(Amount))
+# 
+# min(nbp_raster_df$Amount)
+# max(nbp_raster_df$Amount)
+# quantile(nbp_raster_df$Amount, probs = seq(0, 1, length.out = 9 + 1))
+
+min = round(cellStats(nbp_raster$flows.nbp.2020, "min"),0)
+max = round(cellStats(nbp_raster$flows.nbp.2020, "max"),0)
+breaks = c(min, seq(-40,50,10), max)
+labels = c("-400", seq(-40,50,10), max)
+
+# library(tmap)
+# 
+# tm_shape(nbp_raster, raster.downsample=T) +
+#   tm_raster(style="fixed", n=7, midpoint=0, breaks=breaks, 
+#             title=expression(Metric~Tons~C~ha^-1), 
+#             palette = palette_spec,
+#             legend.hist = F) +
+#   tm_shape(states_poly) + 
+#   tm_borders(col = "grey20")+
+# 
+#   tm_legend(outside=T, legend.outside.position="right", legend.stack="horizontal") +
+#   tm_layout(outer.margins = c(.1,.1,.1,.1), bg.color = "white") +
+#   tm_grid(labels.inside.frame = FALSE, lines=F,
+#           projection = "+proj=longlat") +
+#   tmap_options(max.raster = c(plot = 1e7, view = 1e7))
+
+ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=nbp_raster_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(nbp_raster_df$x), max(nbp_raster_df$x)),
+           ylim=c(min(nbp_raster_df$y), max(nbp_raster_df$y))) +
+  scale_fill_fermenter(palette="Spectral", type="div", direction=1, guide="legend", breaks=breaks, limits=c(min, max), na.value=NA) +
+  labs(x=NULL, y=NULL, fill=expression(Metric~Tons~C~ha^-1)) +
+  theme_bw(8) +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(size = 7, hjust = 0, color = "#4e4d47"),
+        legend.title = element_text(size = 8),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(12, "mm"),
+        legend.background = element_blank(),
+        axis.text.x = element_text(size=8),
+        axis.text.y = element_text(size=8),
+        panel.background = element_rect(fill="grey90")) +
+  guides(fill = guide_colorsteps(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 1,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+```
+
+### Net change in carbon pools
+
+Increases in TEC were primarily the result of increases in carbon stored in live biomass (Table \@ref(tab:stocktable)). We estimated live carbon pools increased from `r stocks_live_2001` Tg C to `r stocks_live_2020` Tg C, a net increase of `r live_change_tg` (`r live_change_pct`%). Merchantable carbon had the largest increase in both amount (`r merch_change_tg` Tg C) and as a percentage of 2001 stock levels (`r merch_change_pct`%), followed by branches and other wood (`r branch_change_tg` Tg C; `r branch_change_pct`%) and coarse roots (`r croot_change_tg` Tg C; `r croot_change_pct`%). In total, above-ground live carbon increased by `r agl_change_pct`% and below-ground live carbon increased by `r bgl_change_pct`%.
+
+Carbon stored in dead organic matter (DOM) pools, including deadwood, litter, and soil, remained relatively stable, declining by `r dom_change_pct`% (`r dom_change_tg` Tg C) over the study period. Total carbon stored in deadwood and litter increased by `r dead_change_pct`% and `r lit_change_pct`%, respectively, while soil carbon declined by `r soc_change_pct`%. However, the net change in DOM masked important internal dynamics (Table \@ref(tab:stocktable)). For example, carbon stored in standing dead snags increased by `r snagstem_change_pct`% while downed deadwood (i.e., "DOM: Aboveground Medium") declined by `r agm_change_pct`% with the increase in standing deadwood the result of increases in area impacted by wildfire in recent years.
+
+```{r, stocktable, echo=F, warning=F, message=F}
+kable(stocks_table_merge, col.names = c("Stock", "2001", "2020", "Tg C", "Percent"), format="latex",
+      digits = 1, booktabs = T, 
+      caption="Carbon stock estimates and net change in stocks for forest ecosystems of the conterminous U.S. between 2001 and 2020. Carbon stock and net change estimates are in Tg C.") %>%
+  kable_styling(font_size=8, full_width = FALSE, position="left") %>%
+  add_header_above(c(" "=1, "Year"=2, "Change"=2)) %>%
+  pack_rows(index = c("Aboveground live" = 4, 
+                      "Belowground live" = 3, 
+                      "Deadwood" = 5,
+                      "Litter" = 3,
+                      "Soil" = 4,
+                      "All pools" = 1)) %>%
+  footnote(general = "The Aboveground Slow pool has been included with the IPCC Soil pool rather than the Litter pool as done in the CBM-CFS3 model.", threeparttable = T)
+
+```
+
+Net losses in live biomass carbon were concentrated in three western U.S. ecoregions (Sierra Nevada Mountains, Klamath Mountains, Cascades), primarily the result of recent high rates of wildfire. All other ecoregions in the U.S. were net sinks of live carbon (Fig. \@ref(fig:figstockchangeeco)). The Middle Rockies and Northern Rockies ecoregions were large sinks of live carbon, resulting primarily from regrowth following high rates of historical disturbance that occurred prior to 2001. Consequently, these regions also experienced significant net declines in litter and deadwood pools as stocks decomposed over time. Deadwood pools increased significantly in western ecoregions, which have experienced several recent years of large stand-replacing wildfires. Declines in soil carbon were ubiquitous across ecoregions, although represent a relatively small portion of the overall soil pool. The largest declines were associated with near-surface soil horizons, which were most vulnerable to emissions from wildfire and increasing rates of decay due to rising temperature.
+
+```{r, figstockchangeeco, cache=T, echo=F, warning=F, message=F, fig.width=6, fig.cap="Net change in carbon pools by ecoregion for the period 2001-2020. Note, the scale for each map is different in order to highlight differences in carbon pools between regions."}
+
+states_poly = st_read("data/vector/cb_2018_us_state_20m.shp", quiet=T)
+eco_poly = st_read("data/vector/us_eco_l3_no_st_simp.shp", quiet=T) %>%
+  st_simplify()
+eco_poly$Area = st_area(eco_poly)
+eco_poly$Hectares = eco_poly$Area/10000
+eco_poly$Hectares = as.numeric(eco_poly$Hectares)
+eco_code = read_csv("data/tables/ecoregions.csv")
+
+stocks_ecoreg = read_csv("data/results/stocks_ecoregions.csv") %>%
+  left_join(scenario_ids) %>% filter(ScenarioName=="LULC-D+Climate") %>%
+  mutate(Amount=Amount) %>%
+  filter(Timestep %in% c(2001,2020)) %>% arrange(Timestep) %>%
+  group_by(StratumID, StockGroupID, ScenarioName) %>%
+  mutate(Change = Amount-lag(Amount)) %>% filter(Timestep==2020) %>%
+  left_join(eco_code, by=c("StratumID"="Name")) %>%
+  mutate(ID = as.character(ID)) %>%
+  left_join(eco_poly, by=c("ID"="US_L3CODE")) %>%
+  mutate(Tons_Ha = Change/Hectares)
+
+stocks_ecoreg_pools = stocks_ecoreg %>%
+  filter(StockGroupID %in% c("Biomass: Aboveground", "Biomass: Belowground", 
+                             "DOM: Deadwood", "DOM: Litter", "DOM: Soil", 
+                             "Total Ecosystem")) %>%
+  mutate(Change_pct = Change/Amount)
+
+stocks_ecoreg_groups_agl = stocks_ecoreg_pools %>%
+  filter(StockGroupID %in% c("Biomass: Aboveground"))
+
+stocks_ecoreg_groups_bgl = stocks_ecoreg_pools %>%
+  filter(StockGroupID %in% c("Biomass: Belowground"))
+
+stocks_ecoreg_groups_dwd = stocks_ecoreg_pools %>%
+  filter(StockGroupID %in% c("DOM: Deadwood"))
+
+stocks_ecoreg_groups_lit = stocks_ecoreg_pools %>%
+  filter(StockGroupID %in% c("DOM: Litter"))
+
+stocks_ecoreg_groups_soc = stocks_ecoreg_pools %>%
+  filter(StockGroupID %in% c("DOM: Soil"))
+
+stocks_ecoreg_groups_tec = stocks_ecoreg_pools %>%
+  filter(StockGroupID %in% c("Total Ecosystem"))
+
+# AGL Biomass map ----
+agl = 
+  ggplot() +
+  geom_sf(data=stocks_ecoreg_groups_agl, aes(geometry=geometry, fill=Change/1000000), color=NA) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey30", size=0.1) +
+  scale_fill_gradient2(low=muted("red"), mid="beige", high=muted("green"), midpoint=0, guide="colorsteps", n.breaks=7) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(-2200000,2100000), ylim=c(380000,3100000)) +
+  labs(fill="Tg C", subtitle="Biomass: Aboveground") +
+  theme_bw(8) +
+  theme(legend.position = "right",
+        legend.key.height = unit(5, "mm"),
+        legend.key.width = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.border = element_rect(size=0.2),
+        panel.grid = element_line(size=0.2)) +
+  guides(fill = guide_colorsteps(direction = "vertical",
+                                 title.position = 'top',
+                                 label.position = "right",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+# BGL Biomass map ----
+bgl = 
+  ggplot() +
+  geom_sf(data=stocks_ecoreg_groups_bgl, aes(geometry=geometry, fill=Change/1000000), color=NA) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey30", size=0.1) +
+  scale_fill_gradient2(low=muted("red"), mid="beige", high=muted("green"), midpoint=0, guide="colorsteps", n.breaks=7) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(-2200000,2100000), ylim=c(380000,3100000)) +
+  labs(fill="Tg C", subtitle="Biomass: Belowground") +
+  theme_bw(8) +
+  theme(legend.position = "right",
+        legend.key.height = unit(5, "mm"),
+        legend.key.width = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.border = element_rect(size=0.2),
+        panel.grid = element_line(size=0.2)) +
+  guides(fill = guide_colorsteps(direction = "vertical",
+                                 title.position = 'top',
+                                 label.position = "right",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+# Deadwood map ----
+dwd = 
+  ggplot() +
+  geom_sf(data=stocks_ecoreg_groups_dwd, aes(geometry=geometry, fill=Change/1000000), color=NA) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey30", size=0.1) +
+  scale_fill_gradient2(low=muted("red"), mid="beige", high=muted("green"), midpoint=0, guide="colorsteps", n.breaks=7) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(-2200000,2100000), ylim=c(380000,3100000)) +
+  labs(fill="Tg C", subtitle="DOM: Deadwood") +
+  theme_bw(8) +
+  theme(legend.position = "right",
+        legend.key.height = unit(5, "mm"),
+        legend.key.width = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.border = element_rect(size=0.2),
+        panel.grid = element_line(size=0.2)) +
+  guides(fill = guide_colorsteps(direction = "vertical",
+                                 title.position = 'top',
+                                 label.position = "right",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+# Litter map ----
+lit = 
+  ggplot() +
+  geom_sf(data=stocks_ecoreg_groups_lit, aes(geometry=geometry, fill=Change/1000000), color=NA) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey30", size=0.1) +
+  scale_fill_gradient2(low=muted("red"), mid="beige", high=muted("green"), midpoint=0, guide="colorsteps", n.breaks=7) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(-2200000,2100000), ylim=c(380000,3100000)) +
+  labs(fill="Tg C", subtitle="DOM: Litter") +
+  theme_bw(8) +
+  theme(legend.position = "right",
+        legend.key.height = unit(5, "mm"),
+        legend.key.width = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.border = element_rect(size=0.2),
+        panel.grid = element_line(size=0.2)) +
+  guides(fill = guide_colorsteps(direction = "vertical",
+                                 title.position = 'top',
+                                 label.position = "right",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+# Soil map ----
+soc = 
+  ggplot() +
+  geom_sf(data=stocks_ecoreg_groups_soc, aes(geometry=geometry, fill=Change/1000000), color=NA) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey30", size=0.1) +
+  scale_fill_gradient2(low=muted("red"), mid="beige", high=muted("green"), midpoint=0, guide="colorsteps", n.breaks=7) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(-2200000,2100000), ylim=c(380000,3100000)) +
+  labs(fill="Tg C", subtitle="DOM: Soil") +
+  theme_bw(8) +
+  theme(legend.position = "right",
+        legend.key.height = unit(5, "mm"),
+        legend.key.width = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.border = element_rect(size=0.2),
+        panel.grid = element_line(size=0.2)) +
+  guides(fill = guide_colorsteps(direction = "vertical",
+                                 title.position = 'top',
+                                 label.position = "right",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+# TEC map ----
+tec = 
+  ggplot() +
+  geom_sf(data=stocks_ecoreg_groups_tec, aes(geometry=geometry, fill=Change/1000000), color=NA) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey30", size=0.1) +
+  scale_fill_gradient2(low=muted("red"), mid="beige", high=muted("green"), midpoint=0, guide="colorsteps", n.breaks=7) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(-2200000,2100000), ylim=c(380000,3100000)) +
+  labs(fill="Tg C", subtitle="Total Ecosystem Carbon") +
+  theme_bw(8) +
+  theme(legend.position = "right",
+        legend.key.height = unit(5, "mm"),
+        legend.key.width = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.border = element_rect(size=0.2),
+        panel.grid = element_line(size=0.2)) +
+  guides(fill = guide_colorsteps(direction = "vertical",
+                                 title.position = 'top',
+                                 label.position = "right",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+# Cowplot ----
+plot_grid(agl, bgl, dwd, lit, soc,tec, ncol=2, align="hv", labels="auto", label_size = 8, label_fontface = "plain")
+```
+
+## Major controlling processes on historical net carbon fluxes
+
+### Sensitivity analysis
+
+In addition to the reference simulation ("LULC-D+Climate") presented in the previous section, which included the combined effects of LULC/disturbance and weather and climate, we ran three additional simulations to assess the sensitivity of major controlling processes on ecosystem carbon dynamics. The additional simulations included a) a scenario where only weather and climate effects were included ("Climate Only"), b) a scenario were only LULC and disturbances were included ("LULC-D Only"), and c) a simulation where neither LULC or climate was included ("No Effects"). Figure \@ref(fig:figflowresults) shows the estimated net primary productivity (NPP), heterotrophic respiration (Rh), net ecosystem productivity (NEP), and net biome productivity (NBP) over time for each of the four simulations.
+
+```{r, figflowresults, cache=T, echo=F, warning=F, message=F, fig.width=7, fig.height=4, fig.cap="Net fluxes of carbon in conterminous U.S. forests for the period 2002-2020. The four scenarios include the effects of climate only, land use and disturbance only, the combined effects of land use and climate, and no effects other than forest aging."}
+
+
+
+flows_net_plot = flows_net %>%
+  mutate(FlowGroupID = as.character(FlowGroupID)) %>%
+  mutate(FlowGroupID = if_else(FlowGroupID=="Emission: Total", "Heterotrophic Respiration", FlowGroupID)) %>%
+  mutate(FlowGroupID = factor(FlowGroupID, levels=c("Net Primary Productivity", "Heterotrophic Respiration", "Net Ecosystem Productivity", "Net Biome Productivity"))) %>%
+  mutate(ScenarioName = factor(ScenarioName, levels=c("LULC-D+Climate", "LULC-D Only", "Climate Only", "No Effects")))
+
+flows_net_plot_a = flows_net_plot %>% filter(FlowGroupID %in% c("Net Primary Productivity", "Heterotrophic Respiration"))
+flows_net_plot_b = flows_net_plot %>% filter(!FlowGroupID %in% c("Net Primary Productivity", "Heterotrophic Respiration"))
+
+p1 = ggplot(flows_net_plot_a, aes(x=Timestep, y=Amount/1000000, color=ScenarioName, linetype=ScenarioName)) +
+  geom_line(size=0.5) +
+  scale_color_manual(values=c("LULC-D+Climate"="#000000", "Climate Only"="#56B4E9", "LULC-D Only"="#D55E00", "No Effects"="#F0E442")) +
+  scale_linetype_manual(values=c("LULC-D+Climate"="solid", "Climate Only"="dotted", "LULC-D Only"="dashed", "No Effects"="longdash")) +
+  facet_wrap(~FlowGroupID, ncol=4) +
+  theme_bw(8) +
+  theme(panel.grid.minor = element_blank(),
+        strip.background = element_blank()) +
+  labs(x=NULL, y=expression(Tg~C~yr^-1), fill="Scenario", linetype="Scenario", shape="Scenario", color="Scenario") 
+
+p2 = ggplot(flows_net_plot_b, aes(x=Timestep, y=Amount/1000000, color=ScenarioName, linetype=ScenarioName)) +
+  geom_line(size=0.5) +
+  scale_color_manual(values=c("LULC-D+Climate"="#000000", "Climate Only"="#56B4E9", "LULC-D Only"="#D55E00", "No Effects"="#F0E442")) +
+  scale_linetype_manual(values=c("LULC-D+Climate"="solid", "Climate Only"="dotted", "LULC-D Only"="dashed", "No Effects"="longdash")) +
+  facet_wrap(~FlowGroupID, ncol=4) +
+  theme_bw(8) +
+  labs(x=NULL, y=expression(Tg~C~yr^-1), fill="Scenario", linetype="Scenario", shape="Scenario", color="Scenario") +
+  theme(legend.position = "right",
+        legend.justification = "center",
+        legend.direction = "vertical",
+        legend.text.align = 1,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        legend.key.height = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank()) +
+  guides(color = guide_legend(direction = "vertical",
+                              title.position = 'top',
+                              title.hjust = 0,
+                              label.hjust = 0,
+                              nrow = 5,
+                              byrow = T,
+                              reverse = F,
+                              label.position = "right",
+                              ticks = T,
+                              ticks.colour = "black",
+                              ticks.linewidth = 0.8,
+                              frame.colour = "black"))+
+  guides(linetype = guide_legend(direction = "vertical",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 0,
+                                 nrow = 5,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "right",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+p3 = get_legend(p2)
+
+top_row = plot_grid(
+  p1 + theme(legend.position="none"),
+  p2 + theme(legend.position="none"), nrow=2)
+plot_grid(top_row, p3, nrow = 1, align = "tb", axis = "tb", rel_widths = c(1, .2))
+
+```
+
+Under the LULC-D+Climate simulation, the size of the net sink varied considerably from year-to-year, ranging from `r nbp_primary_min` Tg C yr^-1^ (source) to `r nbp_primary_max` Tg C yr^-1^ (sink), with climate primarily driving inter-annual variability in the size of the forest sink. When climate was not included in the simulation ("LULC-D Only"), the size of the net sink ranged from `r nbp_lulc_min` to `r nbp_lulc_max` Tg C yr^-1^ (when 2020 is excluded, removing the effects of an extreme fire year, the low end of the range was `r nbp_lulc_min_2019` Tg C yr^-1^) and showed a declining trend over time due to forest aging, increases in LULC and disturbances, and the absence of increased productivity from recent climate conditions. When LULC was excluded ("Climate Only"), the forest carbon sink was `r round((nbp_primary_mean/nbp_climate_mean)*100,0)`% higher (mean of `r nbp_climate_mean` Tg C yr^-1^) than simulations where LULC was included. Land use, land-use change, and disturbances were the primary controlling processes affecting the magnitude of the net carbon sink (Figure \@ref(fig:figflowresults)).
+
+Net primary productivity (NPP) of U.S. forests averaged `r npp_primary_mean` Tg C yr^-1^ in the "No Effects" simulation. Incorporating the effects of LULC and disturbances reduced total NPP by `r npp_lulc_abs` Tg C yr^-1^, while adding the effects of climate resulted in an increase in NPP of `r abs(npp_clim_abs)` Tg C yr^-1^ compared to the LULC only simulation. These results suggest that LULC and disturbance have a negative impact on NPP while climate variability and change have resulted in a small and highly uncertain increase in productivity of U.S. forests. Heterotrophic respiration (Rh) increased under all simulations resulting from increases in productivity, climate warming, and the effects of land use history. Net ecosystem productivity (NEP) (the difference between NPP and Rh) is the net carbon sink before LULC and disturbances are accounted for. Under the reference scenario ("LULC-D+Climate"), we estimated mean annual NEP at `r nep_mean` Tg C yr^-1^. With a mean annual NBP rate of `r nbp_mean` Tg C yr^-1^ we attribute `r nep_mean-nbp_mean` Tg C yr^-1^ to ecosystem removals resulting from LULC and disturbances.
+
+### Effects of LULC and disturbance
+
+Table \@ref(tab:lulcfluxtable) shows the emission, harvest, and mortality fluxes for the LULC and disturbance transitions considered in this study. Reduction of carbon sequestration was primarily from the transfer of carbon to harvested wood products (`r flows_harvest_prim_mean` Tg C yr^-1^) with clearcut harvest accounting for more than 90% of the carbon removal from ecosystems. Harvest activities also resulted in a similar amount of carbon transferred from live to DOM pools via mortality. Our estimate of carbon transfer via harvest was considerably lower than other studies, including those from @liu2020critical (133 Tg C yr^-1^), @williams2012carbon (107 Tg C yr^-1^), and @usgcrp2018soccr2 (113 Tg C yr^-1^), likely the result of a large underestimation of forest thinning rates which are not well detected in the Landfire disturbance data. @liu1804baseline found a similar result, where remote sensing based approaches tend to underestimate forest harvest carbon removals relative to methods, which rely on forest inventory alone.
+
+Ecosystem carbon losses from combustion averaged `r flows_emis_prim_mean` Tg C yr^-1^, with wildfire accounting for `r fire_emissions_pct`% of all LULC and disturbance related emissions; emissions from urbanization and agricultural expansion accounted for `r urban_emissions_pct`% and `r ag_emissions_pct`%, respectively. Emissions from wildfire were highly variable from year-to-year, with three of the four highest fire emission years all occurring since 2017. In 2020, wildfire burned \~`r fire_area_2020` million hectares, primarily in California and Oregon, an amount `r fire_area_2020_pct`% greater than the historical average. Emissions were estimated to be `r round(flows_emis_prim_2020,1)` Tg C (`r round(flows_emis_prim_2020*3.67,1)` Tg CO~2~), which were more than three times the historical average.
+
+In addition to ecosystem carbon removals, LULC and disturbances resulted in the transfer of an additional `r flows_mort_prim_mean` Tg C yr^-1^ from live to DOM pools, which will contribute to future years reductions in the carbon sink through their decay and decomposition. This future flux could be accelerated by continued increases in the turnover rate of DOM resulting from climate warming.
+
+```{r, lulcfluxtable, echo=F, warning=F, message=F}
+options(knitr.kable.NA = "---")
+
+lulc_removals_table = lulc_removals %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Ag Expansion: Cropland", "Cropland")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Ag Expansion: Pasture", "Pasture")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Urbanization: High", "High Intensity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Urbanization: Medium", "Medium Intensity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Urbanization: Low", "Low Intensity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Urbanization: Open", "Open Space")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Forest Harvest: Forest Clearcut", "Forest Clearcut")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Forest Harvest: Forest Selection", "Forest Selection")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Fire: High", "High Severity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Fire: Medium", "Medium Severity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Fire: Low", "Low Severity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Insect: High", "High Severity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Insect: Medium", "Medium Severity")) %>%
+  mutate(TransitionTypeID = str_replace(TransitionTypeID, "Insect: Low", "Low Severity")) %>%
+  mutate(TransitionGroupID = str_replace(TransitionGroupID, "Ag Expansion", "Agricultural Expansion"))
+
+kable(lulc_removals_table, col.names = c("Transition Group", "Transition Type", "Emission", "Harvest", "Mortality", "Transfer"),
+      digits = 2,
+      booktabs = T,
+      escape = F,
+      caption="Average annual fluxes of carbon resulting from land-use and land-cover change, and disturbances for the period 2001-2020. Emissions refer to the direct combustion of carbon to the atmosphere as either carbon monoxide, methane, or carbon dioxide. All emissions are shown in units of carbon. Harvest refers to the transfer of carbon out of the ecosystem to harvested wood products. Mortality is the transfer of live carbon to DOM pools. Transfer refers to the transfer of carbon from one DOM pool to another. Units are in Tg C yr.") %>%
+  kable_paper(font_size=8, full_width = F) %>%
+  collapse_rows(1:2, valign="top")
+
+```
+
+## Regional Case study \#1: Carbon emissions from wildfire in California
+
+Historically, wildfire in California has been an important driver of carbon balance. Over the past two decades, wildfire has taken on an increasingly important role driven in part by climate change [@abatzoglou2016impact; @crockett2018greater]. In 2020, California experienced an unprecedented amount of large high severity fires. In total, more than 4 million ha burned across the U.S. with 1.7 million ha burning in California [@nifc2020] alone. Five of the six largest fires in California's history occurred in 2020, each burning more than 100,000 ha, with the August Complex fire alone burning more than 400,000 ha across parts of five counties. Using updated fire perimeter maps [@nifc2020], we were able to provide rapid assessments of impacts to carbon stocks and emissions from forested ecosystems affected by these events.
+
+Figure \@ref(fig:figcafireemissions) shows the estimated annual emissions of CO~2~ in California from wildfires from each carbon pool. We estimated that between 2001 and 2010, wildfire in California resulted in `r round(ca_fire_emissions_2001_2010,1)` Tg CO~2~ yr^-1^ being emitted to the atmosphere. Between 2011 and 2019, we estimated annual emissions from fire increased by `r ca_fire_emissions_pct_change`% to `r round(ca_fire_emissions_2011_2019,1)` Tg CO~2~ yr^-1^, with annual emissions exceeding 40 Tg CO~2~ yr^-1^ in two of those years (2017 and 2018). These estimates compare well with estimates produced by the California Air Resources Board [@arb2020prelimfire]. By comparison, the total carbon emissions from California's commercial and residential sector averages \~43 Tg CO~2~ yr^-1^ [@arb2020inventory]. In 2020, emissions from wildfire increased `r ca_fire_emissions_2020_pct`% (relative to the 2002-2019 mean) to an estimated `r round(ca_fire_emissions_2020,1)` Tg CO~2~ yr^-1^, an amount equivalent to `r round(((ca_fire_emissions_2020/169.5)*100),0)`% of California's emissions from the states entire transportation sector [@arb2020inventory].
+
+```{r, figcafireemissions, echo=F, warning=F, message=F, fig.width=5, fig.height=2.5, fig.cap="Estimates of annual wildfire emissions in California for the period 2002-2020. DOM refers to dead organic matter."}
+stocks_pal = c("Biomass: Foliage" = "green1", 
+               "Biomass: Other Wood" = "green3", 
+               "Biomass: Merchantable" = "forestgreen",
+               "DOM: Aboveground Very Fast" = "#ffffe5", 
+               "DOM: Aboveground Fast" = "#fee391", 
+               "DOM: Aboveground Medium" = "#fe9929", 
+               "DOM: Aboveground Slow" = "#cc4c02",
+               "DOM: Snag Branch" = "#9e9ac8",
+               "DOM: Snag Stem" = "#54278f")
+
+f = factor(c("Biomass: Foliage","Biomass: Other Wood","Biomass: Merchantable","DOM: Aboveground Very Fast",
+           "DOM: Aboveground Fast", "DOM: Aboveground Medium","DOM: Aboveground Slow","DOM: Snag Branch","DOM: Snag Stem"), levels = c("Biomass: Foliage","Biomass: Other Wood","Biomass: Merchantable","DOM: Aboveground Very Fast",
+           "DOM: Aboveground Fast", "DOM: Aboveground Medium","DOM: Aboveground Slow","DOM: Snag Branch","DOM: Snag Stem"))
+           
+ca_fire_emissions = ca_fire_emissions %>%
+  mutate(FromStockTypeID = 
+           factor(FromStockTypeID, c("Biomass: Foliage","Biomass: Other Wood","Biomass: Merchantable","DOM: Aboveground Very Fast",
+           "DOM: Aboveground Fast", "DOM: Aboveground Medium","DOM: Aboveground Slow","DOM: Snag Branch","DOM: Snag Stem"), 
+           levels = c("Biomass: Foliage","Biomass: Other Wood","Biomass: Merchantable","DOM: Aboveground Very Fast",
+           "DOM: Aboveground Fast", "DOM: Aboveground Medium","DOM: Aboveground Slow","DOM: Snag Branch","DOM: Snag Stem")))
+
+ggplot() +
+  geom_bar(data = ca_fire_emissions, aes(x=Timestep, y=(Amount/1000000)*3.67, fill=FromStockTypeID), stat="identity", color="black", size=0.1) +
+  scale_fill_manual(values = stocks_pal) +
+  theme_bw(8) +
+  labs(x=NULL, y=expression(Tg~CO[2]~yr^-1), fill="From Stock Type") +
+  theme(legend.key.size = unit(4,"mm"),
+        panel.grid.minor = element_blank())
+
+
+```
+
+## Projections of carbon change under climate scenarios
+
+We projected future changes in forest carbon dynamics for the western U.S. based on downscaled climate data for the RCP 4.5 radiative forcing scenario [@moss2010next] for the period 2020-2050. We selected the CanESM2 and HADGEM2-ES365 downscaled climate futures to represent "hot-dry" and "warm-wet" futures, respectively [@bedsworth2017]. Climate data from the Coupled Model Inter-comparison Project (CMIP5) were downscaled using the Multivariate Adaptive Constructed Analogs (MACA) [@abatzoglou2012comparison]. Downscaled climate data were used to produce a time series of spatial flow multipliers used to scale annual vegetation growth and the decay and decomposition of DOM at the pixel level. Future LULC and disturbances were sampled, with replacement, from historical rates of change following methods described in @sleeter2019effects. Additional details are described in the methods section.
+
+```{r, figfluxprojectionplot, echo=F, warning=F, message=F, fig.width=6.5, fig.height=8, fig.cap="Projected change in total ecosystem carbon (TEC) for the western U.S. for the RCP 4.5 radiative forcing scenario and two climate models under both business-as-usual (BAU) and a natural climate solutions (NCS) reforestation scenario. Panel a shows the spatial location of areas selected for reforestation under the hot-dry scenario. Panel b shows the net biome productivity (NBP) between 2020 and 2050 under the hot-dry scenario. Panel c shows the relative change in TEC to the year 2001 for all scenarios. Panel d shows the mean cumulative change in NBP for the reforestation scenario relative to the BAU scenario from 2020-2050. Lines reflect the minimum and maximum estimate across the two climate futures. The CanESM2 model represents the warm-wet scenario and the HadGEM2-ES model represents the hot dry scenario."}
+
+# TEC plot as relative change from 2001
+
+state_abbrev = data.frame(SecondaryStratumID = unique(west_tec_merge$SecondaryStratumID)) %>%
+  arrange(SecondaryStratumID) %>%
+  mutate(StateCode = c("AZ", "CA", "CO", "ID", "MT", "NV", "NM", "OR", "UT", "WA", "WY", "Western US"))
+
+west_tec_merge = west_tec_merge %>% 
+  left_join(state_abbrev)
+
+p3 = ggplot(west_tec_merge, aes(x=Timestep, y=Amount_pct, color=GCM, linetype=LUC)) +
+  geom_line(size=0.2) +
+  #geom_point() +
+  scale_color_manual(values=c("Historical"="black", 
+                              "CanESM2"="forestgreen", 
+                              "HadGEM2-ES365"="red3")) +
+  scale_linetype_manual(values = c("Historical"="solid", "BAU"="solid", "Reforestation"="longdash")) +
+  scale_y_continuous(breaks = waiver(), n.breaks = 4) +
+  scale_x_continuous(breaks = c(2010,2030,2050)) +
+  facet_wrap(~SecondaryStratumID) +
+  theme_bw(8) +
+  labs(x=NULL, y="Relative change in TEC compared to 2001", color="Climate", linetype="Land management") +
+  theme(legend.position = "bottom",
+        legend.justification = "left",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,3,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(6, "mm"),
+        legend.background = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank()) +
+  guides(color = guide_legend(direction = "vertical",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0,
+                             nrow = 3,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black"),
+         linetype = guide_legend(direction = "vertical",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust =,
+                             nrow = 3,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black"))
+
+
+p4 = ggplot(west_tec_change_reforest, aes(x=fct_reorder(State, Change), y=Change/1000000, fill=highlight)) +
+  geom_bar(stat="identity") +
+  geom_linerange(aes(ymin=Change_min/1000000, ymax=Change_max/1000000)) +
+  #geom_text(aes(label=round(Change/1000000,0))) +
+  scale_fill_manual(values=c(Named="gray50", "Western US"="#98545F"), guide = "none") +
+  theme_bw(8) +
+  coord_flip() +
+  labs(x=NULL, y="Net sink (Tg C)")
+
+# Transition map
+
+land_poly = st_read("data/vector/ne_10m_land.shp", quiet=T)
+states_poly = st_read("data/vector/cb_2018_us_state_20m.shp", quiet=T)
+states_poly = cbind(states_poly, st_coordinates(st_centroid(states_poly)))
+
+reforest_raster = stack("data/raster/western/reforestation_hadgem2_transitions.tif")
+names(reforest_raster) = c("Shrubland", "Cropland", "Pasture", "Grassland", "Post Fire")
+
+reforest_raster_df = as.data.frame(reforest_raster, xy=T) %>%
+  pivot_longer(cols = c(-x,-y), names_to = "Class", values_to = "Probability") %>%
+  filter(!is.na(Probability)) %>%
+  filter(Probability>0) %>%
+  mutate(Value = 1)
+
+
+p1 = ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=reforest_raster_df, aes(x=x, y=y, fill="Reforestation")) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  geom_sf_text(data=filter(states_poly, STUSPS %in% c("AZ", "CA", "CO", "ID", "MT", "NV", "NM", "OR", "UT", "WA", "WY", "Western US")), 
+               aes(x=X, y=Y, label = NAME), size=2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            xlim=c(min(reforest_raster_df$x), max(reforest_raster_df$x)),
+            ylim=c(min(reforest_raster_df$y), max(reforest_raster_df$y))) +
+  scale_fill_manual(values = c("Reforestation"="black")) +
+  labs(x=NULL, y=NULL, fill="Transition Type") +
+  theme_bw(8) +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(2, "mm"),
+        legend.background = element_blank(),
+        panel.background = element_rect(fill="grey90")) +
+  guides(fill = guide_legend(direction = "horizontal",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0.5,
+                             nrow = 1,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black"))
+  
+
+
+
+
+# NBP map
+land_poly = st_read("data/vector/ne_10m_land.shp", quiet=T)
+states_poly = st_read("data/vector/cb_2018_us_state_20m.shp", quiet=T)
+nbp_raster = raster("data/raster/western/hadgem2-flows-nbp-2050.tif")
+# nbp_raster = aggregate(nbp_raster, fact=4, na.rm=T)
+nbp_raster_df = as.data.frame(nbp_raster, xy=T) %>%
+  rename("Amount"="hadgem2.flows.nbp.2050") %>%
+  filter(!is.na(Amount))
+
+min = round(cellStats(nbp_raster$hadgem2.flows.nbp.2050, "min"),0)
+max = round(cellStats(nbp_raster$hadgem2.flows.nbp.2050, "max"),0)
+breaks = c(min, seq(-40,50,10), max)
+labels = c("-400", seq(-40,50,10), max)
+
+p2 = ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=nbp_raster_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(nbp_raster_df$x), max(nbp_raster_df$x)),
+           ylim=c(min(nbp_raster_df$y), max(nbp_raster_df$y))) +
+  scale_fill_fermenter(palette="Spectral", type="div", direction=1, guide="legend", breaks=breaks, limits=c(min, max), na.value=NA) +
+  labs(x=NULL, y=NULL, fill=expression(Metric~Tons~C~ha^-1)) +
+  theme_bw(8) +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(12, "mm"),
+        legend.background = element_blank(),
+        panel.background = element_rect(fill="grey90")) +
+  guides(fill = guide_colorsteps(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 1,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+top_row = plot_grid(p1,p2, align = c("h"), axis = c("tb"), labels = c("a", "b"), label_size = 8, label_fontface = "plain")
+bottom_row = plot_grid(p3,p4, align = c("h"), axis = c("tb"), labels = c("c", "d"), label_size = 8, label_fontface = "plain", rel_widths = c(70,30))
+plot_grid(top_row, bottom_row, nrow = 2, align = c("hv"), axis = c("tblr"))
+
+#top_row = plot_grid(p2,p4, align = c("h"), axis = c("tb"), labels = c("a", "b"), label_size = 8, label_fontface = "plain", rel_widths = c(65,35))
+#bottom_row = plot_grid(p3, align = c("h"), axis = c("tb"), labels = c("c", "d"), label_size = 8, label_fontface = "plain")
+#plot_grid(top_row, bottom_row, nrow = 2, align = c("hv"), axis = c("tblr"))
+
+```
+
+Figure \@ref(fig:figfluxprojectionplot) shows the TEC storage for the historical and alternative climate futures for each of the 11 western states included in the simulation. Over the historical period, the western U.S. was a small net sink of carbon, with NBP estimated at `r west_tec_change_mean_hist` Tg C yr^-1^. Under the warm-wet model, the size of the sink was projected to increase slightly to `r west_tec_change_mean_canesm` Tg C yr^-1^. In contrast, under the "hot-dry" model, western forested ecosystems were projected to transition to a net source of carbon to the atmosphere at an annualized rate of `r west_tec_change_mean_hadgem` Tg C yr^-1^. However, the total annualized sink estimate masks considerable variability in both time and space, with some states projected as net sinks while others were projected to be a net source. While climate scenarios showed broad consistency in trajectory and magnitude of TEC for seven of the twelve western states, differences in climate scenarios are also evident. In five states, the "warm-wet" future results in greater net sequestration relative to the "hot-dry" scenario.
+
+## Regional case study \#2: Western U.S. reforestation
+
+To demonstrate the capability of the LUCAS-CBM approach, we simulated the effects of a simple natural climate solutions (NCS) scenario where areas of grassland, shrubland, pasture, cropland, and previously burned areas that historically supported forests were candidates for reforestation. We used a set of spatial maps to constrain locations where reforestation could occur [@cook2020lower]. Candidate areas were identified if tree cover occurred historically and exceeded 25%. For a complete description of the methods used to identify potential reforestation sites see @cook2020lower. However, it is important to note that the methods used to generate maps of potential reforestation locations did not consider future climate conditions. It is reasonable to assume that suitability for forest restoration will be impacted by changes in climate, and therefore effect the efficacy of any mitigation strategies. Because we did not account for these effects, the example provided here should be viewed as a conceptual approach to using the modeling framework to simulate "what-if" scenarios on the effects of NCS and not a true forecast, which would imply a level of confidence not readily quantifiable given the available data.
+
+We projected the effect of reforesting nearly 10 million ha across 11 western states beginning in 2030 and running through 2050. Reforestation of shrublands and grasslands accounted for \~75% of the total reforested area while post-fire reforestation accounted for \~17%. Reforestation of croplands and pastures accounted for less than 5% combined. When reforestation was included in the simulations, forest ecosystems sequestered an additional `r round(reforest_diff_min/3.67,0)`-`r round(reforest_diff_max/3.67,0)` Tg C by 2050 (\@ref(fig:figfluxprojectionplot)d). On an annualized basis, reforestation increased the annual carbon sink by `r west_tec_change_mean_canesm_reforest-west_tec_change_mean_canesm`Tg C yr^-1^ under the warm-wet scenario and `r west_tec_change_mean_hadgem_reforest-west_tec_change_mean_hadgem` Tg C yr^-1^ under the hot-dry scenario.
+
+# Discussion
+
+This paper describes methods and capabilities of a national approach combining the LUCAS state-and-transition simulation model of landscape change with the CBM-CFS3 model of ecosystem carbon dynamics to produce detailed, spatially explicit estimates of landscape change and ecosystem carbon dynamics for forests of the conterminous United States. The approach leverages the robust capabilities of LUCAS to represent a wide range of LULC and disturbance types derived from remote sensing techniques. We used the CBM-CFS3 model of carbon dynamics to parameterize a stock-flow sub-model and added a dynamic growth module to represent the effects of climate variability and change on the NPP of forested ecosystems. Because the method relies on the modeling of carbon fluxes to estimate stocks, the LUCAS-CBM approach provides the added benefit of providing rich detail in the underlying transfer of carbon between ecosystem pools suitable for policy-relevant applications such as national carbon monitoring, which is lacking in traditional inventory-based stock-change approaches. Additionally, because the model is parameterized at the pixel scale, all outputs are provided as a time-series of spatially explicit maps, providing much needed resolution suitable for land management decision making.
+
+We found that U.S. forests were generally a reliable carbon sink over the past two decades, sequestering carbon at a rate equivalent to 22% of the emissions from the nations transportation sector. However, results indicate the strength of the net carbon sink declined by 38% over the last decade, resulting from forest ageing, increases in the magnitude and frequency of large natural disturbance events (e.g., drought, fire), and continued large-scale carbon removals due to harvest and urbanization. While we expect small increasing, stable, or even declining annual carbon sinks in the coming decades for western forests, large-scale reforestation presents an opportunity to reverse these trends by boosting the annual forest carbon sink strength in this region (Figure \@ref(fig:figfluxprojectionplot)). However, future climate conditions were not considered when assuming the efficacy of reforestation locations [@cook2020lower], resulting in large uncertainties surrounding the potential benefits of the NCS scenarios. Additional work is needed to more appropriately project the suitability of forest restoration under future climate conditions.
+
+Results show strong agreement with a range of other studies across a number of estimated variables including estimates produced by inventory methods alone, such as the annual US EPA greenhouse gas assessment [@epa2020inventory]. Disparate modeling approaches, from process-based to inventory-based models, are beginning to converge on a narrower range of net carbon balance for the CONUS. This study provides further evidence of the increasing stability and maturity of net carbon balance results at continental scales.
+
+The LUCAS model was designed using the SyncroSim modeling environment, which originated as a tool to model landscape change [@daniel2016state]. As a result, the model contains a robust set of features to simulate a wide range of landscape change processes including vegetation dynamics [@ford2019tool; @miller2015combining], spread and management of invasive species [@jarnevich2020assessing], and habitat conservation [@d2019coupled]. We developed the LUCAS model to account for a variety of LULC changes, including urbanization, agricultural expansion and contraction, fire, harvest, and drought mortality. However, features exist to include a range of other biophysical and socio-economic processes. For example, @wilson2016future used the LUCAS model to track changes in water use under alternative LULC scenarios and @sleeter2017projecting used the model to project changes in community vulnerability to coastal hazards. A range of studies have used LUCAS to assess ecosystem carbon dynamics, including a spatially explicit assessment for the state of Hawaii [@sleeter2017projected], an analysis of historical changes in the conterminous U.S. [@sleeter2018effects], and future projections for the state of California under alternative LULC and climate scenarios [@sleeter2019effects]. @sleeter2021enhanced used a high resolution version of the LUCAS framework to model carbon dynamics in a forested peatland wildlife refuge in response to repeated stand replacing fires and changes in hydrologic land management.
+
+The linked LUCAS-CBM approach provides a middle ground between inventory-based stock-change methods and complex process-based biogeochemical models. Our method overcomes many of the limitations of inventory based estimates, notably an inability to attribute controlling processes, coarse temporal resolution, and a lack of spatially explicit estimates. Furthermore, inventory based methods often prioritize live biomass pools and in many cases under--sample other important DOM pools. We address each of these limitations while also utilizing detailed forest inventory data to parameterize key aspects of the the model.
+
+Unlike inventory-based approaches, biogeochemical models represent a wide range of underlying processes and lend themselves well to attribution of change. By design, process models are also sensitive to the effects of weather and climate variability and change [@liu1804baseline]. However, the disadvantages of this class of models is their inherent complexity and large uncertainties resulting from the wide range of parameter estimates, which need to be made [@hayes2012reconciling]. Furthermore, this class of models has been designed to work over large areas at relatively coarse resolution, which can be difficult to utilize at ecosystem management scales. The LUCAS-CBM approach was developed to overcome many of these obstacles by running on an annual time-step (as opposed to hourly or daily) and representing basic carbon transfer processes such as growth, mortality, turnover, decay, and decomposition. The relatively small number of carbon flux rates requiring parameterization still provides for attribution of change while reducing the internal complexity of the model. Furthermore, by incorporating the NPP sub-model to estimate variability in annual growth rates, our approach is sensitive to the effects of climate variability and change. Lastly, the model framework we have developed is agnostic in terms of spatial resolution, meaning it can be run at any resolution across any sized landscape provided key inputs can be obtained (e.g., downscaled climate data, LULC data) and computational resources are available.
+
+The current implementation of the LUCAS-CBM approach utilizes a number of default parameters developed for forested ecosystems of Canada. For example, while we supplied U.S. specific merchantable growth rates based on FIA forest inventory data, we relied on the default biomass expansion factors from CBM-CFS3 to convert merchantable volume into carbon stock estimates. Additionally, we assigned each U.S. level 3 ecoregion and state to a corresponding Canadian ecozone and province so as to leverage existing volume to biomass conversion rates. For DOM, default turnover rates were based on CBM-CFS3 and then modified based on mean annual temperature for each forest type. Future research should focus on incorporating U.S. specific biomass expansion factors for individual tree species [@jenkins2003national] and incorporating regionally specific DOM turnover rates obtained from literature. Additionally, the LUCAS-CBM approach is well suited to exploring uncertainty in carbon model parameters by drawing from statistical distributions and then sampling using Monte Carlo methods. This capability is highly conducive to exploring uncertainties in model parameters through sensitivity analysis [@sleeter2019effects; @white2008practical; @metsaranta2017uncertainty].
+
+The effect of CO~2~ fertilization is among the larger uncertainties associated with estimating the terrestrial carbon budget [@smith2016large]. It is not currently possible to model the effects of CO~2~ enrichment on forest productivity within the CBM-CFS3 model and thus was not included in this study. However, the effects of CO~2~ enrichment could be incorporated directly within the LUCAS framework through the use of a series of temporal growth multipliers much in the same way NPP variability was modeled. This approach was used by [@sleeter2019effects] to model the effects of CO~2~ enrichment on California ecosystems under multiple climate scenarios and was shown to be a major source of uncertainty in estimating the carbon balance of terrestrial ecosystems.
+
+The effects of LULC and disturbance are a major controlling process of ecosystem carbon dynamics. However, uncertainties in LULC can be large, depending on the underlying source of data used. Advances in remote sensing have provided a new era of land change data for modelers, yet there are significant limitations to incorporating remote sensing data into carbon assessments. Large area and high temporal frequency data describing forest disturbance, such as the North American Forest Dynamics [@goward2012nacp] and the Global Forest Change [@hansen2013high] datasets, are an important contribution toward our understanding of forest disturbance dynamics. However, attribution of forest changes - i.e., harvest, fire, drought, land use - are not yet provided. As a result, we relied on the Landfire Program's annual disturbance maps [@landfire2014disturbance], which provide change attribution data. Results suggest that based on Landfire disturbance data, we underestimated the area of forest harvest, and in particular, the areal extent of selection harvest, which can be difficult to identify using synoptic-scale remote sensing data such as Landsat. @williams2012carbon estimated carbon removals resulting from harvest at 107 Tg C yr^-1^ with estimates ranging from 92-145 Tg C yr^-1^ across a range of other studies [@woodbury2007carbon; @hurtt2002projecting; @birdsey1995carbon; @williams2012carbon]. These estimates are nearly two times our mean annual estimate of `r flows_harvest_prim_mean` Tg C yr-1 based on `r harvest_area_0120_mean_mha` million ha of harvested area. However, the harvest area for the first five years of Landfire data (2002-2007) averaged `r harvest_area_0107_mean_mha` million ha yr^-1^, compared to `r harvest_area_0820_mean_mha` million ha yr^-1^ for the 2008-2020 period. For this later period, total estimated carbon removals averaged `r flows_harvest_prim_0820_mean` Tg C yr^-1^. We conclude that the Landfire disturbance data a) under-represents harvest area early in the time series and b) systematically under-represents the amount of selection harvest overall. The effect of this data limitation would likely reduce our estimated carbon sink rate by 20-40 Tg C yr^-1^ if we forced the model to achieve total carbon removals more in line with reported literature values. Reconciling these differences would greatly improve the effectiveness of any carbon monitoring program.
+
+The generalized modeling framework also allows for additional carbon stocks and fluxes to be included, such as the lateral flux of carbon between terrestrial and aquatic ecosystems. While not included in this study, this lateral flux is considered an important factor in regional to global carbon budgets and estimated to account for \~1.0 Pg C yr^-1^ globally [@regnier2013anthropogenic] and is perhaps equal to the size of the total net terrestrial sink [@ciais2008impact]. The LUCAS framework is also well suited to tracking the fate of carbon resulting from other lateral fluxes, such as carbon removed in harvested products. @smyth2014quantifying used the CBM-CFS3 model linked with a harvested wood products (HWP) model that estimates emissions based on product half-life decay times to estimate carbon mitigation potential under alternative scenarios. The LUCAS framework readily allows for adding additional stock and flow pathways, which could be used to track the fate of harvested carbon (see table \@ref(tab:lulcfluxtable)) through a range of product pools to provide a more complete understanding of forest carbon dynamics.
+
+While we developed this study to analyze upland forested ecosystems, the framework can be extended to estimate carbon dynamics in other ecosystems as well, such as grasslands, shrublands, wetlands, agricultural lands, and urban/suburban landscapes. LUCAS has been used to model carbon dynamics in many of these systems using parameters derived from dynamic global vegetation models (DGVM's) [@sleeter2018effects]. Future research will focus on translating those parameters into the new LUCAS-CBM framework. Additionally, researchers are using the LUCAS framework, along with the carbon stock and flow structure adapted from the CBM-CFS3 and described in this paper, to develop a spatially explicit model of ecosystem carbon dynamics in coastal herbaceous wetlands [@stagg2020national].
+
+Quantifying the effects of land management actions on carbon stocks and fluxes is increasingly needed to identify opportunities for, and assess the effectiveness of, natural climate solutions (NCS). The LUCAS-CBM approach is well suited to modeling the effectiveness of a range of NCS strategies, such as changing harvest rates and geographic patterns, protecting old growth forests, reducing deforestation, and implementing reforestation programs. To date, most studies aimed at quantifying the benefits of NCS have relied on non-spatial or spatially referenced approaches, which only factor in the biophysical suitability of reforestation [@fargione2018natural; @griscom2017natural] but do not consider other factors, such as areas that may provide additional co-benefits beyond increased carbon sequestration and storage [@cook2020lower]. A notable exception is the recent analysis of forest restoration in Canada using a spatially explicit version of the CBM approach [@drever2021natural]. The LUCAS-CBM approach described in this study, along with a new set of spatially explicit maps of reforestation potential [@cook2020lower], can be used to refine estimates of carbon sequestration benefits and assess other ecosystem service co-benefits.
+
+# Conclusion
+
+Previous studies have estimated temperate forests of North America as a large and persistent carbon sink over recent decades, with U.S. forests accounting for the vast majority of the continental sink. However, uncertainty in the size and variability of the sink is large, owing primarily to the wide range of methodological approaches used for estimation. Because the U.S. relies on a stock-change approach for its official reporting [@epa2020inventory], there is a paucity of information and data on underlying carbon fluxes, making attribution of changes in the annual sink rate difficult. Additionally, while carbon stock-change estimates are updated annually, they are not spatially explicit, reducing the utility to land managers.
+
+We developed a modeling approach to fill these important gaps. The approach described in this study was designed to serve as a middle ground between inventory-based stock-change methods and more complex process-based biogeochemical models. The LUCAS-CBM carbon monitoring and projection tool builds off a robust national forest inventory program with the added capability of producing spatially explicit carbon stocks and flows on an annual timestep. At the same time, the reduced complexity of the underlying system represented by the model makes the approach more accessible to a wider range of users. The approach is particularly well suited to producing rapid updates in response to major events (e.g., wildfire), assessing uncertainties of key model parameters (e.g., LULC change), understanding effects of key processes using "what-if" scenario analysis (e.g., climate variability, CO~2~ fertilization), or making projections over short, medium, or long time horizons. Lastly, the generalized structure of the modeling framework makes expanding the framework to cover other ecosystem types possible, as does including additional carbon flows such as lateral transfers between terrestrial and aquatic systems and harvested products.
+
+# Methods
+
+To estimate carbon stocks and fluxes for CONUS, we linked the CBM-CFS3 spatially referenced model of ecosystem carbon dynamics with the LUCAS spatially explicit model of LULC change. The CBM-CFS3 model was used to generate a set of forest species and ecoregion-level carbon flux rates, which were then used within the LUCAS model to produce spatially explicit maps of carbon stocks and fluxes based on LULC change, disturbances, forest aging, and climate variability and change.
+
+## LUCAS state-and-transition simulation model
+
+The LUCAS state-and-transition simulation model (STSM) was stratified using EPA level III ecoregions [@omernik1987ecoregions], U.S. states, and land management boundaries. We defined a total of 43 unique state classes which were based on the combination of classes from the National Land Cover Database [@homer2015completion] and the U.S. Forest Service species type-groups [@Ruefenacht2008foresttypes]. We defined a total of 84 transition pathways which span seven major categories of LULC change and disturbance. The model was run on an annual timestep for the period 2001-2020 at a spatial resolution of 1-km x 1-km. Below we discuss the major aspects of the LUCAS STSM and the methods used to parameterize the model. For a general description of STSM models see @daniel2016state.
+
+### State class map
+
+The conterminous U.S. (CONUS) was partitioned into a regular grid of 1-km x 1-km cells where each cell was assigned to a discrete land-use/land-cover classes (LULC). The initial land cover map was based on the 2001 National Land Cover Database (NLCD). We further modified the classification system to partition the three NLCD forest classes into forest type-groups based on the U.S. Forest Service (USFS) classification system. All cells mapped with a forest type-group in the USFS map were assumed to be forest cover and were recoded accordingly in our final state class map. The forest type-groups map contained 28 forest types which were generally classified as eastern and western hardwoods or softwoods. In total, the LUCAS STSM contained 43 unique LULC classes which are shown in Figure \@ref(fig:figstatemap).
+
+```{r, figstatemap, cache=T, echo=F, warning=F, message=F, fig.width=7, fig.cap="State class map developed by merging the 2001 National Land Cover Database and U.S. Forest Service forest type-groups maps."}
+land_poly = st_read("data/vector/ne_10m_land.shp", quiet=T)
+states_poly = st_read("data/vector/states.shp", quiet=T)
+stateTypes = read_csv("data/raster/state-class-types.csv")
+statemap = raster("data/raster/ic-state-class.tif")
+#statemap = aggregate(statemap, fact=4, fun="modal", na.rm=T)
+statemap_df = as.data.frame(statemap, xy=T) %>%
+  rename("ID"="ic.state.class") %>%
+  filter(!is.na(ID)) %>%
+  left_join(stateTypes) %>%
+  select(-Color, -Legend, -Description, -IsAutoName) %>%
+  mutate(StateLabelYID = ifelse(StateLabelYID=="All", NA, StateLabelYID)) %>%
+  mutate(ID = ifelse(ID<100, paste0(0,ID), ID)) %>%
+  mutate(CodeName=paste(ID,StateLabelXID,StateLabelYID, sep=" ")) %>%
+  mutate(CodeName = str_remove(CodeName, " NA")) %>%
+  mutate(CodeName = str_remove(CodeName, "Forest ")) %>%
+  mutate(CodeName = str_remove(CodeName, " Group"))
+
+state_labels = sort(unique(statemap_df$CodeName))
+state_pal = c("#5475A8", "#ffffff", "#E8D1D1", "#E29E8C", "#ff0000", "#B50000", "#000000", "#D2CDC0", "#DCCA8F", "#FDE9AA", "#FBF65D", "#CA9146", "#C8E6F8", "#64B3D5",
+              "#64B3D5", "DarkSlategray", "DarkOliveGreen", "seagreen", "#b2b2b2", "darkgreen", "#343434", "#a80084", "DarkSeaGreen", "SteelBlue", "Turquoise4", "#ffff73", "#e6e600", "#734c00", "forestgreen", "#ffff73",
+              "MediumSeagreen", "#aaff00", "#73ffdf", "#00a884", "#004da8", "#828282", "#70a800", "#aaff00", "#73ffdf", "#00a884", "#002673", "#686868", "red")
+
+ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="grey99", color=NA) +
+  geom_tile(data=statemap_df, aes(x=x, y=y, fill=ID), show.legend = T) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(statemap_df$x), max(statemap_df$x)),
+           ylim=c(min(statemap_df$y), max(statemap_df$y))) +
+  theme_bw(8) +
+  labs(x=NULL, y=NULL) +
+  theme(
+    legend.position = "bottom",
+    legend.text.align = 0,
+    legend.text = element_text(size = 6.5, hjust = 0, color = "#4e4d47"),
+    plot.margin = unit(c(.5,.5,.2,.5), "cm"),
+    panel.spacing = unit(c(-.1,0.2,.2,0.2), "cm"),
+    panel.border = element_rect(size=0.2, fill=NA),
+    panel.background = element_rect(fill="grey90"),
+    axis.ticks.length = unit(2, "mm"),
+    legend.background = element_rect(fill="white", color=NA)) +
+   scale_fill_manual(values = state_pal,
+                    labels = state_labels,
+                    name = "State class type",
+                    guide = guide_legend(direction = "vertical",
+                                         keyheight = unit(2, units = "mm"),
+                                         keywidth = unit(4, units = "mm"),
+                                         title.position = 'top',
+                                         title.hjust = 0,
+                                         label.hjust = 0,
+                                         nrow = 11,
+                                         byrow = F,
+                                         reverse = F))
+
+
+```
+
+### Forest age
+
+Forest age was estimated using a spatially explicit map of aboveground live biomass [@wilson2013imputing] and a map of forest canopy cover from the National Land Cover Database. The live biomass map was used to look-up forest age for each forest type-group using the state attribute tables derived from the CBM-CFS3 reference simulations (described below). Mean canopy cover was calculated for each forest type-group and ages were scaled around the mean so as to avoid assigning low ages to forest stands with low canopy cover (Figure \@ref(fig:figagemap)).
+
+```{r, figagemap, cache=T, echo=F, warning=F, message=F, fig.width=7, fig.cap="Forest age map inferred from aboveground live biomass and canopy cover data and used to initialize LUCAS model."}
+land_poly = st_read("data/vector/ne_10m_land.shp", quiet=T)
+states_poly = st_read("data/vector/states.shp", quiet=T)
+agemap = raster("data/raster/ic-imputed-age.tif")
+#agemap = aggregate(agemap, fact=4, fun="modal", na.rm=T)
+agemap_df = as.data.frame(agemap, xy=T) %>%
+  rename("Age"="ic.imputed.age") %>%
+  filter(!is.na(Age)) 
+
+no_classes <- 8
+labels <- c()
+quantiles <- quantile(agemap_df$Age, probs = seq(0, 1, length.out = no_classes + 1))
+
+# here I define custom labels (the default ones would be ugly)
+labels <- c()
+for(idx in 1:length(quantiles)){
+  labels <- c(labels, paste0(round(quantiles[idx], 2), 
+                             " – ", 
+                             round(quantiles[idx + 1], 2)))
+}
+# I need to remove the last label because that would be something like "66.62 - NA"
+labels <- labels[1:length(labels)-1]
+
+# here I actually create a new 
+# variable on the dataset with the quantiles
+agemap_df$Age_quantiles <- cut(agemap_df$Age, 
+                                     breaks = quantiles, 
+                                     labels = labels, 
+                                     include.lowest = T)
+
+# here I define equally spaced pretty breaks - they will be surrounded by the minimum value at the beginning and the maximum value at the end. One could also use something like c(39,39.5,41,42.5,43), this totally depends on the data and your personal taste.
+pretty_breaks <- c(9,15,21,28,37,49,73)
+# find the extremes
+minVal <- min(agemap_df$Age, na.rm = T)
+maxVal <- max(agemap_df$Age, na.rm = T)
+# compute labels
+labels <- c()
+brks <- c(minVal, pretty_breaks, maxVal)
+# round the labels (actually, only the extremes)
+for(idx in 1:length(brks)){
+  labels <- c(labels,round(brks[idx + 1], 2))
+}
+
+labels <- labels[1:length(labels)-1]
+# define a new variable on the data set just as above
+agemap_df$brks <- cut(agemap_df$Age, 
+                     breaks = brks, 
+                     include.lowest = TRUE, 
+                     labels = labels)
+
+brks_scale <- levels(agemap_df$brks)
+labels_scale <- rev(brks_scale)
+
+ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="grey99", color=NA) +
+  geom_tile(data=agemap_df, aes(x=x, y=y, fill=brks), show.legend = T) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(agemap_df$x), max(agemap_df$x)),
+           ylim=c(min(agemap_df$y), max(agemap_df$y))) +
+  theme(legend.position = "bottom") +
+  theme_bw(8) +
+  labs(x=NULL, y=NULL) +
+  theme(
+    legend.position = "bottom",
+    legend.text.align = 0,
+    legend.text = element_text(hjust = 0, color = "#4e4d47"),
+    plot.margin = unit(c(.5,.5,.2,.5), "cm"),
+    panel.spacing = unit(c(-.1,0.2,.2,0.2), "cm"),
+    panel.border = element_rect(size=0.2, fill=NA),
+    panel.background = element_rect(fill="grey90"),
+    axis.ticks.length = unit(2, "mm"),
+    legend.background = element_rect(fill="white", color=NA)) +
+scale_fill_manual(
+  values = rev(viridis(8, direction=-1)),
+  breaks = rev(brks_scale),
+  name = "Forest age",
+  drop = FALSE,
+  labels = labels_scale,
+  guide = guide_legend(
+    direction = "horizontal",
+    keyheight = unit(2, units = "mm"),
+    keywidth = unit(70/length(labels), units = "mm"),
+    title.position = 'top',
+    title.hjust = 0,
+    label.hjust = 1,
+    nrow = 1,
+    byrow = T,
+    reverse = T,
+    label.position = "bottom"))
+
+```
+
+### LULC and disturbance transitions
+
+We modeled transitions between state classes to represent major LULC change processes including: urbanization, agricultural expansion and contraction, forest management (i.e., clear-cut and selection harvest), wildfire, and insect damage. Spatial multiplier maps, on a 1-km grid, are used to constrain probabilistic transitions and allocate deterministic transitions.
+
+#### Land use change
+
+For land use transitions (urbanization, agricultural expansion and contraction), we generated spatial maps of the location of changes based on the NLCD time-series maps for the years 2001, 2006, 2011, and 2016. The 5-year change rates were annualized, and the model was parameterized to stochastically select cells to transition from one class to another within the 5-year period. For timesteps after 2016, annual change rates were sampled from the historical period using a uniform distribution. For urbanization and agricultural expansion transitions, spatial multiplier maps were used to constrain the location of change by removing protected areas. For agricultural expansion, we calculated relative multipliers for each ecoregion to allocate change between cultivated croplands and the hay/pasture class with adjacency multipliers used to allocate transitions spatially. For agricultural contraction, adjacency multipliers were calculated for all forest, grassland, shrubland, and wetlands state classes and used to allocate transitions to destination classes. For urbanization transitions, adjacency parameters were used to modify the probability of change around existing developed areas. For a complete description on the methods of spatially allocating transitions see @sleeter2019effects.
+
+Additionally, we included changes in developed classes due to intensification (e.g., low intensity developed to high intensity developed). A time series of maps from NLCD was created showing locations where intensification occurred in each 5-year time period. The type of intensification was then estimated using relative multipliers for each intensification transition calculated for each ecoregion.
+
+#### Forest harvest
+
+For the forest management transitions (clearcut and selection harvest), we used annual time-series maps for the period 2001-2016 from the Landfire Disturbance database [@landfire2014disturbance] to identify areas of change. For timesteps after 2016 we sampled from the historical distribution of change for each ecoregion. For clearcut cells, forest age was reset to 0; for selection harvest, the age was not reset. For both transitions we assumed cells reverted to their original state class after disturbance. In projected years, the minimum age for clearcut was based on a threshold of reaching 60% of peak merchantable volume for each forest type-group; the minimum age for selection harvest was assumed to be half the age used for clearcut harvest (see Table \@ref(tab:crosswalk)).
+
+#### Drought/insect damage
+
+Forest mortality time series maps spanning the period 2001-2015 were used to model the effects of drought/insects and were derived from U.S. Forest Service Aerial Detection Surveys [@aerial2016survey]. ADS data were binned into low, medium, and high severity classes based on methods described in @sleeter2019effects. Insect/drought disturbances were not projected beyond 2015.
+
+#### Wildfire
+
+To simulate wildfire we used annual fire perimeters from the National Interagency Fire Consortium (NIFC) for the period 2001-2020, which were converted into spatial multipliers in each timestep of the simulation. To estimate fire severity (high, medium, and low), we calculated severity multipliers, for each ecoregion, for all fires contained within the Monitoring Trends in Burn Severity database [@eidenshink2007project] for the period 2001-2016. Severity multipliers were then applied to the annual burn maps in each timestep and for each ecoregion, resulting in stochastic estimates of severity within each mapped fire perimeter. For grassland and shrubland state classes, all severity types were assumed to transition back into the original state class. For forest state classes, high severity fires resulted in a transition to a post-fire shrubland class, which had a 0.064 annual transition probability back into forest [@sleeter2019effects]. Medium and low severity fire reverted back into the original forest state class with no change in forest age.
+
+## LUCAS carbon stock and flows
+
+We adopted the carbon stock and flux structure of the CBM-CFS3 model for this study. Using the CBM-CFS3 model cross-walked to U.S.-specific forest types and parameters, we created reference simulations for carbon stocks and flows. The model structure of CBM-CFS3 was then built into LUCAS as a sub-module. The CBM-CFS3 approach includes the use of five live carbon pools (including above- and belowground pools) and 9 dead organic matter (DOM) pools covering standing dead trees, down deadwood, litter and carbon stored in soils. DOM pools are organized and named based on their rate of decay (e.g., very fast, fast, medium, slow). Carbon transfers between pools in LUCAS followed the same convention as the CBM-CFS3 model with two important modifications. First, rather than using net growth increment, we calculated net primary production (NPP) for each forest type-group and age and used this to drive annual carbon accumulation. Second, we introduced annual spatial multipliers to scale NPP based on variations in local climate conditions. These modifications are discussed in more detail below.
+
+### CBM-CFS3 reference simulations
+
+We used the CBM-CFS3 model (version 1.2) to generate estimates of carbon stocks across all live and DOM pools for a 1-ha representative stand for each forest type-group. Each forest type-group was assigned to the closest forest type found in the CBM database; when no direct type was available we used generic hardwood or softwood types from CBM-CFS3. Additionally, each species was assigned to a representative ecozone and administrative boundary. We assumed wildfire was the historical stand replacing disturbance type and was the most recent disturbance while using default historical return intervals from CBM-CFS3. No additional disturbances were modeled for the reference simulation. Lastly, we calculated the mean temperature across the range of each forest type-group (Table \@ref(tab:crosswalk)), using the value to modify the CBM-CFS3 reference simulation.
+
+#### Merchantable volume curves
+
+The CBM-CFS3 model relies on users to provide merchantable volume curves for each tree species modeled, which are used along with a species-specific expansion factor to partition carbon into each of the five live carbon pools. We used the Von Bertalanffy growth equation to estimate merchantable volume by age. For each forest type-group, parameters used to estimate merchantable volume were queried from the U.S. Forest Service Forest Inventory and Analysis (FIA) database.
+
+$$ y = a (1-e^{-b*age})^3 $$
+
+where *y* is the merchantable volume, *a* is the asymptote and *b* is the rate of approach to the asymptote (Table \@ref(tab:crosswalk)). The resulting estimates of merchantable volume by age (0-300 years), along with default biomass expansion factors from the CBM-CFS3 database, were used as inputs for the reference simulations. The CBM-CFS3 model was then run on an annual timestep for 300 years to estimate the amount of carbon stored in each pool by age by applying species-specific expansion factors to estimate biomass in each tree component. A carbon fraction was applied to estimate the carbon portion of the biomass stock. We used the default biomass expansion factors and carbon proportions from the CBM-CFS3 database.
+
+```{r crosswalk, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
+crosswalk_eco = read.csv("data/tables/cbm-lucas-lookup.csv") 
+
+kable_table1 = kable(crosswalk_eco,
+      digits = 2,
+      booktabs = T,
+      caption="Crosswalk table used to connect U.S. forest type-groups used in LUCAS to Ecozones, Provinces and species types from the CBM-CFS3 model.") %>%
+  kable_paper(font_size=8) %>%
+  kable_styling(position="left") %>%
+  footnote(general = "a and b parameters define the asymptote and rate of approach to the asymptote, respectively. Temp is the mean annual temperature across the species range; MRI is the mean historical fire return interval in years.", threeparttable = T)
+
+landscape(kable_table1)
+```
+
+### Carbon flow rates: LUCAS Flow Pathways module
+
+We developed a sub-module within LUCAS to calculate carbon flux parameters based on output from the reference simulations and the CBM-CFS3 database. The module uses the species crosswalk table from above, along with crosswalk tables linking carbon stocks and disturbance types used in LUCAS and CBM-CFS3. Within the LUCAS model we specified a set of carbon flow pathways defining all of the carbon pools and fluxes consistent with those used in the CBM-CFS3.
+
+#### Net Primary Productivity
+
+The module first uses results from the CBM-CFS3 reference simulation to calculate net primary productivity (NPP) as the sum of net growth and biomass turnover for a given age:
+
+$$ NPP = \sum_{a} G_{(f,b,s,fr,cr)} + \sum_{a-1} T_{(f,b,s,fr,cr)}$$ where $G$ is net growth, $T$ is biomass turnover, $f$ is foliage, $b$ is branches and other wood, $s$ is merchantable stems, $fr$ if fine roots, $cr$ is coarse roots and $a$ is forest age. Thus, outputs consist of an estimate of NPP by age (up to 300 years old) and are stored as state attributes for each state class type (i.e., forest type-group). Output from the CBM-CFS3 reference simulation also allows us to calculate the proportional allocation of NPP, by age, between the five live tree component stocks.
+
+$$ pNPP_{s_i}^{a} = \frac{G_{s_i}^{a} + (S_{s_i}^{{a-1}} * T_{s_i})} {NPP^a}  $$ where $pNPP_{s_i}^{a^t}$ is the proportion of NPP allocated to one of five live carbon pools ($s_i$) for a given aged forest ($a^t$); $G_{s_i}^{a^t}$ is the net growth of carbon pool $i$ at age $t$; $S_{s_i}^{a^{t-1}}$ is the amount of carbon stored in pool $i$ at age $t-1$, $T_{s_i}$ is the species and region specific carbon turnover rate, and $NPP^a$ is the total species and region specific NPP for each forest age. Results are stored as flow multipliers within the LUCAS model and used to allocate annual NPP state attribute values to each live tree component.
+
+#### Carbon flux rates
+
+The LUCAS model uses a set of flow multipliers to estimate carbon fluxes representing biomass turnover, decay and decomposition, emissions, and transfers of carbon resulting from LULC change and disturbance. The LUCAS Flow Pathwyas module uses the set of crosswalk tables described above to parameterize a flow multipliers table for each unique combination of forest type-group and ecozone. Flow multipliers specify the annual rate and proportion of carbon transferred from one stock type to another. The ordering of carbon fluxes within the LUCAS model was established to match that of the CBM-CFS3.
+
+1.  Transfer of snag stems and branches to down deadwood pools (aboveground medium and fast, respectively),
+2.  Emission and decay of standing (snag stems and branches) and down deadwood (aboveground medium),
+3.  Emission from the belowground slow pool,
+4.  Biomass turnover from live to DOM pools,
+5.  Emission and decay from DOM pools (belowground very fast, belowground fast, aboveground very fast, aboveground fast),
+6.  Emission from aboveground slow,
+7.  Transfer from aboveground slow to belowground slow,
+8.  Growth of live pools.
+
+In addition to the base carbon flux rates, the LUCAS Flow Pathways module also parameterizes a set of transition-based flow multiplier,s which control the rate at which carbon is transferred between pools when a change in LULC or disturbance occurs. Transition triggered flows are implemented at the end of each timestep after all base flows have occured. For this study, we considered the effects of fire (high, medium, and low severity), harvest (clearcut and selection), drought/insect mortality, urbanization, agricultural expansion (i.e., deforestation), and agricultural contraction (i.e., reforestation). Flow rates were imported from transition matricies from the CBM-CFS3 model. For wildfire, carbon flux raters were derived from @campbell2007pyrogenic.
+
+### Verification
+
+Within the LUCAS model we ran a 300 year simulation with all cells starting at age 0 using the carbon flux rates from the Flow Pathways module to estimate changes in stocks. A single 1-ha representative stand was run for each forest group-type and fire was assumed as the last stand replacing disturbance to match the assumptions from the CBM-CFS3 reference simulations. All stocks were initialized at their age-0 values obtained from the CBM-CFS3 simulations. No disturbances were simulated. We compared individual carbon stock output from the LUCAS simulation with the original output from the CBM-CFS3 reference runs to ensure we could reliably reproduce carbon stock estimates. Figure \@ref(fig:figvalidation) shows a comparison of all stock types for the Douglas-fir forest type-group.
+
+```{r, figvalidation, message=FALSE, warning=FALSE, echo=F, fig.width=7, fig.cap="Comparison of stock estimates by age from LUCAS to output from the CBM-CFS3 model. Data shown are for the Douglas-fir forest type-group. DOM is dead organic matter."}
+stock_validation = read_csv("data/tables/validation/lucas-cbm-stock-comparison.csv") %>%
+  rename("LUCAS"="LUCAS_Value", "CBM"="CBM_Value", "Age"="AgeMin") %>%
+  pivot_longer(cols=c(-StateClassID, -StockGroupID, -Age), names_to="Model", values_to="Tons")
+
+ggplot(stock_validation, aes(x=Age, y=Tons, color=Model)) +
+  geom_line(aes(size=Model)) +
+  #geom_point(data=filter(stock_validation, Age %in% seq(0,300,20), Model=="LUCAS"), shape=22, fill="white") +
+  scale_size_manual(values=c("CBM"=1, "LUCAS"=0.5)) +
+  scale_color_manual(values=c("CBM"="black", "LUCAS"="red")) +
+  #scale_linetype_manual(values=c("CBM"="solid", "LUCAS"="dotted")) +
+  scale_y_continuous(labels=number_format(accuracy = 1)) +
+  facet_wrap(~StockGroupID, scales = "free_y", ncol=4) +
+  theme_bw(8) +
+  labs(x="Age",y=expression(Tons~C~ha^-1)) +
+  theme(legend.position = "bottom",
+        legend.justification = "left",
+        legend.direction = "vertical",
+        legend.text.align = 1,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        legend.key.height = unit(2, "mm"),
+        legend.background = element_blank()) +
+  guides(color = guide_legend(direction = "horizontal",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0,
+                             nrow = 5,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black")) +
+  guides(size = guide_legend(direction = "horizontal",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0,
+                             nrow = 5,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black"))
+
+```
+
+### Spin-up of DOM pools
+
+The CBM-CFS3 model contains its own internal spin-up procedure for stabilizing DOM pools. However, using the CBM-CFS3 method requires running multiple iterations of the model based on the number of types of stand-replacing disturbance events considered in the model. For this reason we developed spin-up module directly with LUCAS. Within LUCAS, carbon stocks are initialized at zero and all cells are set to age zero. The historical stand replacing disturbance type was assumed to be wildfire. Flow pathways and multipliers were used to estimate carbon stocks over a 3000 year simulation period with fire events occurring based on the mean fire return interval specified for each forest type-group (Table \@ref(tab:crosswalk)). At the end of the 3000 year simulation, two types of stand replacing disturbances were simulated: high severity fire and clearcut forest harvest. After each transition, the model was run for another 300 years to generate carbon stocks by age which were used to parameterize a state attribute table in LUCAS (Fig. \@ref(fig:figspinup)). The length of the spin-up simulation can be varied based on how long it takes DOM pools - in particular the belowground slow (soil) pool - to reach a relative steady state between successive historical disturbance events. This approach is conceptually the same as that in the CBM-CFS3, while achieving some computational efficiency when multiple stand-replacing events are considered.
+
+```{r, figspinup, message=FALSE, warning=FALSE, echo=F, fig.width=6, fig.cap="Carbon stock by age for DOM pools for cells initialized with fire or clearcut harvest as the last stand replacing disturbance. Data shown are for the Douglas-fir forest type-group. DOM is dead organic matter."}
+spinup = read_csv("data/tables/spinup/stocks-spin-up-douglas-fir.csv") %>%
+  filter(Timestep>=3000, str_detect(StockGroupID, "DOM:")) %>%
+  mutate(Age=Timestep-3000)
+
+ggplot(spinup, aes(x=Age, y=Amount, color=TertiaryStratumID)) +
+  geom_line() +
+  #geom_point(data=filter(spinup, Age %in% seq(0,300,20)), shape=22, fill="white") +
+  scale_color_brewer("Last Transition", palette = "Dark2") +
+  facet_wrap(~StockGroupID, scales="free_y") +
+  theme_bw(8) +
+  theme(legend.position = "bottom") +
+  labs(x="Age", 
+       y=expression(Tons~C~ha^-1)) +
+  theme(legend.position = "bottom",
+        legend.justification = "left",
+        legend.direction = "vertical",
+        legend.text.align = 1,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        legend.key.height = unit(2, "mm"),
+        legend.background = element_blank()) +
+  guides(color = guide_legend(direction = "horizontal",
+                             title.position = 'top',
+                             title.hjust = 0,
+                             label.hjust = 0,
+                             nrow = 5,
+                             byrow = T,
+                             reverse = F,
+                             label.position = "right",
+                             ticks = T,
+                             ticks.colour = "black",
+                             ticks.linewidth = 0.8,
+                             frame.colour = "black"))
+```
+
+### Mapping initial carbon stocks
+
+To estimate spatial carbon stocks the LUCAS model was parameterized with state attribute values from the spin-up procedure described above, flow pathways and multipliers, and raster maps of forest type (Figure \@ref(fig:figstatemap)) and and age (Figure \@ref(fig:figagemap)). The model was run for a single timestep for both wildfire and clearcut harvest as the last disturbance creating two sets of initial carbon stock maps. The combination of forest type and age was used to create initial stock rasters for the first timestep (Fig. \@ref(fig:figstockstack)). Fire disturbances prior to 2001 were queried from the National Interagency Fire Consortium (NIFC) and mapped to a 1-km grid. The NIFC database contains fire perimeters collected at the local level across a range of federal and state agencies and date back to the mid-1800s (the majority of records represent events from 1950-present). Cells classified in the NIFC map were assigned carbon values from the wildfire simulation; all other cells were assigned stock values from the clearcut harvest simulation.
+
+```{r, livestack, cache=T, message=FALSE, warning=FALSE, echo=F}
+live_list = c("Biomass Coarse Root [Type].tif",
+              "Biomass Fine Root [Type].tif",
+              "Biomass Foliage [Type].tif",
+              "Biomass Merchantable [Type].tif",
+              "Biomass Other Wood [Type].tif")
+live_names = c("Coarse_Root", 
+               "Fine_Root", 
+               "Foliage", 
+               "Other_Wood", 
+               "Merchantable")
+live_pools = stack(paste0("data/raster/is-live/", live_list))
+live_pools = aggregate(live_pools, fact=4)
+names(live_pools) = live_names
+live_pools_df = as.data.frame(live_pools, xy=T) %>%
+  pivot_longer(cols=c(-x, -y), names_to="Stock", values_to="Amount") %>%
+  filter(!is.na(Amount)) %>%
+  mutate(Stock=str_replace(Stock, "_", " "))
+live_total_df = live_pools_df %>%
+  group_by(x, y) %>%
+  summarise(Amount = sum(Amount)) %>%
+  mutate(Stock = "Live")
+```
+
+```{r, domstack, cache=T, message=FALSE, warning=FALSE, echo=F}
+# DOM pools
+dom_list = c("DOM Aboveground Very Fast [Type].tif",
+             "DOM Aboveground Fast [Type].tif",
+             "DOM Aboveground Medium [Type].tif",
+             "DOM Aboveground Slow [Type].tif",
+             "DOM Belowground Very Fast [Type].tif",
+             "DOM Belowground Fast [Type].tif",
+             "DOM Belowground Slow [Type].tif",
+             "DOM Snag Branch [Type].tif",
+             "DOM Snag Stem [Type].tif")
+
+dom_names = c("Aboveground_Very_Fast",
+             "Aboveground_Fast",
+             "Aboveground_Medium",
+             "Aboveground_Slow",
+             "Belowground_Very_Fast",
+             "Belowground_Fast",
+             "Belowground_Slow",
+             "Snag_Branch",
+             "Snag_Stem")
+dom_pools = stack(paste0("data/raster/is-dom/", dom_list))
+dom_pools = aggregate(dom_pools, fact=4)
+names(dom_pools) = dom_names
+dom_pools_df = as.data.frame(dom_pools, xy=T) %>%
+  pivot_longer(cols=c(-x, -y), names_to="Stock", values_to="Amount") %>%
+  filter(!is.na(Amount)) %>%
+  mutate(Stock=str_replace_all(Stock, "_", " "))
+dom_total_df = dom_pools_df %>%
+  filter(!Stock %in% c("Belowground Slow", "Belowground Very Fast")) %>%
+  group_by(x, y) %>%
+  summarise(Amount = sum(Amount)) %>%
+  mutate(Stock = "DOM")
+soc_total_df = dom_pools_df %>%
+  filter(Stock %in% c("Belowground Slow", "Belowground Very Fast")) %>%
+  group_by(x, y) %>%
+  summarise(Amount = sum(Amount)) %>%
+  mutate(Stock = "Soil")
+```
+
+```{r, figstockstack, cache=T, message=FALSE, warning=FALSE, echo=F, fig.width=6, fig.height=6, fig.cap="Carbon stored in live biomass, dead organic matter (DOM), and soil pools estimated for the year 2001. Also shown is total ecosystem carbon. Live carbon includes the foliage, other wood, merchantable, fine roots and coarse roots pools. DOM includes aboveground very fast, fast, medium and slow pools and belowground fast pools. Soil includes belowground very fast and slow pools. Total is the sum of all 14 live and DOM pools included in the model."}
+
+all_pools_df = bind_rows(live_pools_df,dom_pools_df)
+total_c_df = all_pools_df %>%
+  group_by(x, y) %>%
+  summarise(Amount = sum(Amount)) %>%
+  mutate(Stock = "Total")
+
+pools_groups_df = bind_rows(total_c_df, live_total_df, dom_total_df, soc_total_df)  
+
+# Plot 4 stock groups
+p_live = ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=live_total_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  facet_wrap(~Stock, ncol = 2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(live_pools_df$x), max(live_pools_df$x)),
+           ylim=c(min(live_pools_df$y), max(live_pools_df$y))) +
+  scale_fill_distiller(palette = "YlGnBu", 
+                       direction=1, 
+                       guide="colorbar", 
+                       breaks=seq(0,400,40), 
+                       limits=c(0,400)) +
+  labs(x=NULL, y=NULL, fill=expression(Metric~Tons~C~ha^-1)) +
+  theme_bw(8) +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(10, "mm"),
+        panel.background = element_rect(fill="grey90")) +
+  guides(fill = guide_colorbar(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 0.5,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+# DOM carbon
+p_dom = ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=dom_total_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  facet_wrap(~Stock, ncol = 2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(live_pools_df$x), max(live_pools_df$x)),
+           ylim=c(min(live_pools_df$y), max(live_pools_df$y))) +
+  scale_fill_distiller(palette = "YlGnBu", 
+                       direction=1, 
+                       guide="colorbar", 
+                       breaks=seq(0,400,40), 
+                       limits=c(0,400)) +
+  labs(x=NULL, y=NULL, fill=expression(Metric~Tons~C~ha^-1)) +
+  theme_bw(8) +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(10, "mm"),
+        panel.background = element_rect(fill="grey90")) +
+  guides(fill = guide_colorbar(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 0.5,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                frame.colour = "black"))
+
+# Soil carbon 
+p_soil = ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=soc_total_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  facet_wrap(~Stock, ncol = 2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(live_pools_df$x), max(live_pools_df$x)),
+           ylim=c(min(live_pools_df$y), max(live_pools_df$y))) +
+  scale_fill_distiller(palette = "YlGnBu", 
+                       direction=1, 
+                       guide="colorbar", 
+                       breaks=seq(0,400,40), 
+                       limits=c(0,400)) +
+  labs(x=NULL, y=NULL, fill=expression(Metric~Tons~C~ha^-1)) +
+  theme_bw(8) +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(10, "mm"),
+        panel.background = element_rect(fill="grey90")) +
+  guides(fill = guide_colorbar(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 0.5,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+# Total carbon
+p_total = ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=total_c_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  facet_wrap(~Stock, ncol = 2) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(live_pools_df$x), max(live_pools_df$x)),
+           ylim=c(min(live_pools_df$y), max(live_pools_df$y))) +
+  scale_fill_distiller(palette = "YlGnBu", 
+                       direction=1, 
+                       guide="colorbar", 
+                       breaks=seq(0,700,100),
+                       limits=c(0,725)) +
+  labs(x=NULL, y=NULL, fill=expression(Metric~Tons~C~ha^-1)) +
+  theme_bw(8) +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(10, "mm"),
+        panel.background = element_rect(fill="grey90")) +
+  guides(fill = guide_colorbar(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 0.5,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+# Merge plots
+p_all = (p_live + p_dom) / (p_soil + p_total)
+p_all
+
+# Plot all pools
+# ggplot() +
+#   geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+#   geom_tile(data=all_pools_df, aes(x=x, y=y, fill=Amount)) +
+#   geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+#   facet_wrap(~Stock, ncol = 3) +
+#   coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+#            xlim=c(min(live_pools_df$x), max(live_pools_df$x)),
+#            ylim=c(min(live_pools_df$y), max(live_pools_df$y))) +
+#   scale_fill_fermenter(palette = "YlGnBu", type="seq", direction=1, guide="colorsteps", breaks=c(5,10,20,50,80,110,150,200)) +
+#   labs(x=NULL, y=NULL, fill=expression(Metric~Tons~C~ha^-1)) +
+#   theme_bw(8) +
+#   theme(legend.position = "bottom",
+#         legend.text.align = 0,
+#         legend.text = element_text(hjust = 0, color = "#4e4d47"),
+#         plot.margin = unit(c(1,1,1,1), "mm"),
+#         legend.key.height = unit(2, "mm"),
+#         legend.key.width = unit(10, "mm"),
+#         panel.background = element_rect(fill="grey90")) +
+#   guides(fill = guide_colorsteps(direction = "horizontal",
+#                                  title.position = 'top',
+#                                  title.hjust = 0,
+#                                  label.hjust = 1,
+#                                  nrow = 1,
+#                                  byrow = T,
+#                                  reverse = F,
+#                                  label.position = "bottom",
+#                                  ticks = T,
+#                                  ticks.colour = "black",
+#                                  ticks.linewidth = 0.8,
+#                                  frame.colour = "black"))
+```
+
+## Spatial flow multipliers
+
+The effects of weather and climate variability and change were incorporated into the LUCAS model to modify the annual flux of carbon in live and DOM pools. We used gridMET annual climate variables [@abatzoglou2013development] to derive a set of spatial flow multipliers which were used to scale NPP and decay/decomposition of all DOM pools. For additional details on the approach see @sleeter2019effects.
+
+### NPP variability
+
+We used the NCEAS model of net primary productivity [@del2008global] to derive annual spatial multiplier maps which were used to modify the rate of vegetation growth in the LUCAS model (Fig. \@ref(fig:figgrowthmult)). We estimated the annual NPP multiplier using the following equations from @del2008global:
+
+$$ f(mat)_t = \frac{0.551 * MAP^{1.055}} {e^{(0.000306 * MAP)}} $$ where $f(mat)_t$ is the NPP estimated from mean annual temperature in a given timestep and,
+
+$$ f(map)_t = \frac{2540} {1 + e^{(1.584 - 0.0622 * MAT)}}  $$ where $f(map)_t$ is NPP estimated from total annual precipitation in the same timestep. Annual NPP was then estimated as:
+
+$$ NPP_t = MIN[f(map)_t, f(mat)_t] $$ We also applied the same equations to gridMet climate normals for the period 1980-2010 ($\mu{NPP}_{1980-2010}$). The annual NPP multiplier for each cell was estimated as:
+
+$$ NPP_{anom} = \frac{NPP_t} {\mu{NPP}_{1980-2010}}   $$
+
+and applied to the age and forest type specific NPP estimates derived from the CBM-CFS3.
+
+```{r, figgrowthmult, cache=T, echo=F, warning=F, messge=F, fig.width=6, fig.height=8, fig.cap="Spatial flow multipliers used to modify annual net primary productivity (NPP) in the LUCAS model."}
+listgrowth = list.files("data/raster/growth/", pattern="*.tif")
+multgrowth = stack(paste0("data/raster/growth/", listgrowth))
+multgrowth = aggregate(multgrowth, fact=16)
+names(multgrowth) = seq(2002,2020,1)
+multgrowth_df = as.data.frame(multgrowth, xy=T) %>%
+  pivot_longer(cols=c(-x, -y), names_to="Year", values_to="Amount") %>%
+  mutate(Year = str_remove(Year, "X")) %>%
+  filter(!is.na(Amount)) %>%
+  mutate(Amount=Amount*0.01) 
+
+nppMin = round(min(multgrowth_df$Amount, na.rm=T),1)
+nppMax = round(max(multgrowth_df$Amount, na.rm=T),1)
+nppbreaks = c(seq(0.6,1.4,0.1))
+
+ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=multgrowth_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  facet_wrap(~Year, ncol=4) +
+  scale_fill_fermenter(palette="BrBG", type="div", direction=1, guide="colorsteps", breaks=nppbreaks) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(multgrowth_df$x), max(multgrowth_df$x)),
+           ylim=c(min(multgrowth_df$y), max(multgrowth_df$y))) +
+  theme_bw(8) +
+  labs(x=NULL, y=NULL, fill="NPP Multiplier") +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(15, "mm"),
+        panel.background = element_rect(fill="grey90"),
+        strip.background = element_blank()) +
+  guides(fill = guide_colorsteps(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 1,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+```
+
+### Decay and decomposition of DOM
+
+Decay of DOM pools was modeled using a temperature-dependent decay rate for each DOM pool based on methods from @kurz2009cbm. Mean annual temperature for each species was used to scale base decay rates ($BDR$) of DOM for a $10^\circ$ C reference temperature (see Table \@ref(tab:crosswalk)). The effective decay rate ($EDR$) for each DOM pool and species type-group was calculated using Q10 coefficients for fast (2.65) and slow (2.00) DOM pools as:
+
+$$ EDR = BDR * e^{(T-T_{ref}) * ln(Q_{10}) * 0.1)}  $$ where $T$ is the mean annual temperature across a species range and $T_{ref}$ is the $10^\circ$ C reference temperature. To represent spatial and temporal variability in decay of DOM we calculated a time-series of annual maps, which scale the effective decay rate at the pixel scale using two $Q_{10}$ coefficients. A $Q_{10}$ rate of 2.65 was used for Aboveground Very Fast and Aboveground Slow pools while a $Q_{10}$ of 2.0 was used for all other DOM pools. Notably, the Q10 value of 2.0 was also applied to the below-ground slow (soil) pool, whereas the default rate from CBM-CFS3 uses a $Q_{10}$ of 1.0. We chose this modification based on recent studies suggesting a stronger effect of climate warming on the decomposition of soil pools. For example, @hararuk2017constraining suggested a $Q_{10}$ rate of 1.23 based on a study of Canadian forests while @pries2017whole and @soong2021five suggested a $Q_{10}$ of 2.7 and 2.3, respectively, based on a soil warming study in a western U.S. coniferous forest. Thus, the modified decay rate ($MDR$) for a cell $c$ in timestep $t$ was calculated as:
+
+$$  MDR_{c,t} = EDR * DM_{c,t}$$
+
+where $DM$ is the decay multiplier in cell $c$ in timestep $t$. The annual spatial decay multiplier was calculated as:
+
+$$ DM_{c,t} = 1*Q_{10}^{(T_{mean}-T_{norm})/10)} $$
+
+where $T_{mean}$ is the mean annual temperature in timestep $t$ and $T_{norm}$ is the mean annual temperature for the 30-year climate normal. Figure \@ref(fig:figdommult) shows the DOM decay spatial multipliers for used for the fast pools.
+
+```{r, figdommult, cache=T, echo=F, warning=F, messge=F, fig.width=6, fig.height=8, fig.cap="Spatial flow multipliers used to modify annual decay of dead organic matter (DOM) in the LUCAS model."}
+listdom = list.files("data/raster/q10fast/", pattern="*.tif")
+multdom = stack(paste0("data/raster/q10fast/", listdom))
+multdom = aggregate(multdom, fact=16)
+names(multdom) = seq(2002,2020,1)
+multdom_df = as.data.frame(multdom, xy=T) %>%
+  pivot_longer(cols=c(-x, -y), names_to="Year", values_to="Amount") %>%
+  mutate(Year = str_remove(Year, "X")) %>%
+  filter(!is.na(Amount)) %>%
+  mutate(Amount=Amount*0.01) 
+
+domMin = round(min(multdom_df$Amount, na.rm=T),1)
+domMax = round(max(multdom_df$Amount, na.rm=T),1)
+dombreaks = c(seq(0.8,1.2,0.05))
+
+ggplot() +
+  geom_sf(data=land_poly, aes(geometry=geometry), fill="white", color=NA) +
+  geom_tile(data=multdom_df, aes(x=x, y=y, fill=Amount)) +
+  geom_sf(data=states_poly, aes(geometry=geometry), fill=NA, color="grey20", size=0.2) +
+  facet_wrap(~Year, ncol=4) +
+  scale_fill_fermenter(palette="Spectral", type="div", direction=-1, guide="colorsteps", breaks=dombreaks) +
+  coord_sf(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+           xlim=c(min(multdom_df$x), max(multdom_df$x)),
+           ylim=c(min(multdom_df$y), max(multdom_df$y))) +
+  theme_bw(8) +
+  labs(x=NULL, y=NULL, fill="DOM Decay Multiplier") +
+  theme(legend.position = "bottom",
+        legend.text.align = 0,
+        legend.text = element_text(hjust = 0, color = "#4e4d47"),
+        plot.margin = unit(c(1,1,1,1), "mm"),
+        legend.key.height = unit(2, "mm"),
+        legend.key.width = unit(15, "mm"),
+        panel.background = element_rect(fill="grey90"),
+        strip.background = element_blank()) +
+  guides(fill = guide_colorsteps(direction = "horizontal",
+                                 title.position = 'top',
+                                 title.hjust = 0,
+                                 label.hjust = 1,
+                                 nrow = 1,
+                                 byrow = T,
+                                 reverse = F,
+                                 label.position = "bottom",
+                                 ticks = T,
+                                 ticks.colour = "black",
+                                 ticks.linewidth = 0.8,
+                                 frame.colour = "black"))
+
+```
+
+## Scenario simulations
+
+All historical scenario simulations were run on an annual timestep for the period 2001-2020 at 1-km x 1-km spatial resolution. The primary simulation included the combined effects of LULC change, ecosystem disturbance, and climate change on the historical carbon balance of forest ecosystems in the conterminous United States. To better understand the major controlling processes of historical carbon dynamics, we also ran three additional simulations where 1) no LULC or disturbance was simulated, 2) no climate variability was simulated, and 3) no climate or LULC effects were simulated. Outputs from the simulations are available as both spatial and tabular files. Spatial outputs include annual carbon stocks and fluxes, LULC composition (i.e., state class maps and forest age), and LULC transitions.
+
+For the western U.S., we ran four simulations which project carbon balance out to 2050 under the RCP 4.5 radiative forcing scenario. We used two climate models representations of future conditions to represent "hot-dry" (HadGEM2-ES365) and "warm-wet" (CanESM2) futures [@bedsworth2017]. For each of the two climate models we also ran a reforestation scenario where \~10 million ha of non-forest lands were converted to forest beginning in 2030 based on a map of lands that historically supported forests [@cook2020lower]. Downscaled climate data from the Multivariate Adaptive Constructed Analogs (MACA) [@abatzoglou2012comparison] database were used to generate an annual time series of spatial growth multipliers and DOM decay multiplies using the method described above. Future land use was modeled by bootstrap sampling each transition type from the full historical record following methods described in @sleeter2019effects.
+
+All simulations were run on a desktop workstation running Windows 10 with 24 cores and 256 Gb of RAM. Simulations were run using SyncroSim version 2.2.27, and package versions 3.2.28 (stsim), 3.2.17 (stsimsf), and 1.0.7 (stsimcbmcfs3).
+
+# Declarations
+
+## Availability of data and material
+
+All output tables and time series of raster maps are available on the U.S. Geological Survey's ScienceBase data repository at https://www.sciencebase.gov/catalog/item/61aa50dad34eb622f699df78. A fully functioning LUCAS model with all scenarios included in this study is available on the lead authors Github repository (https://github.com/bsleeter/lucas-national-assessment) along with the manuscript, all supporting data noted in text, figures, and tables.
+
+## Competing interests
+
+The authors declare no competing interests.
+
+## Funding
+
+Funding for this research was provided by the U.S. Geological Survey's Climate and Land Use Research and Development program.
+
+## Authors contributions
+
+BMS, LF, CD, and BR designed the study and developed the methodology. BMS developed the model and simulation experiments. All authors contributed the the writing of the manuscript.
+
+## Acknowledgments
+
+The authors thank two anonymous reviewers for their constructive feedback on the manuscript. In addition, the authors thank Camille Stagg of the U.S. Geological Survey for her constructive review.
+
+Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+
+# References

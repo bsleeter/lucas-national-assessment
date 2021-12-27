@@ -1,0 +1,27 @@
+StudyName,Method_Type,Study_Period,Min_Year,Max_Year,LULC_Sector,Forest_Area,Flux_Type,Flux_Amount,Bibtex Reference
+Schimel et al. (2000),Process,1980-1993,1980,1993,Forest,,NEP,80,
+Sleeter et al. (2018),Stock-Flow,2001-2010,2001,2010,Forest,224582800,NBP,190.7,sleeter2018effects
+EPA (2020),Inventory,2018,2015,2018,Forest,"289,754,000",NBP,211,epa2020inventory
+Liu et al.(2020),Process,2015,2000,2015,Forest,270964500,NBP,129,liu2020critical
+SOCCR2 (2018),Inventory,2005-2015,2005,2015,Forest,304757000,NBP,178,usgcrp2018soccr2
+LandCarbon,Process,2001-2005,2001,2005,Forest,232380100,NBP,282,williams2012carbon
+Williams et al. (2012),Inventory,2005,2004,2006,Forest,230300000,NBP,47,hayes2012reconciling
+Hayes et al. (2012),Inversion,2000-2006,2000,2006,Forest,,NBP,282,hayes2012reconciling
+Hayes et al. (2012),Process,2000-2006,2000,2006,Forest,,NBP,157.6,hayes2012reconciling
+Hayes et al. (2012),Inventory,2000-2006,2000,2006,Forest,,NBP,244.4,smith2008carbon
+Smith and Heath (2008),Inventory,1990-2005,1990,2005,Forest,,NBP,162,
+Zhang et al. (2012),Process,2000-2006,2000,2006,Forest,,NBP,222,
+Lu et al. (2015),Process,2001-2005,2001,2005,Forest,,NBP,336,hurtt2002projecting
+Hurtt et al. (2002),Stock-Flow,1980s,1980,1989,Forest,,NBP,230,woodbury2007carbon
+Woodbury et al. (2007),Inventory,1990-2010,1990,2010,Forest,,NBP,169,
+Houghton et al. (1999),Stock-Flow,1980s,1980,1989,Forest,,NBP,10,
+Turner et al. (1995),Stock-Flow,1990,1989,1991,Forest,,NBP,79,
+Houghton (2003),Stock-Flow,1990s,1990,1999,Forest,,NBP,35,
+Birdsey and Heath (1995),Inventory,1992,1991,1993,Forest,,NBP,211,
+Pacala et al. (2001),Synthesis,1980s,1980,1989,Forest,,NBP,220,
+King et al. (2007),Inventory,1980s,1980,1989,Forest,,NBP,236,
+Zheng et al. (2010),Inventory,1992-2001,1992,2001,Forest,,NBP,181.3,
+Pan et al. (2009),Process,1991-2000,1991,2000,Forest,,NBP,162,
+This Study,Stock-Flow,2001-2020,2002,2020,Forest,,NBP,132,
+This Study,Stock-Flow,2001-2010,2001,2010,Forest,,NBP,165,
+This Study,Stock-Flow,2011-2020,2011,2020,Forest,,NBP,103,

@@ -1,0 +1,3373 @@
+ScenarioID,Iteration,Timestep,TransitionGroupID,Amount
+160,1,2002,Urbanization: Open [Type],119800
+160,1,2002,Urbanization: Low [Type],84400
+160,1,2002,Urbanization: Medium [Type],53500
+160,1,2002,Urbanization: High [Type],14700
+160,1,2002,Intensification: Open to Low [Type],8000
+160,1,2002,Intensification: Open to Medium [Type],16600
+160,1,2002,Intensification: Open to High [Type],2000
+160,1,2002,Intensification: Low to Medium [Type],4000
+160,1,2002,Intensification: Low to High [Type],4300
+160,1,2002,Fire: High Severity [Type],196600
+160,1,2002,Fire: Medium Severity [Type],289500
+160,1,2002,Fire: Low Severity [Type],890600
+160,1,2002,Insect: High Severity [Type],323600
+160,1,2002,Insect: Medium Severity [Type],320800
+160,1,2002,Insect: Low Severity [Type],1280000
+160,1,2002,Forest Harvest: Forest Clearcut [Type],927000
+160,1,2002,Forest Harvest: Forest Selection [Type],92000
+160,1,2002,Ag Expansion: Pasture [Type],40600
+160,1,2002,Ag Expansion: Cropland [Type],249300
+160,1,2002,Ag Expansion,289900
+160,1,2002,Ag Contraction,350200
+160,1,2002,Urbanization,272400
+160,1,2002,Intensification,34900
+160,1,2002,Fire,1376700
+160,1,2002,Insect,1924400
+160,1,2002,Forest Harvest,1019000
+160,1,2002,Ag Contraction: Alder/Maple Group [Type],9300
+160,1,2002,Ag Contraction: Aspen/Birch Group [Type],8900
+160,1,2002,Ag Contraction: California Mixed Conifer Group [Type],8800
+160,1,2002,Ag Contraction: Douglas-fir Group [Type],9600
+160,1,2002,Ag Contraction: Elm/Ash/Cottonwood Group [Type],9700
+160,1,2002,Ag Contraction: Exotic Hardwoods Group [Type],9600
+160,1,2002,Ag Contraction: Exotic Softwoods Group [Type],7900
+160,1,2002,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],10200
+160,1,2002,Ag Contraction: Hemlock/Sitka Spruce Group [Type],8400
+160,1,2002,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],19900
+160,1,2002,Ag Contraction: Lodgepole Pine Group [Type],9100
+160,1,2002,Ag Contraction: Longleaf/Slash Pine Group [Type],12900
+160,1,2002,Ag Contraction: Maple/Beech/Birch Group [Type],9300
+160,1,2002,Ag Contraction: Oak/Gum/Cypress Group [Type],12800
+160,1,2002,Ag Contraction: Oak/Hickory Group [Type],20200
+160,1,2002,Ag Contraction: Oak/Pine Group [Type],10600
+160,1,2002,Ag Contraction: Other Western Hardwoods Group [Type],11400
+160,1,2002,Ag Contraction: Other Western Softwood Group [Type],8000
+160,1,2002,Ag Contraction: Pinyon/Juniper Group [Type],10900
+160,1,2002,Ag Contraction: Ponderosa Pine Group [Type],11000
+160,1,2002,Ag Contraction: Redwood Group [Type],9200
+160,1,2002,Ag Contraction: Spruce/Fir Group [Type],10700
+160,1,2002,Ag Contraction: Tanoak/Laurel Group [Type],10300
+160,1,2002,Ag Contraction: Tropical Hardwoods Group [Type],8700
+160,1,2002,Ag Contraction: Western Larch Group [Type],8400
+160,1,2002,Ag Contraction: Western Oak Group [Type],10700
+160,1,2002,Ag Contraction: Western White Pine Group [Type],10400
+160,1,2002,Ag Contraction: White/Red/Jack Pine Group [Type],8500
+160,1,2002,Ag Contraction: Grassland [Type],19900
+160,1,2002,Ag Contraction: Shrubland [Type],13200
+160,1,2002,Ag Contraction: Wetland Herbaceous [Type],11600
+160,1,2002,Ag Contraction: Wetland Woody [Type],10100
+160,1,2002,Ag Contraction: Cropland,350200
+160,1,2002,Ag Contraction: Pasture,350200
+160,1,2002,Succession Post Fire: Alder/Maple Group [Type],500
+160,1,2002,Succession Post Fire: Aspen/Birch Group [Type],900
+160,1,2002,Succession Post Fire: California Mixed Conifer Group [Type],1100
+160,1,2002,Succession Post Fire: Douglas-fir Group [Type],3500
+160,1,2002,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],400
+160,1,2002,Succession Post Fire: Exotic Hardwoods Group [Type],600
+160,1,2002,Succession Post Fire: Exotic Softwoods Group [Type],400
+160,1,2002,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],800
+160,1,2002,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],700
+160,1,2002,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],500
+160,1,2002,Succession Post Fire: Lodgepole Pine Group [Type],400
+160,1,2002,Succession Post Fire: Longleaf/Slash Pine Group [Type],500
+160,1,2002,Succession Post Fire: Maple/Beech/Birch Group [Type],900
+160,1,2002,Succession Post Fire: Oak/Gum/Cypress Group [Type],800
+160,1,2002,Succession Post Fire: Oak/Hickory Group [Type],500
+160,1,2002,Succession Post Fire: Oak/Pine Group [Type],800
+160,1,2002,Succession Post Fire: Other Western Hardwoods Group [Type],600
+160,1,2002,Succession Post Fire: Other Western Softwood Group [Type],100
+160,1,2002,Succession Post Fire: Pinyon/Juniper Group [Type],600
+160,1,2002,Succession Post Fire: Ponderosa Pine Group [Type],1700
+160,1,2002,Succession Post Fire: Redwood Group [Type],500
+160,1,2002,Succession Post Fire: Spruce/Fir Group [Type],500
+160,1,2002,Succession Post Fire: Tanoak/Laurel Group [Type],800
+160,1,2002,Succession Post Fire: Tropical Hardwoods Group [Type],600
+160,1,2002,Succession Post Fire: Western Larch Group [Type],900
+160,1,2002,Succession Post Fire: Western Oak Group [Type],1100
+160,1,2002,Succession Post Fire: Western White Pine Group [Type],700
+160,1,2002,Succession Post Fire: White/Red/Jack Pine Group [Type],600
+160,1,2002,Succession: Post Fire Recovery,22000
+160,1,2003,Urbanization: Open [Type],113400
+160,1,2003,Urbanization: Low [Type],84100
+160,1,2003,Urbanization: Medium [Type],55900
+160,1,2003,Urbanization: High [Type],13900
+160,1,2003,Intensification: Open to Low [Type],6200
+160,1,2003,Intensification: Open to Medium [Type],15600
+160,1,2003,Intensification: Open to High [Type],3200
+160,1,2003,Intensification: Low to Medium [Type],4300
+160,1,2003,Intensification: Low to High [Type],3500
+160,1,2003,Intensification: Medium to High [Type],400
+160,1,2003,Fire: High Severity [Type],194900
+160,1,2003,Fire: Medium Severity [Type],268900
+160,1,2003,Fire: Low Severity [Type],777100
+160,1,2003,Insect: High Severity [Type],574300
+160,1,2003,Insect: Medium Severity [Type],684300
+160,1,2003,Insect: Low Severity [Type],2358600
+160,1,2003,Forest Harvest: Forest Clearcut [Type],1040300
+160,1,2003,Forest Harvest: Forest Selection [Type],97300
+160,1,2003,Ag Expansion: Pasture [Type],43800
+160,1,2003,Ag Expansion: Cropland [Type],237800
+160,1,2003,Ag Expansion,281600
+160,1,2003,Ag Contraction,347400
+160,1,2003,Urbanization,267300
+160,1,2003,Intensification,33200
+160,1,2003,Fire,1240900
+160,1,2003,Insect,3617200
+160,1,2003,Forest Harvest,1137600
+160,1,2003,Ag Contraction: Alder/Maple Group [Type],11000
+160,1,2003,Ag Contraction: Aspen/Birch Group [Type],10500
+160,1,2003,Ag Contraction: California Mixed Conifer Group [Type],11100
+160,1,2003,Ag Contraction: Douglas-fir Group [Type],9800
+160,1,2003,Ag Contraction: Elm/Ash/Cottonwood Group [Type],8900
+160,1,2003,Ag Contraction: Exotic Hardwoods Group [Type],9500
+160,1,2003,Ag Contraction: Exotic Softwoods Group [Type],10400
+160,1,2003,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],10800
+160,1,2003,Ag Contraction: Hemlock/Sitka Spruce Group [Type],10600
+160,1,2003,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],18200
+160,1,2003,Ag Contraction: Lodgepole Pine Group [Type],9100
+160,1,2003,Ag Contraction: Longleaf/Slash Pine Group [Type],10200
+160,1,2003,Ag Contraction: Maple/Beech/Birch Group [Type],11600
+160,1,2003,Ag Contraction: Oak/Gum/Cypress Group [Type],12200
+160,1,2003,Ag Contraction: Oak/Hickory Group [Type],23000
+160,1,2003,Ag Contraction: Oak/Pine Group [Type],10800
+160,1,2003,Ag Contraction: Other Western Hardwoods Group [Type],10100
+160,1,2003,Ag Contraction: Other Western Softwood Group [Type],9700
+160,1,2003,Ag Contraction: Pinyon/Juniper Group [Type],8500
+160,1,2003,Ag Contraction: Ponderosa Pine Group [Type],6800
+160,1,2003,Ag Contraction: Redwood Group [Type],9700
+160,1,2003,Ag Contraction: Spruce/Fir Group [Type],9400
+160,1,2003,Ag Contraction: Tanoak/Laurel Group [Type],8200
+160,1,2003,Ag Contraction: Tropical Hardwoods Group [Type],8800
+160,1,2003,Ag Contraction: Western Larch Group [Type],9700
+160,1,2003,Ag Contraction: Western Oak Group [Type],9900
+160,1,2003,Ag Contraction: Western White Pine Group [Type],10100
+160,1,2003,Ag Contraction: White/Red/Jack Pine Group [Type],9000
+160,1,2003,Ag Contraction: Grassland [Type],17700
+160,1,2003,Ag Contraction: Shrubland [Type],11200
+160,1,2003,Ag Contraction: Wetland Herbaceous [Type],10600
+160,1,2003,Ag Contraction: Wetland Woody [Type],10300
+160,1,2003,Ag Contraction: Cropland,347400
+160,1,2003,Ag Contraction: Pasture,347400
+160,1,2003,Succession Post Fire: Alder/Maple Group [Type],1300
+160,1,2003,Succession Post Fire: Aspen/Birch Group [Type],600
+160,1,2003,Succession Post Fire: California Mixed Conifer Group [Type],1800
+160,1,2003,Succession Post Fire: Douglas-fir Group [Type],4000
+160,1,2003,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1200
+160,1,2003,Succession Post Fire: Exotic Hardwoods Group [Type],1200
+160,1,2003,Succession Post Fire: Exotic Softwoods Group [Type],1300
+160,1,2003,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2800
+160,1,2003,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],700
+160,1,2003,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],900
+160,1,2003,Succession Post Fire: Lodgepole Pine Group [Type],1700
+160,1,2003,Succession Post Fire: Longleaf/Slash Pine Group [Type],1100
+160,1,2003,Succession Post Fire: Maple/Beech/Birch Group [Type],1200
+160,1,2003,Succession Post Fire: Oak/Gum/Cypress Group [Type],1100
+160,1,2003,Succession Post Fire: Oak/Hickory Group [Type],1200
+160,1,2003,Succession Post Fire: Oak/Pine Group [Type],1100
+160,1,2003,Succession Post Fire: Other Western Hardwoods Group [Type],1300
+160,1,2003,Succession Post Fire: Other Western Softwood Group [Type],500
+160,1,2003,Succession Post Fire: Pinyon/Juniper Group [Type],700
+160,1,2003,Succession Post Fire: Ponderosa Pine Group [Type],1900
+160,1,2003,Succession Post Fire: Redwood Group [Type],700
+160,1,2003,Succession Post Fire: Spruce/Fir Group [Type],1200
+160,1,2003,Succession Post Fire: Tanoak/Laurel Group [Type],1600
+160,1,2003,Succession Post Fire: Tropical Hardwoods Group [Type],800
+160,1,2003,Succession Post Fire: Western Larch Group [Type],900
+160,1,2003,Succession Post Fire: Western Oak Group [Type],2200
+160,1,2003,Succession Post Fire: Western White Pine Group [Type],1300
+160,1,2003,Succession Post Fire: White/Red/Jack Pine Group [Type],500
+160,1,2003,Succession: Post Fire Recovery,36800
+160,1,2004,Urbanization: Open [Type],116100
+160,1,2004,Urbanization: Low [Type],85900
+160,1,2004,Urbanization: Medium [Type],61000
+160,1,2004,Urbanization: High [Type],12600
+160,1,2004,Intensification: Open to Low [Type],6300
+160,1,2004,Intensification: Open to Medium [Type],13400
+160,1,2004,Intensification: Open to High [Type],2100
+160,1,2004,Intensification: Low to Medium [Type],6600
+160,1,2004,Intensification: Low to High [Type],5800
+160,1,2004,Intensification: Medium to High [Type],600
+160,1,2004,Fire: High Severity [Type],53000
+160,1,2004,Fire: Medium Severity [Type],85400
+160,1,2004,Fire: Low Severity [Type],294200
+160,1,2004,Insect: High Severity [Type],309000
+160,1,2004,Insect: Medium Severity [Type],943900
+160,1,2004,Insect: Low Severity [Type],2186300
+160,1,2004,Forest Harvest: Forest Clearcut [Type],1086000
+160,1,2004,Forest Harvest: Forest Selection [Type],114600
+160,1,2004,Ag Expansion: Pasture [Type],40700
+160,1,2004,Ag Expansion: Cropland [Type],240200
+160,1,2004,Ag Expansion,280900
+160,1,2004,Ag Contraction,346800
+160,1,2004,Urbanization,275600
+160,1,2004,Intensification,34800
+160,1,2004,Fire,432600
+160,1,2004,Insect,3439200
+160,1,2004,Forest Harvest,1200600
+160,1,2004,Ag Contraction: Alder/Maple Group [Type],9000
+160,1,2004,Ag Contraction: Aspen/Birch Group [Type],8300
+160,1,2004,Ag Contraction: California Mixed Conifer Group [Type],9100
+160,1,2004,Ag Contraction: Douglas-fir Group [Type],10200
+160,1,2004,Ag Contraction: Elm/Ash/Cottonwood Group [Type],9900
+160,1,2004,Ag Contraction: Exotic Hardwoods Group [Type],11200
+160,1,2004,Ag Contraction: Exotic Softwoods Group [Type],8900
+160,1,2004,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],9500
+160,1,2004,Ag Contraction: Hemlock/Sitka Spruce Group [Type],9400
+160,1,2004,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],19600
+160,1,2004,Ag Contraction: Lodgepole Pine Group [Type],9400
+160,1,2004,Ag Contraction: Longleaf/Slash Pine Group [Type],12200
+160,1,2004,Ag Contraction: Maple/Beech/Birch Group [Type],9400
+160,1,2004,Ag Contraction: Oak/Gum/Cypress Group [Type],11900
+160,1,2004,Ag Contraction: Oak/Hickory Group [Type],21800
+160,1,2004,Ag Contraction: Oak/Pine Group [Type],12000
+160,1,2004,Ag Contraction: Other Western Hardwoods Group [Type],9400
+160,1,2004,Ag Contraction: Other Western Softwood Group [Type],9000
+160,1,2004,Ag Contraction: Pinyon/Juniper Group [Type],10400
+160,1,2004,Ag Contraction: Ponderosa Pine Group [Type],8600
+160,1,2004,Ag Contraction: Redwood Group [Type],10100
+160,1,2004,Ag Contraction: Spruce/Fir Group [Type],9600
+160,1,2004,Ag Contraction: Tanoak/Laurel Group [Type],10800
+160,1,2004,Ag Contraction: Tropical Hardwoods Group [Type],9300
+160,1,2004,Ag Contraction: Western Larch Group [Type],8700
+160,1,2004,Ag Contraction: Western Oak Group [Type],8800
+160,1,2004,Ag Contraction: Western White Pine Group [Type],8300
+160,1,2004,Ag Contraction: White/Red/Jack Pine Group [Type],10400
+160,1,2004,Ag Contraction: Grassland [Type],18800
+160,1,2004,Ag Contraction: Shrubland [Type],13700
+160,1,2004,Ag Contraction: Wetland Herbaceous [Type],9800
+160,1,2004,Ag Contraction: Wetland Woody [Type],9300
+160,1,2004,Ag Contraction: Cropland,346800
+160,1,2004,Ag Contraction: Pasture,346800
+160,1,2004,Succession Post Fire: Alder/Maple Group [Type],1300
+160,1,2004,Succession Post Fire: Aspen/Birch Group [Type],1700
+160,1,2004,Succession Post Fire: California Mixed Conifer Group [Type],1200
+160,1,2004,Succession Post Fire: Douglas-fir Group [Type],3400
+160,1,2004,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],900
+160,1,2004,Succession Post Fire: Exotic Hardwoods Group [Type],1100
+160,1,2004,Succession Post Fire: Exotic Softwoods Group [Type],800
+160,1,2004,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2700
+160,1,2004,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1700
+160,1,2004,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1000
+160,1,2004,Succession Post Fire: Lodgepole Pine Group [Type],1700
+160,1,2004,Succession Post Fire: Longleaf/Slash Pine Group [Type],1400
+160,1,2004,Succession Post Fire: Maple/Beech/Birch Group [Type],500
+160,1,2004,Succession Post Fire: Oak/Gum/Cypress Group [Type],1200
+160,1,2004,Succession Post Fire: Oak/Hickory Group [Type],1000
+160,1,2004,Succession Post Fire: Oak/Pine Group [Type],1100
+160,1,2004,Succession Post Fire: Other Western Hardwoods Group [Type],1100
+160,1,2004,Succession Post Fire: Other Western Softwood Group [Type],800
+160,1,2004,Succession Post Fire: Pinyon/Juniper Group [Type],2500
+160,1,2004,Succession Post Fire: Ponderosa Pine Group [Type],3100
+160,1,2004,Succession Post Fire: Redwood Group [Type],1100
+160,1,2004,Succession Post Fire: Spruce/Fir Group [Type],1700
+160,1,2004,Succession Post Fire: Tanoak/Laurel Group [Type],900
+160,1,2004,Succession Post Fire: Tropical Hardwoods Group [Type],1400
+160,1,2004,Succession Post Fire: Western Larch Group [Type],1600
+160,1,2004,Succession Post Fire: Western Oak Group [Type],1900
+160,1,2004,Succession Post Fire: Western White Pine Group [Type],1200
+160,1,2004,Succession Post Fire: White/Red/Jack Pine Group [Type],1200
+160,1,2004,Succession: Post Fire Recovery,41200
+160,1,2005,Urbanization: Open [Type],110200
+160,1,2005,Urbanization: Low [Type],81600
+160,1,2005,Urbanization: Medium [Type],60200
+160,1,2005,Urbanization: High [Type],17200
+160,1,2005,Intensification: Open to Low [Type],4600
+160,1,2005,Intensification: Open to Medium [Type],11100
+160,1,2005,Intensification: Open to High [Type],1300
+160,1,2005,Intensification: Low to Medium [Type],9500
+160,1,2005,Intensification: Low to High [Type],6400
+160,1,2005,Intensification: Medium to High [Type],1300
+160,1,2005,Fire: High Severity [Type],99700
+160,1,2005,Fire: Medium Severity [Type],285700
+160,1,2005,Fire: Low Severity [Type],941300
+160,1,2005,Insect: High Severity [Type],236200
+160,1,2005,Insect: Medium Severity [Type],616600
+160,1,2005,Insect: Low Severity [Type],1862700
+160,1,2005,Forest Harvest: Forest Clearcut [Type],1101900
+160,1,2005,Forest Harvest: Forest Selection [Type],80600
+160,1,2005,Ag Expansion: Pasture [Type],37200
+160,1,2005,Ag Expansion: Cropland [Type],231700
+160,1,2005,Ag Expansion,268900
+160,1,2005,Ag Contraction,353500
+160,1,2005,Urbanization,269200
+160,1,2005,Intensification,34200
+160,1,2005,Fire,1326700
+160,1,2005,Insect,2715500
+160,1,2005,Forest Harvest,1182500
+160,1,2005,Ag Contraction: Alder/Maple Group [Type],9700
+160,1,2005,Ag Contraction: Aspen/Birch Group [Type],10600
+160,1,2005,Ag Contraction: California Mixed Conifer Group [Type],9400
+160,1,2005,Ag Contraction: Douglas-fir Group [Type],11100
+160,1,2005,Ag Contraction: Elm/Ash/Cottonwood Group [Type],10100
+160,1,2005,Ag Contraction: Exotic Hardwoods Group [Type],8500
+160,1,2005,Ag Contraction: Exotic Softwoods Group [Type],9700
+160,1,2005,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],8700
+160,1,2005,Ag Contraction: Hemlock/Sitka Spruce Group [Type],10000
+160,1,2005,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],20500
+160,1,2005,Ag Contraction: Lodgepole Pine Group [Type],9600
+160,1,2005,Ag Contraction: Longleaf/Slash Pine Group [Type],13400
+160,1,2005,Ag Contraction: Maple/Beech/Birch Group [Type],11300
+160,1,2005,Ag Contraction: Oak/Gum/Cypress Group [Type],12500
+160,1,2005,Ag Contraction: Oak/Hickory Group [Type],20100
+160,1,2005,Ag Contraction: Oak/Pine Group [Type],13600
+160,1,2005,Ag Contraction: Other Western Hardwoods Group [Type],9300
+160,1,2005,Ag Contraction: Other Western Softwood Group [Type],9500
+160,1,2005,Ag Contraction: Pinyon/Juniper Group [Type],9800
+160,1,2005,Ag Contraction: Ponderosa Pine Group [Type],8800
+160,1,2005,Ag Contraction: Redwood Group [Type],11100
+160,1,2005,Ag Contraction: Spruce/Fir Group [Type],10500
+160,1,2005,Ag Contraction: Tanoak/Laurel Group [Type],8900
+160,1,2005,Ag Contraction: Tropical Hardwoods Group [Type],9400
+160,1,2005,Ag Contraction: Western Larch Group [Type],7900
+160,1,2005,Ag Contraction: Western Oak Group [Type],9300
+160,1,2005,Ag Contraction: Western White Pine Group [Type],9800
+160,1,2005,Ag Contraction: White/Red/Jack Pine Group [Type],7900
+160,1,2005,Ag Contraction: Grassland [Type],18300
+160,1,2005,Ag Contraction: Shrubland [Type],12600
+160,1,2005,Ag Contraction: Wetland Herbaceous [Type],9900
+160,1,2005,Ag Contraction: Wetland Woody [Type],11700
+160,1,2005,Ag Contraction: Cropland,353500
+160,1,2005,Ag Contraction: Pasture,353500
+160,1,2005,Succession Post Fire: Alder/Maple Group [Type],1100
+160,1,2005,Succession Post Fire: Aspen/Birch Group [Type],1500
+160,1,2005,Succession Post Fire: California Mixed Conifer Group [Type],700
+160,1,2005,Succession Post Fire: Douglas-fir Group [Type],4100
+160,1,2005,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],900
+160,1,2005,Succession Post Fire: Exotic Hardwoods Group [Type],1200
+160,1,2005,Succession Post Fire: Exotic Softwoods Group [Type],1400
+160,1,2005,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2300
+160,1,2005,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1100
+160,1,2005,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],700
+160,1,2005,Succession Post Fire: Lodgepole Pine Group [Type],1700
+160,1,2005,Succession Post Fire: Longleaf/Slash Pine Group [Type],900
+160,1,2005,Succession Post Fire: Maple/Beech/Birch Group [Type],800
+160,1,2005,Succession Post Fire: Oak/Gum/Cypress Group [Type],1400
+160,1,2005,Succession Post Fire: Oak/Hickory Group [Type],400
+160,1,2005,Succession Post Fire: Oak/Pine Group [Type],700
+160,1,2005,Succession Post Fire: Other Western Hardwoods Group [Type],1400
+160,1,2005,Succession Post Fire: Other Western Softwood Group [Type],1200
+160,1,2005,Succession Post Fire: Pinyon/Juniper Group [Type],2200
+160,1,2005,Succession Post Fire: Ponderosa Pine Group [Type],3100
+160,1,2005,Succession Post Fire: Redwood Group [Type],1200
+160,1,2005,Succession Post Fire: Spruce/Fir Group [Type],1100
+160,1,2005,Succession Post Fire: Tanoak/Laurel Group [Type],1300
+160,1,2005,Succession Post Fire: Tropical Hardwoods Group [Type],600
+160,1,2005,Succession Post Fire: Western Larch Group [Type],1500
+160,1,2005,Succession Post Fire: Western Oak Group [Type],3000
+160,1,2005,Succession Post Fire: Western White Pine Group [Type],1700
+160,1,2005,Succession Post Fire: White/Red/Jack Pine Group [Type],600
+160,1,2005,Succession: Post Fire Recovery,39800
+160,1,2006,Urbanization: Open [Type],88200
+160,1,2006,Urbanization: Low [Type],62200
+160,1,2006,Urbanization: Medium [Type],45100
+160,1,2006,Urbanization: High [Type],13700
+160,1,2006,Intensification: Open to Low [Type],2300
+160,1,2006,Intensification: Open to Medium [Type],6300
+160,1,2006,Intensification: Open to High [Type],600
+160,1,2006,Intensification: Low to Medium [Type],10500
+160,1,2006,Intensification: Low to High [Type],8600
+160,1,2006,Intensification: Medium to High [Type],3300
+160,1,2006,Fire: High Severity [Type],238100
+160,1,2006,Fire: Medium Severity [Type],508700
+160,1,2006,Fire: Low Severity [Type],1682100
+160,1,2006,Insect: High Severity [Type],602000
+160,1,2006,Insect: Medium Severity [Type],501200
+160,1,2006,Insect: Low Severity [Type],3236600
+160,1,2006,Forest Harvest: Forest Clearcut [Type],967900
+160,1,2006,Forest Harvest: Forest Selection [Type],89700
+160,1,2006,Ag Expansion: Pasture [Type],26600
+160,1,2006,Ag Expansion: Cropland [Type],176100
+160,1,2006,Ag Expansion,202700
+160,1,2006,Ag Contraction,323700
+160,1,2006,Urbanization,209200
+160,1,2006,Intensification,31600
+160,1,2006,Fire,2428900
+160,1,2006,Insect,4339800
+160,1,2006,Forest Harvest,1057600
+160,1,2006,Ag Contraction: Alder/Maple Group [Type],8700
+160,1,2006,Ag Contraction: Aspen/Birch Group [Type],7100
+160,1,2006,Ag Contraction: California Mixed Conifer Group [Type],9500
+160,1,2006,Ag Contraction: Douglas-fir Group [Type],8100
+160,1,2006,Ag Contraction: Elm/Ash/Cottonwood Group [Type],8000
+160,1,2006,Ag Contraction: Exotic Hardwoods Group [Type],8600
+160,1,2006,Ag Contraction: Exotic Softwoods Group [Type],7300
+160,1,2006,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],9300
+160,1,2006,Ag Contraction: Hemlock/Sitka Spruce Group [Type],10200
+160,1,2006,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],18400
+160,1,2006,Ag Contraction: Lodgepole Pine Group [Type],8600
+160,1,2006,Ag Contraction: Longleaf/Slash Pine Group [Type],11500
+160,1,2006,Ag Contraction: Maple/Beech/Birch Group [Type],9500
+160,1,2006,Ag Contraction: Oak/Gum/Cypress Group [Type],12600
+160,1,2006,Ag Contraction: Oak/Hickory Group [Type],17400
+160,1,2006,Ag Contraction: Oak/Pine Group [Type],11300
+160,1,2006,Ag Contraction: Other Western Hardwoods Group [Type],9200
+160,1,2006,Ag Contraction: Other Western Softwood Group [Type],8800
+160,1,2006,Ag Contraction: Pinyon/Juniper Group [Type],8700
+160,1,2006,Ag Contraction: Ponderosa Pine Group [Type],10800
+160,1,2006,Ag Contraction: Redwood Group [Type],7700
+160,1,2006,Ag Contraction: Spruce/Fir Group [Type],8300
+160,1,2006,Ag Contraction: Tanoak/Laurel Group [Type],9000
+160,1,2006,Ag Contraction: Tropical Hardwoods Group [Type],10600
+160,1,2006,Ag Contraction: Western Larch Group [Type],9900
+160,1,2006,Ag Contraction: Western Oak Group [Type],7500
+160,1,2006,Ag Contraction: Western White Pine Group [Type],8300
+160,1,2006,Ag Contraction: White/Red/Jack Pine Group [Type],8900
+160,1,2006,Ag Contraction: Grassland [Type],19000
+160,1,2006,Ag Contraction: Shrubland [Type],11600
+160,1,2006,Ag Contraction: Wetland Herbaceous [Type],8800
+160,1,2006,Ag Contraction: Wetland Woody [Type],10500
+160,1,2006,Ag Contraction: Cropland,323700
+160,1,2006,Ag Contraction: Pasture,323700
+160,1,2006,Succession Post Fire: Alder/Maple Group [Type],1500
+160,1,2006,Succession Post Fire: Aspen/Birch Group [Type],1800
+160,1,2006,Succession Post Fire: California Mixed Conifer Group [Type],2800
+160,1,2006,Succession Post Fire: Douglas-fir Group [Type],3900
+160,1,2006,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1500
+160,1,2006,Succession Post Fire: Exotic Hardwoods Group [Type],1300
+160,1,2006,Succession Post Fire: Exotic Softwoods Group [Type],1300
+160,1,2006,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],3100
+160,1,2006,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1700
+160,1,2006,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2400
+160,1,2006,Succession Post Fire: Lodgepole Pine Group [Type],2800
+160,1,2006,Succession Post Fire: Longleaf/Slash Pine Group [Type],1600
+160,1,2006,Succession Post Fire: Maple/Beech/Birch Group [Type],1300
+160,1,2006,Succession Post Fire: Oak/Gum/Cypress Group [Type],1000
+160,1,2006,Succession Post Fire: Oak/Hickory Group [Type],1300
+160,1,2006,Succession Post Fire: Oak/Pine Group [Type],900
+160,1,2006,Succession Post Fire: Other Western Hardwoods Group [Type],1600
+160,1,2006,Succession Post Fire: Other Western Softwood Group [Type],1400
+160,1,2006,Succession Post Fire: Pinyon/Juniper Group [Type],2600
+160,1,2006,Succession Post Fire: Ponderosa Pine Group [Type],2700
+160,1,2006,Succession Post Fire: Redwood Group [Type],1200
+160,1,2006,Succession Post Fire: Spruce/Fir Group [Type],1200
+160,1,2006,Succession Post Fire: Tanoak/Laurel Group [Type],1500
+160,1,2006,Succession Post Fire: Tropical Hardwoods Group [Type],1200
+160,1,2006,Succession Post Fire: Western Larch Group [Type],2200
+160,1,2006,Succession Post Fire: Western Oak Group [Type],2100
+160,1,2006,Succession Post Fire: Western White Pine Group [Type],2000
+160,1,2006,Succession Post Fire: White/Red/Jack Pine Group [Type],600
+160,1,2006,Succession: Post Fire Recovery,50500
+160,1,2007,Urbanization: Open [Type],78100
+160,1,2007,Urbanization: Low [Type],56000
+160,1,2007,Urbanization: Medium [Type],39800
+160,1,2007,Urbanization: High [Type],9400
+160,1,2007,Intensification: Open to Low [Type],3500
+160,1,2007,Intensification: Open to Medium [Type],11800
+160,1,2007,Intensification: Open to High [Type],1100
+160,1,2007,Intensification: Low to Medium [Type],2800
+160,1,2007,Intensification: Low to High [Type],2400
+160,1,2007,Intensification: Medium to High [Type],100
+160,1,2007,Fire: High Severity [Type],323500
+160,1,2007,Fire: Medium Severity [Type],573100
+160,1,2007,Fire: Low Severity [Type],1740000
+160,1,2007,Insect: High Severity [Type],154900
+160,1,2007,Insect: Medium Severity [Type],676100
+160,1,2007,Insect: Low Severity [Type],1631500
+160,1,2007,Forest Harvest: Forest Clearcut [Type],995600
+160,1,2007,Forest Harvest: Forest Selection [Type],98100
+160,1,2007,Ag Expansion: Pasture [Type],45500
+160,1,2007,Ag Expansion: Cropland [Type],277100
+160,1,2007,Ag Expansion,322600
+160,1,2007,Ag Contraction,219900
+160,1,2007,Urbanization,183300
+160,1,2007,Intensification,21700
+160,1,2007,Fire,2636600
+160,1,2007,Insect,2462500
+160,1,2007,Forest Harvest,1093700
+160,1,2007,Ag Contraction: Alder/Maple Group [Type],5400
+160,1,2007,Ag Contraction: Aspen/Birch Group [Type],7100
+160,1,2007,Ag Contraction: California Mixed Conifer Group [Type],5400
+160,1,2007,Ag Contraction: Douglas-fir Group [Type],8200
+160,1,2007,Ag Contraction: Elm/Ash/Cottonwood Group [Type],5500
+160,1,2007,Ag Contraction: Exotic Hardwoods Group [Type],7100
+160,1,2007,Ag Contraction: Exotic Softwoods Group [Type],6500
+160,1,2007,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],5700
+160,1,2007,Ag Contraction: Hemlock/Sitka Spruce Group [Type],4800
+160,1,2007,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],11100
+160,1,2007,Ag Contraction: Lodgepole Pine Group [Type],6400
+160,1,2007,Ag Contraction: Longleaf/Slash Pine Group [Type],6500
+160,1,2007,Ag Contraction: Maple/Beech/Birch Group [Type],7900
+160,1,2007,Ag Contraction: Oak/Gum/Cypress Group [Type],7300
+160,1,2007,Ag Contraction: Oak/Hickory Group [Type],15200
+160,1,2007,Ag Contraction: Oak/Pine Group [Type],7000
+160,1,2007,Ag Contraction: Other Western Hardwoods Group [Type],4900
+160,1,2007,Ag Contraction: Other Western Softwood Group [Type],6200
+160,1,2007,Ag Contraction: Pinyon/Juniper Group [Type],6600
+160,1,2007,Ag Contraction: Ponderosa Pine Group [Type],5600
+160,1,2007,Ag Contraction: Redwood Group [Type],6100
+160,1,2007,Ag Contraction: Spruce/Fir Group [Type],5000
+160,1,2007,Ag Contraction: Tanoak/Laurel Group [Type],6900
+160,1,2007,Ag Contraction: Tropical Hardwoods Group [Type],5700
+160,1,2007,Ag Contraction: Western Larch Group [Type],5700
+160,1,2007,Ag Contraction: Western Oak Group [Type],6400
+160,1,2007,Ag Contraction: Western White Pine Group [Type],6300
+160,1,2007,Ag Contraction: White/Red/Jack Pine Group [Type],7000
+160,1,2007,Ag Contraction: Grassland [Type],9400
+160,1,2007,Ag Contraction: Shrubland [Type],8500
+160,1,2007,Ag Contraction: Wetland Herbaceous [Type],6800
+160,1,2007,Ag Contraction: Wetland Woody [Type],5700
+160,1,2007,Ag Contraction: Cropland,219900
+160,1,2007,Ag Contraction: Pasture,219900
+160,1,2007,Succession Post Fire: Alder/Maple Group [Type],1900
+160,1,2007,Succession Post Fire: Aspen/Birch Group [Type],1200
+160,1,2007,Succession Post Fire: California Mixed Conifer Group [Type],1600
+160,1,2007,Succession Post Fire: Douglas-fir Group [Type],3000
+160,1,2007,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1700
+160,1,2007,Succession Post Fire: Exotic Hardwoods Group [Type],1600
+160,1,2007,Succession Post Fire: Exotic Softwoods Group [Type],1000
+160,1,2007,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2500
+160,1,2007,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1300
+160,1,2007,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],700
+160,1,2007,Succession Post Fire: Lodgepole Pine Group [Type],1700
+160,1,2007,Succession Post Fire: Longleaf/Slash Pine Group [Type],1500
+160,1,2007,Succession Post Fire: Maple/Beech/Birch Group [Type],800
+160,1,2007,Succession Post Fire: Oak/Gum/Cypress Group [Type],1000
+160,1,2007,Succession Post Fire: Oak/Hickory Group [Type],1000
+160,1,2007,Succession Post Fire: Oak/Pine Group [Type],1000
+160,1,2007,Succession Post Fire: Other Western Hardwoods Group [Type],900
+160,1,2007,Succession Post Fire: Other Western Softwood Group [Type],1200
+160,1,2007,Succession Post Fire: Pinyon/Juniper Group [Type],1800
+160,1,2007,Succession Post Fire: Ponderosa Pine Group [Type],1700
+160,1,2007,Succession Post Fire: Redwood Group [Type],800
+160,1,2007,Succession Post Fire: Spruce/Fir Group [Type],1000
+160,1,2007,Succession Post Fire: Tanoak/Laurel Group [Type],900
+160,1,2007,Succession Post Fire: Tropical Hardwoods Group [Type],1900
+160,1,2007,Succession Post Fire: Western Larch Group [Type],800
+160,1,2007,Succession Post Fire: Western Oak Group [Type],1100
+160,1,2007,Succession Post Fire: Western White Pine Group [Type],1300
+160,1,2007,Succession Post Fire: White/Red/Jack Pine Group [Type],1400
+160,1,2007,Succession: Post Fire Recovery,38300
+160,1,2008,Urbanization: Open [Type],76800
+160,1,2008,Urbanization: Low [Type],56800
+160,1,2008,Urbanization: Medium [Type],38200
+160,1,2008,Urbanization: High [Type],12200
+160,1,2008,Intensification: Open to Low [Type],4500
+160,1,2008,Intensification: Open to Medium [Type],11200
+160,1,2008,Intensification: Open to High [Type],2200
+160,1,2008,Intensification: Low to Medium [Type],3200
+160,1,2008,Intensification: Low to High [Type],1500
+160,1,2008,Intensification: Medium to High [Type],200
+160,1,2008,Fire: High Severity [Type],125900
+160,1,2008,Fire: Medium Severity [Type],213900
+160,1,2008,Fire: Low Severity [Type],676400
+160,1,2008,Insect: High Severity [Type],388000
+160,1,2008,Insect: Medium Severity [Type],1026000
+160,1,2008,Insect: Low Severity [Type],1786700
+160,1,2008,Forest Harvest: Forest Clearcut [Type],2358700
+160,1,2008,Forest Harvest: Forest Selection [Type],118400
+160,1,2008,Ag Expansion: Pasture [Type],41800
+160,1,2008,Ag Expansion: Cropland [Type],274700
+160,1,2008,Ag Expansion,316500
+160,1,2008,Ag Contraction,220300
+160,1,2008,Urbanization,184000
+160,1,2008,Intensification,22800
+160,1,2008,Fire,1016200
+160,1,2008,Insect,3200700
+160,1,2008,Forest Harvest,2477100
+160,1,2008,Ag Contraction: Alder/Maple Group [Type],6300
+160,1,2008,Ag Contraction: Aspen/Birch Group [Type],6500
+160,1,2008,Ag Contraction: California Mixed Conifer Group [Type],7000
+160,1,2008,Ag Contraction: Douglas-fir Group [Type],8200
+160,1,2008,Ag Contraction: Elm/Ash/Cottonwood Group [Type],7600
+160,1,2008,Ag Contraction: Exotic Hardwoods Group [Type],5400
+160,1,2008,Ag Contraction: Exotic Softwoods Group [Type],7400
+160,1,2008,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],5000
+160,1,2008,Ag Contraction: Hemlock/Sitka Spruce Group [Type],5600
+160,1,2008,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],10900
+160,1,2008,Ag Contraction: Lodgepole Pine Group [Type],6700
+160,1,2008,Ag Contraction: Longleaf/Slash Pine Group [Type],7400
+160,1,2008,Ag Contraction: Maple/Beech/Birch Group [Type],5400
+160,1,2008,Ag Contraction: Oak/Gum/Cypress Group [Type],6100
+160,1,2008,Ag Contraction: Oak/Hickory Group [Type],12700
+160,1,2008,Ag Contraction: Oak/Pine Group [Type],8100
+160,1,2008,Ag Contraction: Other Western Hardwoods Group [Type],6500
+160,1,2008,Ag Contraction: Other Western Softwood Group [Type],6700
+160,1,2008,Ag Contraction: Pinyon/Juniper Group [Type],5600
+160,1,2008,Ag Contraction: Ponderosa Pine Group [Type],6300
+160,1,2008,Ag Contraction: Redwood Group [Type],5100
+160,1,2008,Ag Contraction: Spruce/Fir Group [Type],5800
+160,1,2008,Ag Contraction: Tanoak/Laurel Group [Type],5900
+160,1,2008,Ag Contraction: Tropical Hardwoods Group [Type],5400
+160,1,2008,Ag Contraction: Western Larch Group [Type],6300
+160,1,2008,Ag Contraction: Western Oak Group [Type],5300
+160,1,2008,Ag Contraction: Western White Pine Group [Type],5800
+160,1,2008,Ag Contraction: White/Red/Jack Pine Group [Type],5600
+160,1,2008,Ag Contraction: Grassland [Type],9300
+160,1,2008,Ag Contraction: Shrubland [Type],10900
+160,1,2008,Ag Contraction: Wetland Herbaceous [Type],6300
+160,1,2008,Ag Contraction: Wetland Woody [Type],7200
+160,1,2008,Ag Contraction: Cropland,220300
+160,1,2008,Ag Contraction: Pasture,220300
+160,1,2008,Succession Post Fire: Alder/Maple Group [Type],1500
+160,1,2008,Succession Post Fire: Aspen/Birch Group [Type],2500
+160,1,2008,Succession Post Fire: California Mixed Conifer Group [Type],2400
+160,1,2008,Succession Post Fire: Douglas-fir Group [Type],5100
+160,1,2008,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],900
+160,1,2008,Succession Post Fire: Exotic Hardwoods Group [Type],1200
+160,1,2008,Succession Post Fire: Exotic Softwoods Group [Type],1800
+160,1,2008,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],4800
+160,1,2008,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1700
+160,1,2008,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1400
+160,1,2008,Succession Post Fire: Lodgepole Pine Group [Type],3000
+160,1,2008,Succession Post Fire: Longleaf/Slash Pine Group [Type],1700
+160,1,2008,Succession Post Fire: Maple/Beech/Birch Group [Type],1400
+160,1,2008,Succession Post Fire: Oak/Gum/Cypress Group [Type],1300
+160,1,2008,Succession Post Fire: Oak/Hickory Group [Type],2000
+160,1,2008,Succession Post Fire: Oak/Pine Group [Type],1400
+160,1,2008,Succession Post Fire: Other Western Hardwoods Group [Type],1700
+160,1,2008,Succession Post Fire: Other Western Softwood Group [Type],2000
+160,1,2008,Succession Post Fire: Pinyon/Juniper Group [Type],2200
+160,1,2008,Succession Post Fire: Ponderosa Pine Group [Type],4000
+160,1,2008,Succession Post Fire: Redwood Group [Type],1400
+160,1,2008,Succession Post Fire: Spruce/Fir Group [Type],2300
+160,1,2008,Succession Post Fire: Tanoak/Laurel Group [Type],1400
+160,1,2008,Succession Post Fire: Tropical Hardwoods Group [Type],1800
+160,1,2008,Succession Post Fire: Western Larch Group [Type],1200
+160,1,2008,Succession Post Fire: Western Oak Group [Type],1600
+160,1,2008,Succession Post Fire: Western White Pine Group [Type],1200
+160,1,2008,Succession Post Fire: White/Red/Jack Pine Group [Type],1400
+160,1,2008,Succession: Post Fire Recovery,56300
+160,1,2009,Urbanization: Open [Type],73600
+160,1,2009,Urbanization: Low [Type],55800
+160,1,2009,Urbanization: Medium [Type],37200
+160,1,2009,Urbanization: High [Type],12500
+160,1,2009,Intensification: Open to Low [Type],2600
+160,1,2009,Intensification: Open to Medium [Type],8600
+160,1,2009,Intensification: Open to High [Type],1100
+160,1,2009,Intensification: Low to Medium [Type],4700
+160,1,2009,Intensification: Low to High [Type],3900
+160,1,2009,Intensification: Medium to High [Type],600
+160,1,2009,Fire: High Severity [Type],66800
+160,1,2009,Fire: Medium Severity [Type],114800
+160,1,2009,Fire: Low Severity [Type],378200
+160,1,2009,Insect: High Severity [Type],336800
+160,1,2009,Insect: Medium Severity [Type],1617400
+160,1,2009,Insect: Low Severity [Type],2252500
+160,1,2009,Forest Harvest: Forest Clearcut [Type],2173900
+160,1,2009,Forest Harvest: Forest Selection [Type],111100
+160,1,2009,Ag Expansion: Pasture [Type],42000
+160,1,2009,Ag Expansion: Cropland [Type],272700
+160,1,2009,Ag Expansion,314700
+160,1,2009,Ag Contraction,215300
+160,1,2009,Urbanization,179100
+160,1,2009,Intensification,21500
+160,1,2009,Fire,559800
+160,1,2009,Insect,4206700
+160,1,2009,Forest Harvest,2285000
+160,1,2009,Ag Contraction: Alder/Maple Group [Type],5800
+160,1,2009,Ag Contraction: Aspen/Birch Group [Type],7500
+160,1,2009,Ag Contraction: California Mixed Conifer Group [Type],5200
+160,1,2009,Ag Contraction: Douglas-fir Group [Type],5900
+160,1,2009,Ag Contraction: Elm/Ash/Cottonwood Group [Type],8300
+160,1,2009,Ag Contraction: Exotic Hardwoods Group [Type],4600
+160,1,2009,Ag Contraction: Exotic Softwoods Group [Type],5200
+160,1,2009,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],5700
+160,1,2009,Ag Contraction: Hemlock/Sitka Spruce Group [Type],7100
+160,1,2009,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],10500
+160,1,2009,Ag Contraction: Lodgepole Pine Group [Type],5300
+160,1,2009,Ag Contraction: Longleaf/Slash Pine Group [Type],5900
+160,1,2009,Ag Contraction: Maple/Beech/Birch Group [Type],6200
+160,1,2009,Ag Contraction: Oak/Gum/Cypress Group [Type],7900
+160,1,2009,Ag Contraction: Oak/Hickory Group [Type],13600
+160,1,2009,Ag Contraction: Oak/Pine Group [Type],6400
+160,1,2009,Ag Contraction: Other Western Hardwoods Group [Type],5400
+160,1,2009,Ag Contraction: Other Western Softwood Group [Type],5600
+160,1,2009,Ag Contraction: Pinyon/Juniper Group [Type],6600
+160,1,2009,Ag Contraction: Ponderosa Pine Group [Type],6000
+160,1,2009,Ag Contraction: Redwood Group [Type],6000
+160,1,2009,Ag Contraction: Spruce/Fir Group [Type],5500
+160,1,2009,Ag Contraction: Tanoak/Laurel Group [Type],6300
+160,1,2009,Ag Contraction: Tropical Hardwoods Group [Type],5600
+160,1,2009,Ag Contraction: Western Larch Group [Type],6700
+160,1,2009,Ag Contraction: Western Oak Group [Type],6000
+160,1,2009,Ag Contraction: Western White Pine Group [Type],7600
+160,1,2009,Ag Contraction: White/Red/Jack Pine Group [Type],6000
+160,1,2009,Ag Contraction: Grassland [Type],8900
+160,1,2009,Ag Contraction: Shrubland [Type],8000
+160,1,2009,Ag Contraction: Wetland Herbaceous [Type],7000
+160,1,2009,Ag Contraction: Wetland Woody [Type],7000
+160,1,2009,Ag Contraction: Cropland,215300
+160,1,2009,Ag Contraction: Pasture,215300
+160,1,2009,Succession Post Fire: Alder/Maple Group [Type],1800
+160,1,2009,Succession Post Fire: Aspen/Birch Group [Type],2000
+160,1,2009,Succession Post Fire: California Mixed Conifer Group [Type],6500
+160,1,2009,Succession Post Fire: Douglas-fir Group [Type],4700
+160,1,2009,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1200
+160,1,2009,Succession Post Fire: Exotic Hardwoods Group [Type],1500
+160,1,2009,Succession Post Fire: Exotic Softwoods Group [Type],1700
+160,1,2009,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],4000
+160,1,2009,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1500
+160,1,2009,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1900
+160,1,2009,Succession Post Fire: Lodgepole Pine Group [Type],3000
+160,1,2009,Succession Post Fire: Longleaf/Slash Pine Group [Type],1200
+160,1,2009,Succession Post Fire: Maple/Beech/Birch Group [Type],1200
+160,1,2009,Succession Post Fire: Oak/Gum/Cypress Group [Type],2400
+160,1,2009,Succession Post Fire: Oak/Hickory Group [Type],1700
+160,1,2009,Succession Post Fire: Oak/Pine Group [Type],1900
+160,1,2009,Succession Post Fire: Other Western Hardwoods Group [Type],1900
+160,1,2009,Succession Post Fire: Other Western Softwood Group [Type],2400
+160,1,2009,Succession Post Fire: Pinyon/Juniper Group [Type],2300
+160,1,2009,Succession Post Fire: Ponderosa Pine Group [Type],3500
+160,1,2009,Succession Post Fire: Redwood Group [Type],1700
+160,1,2009,Succession Post Fire: Spruce/Fir Group [Type],1600
+160,1,2009,Succession Post Fire: Tanoak/Laurel Group [Type],2100
+160,1,2009,Succession Post Fire: Tropical Hardwoods Group [Type],1400
+160,1,2009,Succession Post Fire: Western Larch Group [Type],2000
+160,1,2009,Succession Post Fire: Western Oak Group [Type],3000
+160,1,2009,Succession Post Fire: Western White Pine Group [Type],2000
+160,1,2009,Succession Post Fire: White/Red/Jack Pine Group [Type],2300
+160,1,2009,Succession: Post Fire Recovery,64400
+160,1,2010,Urbanization: Open [Type],69700
+160,1,2010,Urbanization: Low [Type],53000
+160,1,2010,Urbanization: Medium [Type],42000
+160,1,2010,Urbanization: High [Type],12200
+160,1,2010,Intensification: Open to Low [Type],3600
+160,1,2010,Intensification: Open to Medium [Type],7100
+160,1,2010,Intensification: Open to High [Type],1200
+160,1,2010,Intensification: Low to Medium [Type],5800
+160,1,2010,Intensification: Low to High [Type],4400
+160,1,2010,Intensification: Medium to High [Type],2200
+160,1,2010,Fire: High Severity [Type],41400
+160,1,2010,Fire: Medium Severity [Type],106900
+160,1,2010,Fire: Low Severity [Type],434800
+160,1,2010,Insect: High Severity [Type],298200
+160,1,2010,Insect: Medium Severity [Type],1186300
+160,1,2010,Insect: Low Severity [Type],1954000
+160,1,2010,Forest Harvest: Forest Clearcut [Type],2091100
+160,1,2010,Forest Harvest: Forest Selection [Type],80600
+160,1,2010,Ag Expansion: Pasture [Type],44900
+160,1,2010,Ag Expansion: Cropland [Type],259500
+160,1,2010,Ag Expansion,304400
+160,1,2010,Ag Contraction,214000
+160,1,2010,Urbanization,176900
+160,1,2010,Intensification,24300
+160,1,2010,Fire,583100
+160,1,2010,Insect,3438500
+160,1,2010,Forest Harvest,2171700
+160,1,2010,Ag Contraction: Alder/Maple Group [Type],6100
+160,1,2010,Ag Contraction: Aspen/Birch Group [Type],5100
+160,1,2010,Ag Contraction: California Mixed Conifer Group [Type],6300
+160,1,2010,Ag Contraction: Douglas-fir Group [Type],4900
+160,1,2010,Ag Contraction: Elm/Ash/Cottonwood Group [Type],5300
+160,1,2010,Ag Contraction: Exotic Hardwoods Group [Type],4500
+160,1,2010,Ag Contraction: Exotic Softwoods Group [Type],6300
+160,1,2010,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],6400
+160,1,2010,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6700
+160,1,2010,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],11700
+160,1,2010,Ag Contraction: Lodgepole Pine Group [Type],4800
+160,1,2010,Ag Contraction: Longleaf/Slash Pine Group [Type],7300
+160,1,2010,Ag Contraction: Maple/Beech/Birch Group [Type],7700
+160,1,2010,Ag Contraction: Oak/Gum/Cypress Group [Type],8400
+160,1,2010,Ag Contraction: Oak/Hickory Group [Type],12700
+160,1,2010,Ag Contraction: Oak/Pine Group [Type],7200
+160,1,2010,Ag Contraction: Other Western Hardwoods Group [Type],6200
+160,1,2010,Ag Contraction: Other Western Softwood Group [Type],6800
+160,1,2010,Ag Contraction: Pinyon/Juniper Group [Type],6500
+160,1,2010,Ag Contraction: Ponderosa Pine Group [Type],7000
+160,1,2010,Ag Contraction: Redwood Group [Type],5700
+160,1,2010,Ag Contraction: Spruce/Fir Group [Type],5900
+160,1,2010,Ag Contraction: Tanoak/Laurel Group [Type],5100
+160,1,2010,Ag Contraction: Tropical Hardwoods Group [Type],5400
+160,1,2010,Ag Contraction: Western Larch Group [Type],5800
+160,1,2010,Ag Contraction: Western Oak Group [Type],5500
+160,1,2010,Ag Contraction: Western White Pine Group [Type],5300
+160,1,2010,Ag Contraction: White/Red/Jack Pine Group [Type],7000
+160,1,2010,Ag Contraction: Grassland [Type],9800
+160,1,2010,Ag Contraction: Shrubland [Type],7500
+160,1,2010,Ag Contraction: Wetland Herbaceous [Type],5900
+160,1,2010,Ag Contraction: Wetland Woody [Type],7200
+160,1,2010,Ag Contraction: Cropland,214000
+160,1,2010,Ag Contraction: Pasture,214000
+160,1,2010,Succession Post Fire: Alder/Maple Group [Type],1700
+160,1,2010,Succession Post Fire: Aspen/Birch Group [Type],1900
+160,1,2010,Succession Post Fire: California Mixed Conifer Group [Type],5200
+160,1,2010,Succession Post Fire: Douglas-fir Group [Type],4400
+160,1,2010,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1900
+160,1,2010,Succession Post Fire: Exotic Hardwoods Group [Type],1700
+160,1,2010,Succession Post Fire: Exotic Softwoods Group [Type],1900
+160,1,2010,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2800
+160,1,2010,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1500
+160,1,2010,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1500
+160,1,2010,Succession Post Fire: Lodgepole Pine Group [Type],3200
+160,1,2010,Succession Post Fire: Longleaf/Slash Pine Group [Type],1200
+160,1,2010,Succession Post Fire: Maple/Beech/Birch Group [Type],1600
+160,1,2010,Succession Post Fire: Oak/Gum/Cypress Group [Type],1800
+160,1,2010,Succession Post Fire: Oak/Hickory Group [Type],2000
+160,1,2010,Succession Post Fire: Oak/Pine Group [Type],1300
+160,1,2010,Succession Post Fire: Other Western Hardwoods Group [Type],1500
+160,1,2010,Succession Post Fire: Other Western Softwood Group [Type],1900
+160,1,2010,Succession Post Fire: Pinyon/Juniper Group [Type],2400
+160,1,2010,Succession Post Fire: Ponderosa Pine Group [Type],2300
+160,1,2010,Succession Post Fire: Redwood Group [Type],1800
+160,1,2010,Succession Post Fire: Spruce/Fir Group [Type],1200
+160,1,2010,Succession Post Fire: Tanoak/Laurel Group [Type],2400
+160,1,2010,Succession Post Fire: Tropical Hardwoods Group [Type],1800
+160,1,2010,Succession Post Fire: Western Larch Group [Type],1000
+160,1,2010,Succession Post Fire: Western Oak Group [Type],2800
+160,1,2010,Succession Post Fire: Western White Pine Group [Type],1400
+160,1,2010,Succession Post Fire: White/Red/Jack Pine Group [Type],1200
+160,1,2010,Succession: Post Fire Recovery,57300
+160,1,2011,Urbanization: Open [Type],50900
+160,1,2011,Urbanization: Low [Type],39200
+160,1,2011,Urbanization: Medium [Type],30200
+160,1,2011,Urbanization: High [Type],8900
+160,1,2011,Intensification: Open to Low [Type],1300
+160,1,2011,Intensification: Open to Medium [Type],2800
+160,1,2011,Intensification: Open to High [Type],1000
+160,1,2011,Intensification: Low to Medium [Type],6400
+160,1,2011,Intensification: Low to High [Type],5400
+160,1,2011,Intensification: Medium to High [Type],3900
+160,1,2011,Fire: High Severity [Type],139100
+160,1,2011,Fire: Medium Severity [Type],424400
+160,1,2011,Fire: Low Severity [Type],1804700
+160,1,2011,Insect: High Severity [Type],399700
+160,1,2011,Insect: Medium Severity [Type],738000
+160,1,2011,Insect: Low Severity [Type],1024600
+160,1,2011,Forest Harvest: Forest Clearcut [Type],2010800
+160,1,2011,Forest Harvest: Forest Selection [Type],104400
+160,1,2011,Ag Expansion: Pasture [Type],34200
+160,1,2011,Ag Expansion: Cropland [Type],204000
+160,1,2011,Ag Expansion,238200
+160,1,2011,Ag Contraction,200100
+160,1,2011,Urbanization,129200
+160,1,2011,Intensification,20800
+160,1,2011,Fire,2368200
+160,1,2011,Insect,2162300
+160,1,2011,Forest Harvest,2115200
+160,1,2011,Ag Contraction: Alder/Maple Group [Type],5600
+160,1,2011,Ag Contraction: Aspen/Birch Group [Type],5500
+160,1,2011,Ag Contraction: California Mixed Conifer Group [Type],5700
+160,1,2011,Ag Contraction: Douglas-fir Group [Type],4600
+160,1,2011,Ag Contraction: Elm/Ash/Cottonwood Group [Type],6900
+160,1,2011,Ag Contraction: Exotic Hardwoods Group [Type],5600
+160,1,2011,Ag Contraction: Exotic Softwoods Group [Type],5000
+160,1,2011,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],6500
+160,1,2011,Ag Contraction: Hemlock/Sitka Spruce Group [Type],4700
+160,1,2011,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],9000
+160,1,2011,Ag Contraction: Lodgepole Pine Group [Type],6000
+160,1,2011,Ag Contraction: Longleaf/Slash Pine Group [Type],6300
+160,1,2011,Ag Contraction: Maple/Beech/Birch Group [Type],6600
+160,1,2011,Ag Contraction: Oak/Gum/Cypress Group [Type],7200
+160,1,2011,Ag Contraction: Oak/Hickory Group [Type],13400
+160,1,2011,Ag Contraction: Oak/Pine Group [Type],5700
+160,1,2011,Ag Contraction: Other Western Hardwoods Group [Type],6200
+160,1,2011,Ag Contraction: Other Western Softwood Group [Type],5000
+160,1,2011,Ag Contraction: Pinyon/Juniper Group [Type],6400
+160,1,2011,Ag Contraction: Ponderosa Pine Group [Type],5800
+160,1,2011,Ag Contraction: Redwood Group [Type],6100
+160,1,2011,Ag Contraction: Spruce/Fir Group [Type],5800
+160,1,2011,Ag Contraction: Tanoak/Laurel Group [Type],4300
+160,1,2011,Ag Contraction: Tropical Hardwoods Group [Type],5300
+160,1,2011,Ag Contraction: Western Larch Group [Type],5600
+160,1,2011,Ag Contraction: Western Oak Group [Type],5800
+160,1,2011,Ag Contraction: Western White Pine Group [Type],5700
+160,1,2011,Ag Contraction: White/Red/Jack Pine Group [Type],6200
+160,1,2011,Ag Contraction: Grassland [Type],7900
+160,1,2011,Ag Contraction: Shrubland [Type],6300
+160,1,2011,Ag Contraction: Wetland Herbaceous [Type],7900
+160,1,2011,Ag Contraction: Wetland Woody [Type],5500
+160,1,2011,Ag Contraction: Cropland,200100
+160,1,2011,Ag Contraction: Pasture,200100
+160,1,2011,Succession Post Fire: Alder/Maple Group [Type],1200
+160,1,2011,Succession Post Fire: Aspen/Birch Group [Type],1800
+160,1,2011,Succession Post Fire: California Mixed Conifer Group [Type],3300
+160,1,2011,Succession Post Fire: Douglas-fir Group [Type],2600
+160,1,2011,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1400
+160,1,2011,Succession Post Fire: Exotic Hardwoods Group [Type],1700
+160,1,2011,Succession Post Fire: Exotic Softwoods Group [Type],1300
+160,1,2011,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2500
+160,1,2011,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1300
+160,1,2011,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1200
+160,1,2011,Succession Post Fire: Lodgepole Pine Group [Type],2900
+160,1,2011,Succession Post Fire: Longleaf/Slash Pine Group [Type],1200
+160,1,2011,Succession Post Fire: Maple/Beech/Birch Group [Type],1800
+160,1,2011,Succession Post Fire: Oak/Gum/Cypress Group [Type],1400
+160,1,2011,Succession Post Fire: Oak/Hickory Group [Type],1500
+160,1,2011,Succession Post Fire: Oak/Pine Group [Type],700
+160,1,2011,Succession Post Fire: Other Western Hardwoods Group [Type],1800
+160,1,2011,Succession Post Fire: Other Western Softwood Group [Type],1700
+160,1,2011,Succession Post Fire: Pinyon/Juniper Group [Type],1900
+160,1,2011,Succession Post Fire: Ponderosa Pine Group [Type],2600
+160,1,2011,Succession Post Fire: Redwood Group [Type],1700
+160,1,2011,Succession Post Fire: Spruce/Fir Group [Type],1300
+160,1,2011,Succession Post Fire: Tanoak/Laurel Group [Type],2000
+160,1,2011,Succession Post Fire: Tropical Hardwoods Group [Type],1600
+160,1,2011,Succession Post Fire: Western Larch Group [Type],800
+160,1,2011,Succession Post Fire: Western Oak Group [Type],3800
+160,1,2011,Succession Post Fire: Western White Pine Group [Type],1800
+160,1,2011,Succession Post Fire: White/Red/Jack Pine Group [Type],1200
+160,1,2011,Succession: Post Fire Recovery,50000
+160,1,2012,Urbanization: Open [Type],46300
+160,1,2012,Urbanization: Low [Type],35900
+160,1,2012,Urbanization: Medium [Type],27900
+160,1,2012,Urbanization: High [Type],8600
+160,1,2012,Intensification: Open to Low [Type],4000
+160,1,2012,Intensification: Open to Medium [Type],9400
+160,1,2012,Intensification: Open to High [Type],1100
+160,1,2012,Fire: High Severity [Type],289800
+160,1,2012,Fire: Medium Severity [Type],642700
+160,1,2012,Fire: Low Severity [Type],2155400
+160,1,2012,Insect: High Severity [Type],114900
+160,1,2012,Insect: Medium Severity [Type],269200
+160,1,2012,Insect: Low Severity [Type],797800
+160,1,2012,Forest Harvest: Forest Clearcut [Type],1636600
+160,1,2012,Forest Harvest: Forest Selection [Type],84400
+160,1,2012,Ag Expansion: Pasture [Type],53600
+160,1,2012,Ag Expansion: Cropland [Type],362500
+160,1,2012,Ag Expansion,416100
+160,1,2012,Ag Contraction,97500
+160,1,2012,Urbanization,118700
+160,1,2012,Intensification,14500
+160,1,2012,Fire,3087900
+160,1,2012,Insect,1181900
+160,1,2012,Forest Harvest,1721000
+160,1,2012,Ag Contraction: Alder/Maple Group [Type],2700
+160,1,2012,Ag Contraction: Aspen/Birch Group [Type],2900
+160,1,2012,Ag Contraction: California Mixed Conifer Group [Type],3400
+160,1,2012,Ag Contraction: Douglas-fir Group [Type],2700
+160,1,2012,Ag Contraction: Elm/Ash/Cottonwood Group [Type],3400
+160,1,2012,Ag Contraction: Exotic Hardwoods Group [Type],2000
+160,1,2012,Ag Contraction: Exotic Softwoods Group [Type],2400
+160,1,2012,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],2200
+160,1,2012,Ag Contraction: Hemlock/Sitka Spruce Group [Type],3600
+160,1,2012,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],4400
+160,1,2012,Ag Contraction: Lodgepole Pine Group [Type],3500
+160,1,2012,Ag Contraction: Longleaf/Slash Pine Group [Type],3200
+160,1,2012,Ag Contraction: Maple/Beech/Birch Group [Type],3200
+160,1,2012,Ag Contraction: Oak/Gum/Cypress Group [Type],2900
+160,1,2012,Ag Contraction: Oak/Hickory Group [Type],5600
+160,1,2012,Ag Contraction: Oak/Pine Group [Type],3200
+160,1,2012,Ag Contraction: Other Western Hardwoods Group [Type],2600
+160,1,2012,Ag Contraction: Other Western Softwood Group [Type],2800
+160,1,2012,Ag Contraction: Pinyon/Juniper Group [Type],2700
+160,1,2012,Ag Contraction: Ponderosa Pine Group [Type],1900
+160,1,2012,Ag Contraction: Redwood Group [Type],2200
+160,1,2012,Ag Contraction: Spruce/Fir Group [Type],2500
+160,1,2012,Ag Contraction: Tanoak/Laurel Group [Type],2700
+160,1,2012,Ag Contraction: Tropical Hardwoods Group [Type],3000
+160,1,2012,Ag Contraction: Western Larch Group [Type],3900
+160,1,2012,Ag Contraction: Western Oak Group [Type],2600
+160,1,2012,Ag Contraction: Western White Pine Group [Type],2600
+160,1,2012,Ag Contraction: White/Red/Jack Pine Group [Type],3500
+160,1,2012,Ag Contraction: Grassland [Type],3400
+160,1,2012,Ag Contraction: Shrubland [Type],3000
+160,1,2012,Ag Contraction: Wetland Herbaceous [Type],4200
+160,1,2012,Ag Contraction: Wetland Woody [Type],2600
+160,1,2012,Ag Contraction: Cropland,97500
+160,1,2012,Ag Contraction: Pasture,97500
+160,1,2012,Succession Post Fire: Alder/Maple Group [Type],2500
+160,1,2012,Succession Post Fire: Aspen/Birch Group [Type],3000
+160,1,2012,Succession Post Fire: California Mixed Conifer Group [Type],5500
+160,1,2012,Succession Post Fire: Douglas-fir Group [Type],5500
+160,1,2012,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2500
+160,1,2012,Succession Post Fire: Exotic Hardwoods Group [Type],2100
+160,1,2012,Succession Post Fire: Exotic Softwoods Group [Type],2500
+160,1,2012,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],5900
+160,1,2012,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2700
+160,1,2012,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2300
+160,1,2012,Succession Post Fire: Lodgepole Pine Group [Type],4200
+160,1,2012,Succession Post Fire: Longleaf/Slash Pine Group [Type],2900
+160,1,2012,Succession Post Fire: Maple/Beech/Birch Group [Type],1800
+160,1,2012,Succession Post Fire: Oak/Gum/Cypress Group [Type],2300
+160,1,2012,Succession Post Fire: Oak/Hickory Group [Type],1900
+160,1,2012,Succession Post Fire: Oak/Pine Group [Type],2800
+160,1,2012,Succession Post Fire: Other Western Hardwoods Group [Type],1900
+160,1,2012,Succession Post Fire: Other Western Softwood Group [Type],2300
+160,1,2012,Succession Post Fire: Pinyon/Juniper Group [Type],4900
+160,1,2012,Succession Post Fire: Ponderosa Pine Group [Type],5500
+160,1,2012,Succession Post Fire: Redwood Group [Type],2700
+160,1,2012,Succession Post Fire: Spruce/Fir Group [Type],3000
+160,1,2012,Succession Post Fire: Tanoak/Laurel Group [Type],1400
+160,1,2012,Succession Post Fire: Tropical Hardwoods Group [Type],2100
+160,1,2012,Succession Post Fire: Western Larch Group [Type],2900
+160,1,2012,Succession Post Fire: Western Oak Group [Type],3200
+160,1,2012,Succession Post Fire: Western White Pine Group [Type],1500
+160,1,2012,Succession Post Fire: White/Red/Jack Pine Group [Type],2100
+160,1,2012,Succession: Post Fire Recovery,83900
+160,1,2013,Urbanization: Open [Type],54200
+160,1,2013,Urbanization: Low [Type],35800
+160,1,2013,Urbanization: Medium [Type],29600
+160,1,2013,Urbanization: High [Type],7800
+160,1,2013,Intensification: Open to Low [Type],2400
+160,1,2013,Intensification: Open to Medium [Type],5400
+160,1,2013,Intensification: Open to High [Type],900
+160,1,2013,Intensification: Low to Medium [Type],100
+160,1,2013,Intensification: Low to High [Type],600
+160,1,2013,Intensification: Medium to High [Type],200
+160,1,2013,Fire: High Severity [Type],141400
+160,1,2013,Fire: Medium Severity [Type],224300
+160,1,2013,Fire: Low Severity [Type],686500
+160,1,2013,Insect: High Severity [Type],100900
+160,1,2013,Insect: Medium Severity [Type],254400
+160,1,2013,Insect: Low Severity [Type],551600
+160,1,2013,Forest Harvest: Forest Clearcut [Type],2247600
+160,1,2013,Forest Harvest: Forest Selection [Type],87900
+160,1,2013,Ag Expansion: Pasture [Type],52100
+160,1,2013,Ag Expansion: Cropland [Type],355000
+160,1,2013,Ag Expansion,407100
+160,1,2013,Ag Contraction,94200
+160,1,2013,Urbanization,127400
+160,1,2013,Intensification,9600
+160,1,2013,Fire,1052200
+160,1,2013,Insect,906900
+160,1,2013,Forest Harvest,2335500
+160,1,2013,Ag Contraction: Alder/Maple Group [Type],2400
+160,1,2013,Ag Contraction: Aspen/Birch Group [Type],3800
+160,1,2013,Ag Contraction: California Mixed Conifer Group [Type],3100
+160,1,2013,Ag Contraction: Douglas-fir Group [Type],2900
+160,1,2013,Ag Contraction: Elm/Ash/Cottonwood Group [Type],3300
+160,1,2013,Ag Contraction: Exotic Hardwoods Group [Type],2500
+160,1,2013,Ag Contraction: Exotic Softwoods Group [Type],2800
+160,1,2013,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],2900
+160,1,2013,Ag Contraction: Hemlock/Sitka Spruce Group [Type],3300
+160,1,2013,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],3600
+160,1,2013,Ag Contraction: Lodgepole Pine Group [Type],2700
+160,1,2013,Ag Contraction: Longleaf/Slash Pine Group [Type],2200
+160,1,2013,Ag Contraction: Maple/Beech/Birch Group [Type],3200
+160,1,2013,Ag Contraction: Oak/Gum/Cypress Group [Type],4200
+160,1,2013,Ag Contraction: Oak/Hickory Group [Type],4900
+160,1,2013,Ag Contraction: Oak/Pine Group [Type],3200
+160,1,2013,Ag Contraction: Other Western Hardwoods Group [Type],2000
+160,1,2013,Ag Contraction: Other Western Softwood Group [Type],2100
+160,1,2013,Ag Contraction: Pinyon/Juniper Group [Type],2200
+160,1,2013,Ag Contraction: Ponderosa Pine Group [Type],2800
+160,1,2013,Ag Contraction: Redwood Group [Type],3600
+160,1,2013,Ag Contraction: Spruce/Fir Group [Type],2600
+160,1,2013,Ag Contraction: Tanoak/Laurel Group [Type],2900
+160,1,2013,Ag Contraction: Tropical Hardwoods Group [Type],3100
+160,1,2013,Ag Contraction: Western Larch Group [Type],2800
+160,1,2013,Ag Contraction: Western Oak Group [Type],1900
+160,1,2013,Ag Contraction: Western White Pine Group [Type],2400
+160,1,2013,Ag Contraction: White/Red/Jack Pine Group [Type],2700
+160,1,2013,Ag Contraction: Grassland [Type],3800
+160,1,2013,Ag Contraction: Shrubland [Type],2300
+160,1,2013,Ag Contraction: Wetland Herbaceous [Type],2800
+160,1,2013,Ag Contraction: Wetland Woody [Type],3200
+160,1,2013,Ag Contraction: Cropland,94200
+160,1,2013,Ag Contraction: Pasture,94200
+160,1,2013,Succession Post Fire: Alder/Maple Group [Type],2200
+160,1,2013,Succession Post Fire: Aspen/Birch Group [Type],3200
+160,1,2013,Succession Post Fire: California Mixed Conifer Group [Type],4300
+160,1,2013,Succession Post Fire: Douglas-fir Group [Type],6300
+160,1,2013,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2200
+160,1,2013,Succession Post Fire: Exotic Hardwoods Group [Type],2700
+160,1,2013,Succession Post Fire: Exotic Softwoods Group [Type],2500
+160,1,2013,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],6000
+160,1,2013,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2800
+160,1,2013,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2300
+160,1,2013,Succession Post Fire: Lodgepole Pine Group [Type],5000
+160,1,2013,Succession Post Fire: Longleaf/Slash Pine Group [Type],1700
+160,1,2013,Succession Post Fire: Maple/Beech/Birch Group [Type],1800
+160,1,2013,Succession Post Fire: Oak/Gum/Cypress Group [Type],2200
+160,1,2013,Succession Post Fire: Oak/Hickory Group [Type],2200
+160,1,2013,Succession Post Fire: Oak/Pine Group [Type],2300
+160,1,2013,Succession Post Fire: Other Western Hardwoods Group [Type],2500
+160,1,2013,Succession Post Fire: Other Western Softwood Group [Type],1600
+160,1,2013,Succession Post Fire: Pinyon/Juniper Group [Type],4400
+160,1,2013,Succession Post Fire: Ponderosa Pine Group [Type],5800
+160,1,2013,Succession Post Fire: Redwood Group [Type],2100
+160,1,2013,Succession Post Fire: Spruce/Fir Group [Type],3000
+160,1,2013,Succession Post Fire: Tanoak/Laurel Group [Type],1700
+160,1,2013,Succession Post Fire: Tropical Hardwoods Group [Type],2300
+160,1,2013,Succession Post Fire: Western Larch Group [Type],2800
+160,1,2013,Succession Post Fire: Western Oak Group [Type],4300
+160,1,2013,Succession Post Fire: Western White Pine Group [Type],2000
+160,1,2013,Succession Post Fire: White/Red/Jack Pine Group [Type],2500
+160,1,2013,Succession: Post Fire Recovery,84700
+160,1,2014,Urbanization: Open [Type],52400
+160,1,2014,Urbanization: Low [Type],37000
+160,1,2014,Urbanization: Medium [Type],28200
+160,1,2014,Urbanization: High [Type],7000
+160,1,2014,Intensification: Open to Low [Type],1800
+160,1,2014,Intensification: Open to Medium [Type],5700
+160,1,2014,Intensification: Open to High [Type],1000
+160,1,2014,Intensification: Low to Medium [Type],700
+160,1,2014,Intensification: Low to High [Type],100
+160,1,2014,Intensification: Medium to High [Type],300
+160,1,2014,Fire: High Severity [Type],61800
+160,1,2014,Fire: Medium Severity [Type],147900
+160,1,2014,Fire: Low Severity [Type],544700
+160,1,2014,Insect: High Severity [Type],132800
+160,1,2014,Insect: Medium Severity [Type],333600
+160,1,2014,Insect: Low Severity [Type],684700
+160,1,2014,Forest Harvest: Forest Clearcut [Type],1983400
+160,1,2014,Forest Harvest: Forest Selection [Type],91000
+160,1,2014,Ag Expansion: Pasture [Type],47300
+160,1,2014,Ag Expansion: Cropland [Type],356200
+160,1,2014,Ag Expansion,403500
+160,1,2014,Ag Contraction,90900
+160,1,2014,Urbanization,124600
+160,1,2014,Intensification,9600
+160,1,2014,Fire,754400
+160,1,2014,Insect,1151100
+160,1,2014,Forest Harvest,2074400
+160,1,2014,Ag Contraction: Alder/Maple Group [Type],3200
+160,1,2014,Ag Contraction: Aspen/Birch Group [Type],2300
+160,1,2014,Ag Contraction: California Mixed Conifer Group [Type],2100
+160,1,2014,Ag Contraction: Douglas-fir Group [Type],3100
+160,1,2014,Ag Contraction: Elm/Ash/Cottonwood Group [Type],3200
+160,1,2014,Ag Contraction: Exotic Hardwoods Group [Type],2400
+160,1,2014,Ag Contraction: Exotic Softwoods Group [Type],1400
+160,1,2014,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],2600
+160,1,2014,Ag Contraction: Hemlock/Sitka Spruce Group [Type],2100
+160,1,2014,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],5500
+160,1,2014,Ag Contraction: Lodgepole Pine Group [Type],3300
+160,1,2014,Ag Contraction: Longleaf/Slash Pine Group [Type],2700
+160,1,2014,Ag Contraction: Maple/Beech/Birch Group [Type],2600
+160,1,2014,Ag Contraction: Oak/Gum/Cypress Group [Type],2500
+160,1,2014,Ag Contraction: Oak/Hickory Group [Type],6200
+160,1,2014,Ag Contraction: Oak/Pine Group [Type],2800
+160,1,2014,Ag Contraction: Other Western Hardwoods Group [Type],2500
+160,1,2014,Ag Contraction: Other Western Softwood Group [Type],2200
+160,1,2014,Ag Contraction: Pinyon/Juniper Group [Type],2000
+160,1,2014,Ag Contraction: Ponderosa Pine Group [Type],2700
+160,1,2014,Ag Contraction: Redwood Group [Type],3400
+160,1,2014,Ag Contraction: Spruce/Fir Group [Type],2200
+160,1,2014,Ag Contraction: Tanoak/Laurel Group [Type],2400
+160,1,2014,Ag Contraction: Tropical Hardwoods Group [Type],3400
+160,1,2014,Ag Contraction: Western Larch Group [Type],3100
+160,1,2014,Ag Contraction: Western Oak Group [Type],2500
+160,1,2014,Ag Contraction: Western White Pine Group [Type],2700
+160,1,2014,Ag Contraction: White/Red/Jack Pine Group [Type],2300
+160,1,2014,Ag Contraction: Grassland [Type],3500
+160,1,2014,Ag Contraction: Shrubland [Type],3600
+160,1,2014,Ag Contraction: Wetland Herbaceous [Type],2300
+160,1,2014,Ag Contraction: Wetland Woody [Type],2100
+160,1,2014,Ag Contraction: Cropland,90900
+160,1,2014,Ag Contraction: Pasture,90900
+160,1,2014,Succession Post Fire: Alder/Maple Group [Type],2000
+160,1,2014,Succession Post Fire: Aspen/Birch Group [Type],2100
+160,1,2014,Succession Post Fire: California Mixed Conifer Group [Type],4200
+160,1,2014,Succession Post Fire: Douglas-fir Group [Type],5300
+160,1,2014,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1400
+160,1,2014,Succession Post Fire: Exotic Hardwoods Group [Type],2300
+160,1,2014,Succession Post Fire: Exotic Softwoods Group [Type],2100
+160,1,2014,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],3800
+160,1,2014,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2300
+160,1,2014,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1800
+160,1,2014,Succession Post Fire: Lodgepole Pine Group [Type],3500
+160,1,2014,Succession Post Fire: Longleaf/Slash Pine Group [Type],2300
+160,1,2014,Succession Post Fire: Maple/Beech/Birch Group [Type],2300
+160,1,2014,Succession Post Fire: Oak/Gum/Cypress Group [Type],2300
+160,1,2014,Succession Post Fire: Oak/Hickory Group [Type],2000
+160,1,2014,Succession Post Fire: Oak/Pine Group [Type],1300
+160,1,2014,Succession Post Fire: Other Western Hardwoods Group [Type],1900
+160,1,2014,Succession Post Fire: Other Western Softwood Group [Type],2000
+160,1,2014,Succession Post Fire: Pinyon/Juniper Group [Type],3300
+160,1,2014,Succession Post Fire: Ponderosa Pine Group [Type],5500
+160,1,2014,Succession Post Fire: Redwood Group [Type],1400
+160,1,2014,Succession Post Fire: Spruce/Fir Group [Type],2800
+160,1,2014,Succession Post Fire: Tanoak/Laurel Group [Type],1400
+160,1,2014,Succession Post Fire: Tropical Hardwoods Group [Type],1600
+160,1,2014,Succession Post Fire: Western Larch Group [Type],1100
+160,1,2014,Succession Post Fire: Western Oak Group [Type],5100
+160,1,2014,Succession Post Fire: Western White Pine Group [Type],1900
+160,1,2014,Succession Post Fire: White/Red/Jack Pine Group [Type],1600
+160,1,2014,Succession: Post Fire Recovery,70600
+160,1,2015,Urbanization: Open [Type],49300
+160,1,2015,Urbanization: Low [Type],35900
+160,1,2015,Urbanization: Medium [Type],24700
+160,1,2015,Urbanization: High [Type],8300
+160,1,2015,Intensification: Open to Low [Type],1600
+160,1,2015,Intensification: Open to Medium [Type],4700
+160,1,2015,Intensification: Open to High [Type],500
+160,1,2015,Intensification: Low to Medium [Type],1200
+160,1,2015,Intensification: Low to High [Type],600
+160,1,2015,Intensification: Medium to High [Type],1100
+160,1,2015,Fire: High Severity [Type],150100
+160,1,2015,Fire: Medium Severity [Type],240500
+160,1,2015,Fire: Low Severity [Type],771500
+160,1,2015,Insect: High Severity [Type],327300
+160,1,2015,Insect: Medium Severity [Type],505200
+160,1,2015,Insect: Low Severity [Type],728700
+160,1,2015,Forest Harvest: Forest Clearcut [Type],2647600
+160,1,2015,Forest Harvest: Forest Selection [Type],173000
+160,1,2015,Ag Expansion: Pasture [Type],53900
+160,1,2015,Ag Expansion: Cropland [Type],344100
+160,1,2015,Ag Expansion,398000
+160,1,2015,Ag Contraction,94700
+160,1,2015,Urbanization,118200
+160,1,2015,Intensification,9700
+160,1,2015,Fire,1162100
+160,1,2015,Insect,1561200
+160,1,2015,Forest Harvest,2820600
+160,1,2015,Ag Contraction: Alder/Maple Group [Type],2400
+160,1,2015,Ag Contraction: Aspen/Birch Group [Type],1300
+160,1,2015,Ag Contraction: California Mixed Conifer Group [Type],2300
+160,1,2015,Ag Contraction: Douglas-fir Group [Type],2300
+160,1,2015,Ag Contraction: Elm/Ash/Cottonwood Group [Type],3800
+160,1,2015,Ag Contraction: Exotic Hardwoods Group [Type],2500
+160,1,2015,Ag Contraction: Exotic Softwoods Group [Type],2400
+160,1,2015,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],2600
+160,1,2015,Ag Contraction: Hemlock/Sitka Spruce Group [Type],3200
+160,1,2015,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],5300
+160,1,2015,Ag Contraction: Lodgepole Pine Group [Type],2700
+160,1,2015,Ag Contraction: Longleaf/Slash Pine Group [Type],4000
+160,1,2015,Ag Contraction: Maple/Beech/Birch Group [Type],2700
+160,1,2015,Ag Contraction: Oak/Gum/Cypress Group [Type],3800
+160,1,2015,Ag Contraction: Oak/Hickory Group [Type],4700
+160,1,2015,Ag Contraction: Oak/Pine Group [Type],2700
+160,1,2015,Ag Contraction: Other Western Hardwoods Group [Type],2100
+160,1,2015,Ag Contraction: Other Western Softwood Group [Type],3200
+160,1,2015,Ag Contraction: Pinyon/Juniper Group [Type],2400
+160,1,2015,Ag Contraction: Ponderosa Pine Group [Type],2400
+160,1,2015,Ag Contraction: Redwood Group [Type],2000
+160,1,2015,Ag Contraction: Spruce/Fir Group [Type],2000
+160,1,2015,Ag Contraction: Tanoak/Laurel Group [Type],3100
+160,1,2015,Ag Contraction: Tropical Hardwoods Group [Type],3900
+160,1,2015,Ag Contraction: Western Larch Group [Type],4100
+160,1,2015,Ag Contraction: Western Oak Group [Type],2100
+160,1,2015,Ag Contraction: Western White Pine Group [Type],2200
+160,1,2015,Ag Contraction: White/Red/Jack Pine Group [Type],2900
+160,1,2015,Ag Contraction: Grassland [Type],3100
+160,1,2015,Ag Contraction: Shrubland [Type],4000
+160,1,2015,Ag Contraction: Wetland Herbaceous [Type],3700
+160,1,2015,Ag Contraction: Wetland Woody [Type],2800
+160,1,2015,Ag Contraction: Cropland,94700
+160,1,2015,Ag Contraction: Pasture,94700
+160,1,2015,Succession Post Fire: Alder/Maple Group [Type],1900
+160,1,2015,Succession Post Fire: Aspen/Birch Group [Type],2700
+160,1,2015,Succession Post Fire: California Mixed Conifer Group [Type],3700
+160,1,2015,Succession Post Fire: Douglas-fir Group [Type],5100
+160,1,2015,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1700
+160,1,2015,Succession Post Fire: Exotic Hardwoods Group [Type],1800
+160,1,2015,Succession Post Fire: Exotic Softwoods Group [Type],1800
+160,1,2015,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],4700
+160,1,2015,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1400
+160,1,2015,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2000
+160,1,2015,Succession Post Fire: Lodgepole Pine Group [Type],2700
+160,1,2015,Succession Post Fire: Longleaf/Slash Pine Group [Type],2800
+160,1,2015,Succession Post Fire: Maple/Beech/Birch Group [Type],1900
+160,1,2015,Succession Post Fire: Oak/Gum/Cypress Group [Type],1900
+160,1,2015,Succession Post Fire: Oak/Hickory Group [Type],1900
+160,1,2015,Succession Post Fire: Oak/Pine Group [Type],1900
+160,1,2015,Succession Post Fire: Other Western Hardwoods Group [Type],2400
+160,1,2015,Succession Post Fire: Other Western Softwood Group [Type],3300
+160,1,2015,Succession Post Fire: Pinyon/Juniper Group [Type],2300
+160,1,2015,Succession Post Fire: Ponderosa Pine Group [Type],4900
+160,1,2015,Succession Post Fire: Redwood Group [Type],2000
+160,1,2015,Succession Post Fire: Spruce/Fir Group [Type],1400
+160,1,2015,Succession Post Fire: Tanoak/Laurel Group [Type],2500
+160,1,2015,Succession Post Fire: Tropical Hardwoods Group [Type],2600
+160,1,2015,Succession Post Fire: Western Larch Group [Type],2200
+160,1,2015,Succession Post Fire: Western Oak Group [Type],3800
+160,1,2015,Succession Post Fire: Western White Pine Group [Type],2600
+160,1,2015,Succession Post Fire: White/Red/Jack Pine Group [Type],2100
+160,1,2015,Succession: Post Fire Recovery,72000
+160,1,2016,Urbanization: Open [Type],36500
+160,1,2016,Urbanization: Low [Type],27100
+160,1,2016,Urbanization: Medium [Type],19900
+160,1,2016,Urbanization: High [Type],6800
+160,1,2016,Intensification: Open to Low [Type],1200
+160,1,2016,Intensification: Open to Medium [Type],3600
+160,1,2016,Intensification: Open to High [Type],400
+160,1,2016,Intensification: Low to Medium [Type],1100
+160,1,2016,Intensification: Low to High [Type],500
+160,1,2016,Intensification: Medium to High [Type],2100
+160,1,2016,Fire: High Severity [Type],112100
+160,1,2016,Fire: Medium Severity [Type],213800
+160,1,2016,Fire: Low Severity [Type],717500
+160,1,2016,Forest Harvest: Forest Clearcut [Type],2287400
+160,1,2016,Forest Harvest: Forest Selection [Type],161100
+160,1,2016,Ag Expansion: Pasture [Type],44100
+160,1,2016,Ag Expansion: Cropland [Type],283400
+160,1,2016,Ag Expansion,327500
+160,1,2016,Ag Contraction,77100
+160,1,2016,Urbanization,90300
+160,1,2016,Intensification,8900
+160,1,2016,Fire,1043400
+160,1,2016,Forest Harvest,2448500
+160,1,2016,Ag Contraction: Alder/Maple Group [Type],2100
+160,1,2016,Ag Contraction: Aspen/Birch Group [Type],2800
+160,1,2016,Ag Contraction: California Mixed Conifer Group [Type],2200
+160,1,2016,Ag Contraction: Douglas-fir Group [Type],1800
+160,1,2016,Ag Contraction: Elm/Ash/Cottonwood Group [Type],3100
+160,1,2016,Ag Contraction: Exotic Hardwoods Group [Type],2300
+160,1,2016,Ag Contraction: Exotic Softwoods Group [Type],1700
+160,1,2016,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],900
+160,1,2016,Ag Contraction: Hemlock/Sitka Spruce Group [Type],2400
+160,1,2016,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],3000
+160,1,2016,Ag Contraction: Lodgepole Pine Group [Type],2000
+160,1,2016,Ag Contraction: Longleaf/Slash Pine Group [Type],3700
+160,1,2016,Ag Contraction: Maple/Beech/Birch Group [Type],2200
+160,1,2016,Ag Contraction: Oak/Gum/Cypress Group [Type],2700
+160,1,2016,Ag Contraction: Oak/Hickory Group [Type],5300
+160,1,2016,Ag Contraction: Oak/Pine Group [Type],1800
+160,1,2016,Ag Contraction: Other Western Hardwoods Group [Type],2900
+160,1,2016,Ag Contraction: Other Western Softwood Group [Type],2300
+160,1,2016,Ag Contraction: Pinyon/Juniper Group [Type],2300
+160,1,2016,Ag Contraction: Ponderosa Pine Group [Type],1000
+160,1,2016,Ag Contraction: Redwood Group [Type],2600
+160,1,2016,Ag Contraction: Spruce/Fir Group [Type],2800
+160,1,2016,Ag Contraction: Tanoak/Laurel Group [Type],2000
+160,1,2016,Ag Contraction: Tropical Hardwoods Group [Type],2000
+160,1,2016,Ag Contraction: Western Larch Group [Type],1500
+160,1,2016,Ag Contraction: Western Oak Group [Type],2100
+160,1,2016,Ag Contraction: Western White Pine Group [Type],2300
+160,1,2016,Ag Contraction: White/Red/Jack Pine Group [Type],2100
+160,1,2016,Ag Contraction: Grassland [Type],2600
+160,1,2016,Ag Contraction: Shrubland [Type],2600
+160,1,2016,Ag Contraction: Wetland Herbaceous [Type],3100
+160,1,2016,Ag Contraction: Wetland Woody [Type],2900
+160,1,2016,Ag Contraction: Cropland,77100
+160,1,2016,Ag Contraction: Pasture,77100
+160,1,2016,Succession Post Fire: Alder/Maple Group [Type],1600
+160,1,2016,Succession Post Fire: Aspen/Birch Group [Type],2100
+160,1,2016,Succession Post Fire: California Mixed Conifer Group [Type],3700
+160,1,2016,Succession Post Fire: Douglas-fir Group [Type],6900
+160,1,2016,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2400
+160,1,2016,Succession Post Fire: Exotic Hardwoods Group [Type],2300
+160,1,2016,Succession Post Fire: Exotic Softwoods Group [Type],2200
+160,1,2016,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],5800
+160,1,2016,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2200
+160,1,2016,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2700
+160,1,2016,Succession Post Fire: Lodgepole Pine Group [Type],2500
+160,1,2016,Succession Post Fire: Longleaf/Slash Pine Group [Type],1900
+160,1,2016,Succession Post Fire: Maple/Beech/Birch Group [Type],1100
+160,1,2016,Succession Post Fire: Oak/Gum/Cypress Group [Type],1900
+160,1,2016,Succession Post Fire: Oak/Hickory Group [Type],2300
+160,1,2016,Succession Post Fire: Oak/Pine Group [Type],1400
+160,1,2016,Succession Post Fire: Other Western Hardwoods Group [Type],2400
+160,1,2016,Succession Post Fire: Other Western Softwood Group [Type],1700
+160,1,2016,Succession Post Fire: Pinyon/Juniper Group [Type],3700
+160,1,2016,Succession Post Fire: Ponderosa Pine Group [Type],4200
+160,1,2016,Succession Post Fire: Redwood Group [Type],1800
+160,1,2016,Succession Post Fire: Spruce/Fir Group [Type],2700
+160,1,2016,Succession Post Fire: Tanoak/Laurel Group [Type],2000
+160,1,2016,Succession Post Fire: Tropical Hardwoods Group [Type],1600
+160,1,2016,Succession Post Fire: Western Larch Group [Type],1900
+160,1,2016,Succession Post Fire: Western Oak Group [Type],4400
+160,1,2016,Succession Post Fire: Western White Pine Group [Type],2100
+160,1,2016,Succession Post Fire: White/Red/Jack Pine Group [Type],1200
+160,1,2016,Succession: Post Fire Recovery,72700
+160,1,2017,Urbanization: Open [Type],88600
+160,1,2017,Urbanization: Low [Type],58000
+160,1,2017,Urbanization: Medium [Type],41500
+160,1,2017,Urbanization: High [Type],10900
+160,1,2017,Intensification: Open to Low [Type],2700
+160,1,2017,Intensification: Open to Medium [Type],9200
+160,1,2017,Intensification: Open to High [Type],1500
+160,1,2017,Intensification: Low to Medium [Type],4100
+160,1,2017,Intensification: Low to High [Type],2600
+160,1,2017,Intensification: Medium to High [Type],700
+160,1,2017,Fire: High Severity [Type],314700
+160,1,2017,Fire: Medium Severity [Type],635800
+160,1,2017,Fire: Low Severity [Type],2018800
+160,1,2017,Forest Harvest: Forest Clearcut [Type],1380400
+160,1,2017,Forest Harvest: Forest Selection [Type],129100
+160,1,2017,Ag Expansion: Pasture [Type],48100
+160,1,2017,Ag Expansion: Cropland [Type],265200
+160,1,2017,Ag Expansion,313300
+160,1,2017,Ag Contraction,256500
+160,1,2017,Urbanization,199000
+160,1,2017,Intensification,20800
+160,1,2017,Fire,2969300
+160,1,2017,Forest Harvest,1509500
+160,1,2017,Ag Contraction: Alder/Maple Group [Type],7000
+160,1,2017,Ag Contraction: Aspen/Birch Group [Type],6000
+160,1,2017,Ag Contraction: California Mixed Conifer Group [Type],7000
+160,1,2017,Ag Contraction: Douglas-fir Group [Type],5800
+160,1,2017,Ag Contraction: Elm/Ash/Cottonwood Group [Type],6200
+160,1,2017,Ag Contraction: Exotic Hardwoods Group [Type],6700
+160,1,2017,Ag Contraction: Exotic Softwoods Group [Type],6300
+160,1,2017,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],6400
+160,1,2017,Ag Contraction: Hemlock/Sitka Spruce Group [Type],8200
+160,1,2017,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],11500
+160,1,2017,Ag Contraction: Lodgepole Pine Group [Type],8100
+160,1,2017,Ag Contraction: Longleaf/Slash Pine Group [Type],7400
+160,1,2017,Ag Contraction: Maple/Beech/Birch Group [Type],8800
+160,1,2017,Ag Contraction: Oak/Gum/Cypress Group [Type],10500
+160,1,2017,Ag Contraction: Oak/Hickory Group [Type],16900
+160,1,2017,Ag Contraction: Oak/Pine Group [Type],9800
+160,1,2017,Ag Contraction: Other Western Hardwoods Group [Type],7200
+160,1,2017,Ag Contraction: Other Western Softwood Group [Type],7500
+160,1,2017,Ag Contraction: Pinyon/Juniper Group [Type],7500
+160,1,2017,Ag Contraction: Ponderosa Pine Group [Type],6200
+160,1,2017,Ag Contraction: Redwood Group [Type],7000
+160,1,2017,Ag Contraction: Spruce/Fir Group [Type],7400
+160,1,2017,Ag Contraction: Tanoak/Laurel Group [Type],8200
+160,1,2017,Ag Contraction: Tropical Hardwoods Group [Type],6800
+160,1,2017,Ag Contraction: Western Larch Group [Type],7600
+160,1,2017,Ag Contraction: Western Oak Group [Type],7800
+160,1,2017,Ag Contraction: Western White Pine Group [Type],8600
+160,1,2017,Ag Contraction: White/Red/Jack Pine Group [Type],7200
+160,1,2017,Ag Contraction: Grassland [Type],11000
+160,1,2017,Ag Contraction: Shrubland [Type],7700
+160,1,2017,Ag Contraction: Wetland Herbaceous [Type],8000
+160,1,2017,Ag Contraction: Wetland Woody [Type],8200
+160,1,2017,Ag Contraction: Cropland,256500
+160,1,2017,Ag Contraction: Pasture,256500
+160,1,2017,Succession Post Fire: Alder/Maple Group [Type],4400
+160,1,2017,Succession Post Fire: Aspen/Birch Group [Type],4300
+160,1,2017,Succession Post Fire: California Mixed Conifer Group [Type],6600
+160,1,2017,Succession Post Fire: Douglas-fir Group [Type],9600
+160,1,2017,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2100
+160,1,2017,Succession Post Fire: Exotic Hardwoods Group [Type],3200
+160,1,2017,Succession Post Fire: Exotic Softwoods Group [Type],2200
+160,1,2017,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],7800
+160,1,2017,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],3600
+160,1,2017,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],3400
+160,1,2017,Succession Post Fire: Lodgepole Pine Group [Type],4900
+160,1,2017,Succession Post Fire: Longleaf/Slash Pine Group [Type],2700
+160,1,2017,Succession Post Fire: Maple/Beech/Birch Group [Type],3400
+160,1,2017,Succession Post Fire: Oak/Gum/Cypress Group [Type],2700
+160,1,2017,Succession Post Fire: Oak/Hickory Group [Type],2100
+160,1,2017,Succession Post Fire: Oak/Pine Group [Type],2300
+160,1,2017,Succession Post Fire: Other Western Hardwoods Group [Type],3800
+160,1,2017,Succession Post Fire: Other Western Softwood Group [Type],2600
+160,1,2017,Succession Post Fire: Pinyon/Juniper Group [Type],2300
+160,1,2017,Succession Post Fire: Ponderosa Pine Group [Type],6300
+160,1,2017,Succession Post Fire: Redwood Group [Type],3300
+160,1,2017,Succession Post Fire: Spruce/Fir Group [Type],3100
+160,1,2017,Succession Post Fire: Tanoak/Laurel Group [Type],3800
+160,1,2017,Succession Post Fire: Tropical Hardwoods Group [Type],4000
+160,1,2017,Succession Post Fire: Western Larch Group [Type],2500
+160,1,2017,Succession Post Fire: Western Oak Group [Type],5200
+160,1,2017,Succession Post Fire: Western White Pine Group [Type],2600
+160,1,2017,Succession Post Fire: White/Red/Jack Pine Group [Type],3400
+160,1,2017,Succession: Post Fire Recovery,108200
+160,1,2018,Urbanization: Open [Type],78500
+160,1,2018,Urbanization: Low [Type],53200
+160,1,2018,Urbanization: Medium [Type],41300
+160,1,2018,Urbanization: High [Type],11400
+160,1,2018,Intensification: Open to Low [Type],4200
+160,1,2018,Intensification: Open to Medium [Type],9800
+160,1,2018,Intensification: Open to High [Type],1200
+160,1,2018,Intensification: Low to Medium [Type],3300
+160,1,2018,Intensification: Low to High [Type],3600
+160,1,2018,Intensification: Medium to High [Type],400
+160,1,2018,Fire: High Severity [Type],258500
+160,1,2018,Fire: Medium Severity [Type],438500
+160,1,2018,Fire: Low Severity [Type],1455600
+160,1,2018,Forest Harvest: Forest Clearcut [Type],1593900
+160,1,2018,Forest Harvest: Forest Selection [Type],122800
+160,1,2018,Ag Expansion: Pasture [Type],47700
+160,1,2018,Ag Expansion: Cropland [Type],244200
+160,1,2018,Ag Expansion,291900
+160,1,2018,Ag Contraction,188900
+160,1,2018,Urbanization,184400
+160,1,2018,Intensification,22500
+160,1,2018,Fire,2152600
+160,1,2018,Forest Harvest,1716700
+160,1,2018,Ag Contraction: Alder/Maple Group [Type],5800
+160,1,2018,Ag Contraction: Aspen/Birch Group [Type],6300
+160,1,2018,Ag Contraction: California Mixed Conifer Group [Type],5500
+160,1,2018,Ag Contraction: Douglas-fir Group [Type],5100
+160,1,2018,Ag Contraction: Elm/Ash/Cottonwood Group [Type],5100
+160,1,2018,Ag Contraction: Exotic Hardwoods Group [Type],6600
+160,1,2018,Ag Contraction: Exotic Softwoods Group [Type],5800
+160,1,2018,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],5400
+160,1,2018,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6300
+160,1,2018,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],6500
+160,1,2018,Ag Contraction: Lodgepole Pine Group [Type],5000
+160,1,2018,Ag Contraction: Longleaf/Slash Pine Group [Type],5600
+160,1,2018,Ag Contraction: Maple/Beech/Birch Group [Type],6600
+160,1,2018,Ag Contraction: Oak/Gum/Cypress Group [Type],7200
+160,1,2018,Ag Contraction: Oak/Hickory Group [Type],9200
+160,1,2018,Ag Contraction: Oak/Pine Group [Type],6300
+160,1,2018,Ag Contraction: Other Western Hardwoods Group [Type],3700
+160,1,2018,Ag Contraction: Other Western Softwood Group [Type],4800
+160,1,2018,Ag Contraction: Pinyon/Juniper Group [Type],6200
+160,1,2018,Ag Contraction: Ponderosa Pine Group [Type],5100
+160,1,2018,Ag Contraction: Redwood Group [Type],4800
+160,1,2018,Ag Contraction: Spruce/Fir Group [Type],4500
+160,1,2018,Ag Contraction: Tanoak/Laurel Group [Type],5100
+160,1,2018,Ag Contraction: Tropical Hardwoods Group [Type],5100
+160,1,2018,Ag Contraction: Western Larch Group [Type],6100
+160,1,2018,Ag Contraction: Western Oak Group [Type],4800
+160,1,2018,Ag Contraction: Western White Pine Group [Type],5800
+160,1,2018,Ag Contraction: White/Red/Jack Pine Group [Type],4400
+160,1,2018,Ag Contraction: Grassland [Type],10700
+160,1,2018,Ag Contraction: Shrubland [Type],8000
+160,1,2018,Ag Contraction: Wetland Herbaceous [Type],5700
+160,1,2018,Ag Contraction: Wetland Woody [Type],5800
+160,1,2018,Ag Contraction: Cropland,188900
+160,1,2018,Ag Contraction: Pasture,188900
+160,1,2018,Succession Post Fire: Alder/Maple Group [Type],3000
+160,1,2018,Succession Post Fire: Aspen/Birch Group [Type],4200
+160,1,2018,Succession Post Fire: California Mixed Conifer Group [Type],8200
+160,1,2018,Succession Post Fire: Douglas-fir Group [Type],11500
+160,1,2018,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],3600
+160,1,2018,Succession Post Fire: Exotic Hardwoods Group [Type],3900
+160,1,2018,Succession Post Fire: Exotic Softwoods Group [Type],4200
+160,1,2018,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],9900
+160,1,2018,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],4300
+160,1,2018,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],3300
+160,1,2018,Succession Post Fire: Lodgepole Pine Group [Type],6100
+160,1,2018,Succession Post Fire: Longleaf/Slash Pine Group [Type],4800
+160,1,2018,Succession Post Fire: Maple/Beech/Birch Group [Type],3700
+160,1,2018,Succession Post Fire: Oak/Gum/Cypress Group [Type],4400
+160,1,2018,Succession Post Fire: Oak/Hickory Group [Type],4600
+160,1,2018,Succession Post Fire: Oak/Pine Group [Type],4600
+160,1,2018,Succession Post Fire: Other Western Hardwoods Group [Type],2900
+160,1,2018,Succession Post Fire: Other Western Softwood Group [Type],3500
+160,1,2018,Succession Post Fire: Pinyon/Juniper Group [Type],4200
+160,1,2018,Succession Post Fire: Ponderosa Pine Group [Type],6000
+160,1,2018,Succession Post Fire: Redwood Group [Type],2700
+160,1,2018,Succession Post Fire: Spruce/Fir Group [Type],2700
+160,1,2018,Succession Post Fire: Tanoak/Laurel Group [Type],4700
+160,1,2018,Succession Post Fire: Tropical Hardwoods Group [Type],2900
+160,1,2018,Succession Post Fire: Western Larch Group [Type],2900
+160,1,2018,Succession Post Fire: Western Oak Group [Type],10300
+160,1,2018,Succession Post Fire: Western White Pine Group [Type],4700
+160,1,2018,Succession Post Fire: White/Red/Jack Pine Group [Type],3300
+160,1,2018,Succession: Post Fire Recovery,135100
+160,1,2019,Urbanization: Open [Type],86200
+160,1,2019,Urbanization: Low [Type],62200
+160,1,2019,Urbanization: Medium [Type],41600
+160,1,2019,Urbanization: High [Type],10100
+160,1,2019,Intensification: Open to Low [Type],3200
+160,1,2019,Intensification: Open to Medium [Type],11600
+160,1,2019,Intensification: Open to High [Type],1400
+160,1,2019,Intensification: Low to Medium [Type],4400
+160,1,2019,Intensification: Low to High [Type],3500
+160,1,2019,Intensification: Medium to High [Type],600
+160,1,2019,Fire: High Severity [Type],45100
+160,1,2019,Fire: Medium Severity [Type],112600
+160,1,2019,Fire: Low Severity [Type],428600
+160,1,2019,Forest Harvest: Forest Clearcut [Type],1172900
+160,1,2019,Forest Harvest: Forest Selection [Type],76500
+160,1,2019,Ag Expansion: Pasture [Type],54800
+160,1,2019,Ag Expansion: Cropland [Type],311400
+160,1,2019,Ag Expansion,366200
+160,1,2019,Ag Contraction,178000
+160,1,2019,Urbanization,200100
+160,1,2019,Intensification,24700
+160,1,2019,Fire,586300
+160,1,2019,Forest Harvest,1249400
+160,1,2019,Ag Contraction: Alder/Maple Group [Type],5600
+160,1,2019,Ag Contraction: Aspen/Birch Group [Type],6200
+160,1,2019,Ag Contraction: California Mixed Conifer Group [Type],4800
+160,1,2019,Ag Contraction: Douglas-fir Group [Type],5100
+160,1,2019,Ag Contraction: Elm/Ash/Cottonwood Group [Type],4600
+160,1,2019,Ag Contraction: Exotic Hardwoods Group [Type],4000
+160,1,2019,Ag Contraction: Exotic Softwoods Group [Type],4800
+160,1,2019,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],4800
+160,1,2019,Ag Contraction: Hemlock/Sitka Spruce Group [Type],4500
+160,1,2019,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],6000
+160,1,2019,Ag Contraction: Lodgepole Pine Group [Type],5600
+160,1,2019,Ag Contraction: Longleaf/Slash Pine Group [Type],7100
+160,1,2019,Ag Contraction: Maple/Beech/Birch Group [Type],6600
+160,1,2019,Ag Contraction: Oak/Gum/Cypress Group [Type],4800
+160,1,2019,Ag Contraction: Oak/Hickory Group [Type],12100
+160,1,2019,Ag Contraction: Oak/Pine Group [Type],5700
+160,1,2019,Ag Contraction: Other Western Hardwoods Group [Type],6500
+160,1,2019,Ag Contraction: Other Western Softwood Group [Type],4000
+160,1,2019,Ag Contraction: Pinyon/Juniper Group [Type],4000
+160,1,2019,Ag Contraction: Ponderosa Pine Group [Type],3600
+160,1,2019,Ag Contraction: Redwood Group [Type],4200
+160,1,2019,Ag Contraction: Spruce/Fir Group [Type],4600
+160,1,2019,Ag Contraction: Tanoak/Laurel Group [Type],6300
+160,1,2019,Ag Contraction: Tropical Hardwoods Group [Type],6200
+160,1,2019,Ag Contraction: Western Larch Group [Type],5700
+160,1,2019,Ag Contraction: Western Oak Group [Type],6200
+160,1,2019,Ag Contraction: Western White Pine Group [Type],4900
+160,1,2019,Ag Contraction: White/Red/Jack Pine Group [Type],5200
+160,1,2019,Ag Contraction: Grassland [Type],9500
+160,1,2019,Ag Contraction: Shrubland [Type],4400
+160,1,2019,Ag Contraction: Wetland Herbaceous [Type],5100
+160,1,2019,Ag Contraction: Wetland Woody [Type],5300
+160,1,2019,Ag Contraction: Cropland,178000
+160,1,2019,Ag Contraction: Pasture,178000
+160,1,2019,Succession Post Fire: Alder/Maple Group [Type],1900
+160,1,2019,Succession Post Fire: Aspen/Birch Group [Type],3700
+160,1,2019,Succession Post Fire: California Mixed Conifer Group [Type],5700
+160,1,2019,Succession Post Fire: Douglas-fir Group [Type],8500
+160,1,2019,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2500
+160,1,2019,Succession Post Fire: Exotic Hardwoods Group [Type],3500
+160,1,2019,Succession Post Fire: Exotic Softwoods Group [Type],2500
+160,1,2019,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],7700
+160,1,2019,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2900
+160,1,2019,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2800
+160,1,2019,Succession Post Fire: Lodgepole Pine Group [Type],3900
+160,1,2019,Succession Post Fire: Longleaf/Slash Pine Group [Type],3200
+160,1,2019,Succession Post Fire: Maple/Beech/Birch Group [Type],3400
+160,1,2019,Succession Post Fire: Oak/Gum/Cypress Group [Type],3400
+160,1,2019,Succession Post Fire: Oak/Hickory Group [Type],2400
+160,1,2019,Succession Post Fire: Oak/Pine Group [Type],3100
+160,1,2019,Succession Post Fire: Other Western Hardwoods Group [Type],3100
+160,1,2019,Succession Post Fire: Other Western Softwood Group [Type],3100
+160,1,2019,Succession Post Fire: Pinyon/Juniper Group [Type],3100
+160,1,2019,Succession Post Fire: Ponderosa Pine Group [Type],5000
+160,1,2019,Succession Post Fire: Redwood Group [Type],3000
+160,1,2019,Succession Post Fire: Spruce/Fir Group [Type],3200
+160,1,2019,Succession Post Fire: Tanoak/Laurel Group [Type],3200
+160,1,2019,Succession Post Fire: Tropical Hardwoods Group [Type],3300
+160,1,2019,Succession Post Fire: Western Larch Group [Type],3700
+160,1,2019,Succession Post Fire: Western Oak Group [Type],5600
+160,1,2019,Succession Post Fire: Western White Pine Group [Type],3500
+160,1,2019,Succession Post Fire: White/Red/Jack Pine Group [Type],3500
+160,1,2019,Succession: Post Fire Recovery,104400
+160,1,2020,Urbanization: Open [Type],81700
+160,1,2020,Urbanization: Low [Type],56500
+160,1,2020,Urbanization: Medium [Type],39700
+160,1,2020,Urbanization: High [Type],10800
+160,1,2020,Intensification: Open to Low [Type],3900
+160,1,2020,Intensification: Open to Medium [Type],12800
+160,1,2020,Intensification: Open to High [Type],1300
+160,1,2020,Intensification: Low to Medium [Type],5000
+160,1,2020,Intensification: Low to High [Type],1800
+160,1,2020,Intensification: Medium to High [Type],400
+160,1,2020,Fire: High Severity [Type],476100
+160,1,2020,Fire: Medium Severity [Type],784500
+160,1,2020,Fire: Low Severity [Type],2406200
+160,1,2020,Forest Harvest: Forest Clearcut [Type],1694500
+160,1,2020,Forest Harvest: Forest Selection [Type],98800
+160,1,2020,Ag Expansion: Pasture [Type],43900
+160,1,2020,Ag Expansion: Cropland [Type],284000
+160,1,2020,Ag Expansion,327900
+160,1,2020,Ag Contraction,227800
+160,1,2020,Urbanization,188700
+160,1,2020,Intensification,25200
+160,1,2020,Fire,3666800
+160,1,2020,Forest Harvest,1793300
+160,1,2020,Ag Contraction: Alder/Maple Group [Type],7000
+160,1,2020,Ag Contraction: Aspen/Birch Group [Type],8000
+160,1,2020,Ag Contraction: California Mixed Conifer Group [Type],8300
+160,1,2020,Ag Contraction: Douglas-fir Group [Type],7100
+160,1,2020,Ag Contraction: Elm/Ash/Cottonwood Group [Type],6500
+160,1,2020,Ag Contraction: Exotic Hardwoods Group [Type],6000
+160,1,2020,Ag Contraction: Exotic Softwoods Group [Type],7200
+160,1,2020,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],6100
+160,1,2020,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6700
+160,1,2020,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],10000
+160,1,2020,Ag Contraction: Lodgepole Pine Group [Type],6700
+160,1,2020,Ag Contraction: Longleaf/Slash Pine Group [Type],8700
+160,1,2020,Ag Contraction: Maple/Beech/Birch Group [Type],7300
+160,1,2020,Ag Contraction: Oak/Gum/Cypress Group [Type],8800
+160,1,2020,Ag Contraction: Oak/Hickory Group [Type],11100
+160,1,2020,Ag Contraction: Oak/Pine Group [Type],7700
+160,1,2020,Ag Contraction: Other Western Hardwoods Group [Type],5500
+160,1,2020,Ag Contraction: Other Western Softwood Group [Type],6000
+160,1,2020,Ag Contraction: Pinyon/Juniper Group [Type],4800
+160,1,2020,Ag Contraction: Ponderosa Pine Group [Type],6000
+160,1,2020,Ag Contraction: Redwood Group [Type],6600
+160,1,2020,Ag Contraction: Spruce/Fir Group [Type],7500
+160,1,2020,Ag Contraction: Tanoak/Laurel Group [Type],6500
+160,1,2020,Ag Contraction: Tropical Hardwoods Group [Type],5300
+160,1,2020,Ag Contraction: Western Larch Group [Type],6100
+160,1,2020,Ag Contraction: Western Oak Group [Type],6000
+160,1,2020,Ag Contraction: Western White Pine Group [Type],6500
+160,1,2020,Ag Contraction: White/Red/Jack Pine Group [Type],5200
+160,1,2020,Ag Contraction: Grassland [Type],10600
+160,1,2020,Ag Contraction: Shrubland [Type],7800
+160,1,2020,Ag Contraction: Wetland Herbaceous [Type],7400
+160,1,2020,Ag Contraction: Wetland Woody [Type],6800
+160,1,2020,Ag Contraction: Cropland,227800
+160,1,2020,Ag Contraction: Pasture,227800
+160,1,2020,Succession Post Fire: Alder/Maple Group [Type],2100
+160,1,2020,Succession Post Fire: Aspen/Birch Group [Type],2200
+160,1,2020,Succession Post Fire: California Mixed Conifer Group [Type],4100
+160,1,2020,Succession Post Fire: Douglas-fir Group [Type],6800
+160,1,2020,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2000
+160,1,2020,Succession Post Fire: Exotic Hardwoods Group [Type],2400
+160,1,2020,Succession Post Fire: Exotic Softwoods Group [Type],2600
+160,1,2020,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],5900
+160,1,2020,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2100
+160,1,2020,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2300
+160,1,2020,Succession Post Fire: Lodgepole Pine Group [Type],4800
+160,1,2020,Succession Post Fire: Longleaf/Slash Pine Group [Type],2600
+160,1,2020,Succession Post Fire: Maple/Beech/Birch Group [Type],2300
+160,1,2020,Succession Post Fire: Oak/Gum/Cypress Group [Type],1700
+160,1,2020,Succession Post Fire: Oak/Hickory Group [Type],2900
+160,1,2020,Succession Post Fire: Oak/Pine Group [Type],2300
+160,1,2020,Succession Post Fire: Other Western Hardwoods Group [Type],1400
+160,1,2020,Succession Post Fire: Other Western Softwood Group [Type],2200
+160,1,2020,Succession Post Fire: Pinyon/Juniper Group [Type],3700
+160,1,2020,Succession Post Fire: Ponderosa Pine Group [Type],4500
+160,1,2020,Succession Post Fire: Redwood Group [Type],3400
+160,1,2020,Succession Post Fire: Spruce/Fir Group [Type],2900
+160,1,2020,Succession Post Fire: Tanoak/Laurel Group [Type],2700
+160,1,2020,Succession Post Fire: Tropical Hardwoods Group [Type],2800
+160,1,2020,Succession Post Fire: Western Larch Group [Type],2100
+160,1,2020,Succession Post Fire: Western Oak Group [Type],5400
+160,1,2020,Succession Post Fire: Western White Pine Group [Type],2600
+160,1,2020,Succession Post Fire: White/Red/Jack Pine Group [Type],2900
+160,1,2020,Succession: Post Fire Recovery,85700
+161,1,2002,Urbanization: Open [Type],113900
+161,1,2002,Urbanization: Low [Type],81200
+161,1,2002,Urbanization: Medium [Type],52200
+161,1,2002,Urbanization: High [Type],14100
+161,1,2002,Intensification: Open to Low [Type],6100
+161,1,2002,Intensification: Open to Medium [Type],17600
+161,1,2002,Intensification: Open to High [Type],2500
+161,1,2002,Intensification: Low to Medium [Type],3700
+161,1,2002,Intensification: Low to High [Type],3300
+161,1,2002,Fire: High Severity [Type],202600
+161,1,2002,Fire: Medium Severity [Type],297000
+161,1,2002,Fire: Low Severity [Type],877000
+161,1,2002,Insect: High Severity [Type],323500
+161,1,2002,Insect: Medium Severity [Type],320700
+161,1,2002,Insect: Low Severity [Type],1280000
+161,1,2002,Forest Harvest: Forest Clearcut [Type],927200
+161,1,2002,Forest Harvest: Forest Selection [Type],92000
+161,1,2002,Ag Expansion: Pasture [Type],34700
+161,1,2002,Ag Expansion: Cropland [Type],238900
+161,1,2002,Ag Expansion,273600
+161,1,2002,Ag Contraction,349600
+161,1,2002,Urbanization,261400
+161,1,2002,Intensification,33200
+161,1,2002,Fire,1376600
+161,1,2002,Insect,1924200
+161,1,2002,Forest Harvest,1019200
+161,1,2002,Ag Contraction: Alder/Maple Group [Type],7400
+161,1,2002,Ag Contraction: Aspen/Birch Group [Type],9300
+161,1,2002,Ag Contraction: California Mixed Conifer Group [Type],9700
+161,1,2002,Ag Contraction: Douglas-fir Group [Type],10500
+161,1,2002,Ag Contraction: Elm/Ash/Cottonwood Group [Type],8600
+161,1,2002,Ag Contraction: Exotic Hardwoods Group [Type],9100
+161,1,2002,Ag Contraction: Exotic Softwoods Group [Type],9500
+161,1,2002,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],10000
+161,1,2002,Ag Contraction: Hemlock/Sitka Spruce Group [Type],8600
+161,1,2002,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],18600
+161,1,2002,Ag Contraction: Lodgepole Pine Group [Type],8600
+161,1,2002,Ag Contraction: Longleaf/Slash Pine Group [Type],12300
+161,1,2002,Ag Contraction: Maple/Beech/Birch Group [Type],10000
+161,1,2002,Ag Contraction: Oak/Gum/Cypress Group [Type],13300
+161,1,2002,Ag Contraction: Oak/Hickory Group [Type],21300
+161,1,2002,Ag Contraction: Oak/Pine Group [Type],10800
+161,1,2002,Ag Contraction: Other Western Hardwoods Group [Type],9600
+161,1,2002,Ag Contraction: Other Western Softwood Group [Type],10500
+161,1,2002,Ag Contraction: Pinyon/Juniper Group [Type],9500
+161,1,2002,Ag Contraction: Ponderosa Pine Group [Type],10600
+161,1,2002,Ag Contraction: Redwood Group [Type],10700
+161,1,2002,Ag Contraction: Spruce/Fir Group [Type],10500
+161,1,2002,Ag Contraction: Tanoak/Laurel Group [Type],10700
+161,1,2002,Ag Contraction: Tropical Hardwoods Group [Type],8400
+161,1,2002,Ag Contraction: Western Larch Group [Type],9500
+161,1,2002,Ag Contraction: Western Oak Group [Type],10300
+161,1,2002,Ag Contraction: Western White Pine Group [Type],9000
+161,1,2002,Ag Contraction: White/Red/Jack Pine Group [Type],10600
+161,1,2002,Ag Contraction: Grassland [Type],18000
+161,1,2002,Ag Contraction: Shrubland [Type],13300
+161,1,2002,Ag Contraction: Wetland Herbaceous [Type],11800
+161,1,2002,Ag Contraction: Wetland Woody [Type],9000
+161,1,2002,Ag Contraction: Cropland,349600
+161,1,2002,Ag Contraction: Pasture,349600
+161,1,2002,Succession Post Fire: Alder/Maple Group [Type],1500
+161,1,2002,Succession Post Fire: Aspen/Birch Group [Type],1100
+161,1,2002,Succession Post Fire: California Mixed Conifer Group [Type],1600
+161,1,2002,Succession Post Fire: Douglas-fir Group [Type],4500
+161,1,2002,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],800
+161,1,2002,Succession Post Fire: Exotic Hardwoods Group [Type],900
+161,1,2002,Succession Post Fire: Exotic Softwoods Group [Type],1200
+161,1,2002,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],1200
+161,1,2002,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1400
+161,1,2002,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1100
+161,1,2002,Succession Post Fire: Lodgepole Pine Group [Type],900
+161,1,2002,Succession Post Fire: Longleaf/Slash Pine Group [Type],1500
+161,1,2002,Succession Post Fire: Maple/Beech/Birch Group [Type],900
+161,1,2002,Succession Post Fire: Oak/Gum/Cypress Group [Type],1000
+161,1,2002,Succession Post Fire: Oak/Hickory Group [Type],1000
+161,1,2002,Succession Post Fire: Oak/Pine Group [Type],1100
+161,1,2002,Succession Post Fire: Other Western Hardwoods Group [Type],1200
+161,1,2002,Succession Post Fire: Other Western Softwood Group [Type],1100
+161,1,2002,Succession Post Fire: Pinyon/Juniper Group [Type],1300
+161,1,2002,Succession Post Fire: Ponderosa Pine Group [Type],2300
+161,1,2002,Succession Post Fire: Redwood Group [Type],1300
+161,1,2002,Succession Post Fire: Spruce/Fir Group [Type],1500
+161,1,2002,Succession Post Fire: Tanoak/Laurel Group [Type],1200
+161,1,2002,Succession Post Fire: Tropical Hardwoods Group [Type],900
+161,1,2002,Succession Post Fire: Western Larch Group [Type],500
+161,1,2002,Succession Post Fire: Western Oak Group [Type],1500
+161,1,2002,Succession Post Fire: Western White Pine Group [Type],1100
+161,1,2002,Succession Post Fire: White/Red/Jack Pine Group [Type],1000
+161,1,2002,Succession: Post Fire Recovery,36600
+161,1,2003,Urbanization: Open [Type],117800
+161,1,2003,Urbanization: Low [Type],83600
+161,1,2003,Urbanization: Medium [Type],56800
+161,1,2003,Urbanization: High [Type],15700
+161,1,2003,Intensification: Open to Low [Type],5500
+161,1,2003,Intensification: Open to Medium [Type],17400
+161,1,2003,Intensification: Open to High [Type],2000
+161,1,2003,Intensification: Low to Medium [Type],5700
+161,1,2003,Intensification: Low to High [Type],3800
+161,1,2003,Intensification: Medium to High [Type],100
+161,1,2003,Fire: High Severity [Type],199900
+161,1,2003,Fire: Medium Severity [Type],275400
+161,1,2003,Fire: Low Severity [Type],764700
+161,1,2003,Insect: High Severity [Type],575400
+161,1,2003,Insect: Medium Severity [Type],685200
+161,1,2003,Insect: Low Severity [Type],2356800
+161,1,2003,Forest Harvest: Forest Clearcut [Type],1041300
+161,1,2003,Forest Harvest: Forest Selection [Type],97200
+161,1,2003,Ag Expansion: Pasture [Type],36000
+161,1,2003,Ag Expansion: Cropland [Type],234900
+161,1,2003,Ag Expansion,270900
+161,1,2003,Ag Contraction,352600
+161,1,2003,Urbanization,273900
+161,1,2003,Intensification,34500
+161,1,2003,Fire,1240000
+161,1,2003,Insect,3617400
+161,1,2003,Forest Harvest,1138500
+161,1,2003,Ag Contraction: Alder/Maple Group [Type],11100
+161,1,2003,Ag Contraction: Aspen/Birch Group [Type],10800
+161,1,2003,Ag Contraction: California Mixed Conifer Group [Type],9200
+161,1,2003,Ag Contraction: Douglas-fir Group [Type],7700
+161,1,2003,Ag Contraction: Elm/Ash/Cottonwood Group [Type],10000
+161,1,2003,Ag Contraction: Exotic Hardwoods Group [Type],9100
+161,1,2003,Ag Contraction: Exotic Softwoods Group [Type],8500
+161,1,2003,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],8600
+161,1,2003,Ag Contraction: Hemlock/Sitka Spruce Group [Type],8600
+161,1,2003,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],21100
+161,1,2003,Ag Contraction: Lodgepole Pine Group [Type],10000
+161,1,2003,Ag Contraction: Longleaf/Slash Pine Group [Type],11700
+161,1,2003,Ag Contraction: Maple/Beech/Birch Group [Type],10000
+161,1,2003,Ag Contraction: Oak/Gum/Cypress Group [Type],12600
+161,1,2003,Ag Contraction: Oak/Hickory Group [Type],20000
+161,1,2003,Ag Contraction: Oak/Pine Group [Type],11400
+161,1,2003,Ag Contraction: Other Western Hardwoods Group [Type],9500
+161,1,2003,Ag Contraction: Other Western Softwood Group [Type],10100
+161,1,2003,Ag Contraction: Pinyon/Juniper Group [Type],9900
+161,1,2003,Ag Contraction: Ponderosa Pine Group [Type],11900
+161,1,2003,Ag Contraction: Redwood Group [Type],11300
+161,1,2003,Ag Contraction: Spruce/Fir Group [Type],9600
+161,1,2003,Ag Contraction: Tanoak/Laurel Group [Type],8600
+161,1,2003,Ag Contraction: Tropical Hardwoods Group [Type],9700
+161,1,2003,Ag Contraction: Western Larch Group [Type],10200
+161,1,2003,Ag Contraction: Western Oak Group [Type],10100
+161,1,2003,Ag Contraction: Western White Pine Group [Type],11900
+161,1,2003,Ag Contraction: White/Red/Jack Pine Group [Type],7800
+161,1,2003,Ag Contraction: Grassland [Type],18500
+161,1,2003,Ag Contraction: Shrubland [Type],12600
+161,1,2003,Ag Contraction: Wetland Herbaceous [Type],10000
+161,1,2003,Ag Contraction: Wetland Woody [Type],10500
+161,1,2003,Ag Contraction: Cropland,352600
+161,1,2003,Ag Contraction: Pasture,352600
+161,1,2003,Succession Post Fire: Alder/Maple Group [Type],1100
+161,1,2003,Succession Post Fire: Aspen/Birch Group [Type],1700
+161,1,2003,Succession Post Fire: California Mixed Conifer Group [Type],1200
+161,1,2003,Succession Post Fire: Douglas-fir Group [Type],3200
+161,1,2003,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],800
+161,1,2003,Succession Post Fire: Exotic Hardwoods Group [Type],600
+161,1,2003,Succession Post Fire: Exotic Softwoods Group [Type],900
+161,1,2003,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2700
+161,1,2003,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1500
+161,1,2003,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],700
+161,1,2003,Succession Post Fire: Lodgepole Pine Group [Type],1600
+161,1,2003,Succession Post Fire: Longleaf/Slash Pine Group [Type],600
+161,1,2003,Succession Post Fire: Maple/Beech/Birch Group [Type],400
+161,1,2003,Succession Post Fire: Oak/Gum/Cypress Group [Type],1000
+161,1,2003,Succession Post Fire: Oak/Hickory Group [Type],1000
+161,1,2003,Succession Post Fire: Oak/Pine Group [Type],1400
+161,1,2003,Succession Post Fire: Other Western Hardwoods Group [Type],1000
+161,1,2003,Succession Post Fire: Other Western Softwood Group [Type],1100
+161,1,2003,Succession Post Fire: Pinyon/Juniper Group [Type],1200
+161,1,2003,Succession Post Fire: Ponderosa Pine Group [Type],1500
+161,1,2003,Succession Post Fire: Redwood Group [Type],800
+161,1,2003,Succession Post Fire: Spruce/Fir Group [Type],500
+161,1,2003,Succession Post Fire: Tanoak/Laurel Group [Type],1300
+161,1,2003,Succession Post Fire: Tropical Hardwoods Group [Type],700
+161,1,2003,Succession Post Fire: Western Larch Group [Type],1100
+161,1,2003,Succession Post Fire: Western Oak Group [Type],1100
+161,1,2003,Succession Post Fire: Western White Pine Group [Type],800
+161,1,2003,Succession Post Fire: White/Red/Jack Pine Group [Type],800
+161,1,2003,Succession: Post Fire Recovery,32300
+161,1,2004,Urbanization: Open [Type],113000
+161,1,2004,Urbanization: Low [Type],88300
+161,1,2004,Urbanization: Medium [Type],55500
+161,1,2004,Urbanization: High [Type],15800
+161,1,2004,Intensification: Open to Low [Type],5500
+161,1,2004,Intensification: Open to Medium [Type],14900
+161,1,2004,Intensification: Open to High [Type],1900
+161,1,2004,Intensification: Low to Medium [Type],6300
+161,1,2004,Intensification: Low to High [Type],4200
+161,1,2004,Intensification: Medium to High [Type],300
+161,1,2004,Fire: High Severity [Type],47600
+161,1,2004,Fire: Medium Severity [Type],89400
+161,1,2004,Fire: Low Severity [Type],294200
+161,1,2004,Insect: High Severity [Type],309500
+161,1,2004,Insect: Medium Severity [Type],943500
+161,1,2004,Insect: Low Severity [Type],2185900
+161,1,2004,Forest Harvest: Forest Clearcut [Type],1085800
+161,1,2004,Forest Harvest: Forest Selection [Type],114800
+161,1,2004,Ag Expansion: Pasture [Type],36100
+161,1,2004,Ag Expansion: Cropland [Type],229200
+161,1,2004,Ag Expansion,265300
+161,1,2004,Ag Contraction,360400
+161,1,2004,Urbanization,272600
+161,1,2004,Intensification,33100
+161,1,2004,Fire,431200
+161,1,2004,Insect,3438900
+161,1,2004,Forest Harvest,1200600
+161,1,2004,Ag Contraction: Alder/Maple Group [Type],8100
+161,1,2004,Ag Contraction: Aspen/Birch Group [Type],10400
+161,1,2004,Ag Contraction: California Mixed Conifer Group [Type],10600
+161,1,2004,Ag Contraction: Douglas-fir Group [Type],11000
+161,1,2004,Ag Contraction: Elm/Ash/Cottonwood Group [Type],9300
+161,1,2004,Ag Contraction: Exotic Hardwoods Group [Type],9000
+161,1,2004,Ag Contraction: Exotic Softwoods Group [Type],7800
+161,1,2004,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],10500
+161,1,2004,Ag Contraction: Hemlock/Sitka Spruce Group [Type],11300
+161,1,2004,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],19800
+161,1,2004,Ag Contraction: Lodgepole Pine Group [Type],10000
+161,1,2004,Ag Contraction: Longleaf/Slash Pine Group [Type],11700
+161,1,2004,Ag Contraction: Maple/Beech/Birch Group [Type],11200
+161,1,2004,Ag Contraction: Oak/Gum/Cypress Group [Type],12200
+161,1,2004,Ag Contraction: Oak/Hickory Group [Type],22700
+161,1,2004,Ag Contraction: Oak/Pine Group [Type],12100
+161,1,2004,Ag Contraction: Other Western Hardwoods Group [Type],10000
+161,1,2004,Ag Contraction: Other Western Softwood Group [Type],8700
+161,1,2004,Ag Contraction: Pinyon/Juniper Group [Type],8800
+161,1,2004,Ag Contraction: Ponderosa Pine Group [Type],9000
+161,1,2004,Ag Contraction: Redwood Group [Type],9800
+161,1,2004,Ag Contraction: Spruce/Fir Group [Type],10200
+161,1,2004,Ag Contraction: Tanoak/Laurel Group [Type],11200
+161,1,2004,Ag Contraction: Tropical Hardwoods Group [Type],9500
+161,1,2004,Ag Contraction: Western Larch Group [Type],11100
+161,1,2004,Ag Contraction: Western Oak Group [Type],11800
+161,1,2004,Ag Contraction: Western White Pine Group [Type],9400
+161,1,2004,Ag Contraction: White/Red/Jack Pine Group [Type],10100
+161,1,2004,Ag Contraction: Grassland [Type],18100
+161,1,2004,Ag Contraction: Shrubland [Type],15900
+161,1,2004,Ag Contraction: Wetland Herbaceous [Type],10200
+161,1,2004,Ag Contraction: Wetland Woody [Type],8900
+161,1,2004,Ag Contraction: Cropland,360400
+161,1,2004,Ag Contraction: Pasture,360400
+161,1,2004,Succession Post Fire: Alder/Maple Group [Type],800
+161,1,2004,Succession Post Fire: Aspen/Birch Group [Type],1000
+161,1,2004,Succession Post Fire: California Mixed Conifer Group [Type],1600
+161,1,2004,Succession Post Fire: Douglas-fir Group [Type],3100
+161,1,2004,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1100
+161,1,2004,Succession Post Fire: Exotic Hardwoods Group [Type],600
+161,1,2004,Succession Post Fire: Exotic Softwoods Group [Type],600
+161,1,2004,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2500
+161,1,2004,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1100
+161,1,2004,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1800
+161,1,2004,Succession Post Fire: Lodgepole Pine Group [Type],1200
+161,1,2004,Succession Post Fire: Longleaf/Slash Pine Group [Type],1000
+161,1,2004,Succession Post Fire: Maple/Beech/Birch Group [Type],1400
+161,1,2004,Succession Post Fire: Oak/Gum/Cypress Group [Type],1000
+161,1,2004,Succession Post Fire: Oak/Hickory Group [Type],1100
+161,1,2004,Succession Post Fire: Oak/Pine Group [Type],1400
+161,1,2004,Succession Post Fire: Other Western Hardwoods Group [Type],1400
+161,1,2004,Succession Post Fire: Other Western Softwood Group [Type],1500
+161,1,2004,Succession Post Fire: Pinyon/Juniper Group [Type],1500
+161,1,2004,Succession Post Fire: Ponderosa Pine Group [Type],2100
+161,1,2004,Succession Post Fire: Redwood Group [Type],800
+161,1,2004,Succession Post Fire: Spruce/Fir Group [Type],700
+161,1,2004,Succession Post Fire: Tanoak/Laurel Group [Type],1600
+161,1,2004,Succession Post Fire: Tropical Hardwoods Group [Type],1000
+161,1,2004,Succession Post Fire: Western Larch Group [Type],1400
+161,1,2004,Succession Post Fire: Western Oak Group [Type],1800
+161,1,2004,Succession Post Fire: Western White Pine Group [Type],1100
+161,1,2004,Succession Post Fire: White/Red/Jack Pine Group [Type],1300
+161,1,2004,Succession: Post Fire Recovery,37500
+161,1,2005,Urbanization: Open [Type],109200
+161,1,2005,Urbanization: Low [Type],81400
+161,1,2005,Urbanization: Medium [Type],58900
+161,1,2005,Urbanization: High [Type],16600
+161,1,2005,Intensification: Open to Low [Type],4600
+161,1,2005,Intensification: Open to Medium [Type],8300
+161,1,2005,Intensification: Open to High [Type],1200
+161,1,2005,Intensification: Low to Medium [Type],7600
+161,1,2005,Intensification: Low to High [Type],9000
+161,1,2005,Intensification: Medium to High [Type],1400
+161,1,2005,Fire: High Severity [Type],95800
+161,1,2005,Fire: Medium Severity [Type],275300
+161,1,2005,Fire: Low Severity [Type],957600
+161,1,2005,Insect: High Severity [Type],237100
+161,1,2005,Insect: Medium Severity [Type],616500
+161,1,2005,Insect: Low Severity [Type],1864200
+161,1,2005,Forest Harvest: Forest Clearcut [Type],1103500
+161,1,2005,Forest Harvest: Forest Selection [Type],80600
+161,1,2005,Ag Expansion: Pasture [Type],40800
+161,1,2005,Ag Expansion: Cropland [Type],233500
+161,1,2005,Ag Expansion,274300
+161,1,2005,Ag Contraction,347200
+161,1,2005,Urbanization,266100
+161,1,2005,Intensification,32100
+161,1,2005,Fire,1328700
+161,1,2005,Insect,2717800
+161,1,2005,Forest Harvest,1184100
+161,1,2005,Ag Contraction: Alder/Maple Group [Type],9100
+161,1,2005,Ag Contraction: Aspen/Birch Group [Type],9800
+161,1,2005,Ag Contraction: California Mixed Conifer Group [Type],9400
+161,1,2005,Ag Contraction: Douglas-fir Group [Type],9500
+161,1,2005,Ag Contraction: Elm/Ash/Cottonwood Group [Type],10700
+161,1,2005,Ag Contraction: Exotic Hardwoods Group [Type],7700
+161,1,2005,Ag Contraction: Exotic Softwoods Group [Type],10600
+161,1,2005,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],7200
+161,1,2005,Ag Contraction: Hemlock/Sitka Spruce Group [Type],9800
+161,1,2005,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],19200
+161,1,2005,Ag Contraction: Lodgepole Pine Group [Type],10400
+161,1,2005,Ag Contraction: Longleaf/Slash Pine Group [Type],11300
+161,1,2005,Ag Contraction: Maple/Beech/Birch Group [Type],10400
+161,1,2005,Ag Contraction: Oak/Gum/Cypress Group [Type],12500
+161,1,2005,Ag Contraction: Oak/Hickory Group [Type],20100
+161,1,2005,Ag Contraction: Oak/Pine Group [Type],12600
+161,1,2005,Ag Contraction: Other Western Hardwoods Group [Type],9600
+161,1,2005,Ag Contraction: Other Western Softwood Group [Type],8600
+161,1,2005,Ag Contraction: Pinyon/Juniper Group [Type],7400
+161,1,2005,Ag Contraction: Ponderosa Pine Group [Type],10600
+161,1,2005,Ag Contraction: Redwood Group [Type],9100
+161,1,2005,Ag Contraction: Spruce/Fir Group [Type],9400
+161,1,2005,Ag Contraction: Tanoak/Laurel Group [Type],10700
+161,1,2005,Ag Contraction: Tropical Hardwoods Group [Type],10100
+161,1,2005,Ag Contraction: Western Larch Group [Type],8600
+161,1,2005,Ag Contraction: Western Oak Group [Type],9300
+161,1,2005,Ag Contraction: Western White Pine Group [Type],11000
+161,1,2005,Ag Contraction: White/Red/Jack Pine Group [Type],10000
+161,1,2005,Ag Contraction: Grassland [Type],17300
+161,1,2005,Ag Contraction: Shrubland [Type],14400
+161,1,2005,Ag Contraction: Wetland Herbaceous [Type],11400
+161,1,2005,Ag Contraction: Wetland Woody [Type],9400
+161,1,2005,Ag Contraction: Cropland,347200
+161,1,2005,Ag Contraction: Pasture,347200
+161,1,2005,Succession Post Fire: Alder/Maple Group [Type],700
+161,1,2005,Succession Post Fire: Aspen/Birch Group [Type],1100
+161,1,2005,Succession Post Fire: California Mixed Conifer Group [Type],1800
+161,1,2005,Succession Post Fire: Douglas-fir Group [Type],3400
+161,1,2005,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1200
+161,1,2005,Succession Post Fire: Exotic Hardwoods Group [Type],1300
+161,1,2005,Succession Post Fire: Exotic Softwoods Group [Type],600
+161,1,2005,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],3100
+161,1,2005,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],600
+161,1,2005,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],700
+161,1,2005,Succession Post Fire: Lodgepole Pine Group [Type],2000
+161,1,2005,Succession Post Fire: Longleaf/Slash Pine Group [Type],800
+161,1,2005,Succession Post Fire: Maple/Beech/Birch Group [Type],900
+161,1,2005,Succession Post Fire: Oak/Gum/Cypress Group [Type],900
+161,1,2005,Succession Post Fire: Oak/Hickory Group [Type],1000
+161,1,2005,Succession Post Fire: Oak/Pine Group [Type],400
+161,1,2005,Succession Post Fire: Other Western Hardwoods Group [Type],1100
+161,1,2005,Succession Post Fire: Other Western Softwood Group [Type],300
+161,1,2005,Succession Post Fire: Pinyon/Juniper Group [Type],1700
+161,1,2005,Succession Post Fire: Ponderosa Pine Group [Type],2100
+161,1,2005,Succession Post Fire: Redwood Group [Type],900
+161,1,2005,Succession Post Fire: Spruce/Fir Group [Type],800
+161,1,2005,Succession Post Fire: Tanoak/Laurel Group [Type],1300
+161,1,2005,Succession Post Fire: Tropical Hardwoods Group [Type],600
+161,1,2005,Succession Post Fire: Western Larch Group [Type],800
+161,1,2005,Succession Post Fire: Western Oak Group [Type],2500
+161,1,2005,Succession Post Fire: Western White Pine Group [Type],1400
+161,1,2005,Succession Post Fire: White/Red/Jack Pine Group [Type],1200
+161,1,2005,Succession: Post Fire Recovery,35200
+161,1,2006,Urbanization: Open [Type],88300
+161,1,2006,Urbanization: Low [Type],62300
+161,1,2006,Urbanization: Medium [Type],48500
+161,1,2006,Urbanization: High [Type],15400
+161,1,2006,Intensification: Open to Low [Type],2300
+161,1,2006,Intensification: Open to Medium [Type],7800
+161,1,2006,Intensification: Open to High [Type],1500
+161,1,2006,Intensification: Low to Medium [Type],10700
+161,1,2006,Intensification: Low to High [Type],9200
+161,1,2006,Intensification: Medium to High [Type],3400
+161,1,2006,Fire: High Severity [Type],242000
+161,1,2006,Fire: Medium Severity [Type],513800
+161,1,2006,Fire: Low Severity [Type],1677100
+161,1,2006,Insect: High Severity [Type],605600
+161,1,2006,Insect: Medium Severity [Type],502600
+161,1,2006,Insect: Low Severity [Type],3237500
+161,1,2006,Forest Harvest: Forest Clearcut [Type],967600
+161,1,2006,Forest Harvest: Forest Selection [Type],89600
+161,1,2006,Ag Expansion: Pasture [Type],37700
+161,1,2006,Ag Expansion: Cropland [Type],185400
+161,1,2006,Ag Expansion,223100
+161,1,2006,Ag Contraction,315700
+161,1,2006,Urbanization,214500
+161,1,2006,Intensification,34900
+161,1,2006,Fire,2432900
+161,1,2006,Insect,4345700
+161,1,2006,Forest Harvest,1057200
+161,1,2006,Ag Contraction: Alder/Maple Group [Type],7600
+161,1,2006,Ag Contraction: Aspen/Birch Group [Type],8500
+161,1,2006,Ag Contraction: California Mixed Conifer Group [Type],8600
+161,1,2006,Ag Contraction: Douglas-fir Group [Type],8300
+161,1,2006,Ag Contraction: Elm/Ash/Cottonwood Group [Type],9300
+161,1,2006,Ag Contraction: Exotic Hardwoods Group [Type],8400
+161,1,2006,Ag Contraction: Exotic Softwoods Group [Type],8400
+161,1,2006,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],8400
+161,1,2006,Ag Contraction: Hemlock/Sitka Spruce Group [Type],8700
+161,1,2006,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],18500
+161,1,2006,Ag Contraction: Lodgepole Pine Group [Type],7100
+161,1,2006,Ag Contraction: Longleaf/Slash Pine Group [Type],11500
+161,1,2006,Ag Contraction: Maple/Beech/Birch Group [Type],8900
+161,1,2006,Ag Contraction: Oak/Gum/Cypress Group [Type],11700
+161,1,2006,Ag Contraction: Oak/Hickory Group [Type],19500
+161,1,2006,Ag Contraction: Oak/Pine Group [Type],11500
+161,1,2006,Ag Contraction: Other Western Hardwoods Group [Type],8900
+161,1,2006,Ag Contraction: Other Western Softwood Group [Type],7500
+161,1,2006,Ag Contraction: Pinyon/Juniper Group [Type],9100
+161,1,2006,Ag Contraction: Ponderosa Pine Group [Type],7100
+161,1,2006,Ag Contraction: Redwood Group [Type],8700
+161,1,2006,Ag Contraction: Spruce/Fir Group [Type],9200
+161,1,2006,Ag Contraction: Tanoak/Laurel Group [Type],8100
+161,1,2006,Ag Contraction: Tropical Hardwoods Group [Type],8900
+161,1,2006,Ag Contraction: Western Larch Group [Type],10300
+161,1,2006,Ag Contraction: Western Oak Group [Type],9200
+161,1,2006,Ag Contraction: Western White Pine Group [Type],9300
+161,1,2006,Ag Contraction: White/Red/Jack Pine Group [Type],6900
+161,1,2006,Ag Contraction: Grassland [Type],14600
+161,1,2006,Ag Contraction: Shrubland [Type],10400
+161,1,2006,Ag Contraction: Wetland Herbaceous [Type],11700
+161,1,2006,Ag Contraction: Wetland Woody [Type],10900
+161,1,2006,Ag Contraction: Cropland,315700
+161,1,2006,Ag Contraction: Pasture,315700
+161,1,2006,Succession Post Fire: Alder/Maple Group [Type],900
+161,1,2006,Succession Post Fire: Aspen/Birch Group [Type],800
+161,1,2006,Succession Post Fire: California Mixed Conifer Group [Type],800
+161,1,2006,Succession Post Fire: Douglas-fir Group [Type],2000
+161,1,2006,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],800
+161,1,2006,Succession Post Fire: Exotic Hardwoods Group [Type],600
+161,1,2006,Succession Post Fire: Exotic Softwoods Group [Type],700
+161,1,2006,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2500
+161,1,2006,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],500
+161,1,2006,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],300
+161,1,2006,Succession Post Fire: Lodgepole Pine Group [Type],1300
+161,1,2006,Succession Post Fire: Longleaf/Slash Pine Group [Type],1000
+161,1,2006,Succession Post Fire: Maple/Beech/Birch Group [Type],600
+161,1,2006,Succession Post Fire: Oak/Gum/Cypress Group [Type],400
+161,1,2006,Succession Post Fire: Oak/Hickory Group [Type],1300
+161,1,2006,Succession Post Fire: Oak/Pine Group [Type],800
+161,1,2006,Succession Post Fire: Other Western Hardwoods Group [Type],200
+161,1,2006,Succession Post Fire: Other Western Softwood Group [Type],900
+161,1,2006,Succession Post Fire: Pinyon/Juniper Group [Type],1900
+161,1,2006,Succession Post Fire: Ponderosa Pine Group [Type],1400
+161,1,2006,Succession Post Fire: Redwood Group [Type],900
+161,1,2006,Succession Post Fire: Spruce/Fir Group [Type],1500
+161,1,2006,Succession Post Fire: Tanoak/Laurel Group [Type],1200
+161,1,2006,Succession Post Fire: Tropical Hardwoods Group [Type],800
+161,1,2006,Succession Post Fire: Western Larch Group [Type],1200
+161,1,2006,Succession Post Fire: Western Oak Group [Type],1100
+161,1,2006,Succession Post Fire: Western White Pine Group [Type],800
+161,1,2006,Succession Post Fire: White/Red/Jack Pine Group [Type],800
+161,1,2006,Succession: Post Fire Recovery,28000
+161,1,2007,Urbanization: Open [Type],76200
+161,1,2007,Urbanization: Low [Type],55600
+161,1,2007,Urbanization: Medium [Type],36100
+161,1,2007,Urbanization: High [Type],8900
+161,1,2007,Intensification: Open to Low [Type],3000
+161,1,2007,Intensification: Open to Medium [Type],10900
+161,1,2007,Intensification: Open to High [Type],1400
+161,1,2007,Intensification: Low to Medium [Type],3000
+161,1,2007,Intensification: Low to High [Type],2300
+161,1,2007,Intensification: Medium to High [Type],100
+161,1,2007,Fire: High Severity [Type],317400
+161,1,2007,Fire: Medium Severity [Type],576900
+161,1,2007,Fire: Low Severity [Type],1740500
+161,1,2007,Insect: High Severity [Type],153100
+161,1,2007,Insect: Medium Severity [Type],676000
+161,1,2007,Insect: Low Severity [Type],1631300
+161,1,2007,Forest Harvest: Forest Clearcut [Type],994700
+161,1,2007,Forest Harvest: Forest Selection [Type],98000
+161,1,2007,Ag Expansion: Pasture [Type],43100
+161,1,2007,Ag Expansion: Cropland [Type],275400
+161,1,2007,Ag Expansion,318500
+161,1,2007,Ag Contraction,221400
+161,1,2007,Urbanization,176800
+161,1,2007,Intensification,20700
+161,1,2007,Fire,2634800
+161,1,2007,Insect,2460400
+161,1,2007,Forest Harvest,1092700
+161,1,2007,Ag Contraction: Alder/Maple Group [Type],5400
+161,1,2007,Ag Contraction: Aspen/Birch Group [Type],8200
+161,1,2007,Ag Contraction: California Mixed Conifer Group [Type],6800
+161,1,2007,Ag Contraction: Douglas-fir Group [Type],7000
+161,1,2007,Ag Contraction: Elm/Ash/Cottonwood Group [Type],6600
+161,1,2007,Ag Contraction: Exotic Hardwoods Group [Type],5700
+161,1,2007,Ag Contraction: Exotic Softwoods Group [Type],5800
+161,1,2007,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],6300
+161,1,2007,Ag Contraction: Hemlock/Sitka Spruce Group [Type],5700
+161,1,2007,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],8800
+161,1,2007,Ag Contraction: Lodgepole Pine Group [Type],5700
+161,1,2007,Ag Contraction: Longleaf/Slash Pine Group [Type],6900
+161,1,2007,Ag Contraction: Maple/Beech/Birch Group [Type],7100
+161,1,2007,Ag Contraction: Oak/Gum/Cypress Group [Type],7700
+161,1,2007,Ag Contraction: Oak/Hickory Group [Type],15600
+161,1,2007,Ag Contraction: Oak/Pine Group [Type],6600
+161,1,2007,Ag Contraction: Other Western Hardwoods Group [Type],5900
+161,1,2007,Ag Contraction: Other Western Softwood Group [Type],8000
+161,1,2007,Ag Contraction: Pinyon/Juniper Group [Type],5500
+161,1,2007,Ag Contraction: Ponderosa Pine Group [Type],6200
+161,1,2007,Ag Contraction: Redwood Group [Type],6000
+161,1,2007,Ag Contraction: Spruce/Fir Group [Type],7600
+161,1,2007,Ag Contraction: Tanoak/Laurel Group [Type],4800
+161,1,2007,Ag Contraction: Tropical Hardwoods Group [Type],5500
+161,1,2007,Ag Contraction: Western Larch Group [Type],7400
+161,1,2007,Ag Contraction: Western Oak Group [Type],6600
+161,1,2007,Ag Contraction: Western White Pine Group [Type],6200
+161,1,2007,Ag Contraction: White/Red/Jack Pine Group [Type],4400
+161,1,2007,Ag Contraction: Grassland [Type],8500
+161,1,2007,Ag Contraction: Shrubland [Type],7500
+161,1,2007,Ag Contraction: Wetland Herbaceous [Type],7100
+161,1,2007,Ag Contraction: Wetland Woody [Type],8300
+161,1,2007,Ag Contraction: Cropland,221400
+161,1,2007,Ag Contraction: Pasture,221400
+161,1,2007,Succession Post Fire: Alder/Maple Group [Type],1600
+161,1,2007,Succession Post Fire: Aspen/Birch Group [Type],1900
+161,1,2007,Succession Post Fire: California Mixed Conifer Group [Type],3100
+161,1,2007,Succession Post Fire: Douglas-fir Group [Type],5800
+161,1,2007,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2000
+161,1,2007,Succession Post Fire: Exotic Hardwoods Group [Type],1500
+161,1,2007,Succession Post Fire: Exotic Softwoods Group [Type],1800
+161,1,2007,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],4900
+161,1,2007,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2300
+161,1,2007,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2300
+161,1,2007,Succession Post Fire: Lodgepole Pine Group [Type],2700
+161,1,2007,Succession Post Fire: Longleaf/Slash Pine Group [Type],1200
+161,1,2007,Succession Post Fire: Maple/Beech/Birch Group [Type],1200
+161,1,2007,Succession Post Fire: Oak/Gum/Cypress Group [Type],1700
+161,1,2007,Succession Post Fire: Oak/Hickory Group [Type],1700
+161,1,2007,Succession Post Fire: Oak/Pine Group [Type],1700
+161,1,2007,Succession Post Fire: Other Western Hardwoods Group [Type],1100
+161,1,2007,Succession Post Fire: Other Western Softwood Group [Type],1400
+161,1,2007,Succession Post Fire: Pinyon/Juniper Group [Type],2200
+161,1,2007,Succession Post Fire: Ponderosa Pine Group [Type],2600
+161,1,2007,Succession Post Fire: Redwood Group [Type],1300
+161,1,2007,Succession Post Fire: Spruce/Fir Group [Type],1900
+161,1,2007,Succession Post Fire: Tanoak/Laurel Group [Type],1300
+161,1,2007,Succession Post Fire: Tropical Hardwoods Group [Type],2000
+161,1,2007,Succession Post Fire: Western Larch Group [Type],1000
+161,1,2007,Succession Post Fire: Western Oak Group [Type],3700
+161,1,2007,Succession Post Fire: Western White Pine Group [Type],1400
+161,1,2007,Succession Post Fire: White/Red/Jack Pine Group [Type],1700
+161,1,2007,Succession: Post Fire Recovery,59000
+161,1,2008,Urbanization: Open [Type],74500
+161,1,2008,Urbanization: Low [Type],55300
+161,1,2008,Urbanization: Medium [Type],38100
+161,1,2008,Urbanization: High [Type],11900
+161,1,2008,Intensification: Open to Low [Type],3400
+161,1,2008,Intensification: Open to Medium [Type],12000
+161,1,2008,Intensification: Open to High [Type],1800
+161,1,2008,Intensification: Low to Medium [Type],3000
+161,1,2008,Intensification: Low to High [Type],2100
+161,1,2008,Intensification: Medium to High [Type],200
+161,1,2008,Fire: High Severity [Type],130200
+161,1,2008,Fire: Medium Severity [Type],207700
+161,1,2008,Fire: Low Severity [Type],676100
+161,1,2008,Insect: High Severity [Type],388200
+161,1,2008,Insect: Medium Severity [Type],1026500
+161,1,2008,Insect: Low Severity [Type],1786900
+161,1,2008,Forest Harvest: Forest Clearcut [Type],2359500
+161,1,2008,Forest Harvest: Forest Selection [Type],118600
+161,1,2008,Ag Expansion: Pasture [Type],45700
+161,1,2008,Ag Expansion: Cropland [Type],269800
+161,1,2008,Ag Expansion,315500
+161,1,2008,Ag Contraction,213400
+161,1,2008,Urbanization,179800
+161,1,2008,Intensification,22500
+161,1,2008,Fire,1014000
+161,1,2008,Insect,3201600
+161,1,2008,Forest Harvest,2478100
+161,1,2008,Ag Contraction: Alder/Maple Group [Type],6800
+161,1,2008,Ag Contraction: Aspen/Birch Group [Type],7500
+161,1,2008,Ag Contraction: California Mixed Conifer Group [Type],6300
+161,1,2008,Ag Contraction: Douglas-fir Group [Type],6100
+161,1,2008,Ag Contraction: Elm/Ash/Cottonwood Group [Type],7100
+161,1,2008,Ag Contraction: Exotic Hardwoods Group [Type],6100
+161,1,2008,Ag Contraction: Exotic Softwoods Group [Type],6400
+161,1,2008,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],4600
+161,1,2008,Ag Contraction: Hemlock/Sitka Spruce Group [Type],5700
+161,1,2008,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],9200
+161,1,2008,Ag Contraction: Lodgepole Pine Group [Type],5100
+161,1,2008,Ag Contraction: Longleaf/Slash Pine Group [Type],7000
+161,1,2008,Ag Contraction: Maple/Beech/Birch Group [Type],6300
+161,1,2008,Ag Contraction: Oak/Gum/Cypress Group [Type],6700
+161,1,2008,Ag Contraction: Oak/Hickory Group [Type],14700
+161,1,2008,Ag Contraction: Oak/Pine Group [Type],6800
+161,1,2008,Ag Contraction: Other Western Hardwoods Group [Type],5500
+161,1,2008,Ag Contraction: Other Western Softwood Group [Type],5900
+161,1,2008,Ag Contraction: Pinyon/Juniper Group [Type],5700
+161,1,2008,Ag Contraction: Ponderosa Pine Group [Type],6300
+161,1,2008,Ag Contraction: Redwood Group [Type],6200
+161,1,2008,Ag Contraction: Spruce/Fir Group [Type],4800
+161,1,2008,Ag Contraction: Tanoak/Laurel Group [Type],6600
+161,1,2008,Ag Contraction: Tropical Hardwoods Group [Type],6900
+161,1,2008,Ag Contraction: Western Larch Group [Type],5500
+161,1,2008,Ag Contraction: Western Oak Group [Type],6300
+161,1,2008,Ag Contraction: Western White Pine Group [Type],5700
+161,1,2008,Ag Contraction: White/Red/Jack Pine Group [Type],5700
+161,1,2008,Ag Contraction: Grassland [Type],9500
+161,1,2008,Ag Contraction: Shrubland [Type],7500
+161,1,2008,Ag Contraction: Wetland Herbaceous [Type],6400
+161,1,2008,Ag Contraction: Wetland Woody [Type],6500
+161,1,2008,Ag Contraction: Cropland,213400
+161,1,2008,Ag Contraction: Pasture,213400
+161,1,2008,Succession Post Fire: Alder/Maple Group [Type],1700
+161,1,2008,Succession Post Fire: Aspen/Birch Group [Type],2100
+161,1,2008,Succession Post Fire: California Mixed Conifer Group [Type],7100
+161,1,2008,Succession Post Fire: Douglas-fir Group [Type],4400
+161,1,2008,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2800
+161,1,2008,Succession Post Fire: Exotic Hardwoods Group [Type],1900
+161,1,2008,Succession Post Fire: Exotic Softwoods Group [Type],1700
+161,1,2008,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],4900
+161,1,2008,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2000
+161,1,2008,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2600
+161,1,2008,Succession Post Fire: Lodgepole Pine Group [Type],2400
+161,1,2008,Succession Post Fire: Longleaf/Slash Pine Group [Type],2300
+161,1,2008,Succession Post Fire: Maple/Beech/Birch Group [Type],2700
+161,1,2008,Succession Post Fire: Oak/Gum/Cypress Group [Type],2200
+161,1,2008,Succession Post Fire: Oak/Hickory Group [Type],1800
+161,1,2008,Succession Post Fire: Oak/Pine Group [Type],2200
+161,1,2008,Succession Post Fire: Other Western Hardwoods Group [Type],1700
+161,1,2008,Succession Post Fire: Other Western Softwood Group [Type],2000
+161,1,2008,Succession Post Fire: Pinyon/Juniper Group [Type],3800
+161,1,2008,Succession Post Fire: Ponderosa Pine Group [Type],3600
+161,1,2008,Succession Post Fire: Redwood Group [Type],2400
+161,1,2008,Succession Post Fire: Spruce/Fir Group [Type],2100
+161,1,2008,Succession Post Fire: Tanoak/Laurel Group [Type],2800
+161,1,2008,Succession Post Fire: Tropical Hardwoods Group [Type],1300
+161,1,2008,Succession Post Fire: Western Larch Group [Type],1700
+161,1,2008,Succession Post Fire: Western Oak Group [Type],4600
+161,1,2008,Succession Post Fire: Western White Pine Group [Type],2200
+161,1,2008,Succession Post Fire: White/Red/Jack Pine Group [Type],1700
+161,1,2008,Succession: Post Fire Recovery,74700
+161,1,2009,Urbanization: Open [Type],72600
+161,1,2009,Urbanization: Low [Type],56400
+161,1,2009,Urbanization: Medium [Type],38500
+161,1,2009,Urbanization: High [Type],8700
+161,1,2009,Intensification: Open to Low [Type],3200
+161,1,2009,Intensification: Open to Medium [Type],8800
+161,1,2009,Intensification: Open to High [Type],700
+161,1,2009,Intensification: Low to Medium [Type],2800
+161,1,2009,Intensification: Low to High [Type],3300
+161,1,2009,Intensification: Medium to High [Type],400
+161,1,2009,Fire: High Severity [Type],70200
+161,1,2009,Fire: Medium Severity [Type],119100
+161,1,2009,Fire: Low Severity [Type],372500
+161,1,2009,Insect: High Severity [Type],337300
+161,1,2009,Insect: Medium Severity [Type],1618400
+161,1,2009,Insect: Low Severity [Type],2252000
+161,1,2009,Forest Harvest: Forest Clearcut [Type],2174500
+161,1,2009,Forest Harvest: Forest Selection [Type],111500
+161,1,2009,Ag Expansion: Pasture [Type],44300
+161,1,2009,Ag Expansion: Cropland [Type],262800
+161,1,2009,Ag Expansion,307100
+161,1,2009,Ag Contraction,223800
+161,1,2009,Urbanization,176200
+161,1,2009,Intensification,19200
+161,1,2009,Fire,561800
+161,1,2009,Insect,4207700
+161,1,2009,Forest Harvest,2286000
+161,1,2009,Ag Contraction: Alder/Maple Group [Type],6200
+161,1,2009,Ag Contraction: Aspen/Birch Group [Type],7100
+161,1,2009,Ag Contraction: California Mixed Conifer Group [Type],5800
+161,1,2009,Ag Contraction: Douglas-fir Group [Type],6100
+161,1,2009,Ag Contraction: Elm/Ash/Cottonwood Group [Type],7600
+161,1,2009,Ag Contraction: Exotic Hardwoods Group [Type],6500
+161,1,2009,Ag Contraction: Exotic Softwoods Group [Type],7300
+161,1,2009,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],5100
+161,1,2009,Ag Contraction: Hemlock/Sitka Spruce Group [Type],5300
+161,1,2009,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],11000
+161,1,2009,Ag Contraction: Lodgepole Pine Group [Type],6100
+161,1,2009,Ag Contraction: Longleaf/Slash Pine Group [Type],6400
+161,1,2009,Ag Contraction: Maple/Beech/Birch Group [Type],7100
+161,1,2009,Ag Contraction: Oak/Gum/Cypress Group [Type],8400
+161,1,2009,Ag Contraction: Oak/Hickory Group [Type],15400
+161,1,2009,Ag Contraction: Oak/Pine Group [Type],6800
+161,1,2009,Ag Contraction: Other Western Hardwoods Group [Type],5900
+161,1,2009,Ag Contraction: Other Western Softwood Group [Type],6900
+161,1,2009,Ag Contraction: Pinyon/Juniper Group [Type],5300
+161,1,2009,Ag Contraction: Ponderosa Pine Group [Type],6600
+161,1,2009,Ag Contraction: Redwood Group [Type],6200
+161,1,2009,Ag Contraction: Spruce/Fir Group [Type],5500
+161,1,2009,Ag Contraction: Tanoak/Laurel Group [Type],7200
+161,1,2009,Ag Contraction: Tropical Hardwoods Group [Type],5200
+161,1,2009,Ag Contraction: Western Larch Group [Type],5900
+161,1,2009,Ag Contraction: Western Oak Group [Type],5400
+161,1,2009,Ag Contraction: Western White Pine Group [Type],5200
+161,1,2009,Ag Contraction: White/Red/Jack Pine Group [Type],5900
+161,1,2009,Ag Contraction: Grassland [Type],11800
+161,1,2009,Ag Contraction: Shrubland [Type],8900
+161,1,2009,Ag Contraction: Wetland Herbaceous [Type],7300
+161,1,2009,Ag Contraction: Wetland Woody [Type],6400
+161,1,2009,Ag Contraction: Cropland,223800
+161,1,2009,Ag Contraction: Pasture,223800
+161,1,2009,Succession Post Fire: Alder/Maple Group [Type],1200
+161,1,2009,Succession Post Fire: Aspen/Birch Group [Type],2200
+161,1,2009,Succession Post Fire: California Mixed Conifer Group [Type],6100
+161,1,2009,Succession Post Fire: Douglas-fir Group [Type],4000
+161,1,2009,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1200
+161,1,2009,Succession Post Fire: Exotic Hardwoods Group [Type],2100
+161,1,2009,Succession Post Fire: Exotic Softwoods Group [Type],2100
+161,1,2009,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2800
+161,1,2009,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2000
+161,1,2009,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1300
+161,1,2009,Succession Post Fire: Lodgepole Pine Group [Type],2600
+161,1,2009,Succession Post Fire: Longleaf/Slash Pine Group [Type],1500
+161,1,2009,Succession Post Fire: Maple/Beech/Birch Group [Type],2200
+161,1,2009,Succession Post Fire: Oak/Gum/Cypress Group [Type],1500
+161,1,2009,Succession Post Fire: Oak/Hickory Group [Type],1500
+161,1,2009,Succession Post Fire: Oak/Pine Group [Type],1200
+161,1,2009,Succession Post Fire: Other Western Hardwoods Group [Type],1800
+161,1,2009,Succession Post Fire: Other Western Softwood Group [Type],1200
+161,1,2009,Succession Post Fire: Pinyon/Juniper Group [Type],2200
+161,1,2009,Succession Post Fire: Ponderosa Pine Group [Type],3200
+161,1,2009,Succession Post Fire: Redwood Group [Type],2000
+161,1,2009,Succession Post Fire: Spruce/Fir Group [Type],1300
+161,1,2009,Succession Post Fire: Tanoak/Laurel Group [Type],2200
+161,1,2009,Succession Post Fire: Tropical Hardwoods Group [Type],1500
+161,1,2009,Succession Post Fire: Western Larch Group [Type],1700
+161,1,2009,Succession Post Fire: Western Oak Group [Type],3100
+161,1,2009,Succession Post Fire: Western White Pine Group [Type],700
+161,1,2009,Succession Post Fire: White/Red/Jack Pine Group [Type],700
+161,1,2009,Succession: Post Fire Recovery,57100
+161,1,2010,Urbanization: Open [Type],71300
+161,1,2010,Urbanization: Low [Type],51400
+161,1,2010,Urbanization: Medium [Type],36500
+161,1,2010,Urbanization: High [Type],12100
+161,1,2010,Intensification: Open to Low [Type],2600
+161,1,2010,Intensification: Open to Medium [Type],5900
+161,1,2010,Intensification: Open to High [Type],1900
+161,1,2010,Intensification: Low to Medium [Type],4200
+161,1,2010,Intensification: Low to High [Type],3400
+161,1,2010,Intensification: Medium to High [Type],1200
+161,1,2010,Fire: High Severity [Type],39900
+161,1,2010,Fire: Medium Severity [Type],106700
+161,1,2010,Fire: Low Severity [Type],436000
+161,1,2010,Insect: High Severity [Type],297700
+161,1,2010,Insect: Medium Severity [Type],1186200
+161,1,2010,Insect: Low Severity [Type],1954100
+161,1,2010,Forest Harvest: Forest Clearcut [Type],2090400
+161,1,2010,Forest Harvest: Forest Selection [Type],80700
+161,1,2010,Ag Expansion: Pasture [Type],40600
+161,1,2010,Ag Expansion: Cropland [Type],264800
+161,1,2010,Ag Expansion,305400
+161,1,2010,Ag Contraction,221700
+161,1,2010,Urbanization,171300
+161,1,2010,Intensification,19200
+161,1,2010,Fire,582600
+161,1,2010,Insect,3438000
+161,1,2010,Forest Harvest,2171100
+161,1,2010,Ag Contraction: Alder/Maple Group [Type],7500
+161,1,2010,Ag Contraction: Aspen/Birch Group [Type],5900
+161,1,2010,Ag Contraction: California Mixed Conifer Group [Type],6300
+161,1,2010,Ag Contraction: Douglas-fir Group [Type],7300
+161,1,2010,Ag Contraction: Elm/Ash/Cottonwood Group [Type],7600
+161,1,2010,Ag Contraction: Exotic Hardwoods Group [Type],5800
+161,1,2010,Ag Contraction: Exotic Softwoods Group [Type],6700
+161,1,2010,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],5700
+161,1,2010,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6600
+161,1,2010,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],10600
+161,1,2010,Ag Contraction: Lodgepole Pine Group [Type],6600
+161,1,2010,Ag Contraction: Longleaf/Slash Pine Group [Type],6300
+161,1,2010,Ag Contraction: Maple/Beech/Birch Group [Type],7300
+161,1,2010,Ag Contraction: Oak/Gum/Cypress Group [Type],8500
+161,1,2010,Ag Contraction: Oak/Hickory Group [Type],13900
+161,1,2010,Ag Contraction: Oak/Pine Group [Type],6500
+161,1,2010,Ag Contraction: Other Western Hardwoods Group [Type],6000
+161,1,2010,Ag Contraction: Other Western Softwood Group [Type],6100
+161,1,2010,Ag Contraction: Pinyon/Juniper Group [Type],6300
+161,1,2010,Ag Contraction: Ponderosa Pine Group [Type],5700
+161,1,2010,Ag Contraction: Redwood Group [Type],5700
+161,1,2010,Ag Contraction: Spruce/Fir Group [Type],6200
+161,1,2010,Ag Contraction: Tanoak/Laurel Group [Type],6500
+161,1,2010,Ag Contraction: Tropical Hardwoods Group [Type],6200
+161,1,2010,Ag Contraction: Western Larch Group [Type],7200
+161,1,2010,Ag Contraction: Western Oak Group [Type],6300
+161,1,2010,Ag Contraction: Western White Pine Group [Type],6500
+161,1,2010,Ag Contraction: White/Red/Jack Pine Group [Type],4800
+161,1,2010,Ag Contraction: Grassland [Type],8600
+161,1,2010,Ag Contraction: Shrubland [Type],7900
+161,1,2010,Ag Contraction: Wetland Herbaceous [Type],7100
+161,1,2010,Ag Contraction: Wetland Woody [Type],5500
+161,1,2010,Ag Contraction: Cropland,221700
+161,1,2010,Ag Contraction: Pasture,221700
+161,1,2010,Succession Post Fire: Alder/Maple Group [Type],1400
+161,1,2010,Succession Post Fire: Aspen/Birch Group [Type],1900
+161,1,2010,Succession Post Fire: California Mixed Conifer Group [Type],3600
+161,1,2010,Succession Post Fire: Douglas-fir Group [Type],3900
+161,1,2010,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1500
+161,1,2010,Succession Post Fire: Exotic Hardwoods Group [Type],1400
+161,1,2010,Succession Post Fire: Exotic Softwoods Group [Type],1500
+161,1,2010,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2100
+161,1,2010,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],900
+161,1,2010,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1900
+161,1,2010,Succession Post Fire: Lodgepole Pine Group [Type],2500
+161,1,2010,Succession Post Fire: Longleaf/Slash Pine Group [Type],1400
+161,1,2010,Succession Post Fire: Maple/Beech/Birch Group [Type],1100
+161,1,2010,Succession Post Fire: Oak/Gum/Cypress Group [Type],1600
+161,1,2010,Succession Post Fire: Oak/Hickory Group [Type],1000
+161,1,2010,Succession Post Fire: Oak/Pine Group [Type],1500
+161,1,2010,Succession Post Fire: Other Western Hardwoods Group [Type],1700
+161,1,2010,Succession Post Fire: Other Western Softwood Group [Type],1400
+161,1,2010,Succession Post Fire: Pinyon/Juniper Group [Type],2200
+161,1,2010,Succession Post Fire: Ponderosa Pine Group [Type],3000
+161,1,2010,Succession Post Fire: Redwood Group [Type],1400
+161,1,2010,Succession Post Fire: Spruce/Fir Group [Type],1600
+161,1,2010,Succession Post Fire: Tanoak/Laurel Group [Type],1400
+161,1,2010,Succession Post Fire: Tropical Hardwoods Group [Type],1300
+161,1,2010,Succession Post Fire: Western Larch Group [Type],1700
+161,1,2010,Succession Post Fire: Western Oak Group [Type],2900
+161,1,2010,Succession Post Fire: Western White Pine Group [Type],1100
+161,1,2010,Succession Post Fire: White/Red/Jack Pine Group [Type],1500
+161,1,2010,Succession: Post Fire Recovery,50400
+161,1,2011,Urbanization: Open [Type],62100
+161,1,2011,Urbanization: Low [Type],41900
+161,1,2011,Urbanization: Medium [Type],29100
+161,1,2011,Urbanization: High [Type],10000
+161,1,2011,Intensification: Open to Low [Type],1100
+161,1,2011,Intensification: Open to Medium [Type],3900
+161,1,2011,Intensification: Open to High [Type],800
+161,1,2011,Intensification: Low to Medium [Type],7300
+161,1,2011,Intensification: Low to High [Type],4800
+161,1,2011,Intensification: Medium to High [Type],2200
+161,1,2011,Fire: High Severity [Type],136300
+161,1,2011,Fire: Medium Severity [Type],421200
+161,1,2011,Fire: Low Severity [Type],1809600
+161,1,2011,Insect: High Severity [Type],399500
+161,1,2011,Insect: Medium Severity [Type],737700
+161,1,2011,Insect: Low Severity [Type],1025800
+161,1,2011,Forest Harvest: Forest Clearcut [Type],2010900
+161,1,2011,Forest Harvest: Forest Selection [Type],104600
+161,1,2011,Ag Expansion: Pasture [Type],35400
+161,1,2011,Ag Expansion: Cropland [Type],208200
+161,1,2011,Ag Expansion,243600
+161,1,2011,Ag Contraction,188000
+161,1,2011,Urbanization,143100
+161,1,2011,Intensification,20100
+161,1,2011,Fire,2367100
+161,1,2011,Insect,2163000
+161,1,2011,Forest Harvest,2115500
+161,1,2011,Ag Contraction: Alder/Maple Group [Type],5600
+161,1,2011,Ag Contraction: Aspen/Birch Group [Type],5000
+161,1,2011,Ag Contraction: California Mixed Conifer Group [Type],4500
+161,1,2011,Ag Contraction: Douglas-fir Group [Type],5100
+161,1,2011,Ag Contraction: Elm/Ash/Cottonwood Group [Type],5300
+161,1,2011,Ag Contraction: Exotic Hardwoods Group [Type],5000
+161,1,2011,Ag Contraction: Exotic Softwoods Group [Type],4300
+161,1,2011,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],4900
+161,1,2011,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6600
+161,1,2011,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],9500
+161,1,2011,Ag Contraction: Lodgepole Pine Group [Type],5200
+161,1,2011,Ag Contraction: Longleaf/Slash Pine Group [Type],5700
+161,1,2011,Ag Contraction: Maple/Beech/Birch Group [Type],6000
+161,1,2011,Ag Contraction: Oak/Gum/Cypress Group [Type],6200
+161,1,2011,Ag Contraction: Oak/Hickory Group [Type],12600
+161,1,2011,Ag Contraction: Oak/Pine Group [Type],6200
+161,1,2011,Ag Contraction: Other Western Hardwoods Group [Type],5100
+161,1,2011,Ag Contraction: Other Western Softwood Group [Type],5900
+161,1,2011,Ag Contraction: Pinyon/Juniper Group [Type],4900
+161,1,2011,Ag Contraction: Ponderosa Pine Group [Type],5600
+161,1,2011,Ag Contraction: Redwood Group [Type],5700
+161,1,2011,Ag Contraction: Spruce/Fir Group [Type],5500
+161,1,2011,Ag Contraction: Tanoak/Laurel Group [Type],4600
+161,1,2011,Ag Contraction: Tropical Hardwoods Group [Type],4400
+161,1,2011,Ag Contraction: Western Larch Group [Type],5000
+161,1,2011,Ag Contraction: Western Oak Group [Type],6100
+161,1,2011,Ag Contraction: Western White Pine Group [Type],6600
+161,1,2011,Ag Contraction: White/Red/Jack Pine Group [Type],6700
+161,1,2011,Ag Contraction: Grassland [Type],8000
+161,1,2011,Ag Contraction: Shrubland [Type],5300
+161,1,2011,Ag Contraction: Wetland Herbaceous [Type],5500
+161,1,2011,Ag Contraction: Wetland Woody [Type],5400
+161,1,2011,Ag Contraction: Cropland,188000
+161,1,2011,Ag Contraction: Pasture,188000
+161,1,2011,Succession Post Fire: Alder/Maple Group [Type],1000
+161,1,2011,Succession Post Fire: Aspen/Birch Group [Type],1800
+161,1,2011,Succession Post Fire: California Mixed Conifer Group [Type],2100
+161,1,2011,Succession Post Fire: Douglas-fir Group [Type],3300
+161,1,2011,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1200
+161,1,2011,Succession Post Fire: Exotic Hardwoods Group [Type],1300
+161,1,2011,Succession Post Fire: Exotic Softwoods Group [Type],1200
+161,1,2011,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],3400
+161,1,2011,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1000
+161,1,2011,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1100
+161,1,2011,Succession Post Fire: Lodgepole Pine Group [Type],2200
+161,1,2011,Succession Post Fire: Longleaf/Slash Pine Group [Type],1900
+161,1,2011,Succession Post Fire: Maple/Beech/Birch Group [Type],700
+161,1,2011,Succession Post Fire: Oak/Gum/Cypress Group [Type],1600
+161,1,2011,Succession Post Fire: Oak/Hickory Group [Type],1100
+161,1,2011,Succession Post Fire: Oak/Pine Group [Type],1000
+161,1,2011,Succession Post Fire: Other Western Hardwoods Group [Type],1500
+161,1,2011,Succession Post Fire: Other Western Softwood Group [Type],1700
+161,1,2011,Succession Post Fire: Pinyon/Juniper Group [Type],2200
+161,1,2011,Succession Post Fire: Ponderosa Pine Group [Type],3200
+161,1,2011,Succession Post Fire: Redwood Group [Type],1400
+161,1,2011,Succession Post Fire: Spruce/Fir Group [Type],1900
+161,1,2011,Succession Post Fire: Tanoak/Laurel Group [Type],1500
+161,1,2011,Succession Post Fire: Tropical Hardwoods Group [Type],1400
+161,1,2011,Succession Post Fire: Western Larch Group [Type],2000
+161,1,2011,Succession Post Fire: Western Oak Group [Type],1900
+161,1,2011,Succession Post Fire: Western White Pine Group [Type],1200
+161,1,2011,Succession Post Fire: White/Red/Jack Pine Group [Type],900
+161,1,2011,Succession: Post Fire Recovery,46700
+161,1,2012,Urbanization: Open [Type],50500
+161,1,2012,Urbanization: Low [Type],36900
+161,1,2012,Urbanization: Medium [Type],27900
+161,1,2012,Urbanization: High [Type],7800
+161,1,2012,Intensification: Open to Low [Type],3700
+161,1,2012,Intensification: Open to Medium [Type],10900
+161,1,2012,Intensification: Open to High [Type],2100
+161,1,2012,Fire: High Severity [Type],288500
+161,1,2012,Fire: Medium Severity [Type],650300
+161,1,2012,Fire: Low Severity [Type],2153100
+161,1,2012,Insect: High Severity [Type],116000
+161,1,2012,Insect: Medium Severity [Type],270900
+161,1,2012,Insect: Low Severity [Type],799800
+161,1,2012,Forest Harvest: Forest Clearcut [Type],1635500
+161,1,2012,Forest Harvest: Forest Selection [Type],84600
+161,1,2012,Ag Expansion: Pasture [Type],50800
+161,1,2012,Ag Expansion: Cropland [Type],358400
+161,1,2012,Ag Expansion,409200
+161,1,2012,Ag Contraction,94800
+161,1,2012,Urbanization,123100
+161,1,2012,Intensification,16700
+161,1,2012,Fire,3091900
+161,1,2012,Insect,1186700
+161,1,2012,Forest Harvest,1720100
+161,1,2012,Ag Contraction: Alder/Maple Group [Type],2700
+161,1,2012,Ag Contraction: Aspen/Birch Group [Type],3600
+161,1,2012,Ag Contraction: California Mixed Conifer Group [Type],2600
+161,1,2012,Ag Contraction: Douglas-fir Group [Type],2700
+161,1,2012,Ag Contraction: Elm/Ash/Cottonwood Group [Type],2600
+161,1,2012,Ag Contraction: Exotic Hardwoods Group [Type],3900
+161,1,2012,Ag Contraction: Exotic Softwoods Group [Type],2700
+161,1,2012,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],2500
+161,1,2012,Ag Contraction: Hemlock/Sitka Spruce Group [Type],2400
+161,1,2012,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],4800
+161,1,2012,Ag Contraction: Lodgepole Pine Group [Type],1800
+161,1,2012,Ag Contraction: Longleaf/Slash Pine Group [Type],3200
+161,1,2012,Ag Contraction: Maple/Beech/Birch Group [Type],4400
+161,1,2012,Ag Contraction: Oak/Gum/Cypress Group [Type],3300
+161,1,2012,Ag Contraction: Oak/Hickory Group [Type],5700
+161,1,2012,Ag Contraction: Oak/Pine Group [Type],2400
+161,1,2012,Ag Contraction: Other Western Hardwoods Group [Type],1900
+161,1,2012,Ag Contraction: Other Western Softwood Group [Type],3200
+161,1,2012,Ag Contraction: Pinyon/Juniper Group [Type],3200
+161,1,2012,Ag Contraction: Ponderosa Pine Group [Type],2800
+161,1,2012,Ag Contraction: Redwood Group [Type],3400
+161,1,2012,Ag Contraction: Spruce/Fir Group [Type],2600
+161,1,2012,Ag Contraction: Tanoak/Laurel Group [Type],2300
+161,1,2012,Ag Contraction: Tropical Hardwoods Group [Type],3200
+161,1,2012,Ag Contraction: Western Larch Group [Type],2100
+161,1,2012,Ag Contraction: Western Oak Group [Type],2100
+161,1,2012,Ag Contraction: Western White Pine Group [Type],2300
+161,1,2012,Ag Contraction: White/Red/Jack Pine Group [Type],900
+161,1,2012,Ag Contraction: Grassland [Type],3300
+161,1,2012,Ag Contraction: Shrubland [Type],3300
+161,1,2012,Ag Contraction: Wetland Herbaceous [Type],3300
+161,1,2012,Ag Contraction: Wetland Woody [Type],3600
+161,1,2012,Ag Contraction: Cropland,94800
+161,1,2012,Ag Contraction: Pasture,94800
+161,1,2012,Succession Post Fire: Alder/Maple Group [Type],1400
+161,1,2012,Succession Post Fire: Aspen/Birch Group [Type],1100
+161,1,2012,Succession Post Fire: California Mixed Conifer Group [Type],1500
+161,1,2012,Succession Post Fire: Douglas-fir Group [Type],3800
+161,1,2012,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1500
+161,1,2012,Succession Post Fire: Exotic Hardwoods Group [Type],1100
+161,1,2012,Succession Post Fire: Exotic Softwoods Group [Type],1300
+161,1,2012,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],2500
+161,1,2012,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1300
+161,1,2012,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1700
+161,1,2012,Succession Post Fire: Lodgepole Pine Group [Type],2400
+161,1,2012,Succession Post Fire: Longleaf/Slash Pine Group [Type],1100
+161,1,2012,Succession Post Fire: Maple/Beech/Birch Group [Type],1000
+161,1,2012,Succession Post Fire: Oak/Gum/Cypress Group [Type],1500
+161,1,2012,Succession Post Fire: Oak/Hickory Group [Type],500
+161,1,2012,Succession Post Fire: Oak/Pine Group [Type],1000
+161,1,2012,Succession Post Fire: Other Western Hardwoods Group [Type],1700
+161,1,2012,Succession Post Fire: Other Western Softwood Group [Type],1100
+161,1,2012,Succession Post Fire: Pinyon/Juniper Group [Type],1900
+161,1,2012,Succession Post Fire: Ponderosa Pine Group [Type],2900
+161,1,2012,Succession Post Fire: Redwood Group [Type],900
+161,1,2012,Succession Post Fire: Spruce/Fir Group [Type],1400
+161,1,2012,Succession Post Fire: Tanoak/Laurel Group [Type],1400
+161,1,2012,Succession Post Fire: Tropical Hardwoods Group [Type],700
+161,1,2012,Succession Post Fire: Western Larch Group [Type],800
+161,1,2012,Succession Post Fire: Western Oak Group [Type],1500
+161,1,2012,Succession Post Fire: Western White Pine Group [Type],1400
+161,1,2012,Succession Post Fire: White/Red/Jack Pine Group [Type],1700
+161,1,2012,Succession: Post Fire Recovery,42100
+161,1,2013,Urbanization: Open [Type],53500
+161,1,2013,Urbanization: Low [Type],35900
+161,1,2013,Urbanization: Medium [Type],27400
+161,1,2013,Urbanization: High [Type],6700
+161,1,2013,Intensification: Open to Low [Type],2100
+161,1,2013,Intensification: Open to Medium [Type],7900
+161,1,2013,Intensification: Open to High [Type],1000
+161,1,2013,Intensification: Low to Medium [Type],100
+161,1,2013,Intensification: Low to High [Type],100
+161,1,2013,Intensification: Medium to High [Type],200
+161,1,2013,Fire: High Severity [Type],147500
+161,1,2013,Fire: Medium Severity [Type],221800
+161,1,2013,Fire: Low Severity [Type],684200
+161,1,2013,Insect: High Severity [Type],100500
+161,1,2013,Insect: Medium Severity [Type],254800
+161,1,2013,Insect: Low Severity [Type],553200
+161,1,2013,Forest Harvest: Forest Clearcut [Type],2248200
+161,1,2013,Forest Harvest: Forest Selection [Type],88100
+161,1,2013,Ag Expansion: Pasture [Type],49000
+161,1,2013,Ag Expansion: Cropland [Type],360900
+161,1,2013,Ag Expansion,409900
+161,1,2013,Ag Contraction,97400
+161,1,2013,Urbanization,123500
+161,1,2013,Intensification,11400
+161,1,2013,Fire,1053500
+161,1,2013,Insect,908500
+161,1,2013,Forest Harvest,2336300
+161,1,2013,Ag Contraction: Alder/Maple Group [Type],2200
+161,1,2013,Ag Contraction: Aspen/Birch Group [Type],4100
+161,1,2013,Ag Contraction: California Mixed Conifer Group [Type],2300
+161,1,2013,Ag Contraction: Douglas-fir Group [Type],3400
+161,1,2013,Ag Contraction: Elm/Ash/Cottonwood Group [Type],3100
+161,1,2013,Ag Contraction: Exotic Hardwoods Group [Type],2500
+161,1,2013,Ag Contraction: Exotic Softwoods Group [Type],2500
+161,1,2013,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],3700
+161,1,2013,Ag Contraction: Hemlock/Sitka Spruce Group [Type],2700
+161,1,2013,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],3800
+161,1,2013,Ag Contraction: Lodgepole Pine Group [Type],3200
+161,1,2013,Ag Contraction: Longleaf/Slash Pine Group [Type],2900
+161,1,2013,Ag Contraction: Maple/Beech/Birch Group [Type],2300
+161,1,2013,Ag Contraction: Oak/Gum/Cypress Group [Type],4500
+161,1,2013,Ag Contraction: Oak/Hickory Group [Type],6000
+161,1,2013,Ag Contraction: Oak/Pine Group [Type],2200
+161,1,2013,Ag Contraction: Other Western Hardwoods Group [Type],2800
+161,1,2013,Ag Contraction: Other Western Softwood Group [Type],2700
+161,1,2013,Ag Contraction: Pinyon/Juniper Group [Type],3400
+161,1,2013,Ag Contraction: Ponderosa Pine Group [Type],2200
+161,1,2013,Ag Contraction: Redwood Group [Type],3100
+161,1,2013,Ag Contraction: Spruce/Fir Group [Type],3000
+161,1,2013,Ag Contraction: Tanoak/Laurel Group [Type],2400
+161,1,2013,Ag Contraction: Tropical Hardwoods Group [Type],2400
+161,1,2013,Ag Contraction: Western Larch Group [Type],2900
+161,1,2013,Ag Contraction: Western Oak Group [Type],2300
+161,1,2013,Ag Contraction: Western White Pine Group [Type],2000
+161,1,2013,Ag Contraction: White/Red/Jack Pine Group [Type],3200
+161,1,2013,Ag Contraction: Grassland [Type],3300
+161,1,2013,Ag Contraction: Shrubland [Type],3200
+161,1,2013,Ag Contraction: Wetland Herbaceous [Type],4400
+161,1,2013,Ag Contraction: Wetland Woody [Type],2700
+161,1,2013,Ag Contraction: Cropland,97400
+161,1,2013,Ag Contraction: Pasture,97400
+161,1,2013,Succession Post Fire: Alder/Maple Group [Type],2100
+161,1,2013,Succession Post Fire: Aspen/Birch Group [Type],2600
+161,1,2013,Succession Post Fire: California Mixed Conifer Group [Type],3600
+161,1,2013,Succession Post Fire: Douglas-fir Group [Type],5600
+161,1,2013,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1400
+161,1,2013,Succession Post Fire: Exotic Hardwoods Group [Type],2400
+161,1,2013,Succession Post Fire: Exotic Softwoods Group [Type],1600
+161,1,2013,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],4500
+161,1,2013,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1400
+161,1,2013,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1500
+161,1,2013,Succession Post Fire: Lodgepole Pine Group [Type],2400
+161,1,2013,Succession Post Fire: Longleaf/Slash Pine Group [Type],1600
+161,1,2013,Succession Post Fire: Maple/Beech/Birch Group [Type],1400
+161,1,2013,Succession Post Fire: Oak/Gum/Cypress Group [Type],2500
+161,1,2013,Succession Post Fire: Oak/Hickory Group [Type],1700
+161,1,2013,Succession Post Fire: Oak/Pine Group [Type],2200
+161,1,2013,Succession Post Fire: Other Western Hardwoods Group [Type],1800
+161,1,2013,Succession Post Fire: Other Western Softwood Group [Type],1500
+161,1,2013,Succession Post Fire: Pinyon/Juniper Group [Type],3300
+161,1,2013,Succession Post Fire: Ponderosa Pine Group [Type],4000
+161,1,2013,Succession Post Fire: Redwood Group [Type],1300
+161,1,2013,Succession Post Fire: Spruce/Fir Group [Type],1600
+161,1,2013,Succession Post Fire: Tanoak/Laurel Group [Type],1300
+161,1,2013,Succession Post Fire: Tropical Hardwoods Group [Type],1400
+161,1,2013,Succession Post Fire: Western Larch Group [Type],1500
+161,1,2013,Succession Post Fire: Western Oak Group [Type],3000
+161,1,2013,Succession Post Fire: Western White Pine Group [Type],1400
+161,1,2013,Succession Post Fire: White/Red/Jack Pine Group [Type],1300
+161,1,2013,Succession: Post Fire Recovery,61900
+161,1,2014,Urbanization: Open [Type],52100
+161,1,2014,Urbanization: Low [Type],38500
+161,1,2014,Urbanization: Medium [Type],26700
+161,1,2014,Urbanization: High [Type],7800
+161,1,2014,Intensification: Open to Low [Type],2700
+161,1,2014,Intensification: Open to Medium [Type],5300
+161,1,2014,Intensification: Open to High [Type],600
+161,1,2014,Intensification: Low to Medium [Type],600
+161,1,2014,Intensification: Low to High [Type],500
+161,1,2014,Intensification: Medium to High [Type],800
+161,1,2014,Fire: High Severity [Type],63000
+161,1,2014,Fire: Medium Severity [Type],150600
+161,1,2014,Fire: Low Severity [Type],540900
+161,1,2014,Insect: High Severity [Type],132700
+161,1,2014,Insect: Medium Severity [Type],334100
+161,1,2014,Insect: Low Severity [Type],685000
+161,1,2014,Forest Harvest: Forest Clearcut [Type],1982500
+161,1,2014,Forest Harvest: Forest Selection [Type],91300
+161,1,2014,Ag Expansion: Pasture [Type],50800
+161,1,2014,Ag Expansion: Cropland [Type],355600
+161,1,2014,Ag Expansion,406400
+161,1,2014,Ag Contraction,93500
+161,1,2014,Urbanization,125100
+161,1,2014,Intensification,10500
+161,1,2014,Fire,754500
+161,1,2014,Insect,1151800
+161,1,2014,Forest Harvest,2073800
+161,1,2014,Ag Contraction: Alder/Maple Group [Type],2300
+161,1,2014,Ag Contraction: Aspen/Birch Group [Type],2900
+161,1,2014,Ag Contraction: California Mixed Conifer Group [Type],2600
+161,1,2014,Ag Contraction: Douglas-fir Group [Type],2500
+161,1,2014,Ag Contraction: Elm/Ash/Cottonwood Group [Type],2200
+161,1,2014,Ag Contraction: Exotic Hardwoods Group [Type],2200
+161,1,2014,Ag Contraction: Exotic Softwoods Group [Type],3100
+161,1,2014,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],3000
+161,1,2014,Ag Contraction: Hemlock/Sitka Spruce Group [Type],3600
+161,1,2014,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],3500
+161,1,2014,Ag Contraction: Lodgepole Pine Group [Type],3100
+161,1,2014,Ag Contraction: Longleaf/Slash Pine Group [Type],2800
+161,1,2014,Ag Contraction: Maple/Beech/Birch Group [Type],3300
+161,1,2014,Ag Contraction: Oak/Gum/Cypress Group [Type],3500
+161,1,2014,Ag Contraction: Oak/Hickory Group [Type],6200
+161,1,2014,Ag Contraction: Oak/Pine Group [Type],2400
+161,1,2014,Ag Contraction: Other Western Hardwoods Group [Type],2100
+161,1,2014,Ag Contraction: Other Western Softwood Group [Type],3500
+161,1,2014,Ag Contraction: Pinyon/Juniper Group [Type],3000
+161,1,2014,Ag Contraction: Ponderosa Pine Group [Type],2800
+161,1,2014,Ag Contraction: Redwood Group [Type],2200
+161,1,2014,Ag Contraction: Spruce/Fir Group [Type],2900
+161,1,2014,Ag Contraction: Tanoak/Laurel Group [Type],2900
+161,1,2014,Ag Contraction: Tropical Hardwoods Group [Type],2500
+161,1,2014,Ag Contraction: Western Larch Group [Type],2200
+161,1,2014,Ag Contraction: Western Oak Group [Type],3700
+161,1,2014,Ag Contraction: Western White Pine Group [Type],3500
+161,1,2014,Ag Contraction: White/Red/Jack Pine Group [Type],1900
+161,1,2014,Ag Contraction: Grassland [Type],3500
+161,1,2014,Ag Contraction: Shrubland [Type],2800
+161,1,2014,Ag Contraction: Wetland Herbaceous [Type],2700
+161,1,2014,Ag Contraction: Wetland Woody [Type],2100
+161,1,2014,Ag Contraction: Cropland,93500
+161,1,2014,Ag Contraction: Pasture,93500
+161,1,2014,Succession Post Fire: Alder/Maple Group [Type],1500
+161,1,2014,Succession Post Fire: Aspen/Birch Group [Type],2500
+161,1,2014,Succession Post Fire: California Mixed Conifer Group [Type],5100
+161,1,2014,Succession Post Fire: Douglas-fir Group [Type],5800
+161,1,2014,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],1700
+161,1,2014,Succession Post Fire: Exotic Hardwoods Group [Type],2200
+161,1,2014,Succession Post Fire: Exotic Softwoods Group [Type],1900
+161,1,2014,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],5400
+161,1,2014,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],1600
+161,1,2014,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2400
+161,1,2014,Succession Post Fire: Lodgepole Pine Group [Type],2600
+161,1,2014,Succession Post Fire: Longleaf/Slash Pine Group [Type],1300
+161,1,2014,Succession Post Fire: Maple/Beech/Birch Group [Type],1700
+161,1,2014,Succession Post Fire: Oak/Gum/Cypress Group [Type],1700
+161,1,2014,Succession Post Fire: Oak/Hickory Group [Type],1700
+161,1,2014,Succession Post Fire: Oak/Pine Group [Type],2200
+161,1,2014,Succession Post Fire: Other Western Hardwoods Group [Type],2000
+161,1,2014,Succession Post Fire: Other Western Softwood Group [Type],3100
+161,1,2014,Succession Post Fire: Pinyon/Juniper Group [Type],1900
+161,1,2014,Succession Post Fire: Ponderosa Pine Group [Type],5100
+161,1,2014,Succession Post Fire: Redwood Group [Type],1700
+161,1,2014,Succession Post Fire: Spruce/Fir Group [Type],1700
+161,1,2014,Succession Post Fire: Tanoak/Laurel Group [Type],1400
+161,1,2014,Succession Post Fire: Tropical Hardwoods Group [Type],1700
+161,1,2014,Succession Post Fire: Western Larch Group [Type],2900
+161,1,2014,Succession Post Fire: Western Oak Group [Type],3800
+161,1,2014,Succession Post Fire: Western White Pine Group [Type],1200
+161,1,2014,Succession Post Fire: White/Red/Jack Pine Group [Type],1900
+161,1,2014,Succession: Post Fire Recovery,69700
+161,1,2015,Urbanization: Open [Type],48100
+161,1,2015,Urbanization: Low [Type],37600
+161,1,2015,Urbanization: Medium [Type],26200
+161,1,2015,Urbanization: High [Type],5900
+161,1,2015,Intensification: Open to Low [Type],1600
+161,1,2015,Intensification: Open to Medium [Type],4100
+161,1,2015,Intensification: Open to High [Type],600
+161,1,2015,Intensification: Low to Medium [Type],500
+161,1,2015,Intensification: Low to High [Type],1300
+161,1,2015,Intensification: Medium to High [Type],800
+161,1,2015,Fire: High Severity [Type],150100
+161,1,2015,Fire: Medium Severity [Type],235700
+161,1,2015,Fire: Low Severity [Type],776500
+161,1,2015,Insect: High Severity [Type],329500
+161,1,2015,Insect: Medium Severity [Type],506100
+161,1,2015,Insect: Low Severity [Type],729600
+161,1,2015,Forest Harvest: Forest Clearcut [Type],2646400
+161,1,2015,Forest Harvest: Forest Selection [Type],173000
+161,1,2015,Ag Expansion: Pasture [Type],51700
+161,1,2015,Ag Expansion: Cropland [Type],337700
+161,1,2015,Ag Expansion,389400
+161,1,2015,Ag Contraction,92100
+161,1,2015,Urbanization,117800
+161,1,2015,Intensification,8900
+161,1,2015,Fire,1162300
+161,1,2015,Insect,1565200
+161,1,2015,Forest Harvest,2819400
+161,1,2015,Ag Contraction: Alder/Maple Group [Type],3700
+161,1,2015,Ag Contraction: Aspen/Birch Group [Type],2400
+161,1,2015,Ag Contraction: California Mixed Conifer Group [Type],2100
+161,1,2015,Ag Contraction: Douglas-fir Group [Type],1700
+161,1,2015,Ag Contraction: Elm/Ash/Cottonwood Group [Type],2400
+161,1,2015,Ag Contraction: Exotic Hardwoods Group [Type],2100
+161,1,2015,Ag Contraction: Exotic Softwoods Group [Type],3200
+161,1,2015,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],3100
+161,1,2015,Ag Contraction: Hemlock/Sitka Spruce Group [Type],2000
+161,1,2015,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],3800
+161,1,2015,Ag Contraction: Lodgepole Pine Group [Type],2300
+161,1,2015,Ag Contraction: Longleaf/Slash Pine Group [Type],3800
+161,1,2015,Ag Contraction: Maple/Beech/Birch Group [Type],3700
+161,1,2015,Ag Contraction: Oak/Gum/Cypress Group [Type],3700
+161,1,2015,Ag Contraction: Oak/Hickory Group [Type],5000
+161,1,2015,Ag Contraction: Oak/Pine Group [Type],3100
+161,1,2015,Ag Contraction: Other Western Hardwoods Group [Type],3500
+161,1,2015,Ag Contraction: Other Western Softwood Group [Type],2200
+161,1,2015,Ag Contraction: Pinyon/Juniper Group [Type],2700
+161,1,2015,Ag Contraction: Ponderosa Pine Group [Type],2800
+161,1,2015,Ag Contraction: Redwood Group [Type],2400
+161,1,2015,Ag Contraction: Spruce/Fir Group [Type],2600
+161,1,2015,Ag Contraction: Tanoak/Laurel Group [Type],2100
+161,1,2015,Ag Contraction: Tropical Hardwoods Group [Type],2900
+161,1,2015,Ag Contraction: Western Larch Group [Type],2100
+161,1,2015,Ag Contraction: Western Oak Group [Type],2100
+161,1,2015,Ag Contraction: Western White Pine Group [Type],2400
+161,1,2015,Ag Contraction: White/Red/Jack Pine Group [Type],2400
+161,1,2015,Ag Contraction: Grassland [Type],3600
+161,1,2015,Ag Contraction: Shrubland [Type],2900
+161,1,2015,Ag Contraction: Wetland Herbaceous [Type],4200
+161,1,2015,Ag Contraction: Wetland Woody [Type],3100
+161,1,2015,Ag Contraction: Cropland,92100
+161,1,2015,Ag Contraction: Pasture,92100
+161,1,2015,Succession Post Fire: Alder/Maple Group [Type],1800
+161,1,2015,Succession Post Fire: Aspen/Birch Group [Type],1700
+161,1,2015,Succession Post Fire: California Mixed Conifer Group [Type],4100
+161,1,2015,Succession Post Fire: Douglas-fir Group [Type],5900
+161,1,2015,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2400
+161,1,2015,Succession Post Fire: Exotic Hardwoods Group [Type],1300
+161,1,2015,Succession Post Fire: Exotic Softwoods Group [Type],2100
+161,1,2015,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],4000
+161,1,2015,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2800
+161,1,2015,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2000
+161,1,2015,Succession Post Fire: Lodgepole Pine Group [Type],3800
+161,1,2015,Succession Post Fire: Longleaf/Slash Pine Group [Type],1600
+161,1,2015,Succession Post Fire: Maple/Beech/Birch Group [Type],2100
+161,1,2015,Succession Post Fire: Oak/Gum/Cypress Group [Type],2600
+161,1,2015,Succession Post Fire: Oak/Hickory Group [Type],1600
+161,1,2015,Succession Post Fire: Oak/Pine Group [Type],2100
+161,1,2015,Succession Post Fire: Other Western Hardwoods Group [Type],1600
+161,1,2015,Succession Post Fire: Other Western Softwood Group [Type],1700
+161,1,2015,Succession Post Fire: Pinyon/Juniper Group [Type],2700
+161,1,2015,Succession Post Fire: Ponderosa Pine Group [Type],4100
+161,1,2015,Succession Post Fire: Redwood Group [Type],2100
+161,1,2015,Succession Post Fire: Spruce/Fir Group [Type],1500
+161,1,2015,Succession Post Fire: Tanoak/Laurel Group [Type],1800
+161,1,2015,Succession Post Fire: Tropical Hardwoods Group [Type],1700
+161,1,2015,Succession Post Fire: Western Larch Group [Type],2600
+161,1,2015,Succession Post Fire: Western Oak Group [Type],2300
+161,1,2015,Succession Post Fire: Western White Pine Group [Type],2300
+161,1,2015,Succession Post Fire: White/Red/Jack Pine Group [Type],2500
+161,1,2015,Succession: Post Fire Recovery,68800
+161,1,2016,Urbanization: Open [Type],34600
+161,1,2016,Urbanization: Low [Type],23800
+161,1,2016,Urbanization: Medium [Type],21800
+161,1,2016,Urbanization: High [Type],6900
+161,1,2016,Intensification: Open to Low [Type],1000
+161,1,2016,Intensification: Open to Medium [Type],3200
+161,1,2016,Intensification: Open to High [Type],500
+161,1,2016,Intensification: Low to Medium [Type],1400
+161,1,2016,Intensification: Low to High [Type],1200
+161,1,2016,Intensification: Medium to High [Type],2700
+161,1,2016,Fire: High Severity [Type],108400
+161,1,2016,Fire: Medium Severity [Type],216200
+161,1,2016,Fire: Low Severity [Type],720500
+161,1,2016,Forest Harvest: Forest Clearcut [Type],2287900
+161,1,2016,Forest Harvest: Forest Selection [Type],161200
+161,1,2016,Ag Expansion: Pasture [Type],46600
+161,1,2016,Ag Expansion: Cropland [Type],282100
+161,1,2016,Ag Expansion,328700
+161,1,2016,Ag Contraction,75800
+161,1,2016,Urbanization,87100
+161,1,2016,Intensification,10000
+161,1,2016,Fire,1045100
+161,1,2016,Forest Harvest,2449100
+161,1,2016,Ag Contraction: Alder/Maple Group [Type],2200
+161,1,2016,Ag Contraction: Aspen/Birch Group [Type],2100
+161,1,2016,Ag Contraction: California Mixed Conifer Group [Type],2100
+161,1,2016,Ag Contraction: Douglas-fir Group [Type],2700
+161,1,2016,Ag Contraction: Elm/Ash/Cottonwood Group [Type],2100
+161,1,2016,Ag Contraction: Exotic Hardwoods Group [Type],2700
+161,1,2016,Ag Contraction: Exotic Softwoods Group [Type],2300
+161,1,2016,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],1300
+161,1,2016,Ag Contraction: Hemlock/Sitka Spruce Group [Type],2200
+161,1,2016,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],3600
+161,1,2016,Ag Contraction: Lodgepole Pine Group [Type],1600
+161,1,2016,Ag Contraction: Longleaf/Slash Pine Group [Type],1900
+161,1,2016,Ag Contraction: Maple/Beech/Birch Group [Type],2100
+161,1,2016,Ag Contraction: Oak/Gum/Cypress Group [Type],2600
+161,1,2016,Ag Contraction: Oak/Hickory Group [Type],3500
+161,1,2016,Ag Contraction: Oak/Pine Group [Type],1900
+161,1,2016,Ag Contraction: Other Western Hardwoods Group [Type],3400
+161,1,2016,Ag Contraction: Other Western Softwood Group [Type],2700
+161,1,2016,Ag Contraction: Pinyon/Juniper Group [Type],2400
+161,1,2016,Ag Contraction: Ponderosa Pine Group [Type],2400
+161,1,2016,Ag Contraction: Redwood Group [Type],1700
+161,1,2016,Ag Contraction: Spruce/Fir Group [Type],1900
+161,1,2016,Ag Contraction: Tanoak/Laurel Group [Type],2200
+161,1,2016,Ag Contraction: Tropical Hardwoods Group [Type],1700
+161,1,2016,Ag Contraction: Western Larch Group [Type],2300
+161,1,2016,Ag Contraction: Western Oak Group [Type],2200
+161,1,2016,Ag Contraction: Western White Pine Group [Type],1800
+161,1,2016,Ag Contraction: White/Red/Jack Pine Group [Type],1800
+161,1,2016,Ag Contraction: Grassland [Type],3900
+161,1,2016,Ag Contraction: Shrubland [Type],2100
+161,1,2016,Ag Contraction: Wetland Herbaceous [Type],3300
+161,1,2016,Ag Contraction: Wetland Woody [Type],3100
+161,1,2016,Ag Contraction: Cropland,75800
+161,1,2016,Ag Contraction: Pasture,75800
+161,1,2016,Succession Post Fire: Alder/Maple Group [Type],1900
+161,1,2016,Succession Post Fire: Aspen/Birch Group [Type],2300
+161,1,2016,Succession Post Fire: California Mixed Conifer Group [Type],3800
+161,1,2016,Succession Post Fire: Douglas-fir Group [Type],6800
+161,1,2016,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],2200
+161,1,2016,Succession Post Fire: Exotic Hardwoods Group [Type],2000
+161,1,2016,Succession Post Fire: Exotic Softwoods Group [Type],2500
+161,1,2016,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],3700
+161,1,2016,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],2100
+161,1,2016,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],1100
+161,1,2016,Succession Post Fire: Lodgepole Pine Group [Type],2600
+161,1,2016,Succession Post Fire: Longleaf/Slash Pine Group [Type],2400
+161,1,2016,Succession Post Fire: Maple/Beech/Birch Group [Type],2200
+161,1,2016,Succession Post Fire: Oak/Gum/Cypress Group [Type],1700
+161,1,2016,Succession Post Fire: Oak/Hickory Group [Type],2700
+161,1,2016,Succession Post Fire: Oak/Pine Group [Type],2000
+161,1,2016,Succession Post Fire: Other Western Hardwoods Group [Type],1700
+161,1,2016,Succession Post Fire: Other Western Softwood Group [Type],700
+161,1,2016,Succession Post Fire: Pinyon/Juniper Group [Type],2800
+161,1,2016,Succession Post Fire: Ponderosa Pine Group [Type],4300
+161,1,2016,Succession Post Fire: Redwood Group [Type],2100
+161,1,2016,Succession Post Fire: Spruce/Fir Group [Type],2500
+161,1,2016,Succession Post Fire: Tanoak/Laurel Group [Type],2400
+161,1,2016,Succession Post Fire: Tropical Hardwoods Group [Type],1600
+161,1,2016,Succession Post Fire: Western Larch Group [Type],2000
+161,1,2016,Succession Post Fire: Western Oak Group [Type],3800
+161,1,2016,Succession Post Fire: Western White Pine Group [Type],2000
+161,1,2016,Succession Post Fire: White/Red/Jack Pine Group [Type],1900
+161,1,2016,Succession: Post Fire Recovery,69800
+161,1,2017,Urbanization: Open [Type],83800
+161,1,2017,Urbanization: Low [Type],56500
+161,1,2017,Urbanization: Medium [Type],45500
+161,1,2017,Urbanization: High [Type],11300
+161,1,2017,Intensification: Open to Low [Type],4000
+161,1,2017,Intensification: Open to Medium [Type],11900
+161,1,2017,Intensification: Open to High [Type],1900
+161,1,2017,Intensification: Low to Medium [Type],4200
+161,1,2017,Intensification: Low to High [Type],3500
+161,1,2017,Intensification: Medium to High [Type],400
+161,1,2017,Fire: High Severity [Type],312300
+161,1,2017,Fire: Medium Severity [Type],640700
+161,1,2017,Fire: Low Severity [Type],2016100
+161,1,2017,Forest Harvest: Forest Clearcut [Type],1789600
+161,1,2017,Forest Harvest: Forest Selection [Type],98300
+161,1,2017,Ag Expansion: Pasture [Type],47500
+161,1,2017,Ag Expansion: Cropland [Type],326300
+161,1,2017,Ag Expansion,373800
+161,1,2017,Ag Contraction,232400
+161,1,2017,Urbanization,197100
+161,1,2017,Intensification,25900
+161,1,2017,Fire,2969100
+161,1,2017,Forest Harvest,1887900
+161,1,2017,Ag Contraction: Alder/Maple Group [Type],6500
+161,1,2017,Ag Contraction: Aspen/Birch Group [Type],6200
+161,1,2017,Ag Contraction: California Mixed Conifer Group [Type],7700
+161,1,2017,Ag Contraction: Douglas-fir Group [Type],6400
+161,1,2017,Ag Contraction: Elm/Ash/Cottonwood Group [Type],6800
+161,1,2017,Ag Contraction: Exotic Hardwoods Group [Type],5700
+161,1,2017,Ag Contraction: Exotic Softwoods Group [Type],7700
+161,1,2017,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],6700
+161,1,2017,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6600
+161,1,2017,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],11300
+161,1,2017,Ag Contraction: Lodgepole Pine Group [Type],5300
+161,1,2017,Ag Contraction: Longleaf/Slash Pine Group [Type],8100
+161,1,2017,Ag Contraction: Maple/Beech/Birch Group [Type],8100
+161,1,2017,Ag Contraction: Oak/Gum/Cypress Group [Type],8300
+161,1,2017,Ag Contraction: Oak/Hickory Group [Type],13600
+161,1,2017,Ag Contraction: Oak/Pine Group [Type],7900
+161,1,2017,Ag Contraction: Other Western Hardwoods Group [Type],7500
+161,1,2017,Ag Contraction: Other Western Softwood Group [Type],7100
+161,1,2017,Ag Contraction: Pinyon/Juniper Group [Type],6500
+161,1,2017,Ag Contraction: Ponderosa Pine Group [Type],8200
+161,1,2017,Ag Contraction: Redwood Group [Type],8500
+161,1,2017,Ag Contraction: Spruce/Fir Group [Type],6500
+161,1,2017,Ag Contraction: Tanoak/Laurel Group [Type],5600
+161,1,2017,Ag Contraction: Tropical Hardwoods Group [Type],6000
+161,1,2017,Ag Contraction: Western Larch Group [Type],6500
+161,1,2017,Ag Contraction: Western Oak Group [Type],6400
+161,1,2017,Ag Contraction: Western White Pine Group [Type],7300
+161,1,2017,Ag Contraction: White/Red/Jack Pine Group [Type],6100
+161,1,2017,Ag Contraction: Grassland [Type],7800
+161,1,2017,Ag Contraction: Shrubland [Type],6700
+161,1,2017,Ag Contraction: Wetland Herbaceous [Type],6600
+161,1,2017,Ag Contraction: Wetland Woody [Type],6200
+161,1,2017,Ag Contraction: Cropland,232400
+161,1,2017,Ag Contraction: Pasture,232400
+161,1,2017,Succession Post Fire: Alder/Maple Group [Type],2800
+161,1,2017,Succession Post Fire: Aspen/Birch Group [Type],3900
+161,1,2017,Succession Post Fire: California Mixed Conifer Group [Type],6700
+161,1,2017,Succession Post Fire: Douglas-fir Group [Type],12100
+161,1,2017,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],3800
+161,1,2017,Succession Post Fire: Exotic Hardwoods Group [Type],3600
+161,1,2017,Succession Post Fire: Exotic Softwoods Group [Type],3400
+161,1,2017,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],9600
+161,1,2017,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],4600
+161,1,2017,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2900
+161,1,2017,Succession Post Fire: Lodgepole Pine Group [Type],5500
+161,1,2017,Succession Post Fire: Longleaf/Slash Pine Group [Type],3500
+161,1,2017,Succession Post Fire: Maple/Beech/Birch Group [Type],3200
+161,1,2017,Succession Post Fire: Oak/Gum/Cypress Group [Type],4500
+161,1,2017,Succession Post Fire: Oak/Hickory Group [Type],3800
+161,1,2017,Succession Post Fire: Oak/Pine Group [Type],3800
+161,1,2017,Succession Post Fire: Other Western Hardwoods Group [Type],3900
+161,1,2017,Succession Post Fire: Other Western Softwood Group [Type],5100
+161,1,2017,Succession Post Fire: Pinyon/Juniper Group [Type],3200
+161,1,2017,Succession Post Fire: Ponderosa Pine Group [Type],7300
+161,1,2017,Succession Post Fire: Redwood Group [Type],3300
+161,1,2017,Succession Post Fire: Spruce/Fir Group [Type],3600
+161,1,2017,Succession Post Fire: Tanoak/Laurel Group [Type],3300
+161,1,2017,Succession Post Fire: Tropical Hardwoods Group [Type],3300
+161,1,2017,Succession Post Fire: Western Larch Group [Type],3800
+161,1,2017,Succession Post Fire: Western Oak Group [Type],9700
+161,1,2017,Succession Post Fire: Western White Pine Group [Type],5300
+161,1,2017,Succession Post Fire: White/Red/Jack Pine Group [Type],4000
+161,1,2017,Succession: Post Fire Recovery,133500
+161,1,2018,Urbanization: Open [Type],87800
+161,1,2018,Urbanization: Low [Type],69700
+161,1,2018,Urbanization: Medium [Type],48200
+161,1,2018,Urbanization: High [Type],14600
+161,1,2018,Intensification: Open to Low [Type],3800
+161,1,2018,Intensification: Open to Medium [Type],8200
+161,1,2018,Intensification: Open to High [Type],1300
+161,1,2018,Intensification: Low to Medium [Type],2900
+161,1,2018,Intensification: Low to High [Type],2000
+161,1,2018,Intensification: Medium to High [Type],500
+161,1,2018,Fire: High Severity [Type],257300
+161,1,2018,Fire: Medium Severity [Type],449400
+161,1,2018,Fire: Low Severity [Type],1446400
+161,1,2018,Forest Harvest: Forest Clearcut [Type],1689400
+161,1,2018,Forest Harvest: Forest Selection [Type],75400
+161,1,2018,Ag Expansion: Pasture [Type],50900
+161,1,2018,Ag Expansion: Cropland [Type],299700
+161,1,2018,Ag Expansion,350600
+161,1,2018,Ag Contraction,258800
+161,1,2018,Urbanization,220300
+161,1,2018,Intensification,18700
+161,1,2018,Fire,2153100
+161,1,2018,Forest Harvest,1764800
+161,1,2018,Ag Contraction: Alder/Maple Group [Type],8300
+161,1,2018,Ag Contraction: Aspen/Birch Group [Type],8600
+161,1,2018,Ag Contraction: California Mixed Conifer Group [Type],7100
+161,1,2018,Ag Contraction: Douglas-fir Group [Type],7000
+161,1,2018,Ag Contraction: Elm/Ash/Cottonwood Group [Type],8400
+161,1,2018,Ag Contraction: Exotic Hardwoods Group [Type],7200
+161,1,2018,Ag Contraction: Exotic Softwoods Group [Type],8100
+161,1,2018,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],7100
+161,1,2018,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6800
+161,1,2018,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],12100
+161,1,2018,Ag Contraction: Lodgepole Pine Group [Type],8100
+161,1,2018,Ag Contraction: Longleaf/Slash Pine Group [Type],8300
+161,1,2018,Ag Contraction: Maple/Beech/Birch Group [Type],6300
+161,1,2018,Ag Contraction: Oak/Gum/Cypress Group [Type],8500
+161,1,2018,Ag Contraction: Oak/Hickory Group [Type],18000
+161,1,2018,Ag Contraction: Oak/Pine Group [Type],10100
+161,1,2018,Ag Contraction: Other Western Hardwoods Group [Type],7200
+161,1,2018,Ag Contraction: Other Western Softwood Group [Type],7700
+161,1,2018,Ag Contraction: Pinyon/Juniper Group [Type],6900
+161,1,2018,Ag Contraction: Ponderosa Pine Group [Type],5900
+161,1,2018,Ag Contraction: Redwood Group [Type],7000
+161,1,2018,Ag Contraction: Spruce/Fir Group [Type],8000
+161,1,2018,Ag Contraction: Tanoak/Laurel Group [Type],8300
+161,1,2018,Ag Contraction: Tropical Hardwoods Group [Type],7700
+161,1,2018,Ag Contraction: Western Larch Group [Type],6800
+161,1,2018,Ag Contraction: Western Oak Group [Type],7900
+161,1,2018,Ag Contraction: Western White Pine Group [Type],6200
+161,1,2018,Ag Contraction: White/Red/Jack Pine Group [Type],6500
+161,1,2018,Ag Contraction: Grassland [Type],11200
+161,1,2018,Ag Contraction: Shrubland [Type],7400
+161,1,2018,Ag Contraction: Wetland Herbaceous [Type],6200
+161,1,2018,Ag Contraction: Wetland Woody [Type],7900
+161,1,2018,Ag Contraction: Cropland,258800
+161,1,2018,Ag Contraction: Pasture,258800
+161,1,2018,Succession Post Fire: Alder/Maple Group [Type],3900
+161,1,2018,Succession Post Fire: Aspen/Birch Group [Type],3600
+161,1,2018,Succession Post Fire: California Mixed Conifer Group [Type],11200
+161,1,2018,Succession Post Fire: Douglas-fir Group [Type],11600
+161,1,2018,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],3700
+161,1,2018,Succession Post Fire: Exotic Hardwoods Group [Type],4300
+161,1,2018,Succession Post Fire: Exotic Softwoods Group [Type],3600
+161,1,2018,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],9300
+161,1,2018,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],4300
+161,1,2018,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2400
+161,1,2018,Succession Post Fire: Lodgepole Pine Group [Type],5700
+161,1,2018,Succession Post Fire: Longleaf/Slash Pine Group [Type],4000
+161,1,2018,Succession Post Fire: Maple/Beech/Birch Group [Type],4500
+161,1,2018,Succession Post Fire: Oak/Gum/Cypress Group [Type],3500
+161,1,2018,Succession Post Fire: Oak/Hickory Group [Type],4800
+161,1,2018,Succession Post Fire: Oak/Pine Group [Type],4300
+161,1,2018,Succession Post Fire: Other Western Hardwoods Group [Type],4300
+161,1,2018,Succession Post Fire: Other Western Softwood Group [Type],3800
+161,1,2018,Succession Post Fire: Pinyon/Juniper Group [Type],4300
+161,1,2018,Succession Post Fire: Ponderosa Pine Group [Type],6200
+161,1,2018,Succession Post Fire: Redwood Group [Type],4600
+161,1,2018,Succession Post Fire: Spruce/Fir Group [Type],4500
+161,1,2018,Succession Post Fire: Tanoak/Laurel Group [Type],3700
+161,1,2018,Succession Post Fire: Tropical Hardwoods Group [Type],4000
+161,1,2018,Succession Post Fire: Western Larch Group [Type],3300
+161,1,2018,Succession Post Fire: Western Oak Group [Type],10600
+161,1,2018,Succession Post Fire: Western White Pine Group [Type],4700
+161,1,2018,Succession Post Fire: White/Red/Jack Pine Group [Type],5200
+161,1,2018,Succession: Post Fire Recovery,143900
+161,1,2019,Urbanization: Open [Type],54200
+161,1,2019,Urbanization: Low [Type],42000
+161,1,2019,Urbanization: Medium [Type],32200
+161,1,2019,Urbanization: High [Type],8200
+161,1,2019,Intensification: Open to Low [Type],3600
+161,1,2019,Intensification: Open to Medium [Type],10800
+161,1,2019,Intensification: Open to High [Type],900
+161,1,2019,Intensification: Low to Medium [Type],4600
+161,1,2019,Intensification: Low to High [Type],2800
+161,1,2019,Intensification: Medium to High [Type],800
+161,1,2019,Fire: High Severity [Type],47800
+161,1,2019,Fire: Medium Severity [Type],110900
+161,1,2019,Fire: Low Severity [Type],427400
+161,1,2019,Forest Harvest: Forest Clearcut [Type],1740900
+161,1,2019,Forest Harvest: Forest Selection [Type],118900
+161,1,2019,Ag Expansion: Pasture [Type],45400
+161,1,2019,Ag Expansion: Cropland [Type],288200
+161,1,2019,Ag Expansion,333600
+161,1,2019,Ag Contraction,207500
+161,1,2019,Urbanization,136600
+161,1,2019,Intensification,23500
+161,1,2019,Fire,586100
+161,1,2019,Forest Harvest,1859800
+161,1,2019,Ag Contraction: Alder/Maple Group [Type],6300
+161,1,2019,Ag Contraction: Aspen/Birch Group [Type],7200
+161,1,2019,Ag Contraction: California Mixed Conifer Group [Type],5500
+161,1,2019,Ag Contraction: Douglas-fir Group [Type],6800
+161,1,2019,Ag Contraction: Elm/Ash/Cottonwood Group [Type],7000
+161,1,2019,Ag Contraction: Exotic Hardwoods Group [Type],5400
+161,1,2019,Ag Contraction: Exotic Softwoods Group [Type],4700
+161,1,2019,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],5600
+161,1,2019,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6600
+161,1,2019,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],6700
+161,1,2019,Ag Contraction: Lodgepole Pine Group [Type],6000
+161,1,2019,Ag Contraction: Longleaf/Slash Pine Group [Type],6500
+161,1,2019,Ag Contraction: Maple/Beech/Birch Group [Type],6000
+161,1,2019,Ag Contraction: Oak/Gum/Cypress Group [Type],8000
+161,1,2019,Ag Contraction: Oak/Hickory Group [Type],10100
+161,1,2019,Ag Contraction: Oak/Pine Group [Type],7200
+161,1,2019,Ag Contraction: Other Western Hardwoods Group [Type],4900
+161,1,2019,Ag Contraction: Other Western Softwood Group [Type],6900
+161,1,2019,Ag Contraction: Pinyon/Juniper Group [Type],5400
+161,1,2019,Ag Contraction: Ponderosa Pine Group [Type],5400
+161,1,2019,Ag Contraction: Redwood Group [Type],6500
+161,1,2019,Ag Contraction: Spruce/Fir Group [Type],5500
+161,1,2019,Ag Contraction: Tanoak/Laurel Group [Type],7100
+161,1,2019,Ag Contraction: Tropical Hardwoods Group [Type],6000
+161,1,2019,Ag Contraction: Western Larch Group [Type],5900
+161,1,2019,Ag Contraction: Western Oak Group [Type],6300
+161,1,2019,Ag Contraction: Western White Pine Group [Type],5900
+161,1,2019,Ag Contraction: White/Red/Jack Pine Group [Type],5300
+161,1,2019,Ag Contraction: Grassland [Type],10100
+161,1,2019,Ag Contraction: Shrubland [Type],6800
+161,1,2019,Ag Contraction: Wetland Herbaceous [Type],6600
+161,1,2019,Ag Contraction: Wetland Woody [Type],7300
+161,1,2019,Ag Contraction: Cropland,207500
+161,1,2019,Ag Contraction: Pasture,207500
+161,1,2019,Succession Post Fire: Alder/Maple Group [Type],3900
+161,1,2019,Succession Post Fire: Aspen/Birch Group [Type],3800
+161,1,2019,Succession Post Fire: California Mixed Conifer Group [Type],7900
+161,1,2019,Succession Post Fire: Douglas-fir Group [Type],11700
+161,1,2019,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],3500
+161,1,2019,Succession Post Fire: Exotic Hardwoods Group [Type],3000
+161,1,2019,Succession Post Fire: Exotic Softwoods Group [Type],2700
+161,1,2019,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],8100
+161,1,2019,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],3500
+161,1,2019,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],2400
+161,1,2019,Succession Post Fire: Lodgepole Pine Group [Type],4800
+161,1,2019,Succession Post Fire: Longleaf/Slash Pine Group [Type],3000
+161,1,2019,Succession Post Fire: Maple/Beech/Birch Group [Type],2200
+161,1,2019,Succession Post Fire: Oak/Gum/Cypress Group [Type],2500
+161,1,2019,Succession Post Fire: Oak/Hickory Group [Type],3600
+161,1,2019,Succession Post Fire: Oak/Pine Group [Type],2700
+161,1,2019,Succession Post Fire: Other Western Hardwoods Group [Type],3200
+161,1,2019,Succession Post Fire: Other Western Softwood Group [Type],3500
+161,1,2019,Succession Post Fire: Pinyon/Juniper Group [Type],4200
+161,1,2019,Succession Post Fire: Ponderosa Pine Group [Type],6000
+161,1,2019,Succession Post Fire: Redwood Group [Type],2900
+161,1,2019,Succession Post Fire: Spruce/Fir Group [Type],3400
+161,1,2019,Succession Post Fire: Tanoak/Laurel Group [Type],2900
+161,1,2019,Succession Post Fire: Tropical Hardwoods Group [Type],3400
+161,1,2019,Succession Post Fire: Western Larch Group [Type],3100
+161,1,2019,Succession Post Fire: Western Oak Group [Type],6200
+161,1,2019,Succession Post Fire: Western White Pine Group [Type],3100
+161,1,2019,Succession Post Fire: White/Red/Jack Pine Group [Type],4000
+161,1,2019,Succession: Post Fire Recovery,115200
+161,1,2020,Urbanization: Open [Type],92000
+161,1,2020,Urbanization: Low [Type],65600
+161,1,2020,Urbanization: Medium [Type],45100
+161,1,2020,Urbanization: High [Type],13700
+161,1,2020,Intensification: Open to Low [Type],2800
+161,1,2020,Intensification: Open to Medium [Type],10300
+161,1,2020,Intensification: Open to High [Type],1400
+161,1,2020,Intensification: Low to Medium [Type],3900
+161,1,2020,Intensification: Low to High [Type],3400
+161,1,2020,Intensification: Medium to High [Type],500
+161,1,2020,Fire: High Severity [Type],480800
+161,1,2020,Fire: Medium Severity [Type],790900
+161,1,2020,Fire: Low Severity [Type],2398300
+161,1,2020,Forest Harvest: Forest Clearcut [Type],2026800
+161,1,2020,Forest Harvest: Forest Selection [Type],124400
+161,1,2020,Ag Expansion: Pasture [Type],52500
+161,1,2020,Ag Expansion: Cropland [Type],299400
+161,1,2020,Ag Expansion,351900
+161,1,2020,Ag Contraction,226300
+161,1,2020,Urbanization,216400
+161,1,2020,Intensification,22300
+161,1,2020,Fire,3670000
+161,1,2020,Forest Harvest,2151200
+161,1,2020,Ag Contraction: Alder/Maple Group [Type],6400
+161,1,2020,Ag Contraction: Aspen/Birch Group [Type],5400
+161,1,2020,Ag Contraction: California Mixed Conifer Group [Type],5800
+161,1,2020,Ag Contraction: Douglas-fir Group [Type],7000
+161,1,2020,Ag Contraction: Elm/Ash/Cottonwood Group [Type],6600
+161,1,2020,Ag Contraction: Exotic Hardwoods Group [Type],7500
+161,1,2020,Ag Contraction: Exotic Softwoods Group [Type],5400
+161,1,2020,Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],6800
+161,1,2020,Ag Contraction: Hemlock/Sitka Spruce Group [Type],6100
+161,1,2020,Ag Contraction: Loblolly/Shortleaf Pine Group [Type],10100
+161,1,2020,Ag Contraction: Lodgepole Pine Group [Type],7100
+161,1,2020,Ag Contraction: Longleaf/Slash Pine Group [Type],6900
+161,1,2020,Ag Contraction: Maple/Beech/Birch Group [Type],8100
+161,1,2020,Ag Contraction: Oak/Gum/Cypress Group [Type],9300
+161,1,2020,Ag Contraction: Oak/Hickory Group [Type],13500
+161,1,2020,Ag Contraction: Oak/Pine Group [Type],8700
+161,1,2020,Ag Contraction: Other Western Hardwoods Group [Type],6300
+161,1,2020,Ag Contraction: Other Western Softwood Group [Type],7300
+161,1,2020,Ag Contraction: Pinyon/Juniper Group [Type],6100
+161,1,2020,Ag Contraction: Ponderosa Pine Group [Type],7000
+161,1,2020,Ag Contraction: Redwood Group [Type],6000
+161,1,2020,Ag Contraction: Spruce/Fir Group [Type],5700
+161,1,2020,Ag Contraction: Tanoak/Laurel Group [Type],6000
+161,1,2020,Ag Contraction: Tropical Hardwoods Group [Type],7300
+161,1,2020,Ag Contraction: Western Larch Group [Type],6100
+161,1,2020,Ag Contraction: Western Oak Group [Type],5600
+161,1,2020,Ag Contraction: Western White Pine Group [Type],6800
+161,1,2020,Ag Contraction: White/Red/Jack Pine Group [Type],8000
+161,1,2020,Ag Contraction: Grassland [Type],8800
+161,1,2020,Ag Contraction: Shrubland [Type],6500
+161,1,2020,Ag Contraction: Wetland Herbaceous [Type],5500
+161,1,2020,Ag Contraction: Wetland Woody [Type],6600
+161,1,2020,Ag Contraction: Cropland,226300
+161,1,2020,Ag Contraction: Pasture,226300
+161,1,2020,Succession Post Fire: Alder/Maple Group [Type],5800
+161,1,2020,Succession Post Fire: Aspen/Birch Group [Type],5900
+161,1,2020,Succession Post Fire: California Mixed Conifer Group [Type],19300
+161,1,2020,Succession Post Fire: Douglas-fir Group [Type],16300
+161,1,2020,Succession Post Fire: Elm/Ash/Cottonwood Group [Type],6200
+161,1,2020,Succession Post Fire: Exotic Hardwoods Group [Type],4600
+161,1,2020,Succession Post Fire: Exotic Softwoods Group [Type],6700
+161,1,2020,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],12200
+161,1,2020,Succession Post Fire: Hemlock/Sitka Spruce Group [Type],6500
+161,1,2020,Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],5200
+161,1,2020,Succession Post Fire: Lodgepole Pine Group [Type],9400
+161,1,2020,Succession Post Fire: Longleaf/Slash Pine Group [Type],6300
+161,1,2020,Succession Post Fire: Maple/Beech/Birch Group [Type],6100
+161,1,2020,Succession Post Fire: Oak/Gum/Cypress Group [Type],5100
+161,1,2020,Succession Post Fire: Oak/Hickory Group [Type],5600
+161,1,2020,Succession Post Fire: Oak/Pine Group [Type],5700
+161,1,2020,Succession Post Fire: Other Western Hardwoods Group [Type],6900
+161,1,2020,Succession Post Fire: Other Western Softwood Group [Type],5800
+161,1,2020,Succession Post Fire: Pinyon/Juniper Group [Type],6700
+161,1,2020,Succession Post Fire: Ponderosa Pine Group [Type],9500
+161,1,2020,Succession Post Fire: Redwood Group [Type],5800
+161,1,2020,Succession Post Fire: Spruce/Fir Group [Type],4600
+161,1,2020,Succession Post Fire: Tanoak/Laurel Group [Type],6300
+161,1,2020,Succession Post Fire: Tropical Hardwoods Group [Type],5500
+161,1,2020,Succession Post Fire: Western Larch Group [Type],5700
+161,1,2020,Succession Post Fire: Western Oak Group [Type],14300
+161,1,2020,Succession Post Fire: Western White Pine Group [Type],6700
+161,1,2020,Succession Post Fire: White/Red/Jack Pine Group [Type],5700
+161,1,2020,Succession: Post Fire Recovery,210400

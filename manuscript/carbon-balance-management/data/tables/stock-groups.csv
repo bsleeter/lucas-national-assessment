@@ -1,0 +1,15 @@
+﻿StockGroupID,StockGroup
+DOM: Aboveground Very Fast [Type],Litter
+DOM: Aboveground Fast [Type],Litter
+DOM: Aboveground Medium [Type],Deadwood
+DOM: Aboveground Slow [Type],Soil
+DOM: Belowground Very Fast [Type],Soil
+DOM: Belowground Fast [Type],Deadwood
+DOM: Belowground Slow [Type],Soil
+Biomass: Foliage [Type],Aboveground live
+Biomass: Other Wood [Type],Aboveground live
+Biomass: Merchantable [Type],Aboveground live
+Biomass: Fine Root [Type],Belowground live
+Biomass: Coarse Root [Type],Belowground live
+DOM: Snag Branch [Type],Deadwood
+DOM: Snag Stem [Type],Deadwood

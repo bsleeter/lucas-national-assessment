@@ -1,0 +1,1585 @@
+ScenarioID,ScenarioName,GCM,LUC,Iteration,Timestep,SecondaryStratumID,StockGroupID,Amount
+134,Historical,Historical,Historical,1,2001,Idaho,Biomass: Total,601632766.6176865
+134,Historical,Historical,Historical,1,2001,New Mexico,Biomass: Total,197153892.98522696
+134,Historical,Historical,Historical,1,2001,California,Biomass: Total,1205931323.3630843
+134,Historical,Historical,Historical,1,2001,Oregon,Biomass: Total,1281579116.2899148
+134,Historical,Historical,Historical,1,2001,Washington,Biomass: Total,1080524310.9759705
+134,Historical,Historical,Historical,1,2001,Utah,Biomass: Total,225255008.44812936
+134,Historical,Historical,Historical,1,2001,Colorado,Biomass: Total,489363434.5157101
+134,Historical,Historical,Historical,1,2001,Wyoming,Biomass: Total,221292826.71413296
+134,Historical,Historical,Historical,1,2001,Nevada,Biomass: Total,82213235.64420773
+134,Historical,Historical,Historical,1,2001,Montana,Biomass: Total,625762772.8013581
+134,Historical,Historical,Historical,1,2001,Arizona,Biomass: Total,113225275.73334897
+134,Historical,Historical,Historical,1,2002,Idaho,Biomass: Total,603034383.6798131
+134,Historical,Historical,Historical,1,2002,New Mexico,Biomass: Total,198681700.73397
+134,Historical,Historical,Historical,1,2002,California,Biomass: Total,1202097895.8556287
+134,Historical,Historical,Historical,1,2002,Oregon,Biomass: Total,1282196304.4694324
+134,Historical,Historical,Historical,1,2002,Washington,Biomass: Total,1085669404.007561
+134,Historical,Historical,Historical,1,2002,Utah,Biomass: Total,223935435.77531517
+134,Historical,Historical,Historical,1,2002,Colorado,Biomass: Total,487539175.2055664
+134,Historical,Historical,Historical,1,2002,Wyoming,Biomass: Total,223546937.01709172
+134,Historical,Historical,Historical,1,2002,Nevada,Biomass: Total,81256980.93773077
+134,Historical,Historical,Historical,1,2002,Montana,Biomass: Total,632032029.3218131
+134,Historical,Historical,Historical,1,2002,Arizona,Biomass: Total,111535744.03995971
+134,Historical,Historical,Historical,1,2003,Idaho,Biomass: Total,616964667.681393
+134,Historical,Historical,Historical,1,2003,New Mexico,Biomass: Total,197797756.4497183
+134,Historical,Historical,Historical,1,2003,California,Biomass: Total,1197548531.5901039
+134,Historical,Historical,Historical,1,2003,Oregon,Biomass: Total,1272125677.1528757
+134,Historical,Historical,Historical,1,2003,Washington,Biomass: Total,1093141751.930036
+134,Historical,Historical,Historical,1,2003,Utah,Biomass: Total,227871021.3215974
+134,Historical,Historical,Historical,1,2003,Colorado,Biomass: Total,493684744.9312209
+134,Historical,Historical,Historical,1,2003,Wyoming,Biomass: Total,228041982.8826832
+134,Historical,Historical,Historical,1,2003,Nevada,Biomass: Total,82871810.35320392
+134,Historical,Historical,Historical,1,2003,Montana,Biomass: Total,646744188.5768988
+134,Historical,Historical,Historical,1,2003,Arizona,Biomass: Total,109797169.73611572
+134,Historical,Historical,Historical,1,2004,Idaho,Biomass: Total,628458940.2180324
+134,Historical,Historical,Historical,1,2004,New Mexico,Biomass: Total,203198911.46428338
+134,Historical,Historical,Historical,1,2004,California,Biomass: Total,1188955828.516423
+134,Historical,Historical,Historical,1,2004,Oregon,Biomass: Total,1276290031.1270087
+134,Historical,Historical,Historical,1,2004,Washington,Biomass: Total,1096105253.9606574
+134,Historical,Historical,Historical,1,2004,Utah,Biomass: Total,235693788.94573355
+134,Historical,Historical,Historical,1,2004,Colorado,Biomass: Total,502420861.13004524
+134,Historical,Historical,Historical,1,2004,Wyoming,Biomass: Total,231542599.3822093
+134,Historical,Historical,Historical,1,2004,Nevada,Biomass: Total,85783340.85589193
+134,Historical,Historical,Historical,1,2004,Montana,Biomass: Total,659407264.8321579
+134,Historical,Historical,Historical,1,2004,Arizona,Biomass: Total,111559587.92103195
+134,Historical,Historical,Historical,1,2005,Idaho,Biomass: Total,641937785.0936097
+134,Historical,Historical,Historical,1,2005,New Mexico,Biomass: Total,207815677.1142811
+134,Historical,Historical,Historical,1,2005,California,Biomass: Total,1200000412.8831503
+134,Historical,Historical,Historical,1,2005,Oregon,Biomass: Total,1280840452.9940648
+134,Historical,Historical,Historical,1,2005,Washington,Biomass: Total,1101340743.6445498
+134,Historical,Historical,Historical,1,2005,Utah,Biomass: Total,243747485.3885983
+134,Historical,Historical,Historical,1,2005,Colorado,Biomass: Total,511591852.1486651
+134,Historical,Historical,Historical,1,2005,Wyoming,Biomass: Total,235838705.54366842
+134,Historical,Historical,Historical,1,2005,Nevada,Biomass: Total,90090929.70592727
+134,Historical,Historical,Historical,1,2005,Montana,Biomass: Total,675232475.7562115
+134,Historical,Historical,Historical,1,2005,Arizona,Biomass: Total,113090418.0566804
+134,Historical,Historical,Historical,1,2006,Idaho,Biomass: Total,658569296.0824802
+134,Historical,Historical,Historical,1,2006,New Mexico,Biomass: Total,213269550.8246655
+134,Historical,Historical,Historical,1,2006,California,Biomass: Total,1200835100.535482
+134,Historical,Historical,Historical,1,2006,Oregon,Biomass: Total,1286808517.0886111
+134,Historical,Historical,Historical,1,2006,Washington,Biomass: Total,1111085297.7713852
+134,Historical,Historical,Historical,1,2006,Utah,Biomass: Total,248944770.13161042
+134,Historical,Historical,Historical,1,2006,Colorado,Biomass: Total,518607608.1710902
+134,Historical,Historical,Historical,1,2006,Wyoming,Biomass: Total,238292482.65299055
+134,Historical,Historical,Historical,1,2006,Nevada,Biomass: Total,91002874.97732577
+134,Historical,Historical,Historical,1,2006,Montana,Biomass: Total,691499291.8862863
+134,Historical,Historical,Historical,1,2006,Arizona,Biomass: Total,113468159.7002732
+134,Historical,Historical,Historical,1,2007,Idaho,Biomass: Total,665356402.4139091
+134,Historical,Historical,Historical,1,2007,New Mexico,Biomass: Total,217145324.15854207
+134,Historical,Historical,Historical,1,2007,California,Biomass: Total,1178342419.9117813
+134,Historical,Historical,Historical,1,2007,Oregon,Biomass: Total,1283738535.6944025
+134,Historical,Historical,Historical,1,2007,Washington,Biomass: Total,1110325307.4518914
+134,Historical,Historical,Historical,1,2007,Utah,Biomass: Total,249342372.89940047
+134,Historical,Historical,Historical,1,2007,Colorado,Biomass: Total,524419030.8484621
+134,Historical,Historical,Historical,1,2007,Wyoming,Biomass: Total,241340843.31543934
+134,Historical,Historical,Historical,1,2007,Nevada,Biomass: Total,91215827.93099879
+134,Historical,Historical,Historical,1,2007,Montana,Biomass: Total,697061713.6834507
+134,Historical,Historical,Historical,1,2007,Arizona,Biomass: Total,114264359.63884099
+134,Historical,Historical,Historical,1,2008,Idaho,Biomass: Total,673273099.7434537
+134,Historical,Historical,Historical,1,2008,New Mexico,Biomass: Total,219276571.23894286
+134,Historical,Historical,Historical,1,2008,California,Biomass: Total,1177643835.4372025
+134,Historical,Historical,Historical,1,2008,Oregon,Biomass: Total,1280093609.199269
+134,Historical,Historical,Historical,1,2008,Washington,Biomass: Total,1108226315.0671368
+134,Historical,Historical,Historical,1,2008,Utah,Biomass: Total,252961890.1554012
+134,Historical,Historical,Historical,1,2008,Colorado,Biomass: Total,522896139.106184
+134,Historical,Historical,Historical,1,2008,Wyoming,Biomass: Total,243625618.30723488
+134,Historical,Historical,Historical,1,2008,Nevada,Biomass: Total,91657833.7465389
+134,Historical,Historical,Historical,1,2008,Montana,Biomass: Total,704028703.4668616
+134,Historical,Historical,Historical,1,2008,Arizona,Biomass: Total,115752454.2365791
+134,Historical,Historical,Historical,1,2009,Idaho,Biomass: Total,677560320.208848
+134,Historical,Historical,Historical,1,2009,New Mexico,Biomass: Total,219670697.24467215
+134,Historical,Historical,Historical,1,2009,California,Biomass: Total,1169440287.1262944
+134,Historical,Historical,Historical,1,2009,Oregon,Biomass: Total,1278064709.1535058
+134,Historical,Historical,Historical,1,2009,Washington,Biomass: Total,1110224340.4515927
+134,Historical,Historical,Historical,1,2009,Utah,Biomass: Total,255920863.43388164
+134,Historical,Historical,Historical,1,2009,Colorado,Biomass: Total,523581669.46034634
+134,Historical,Historical,Historical,1,2009,Wyoming,Biomass: Total,245677931.228504
+134,Historical,Historical,Historical,1,2009,Nevada,Biomass: Total,94048244.93350789
+134,Historical,Historical,Historical,1,2009,Montana,Biomass: Total,705121351.322309
+134,Historical,Historical,Historical,1,2009,Arizona,Biomass: Total,113653033.16494663
+134,Historical,Historical,Historical,1,2010,Idaho,Biomass: Total,674926579.2408636
+134,Historical,Historical,Historical,1,2010,New Mexico,Biomass: Total,219556690.8241421
+134,Historical,Historical,Historical,1,2010,California,Biomass: Total,1175578508.5764847
+134,Historical,Historical,Historical,1,2010,Oregon,Biomass: Total,1283330047.955369
+134,Historical,Historical,Historical,1,2010,Washington,Biomass: Total,1116492698.7764745
+134,Historical,Historical,Historical,1,2010,Utah,Biomass: Total,261916512.57208544
+134,Historical,Historical,Historical,1,2010,Colorado,Biomass: Total,525394765.6340736
+134,Historical,Historical,Historical,1,2010,Wyoming,Biomass: Total,245727603.36798432
+134,Historical,Historical,Historical,1,2010,Nevada,Biomass: Total,97251770.25477092
+134,Historical,Historical,Historical,1,2010,Montana,Biomass: Total,712572021.3295187
+134,Historical,Historical,Historical,1,2010,Arizona,Biomass: Total,115586030.2785154
+134,Historical,Historical,Historical,1,2011,Idaho,Biomass: Total,684160540.4250914
+134,Historical,Historical,Historical,1,2011,New Mexico,Biomass: Total,221068871.538005
+134,Historical,Historical,Historical,1,2011,California,Biomass: Total,1143701447.7523365
+134,Historical,Historical,Historical,1,2011,Oregon,Biomass: Total,1283023763.7905543
+134,Historical,Historical,Historical,1,2011,Washington,Biomass: Total,1121443067.7696643
+134,Historical,Historical,Historical,1,2011,Utah,Biomass: Total,265893248.28578818
+134,Historical,Historical,Historical,1,2011,Colorado,Biomass: Total,526571934.3851447
+134,Historical,Historical,Historical,1,2011,Wyoming,Biomass: Total,247866002.33958644
+134,Historical,Historical,Historical,1,2011,Nevada,Biomass: Total,97706135.08138175
+134,Historical,Historical,Historical,1,2011,Montana,Biomass: Total,730071074.2864159
+134,Historical,Historical,Historical,1,2011,Arizona,Biomass: Total,115322526.84657095
+134,Historical,Historical,Historical,1,2012,Idaho,Biomass: Total,697986415.4619203
+134,Historical,Historical,Historical,1,2012,New Mexico,Biomass: Total,219695631.6963895
+134,Historical,Historical,Historical,1,2012,California,Biomass: Total,1151370077.028205
+134,Historical,Historical,Historical,1,2012,Oregon,Biomass: Total,1296383454.1361108
+134,Historical,Historical,Historical,1,2012,Washington,Biomass: Total,1137539906.9520478
+134,Historical,Historical,Historical,1,2012,Utah,Biomass: Total,265982427.6534983
+134,Historical,Historical,Historical,1,2012,Colorado,Biomass: Total,524385936.5424978
+134,Historical,Historical,Historical,1,2012,Wyoming,Biomass: Total,249558290.6934076
+134,Historical,Historical,Historical,1,2012,Nevada,Biomass: Total,98717188.39672227
+134,Historical,Historical,Historical,1,2012,Montana,Biomass: Total,744575316.3643497
+134,Historical,Historical,Historical,1,2012,Arizona,Biomass: Total,114685825.5731513
+134,Historical,Historical,Historical,1,2013,Idaho,Biomass: Total,700137360.9624465
+134,Historical,Historical,Historical,1,2013,New Mexico,Biomass: Total,222876208.3987977
+134,Historical,Historical,Historical,1,2013,California,Biomass: Total,1109677039.7183433
+134,Historical,Historical,Historical,1,2013,Oregon,Biomass: Total,1279148181.7188945
+134,Historical,Historical,Historical,1,2013,Washington,Biomass: Total,1138446513.0217109
+134,Historical,Historical,Historical,1,2013,Utah,Biomass: Total,269677002.4346579
+134,Historical,Historical,Historical,1,2013,Colorado,Biomass: Total,536412381.82501155
+134,Historical,Historical,Historical,1,2013,Wyoming,Biomass: Total,253291037.33552265
+134,Historical,Historical,Historical,1,2013,Nevada,Biomass: Total,98943810.56157218
+134,Historical,Historical,Historical,1,2013,Montana,Biomass: Total,754265976.8519535
+134,Historical,Historical,Historical,1,2013,Arizona,Biomass: Total,111395715.49197349
+134,Historical,Historical,Historical,1,2014,Idaho,Biomass: Total,714448408.56686
+134,Historical,Historical,Historical,1,2014,New Mexico,Biomass: Total,225570170.49105433
+134,Historical,Historical,Historical,1,2014,California,Biomass: Total,1129618668.8280184
+134,Historical,Historical,Historical,1,2014,Oregon,Biomass: Total,1287204871.418121
+134,Historical,Historical,Historical,1,2014,Washington,Biomass: Total,1145443888.8225455
+134,Historical,Historical,Historical,1,2014,Utah,Biomass: Total,274212922.74559563
+134,Historical,Historical,Historical,1,2014,Colorado,Biomass: Total,544741851.2864149
+134,Historical,Historical,Historical,1,2014,Wyoming,Biomass: Total,258543650.71714813
+134,Historical,Historical,Historical,1,2014,Nevada,Biomass: Total,100873924.23156357
+134,Historical,Historical,Historical,1,2014,Montana,Biomass: Total,771286326.3603535
+134,Historical,Historical,Historical,1,2014,Arizona,Biomass: Total,111501009.4539095
+134,Historical,Historical,Historical,1,2015,Idaho,Biomass: Total,717494008.0229996
+134,Historical,Historical,Historical,1,2015,New Mexico,Biomass: Total,234136998.60637045
+134,Historical,Historical,Historical,1,2015,California,Biomass: Total,1102636510.6213846
+134,Historical,Historical,Historical,1,2015,Oregon,Biomass: Total,1286216876.959322
+134,Historical,Historical,Historical,1,2015,Washington,Biomass: Total,1147680392.40342
+134,Historical,Historical,Historical,1,2015,Utah,Biomass: Total,279051802.45432216
+134,Historical,Historical,Historical,1,2015,Colorado,Biomass: Total,555596519.4107248
+134,Historical,Historical,Historical,1,2015,Wyoming,Biomass: Total,262142294.77103436
+134,Historical,Historical,Historical,1,2015,Nevada,Biomass: Total,102653232.63716145
+134,Historical,Historical,Historical,1,2015,Montana,Biomass: Total,776837789.8439852
+134,Historical,Historical,Historical,1,2015,Arizona,Biomass: Total,113225907.24754149
+134,Historical,Historical,Historical,1,2016,Idaho,Biomass: Total,727205202.6976594
+134,Historical,Historical,Historical,1,2016,New Mexico,Biomass: Total,235849641.24107736
+134,Historical,Historical,Historical,1,2016,California,Biomass: Total,1118314555.5663702
+134,Historical,Historical,Historical,1,2016,Oregon,Biomass: Total,1291193011.1070995
+134,Historical,Historical,Historical,1,2016,Washington,Biomass: Total,1157288035.0160456
+134,Historical,Historical,Historical,1,2016,Utah,Biomass: Total,282552204.3646806
+134,Historical,Historical,Historical,1,2016,Colorado,Biomass: Total,557198891.8297645
+134,Historical,Historical,Historical,1,2016,Wyoming,Biomass: Total,265246669.5088886
+134,Historical,Historical,Historical,1,2016,Nevada,Biomass: Total,104512690.9483765
+134,Historical,Historical,Historical,1,2016,Montana,Biomass: Total,792907992.9772009
+134,Historical,Historical,Historical,1,2016,Arizona,Biomass: Total,113239675.82221965
+134,Historical,Historical,Historical,1,2017,Idaho,Biomass: Total,737836510.5538371
+134,Historical,Historical,Historical,1,2017,New Mexico,Biomass: Total,239281033.99890184
+134,Historical,Historical,Historical,1,2017,California,Biomass: Total,1117775492.5734499
+134,Historical,Historical,Historical,1,2017,Oregon,Biomass: Total,1282693372.5826876
+134,Historical,Historical,Historical,1,2017,Washington,Biomass: Total,1161285994.4762504
+134,Historical,Historical,Historical,1,2017,Utah,Biomass: Total,283241327.1357445
+134,Historical,Historical,Historical,1,2017,Colorado,Biomass: Total,562624119.5704781
+134,Historical,Historical,Historical,1,2017,Wyoming,Biomass: Total,269995467.1570281
+134,Historical,Historical,Historical,1,2017,Nevada,Biomass: Total,106269952.86375587
+134,Historical,Historical,Historical,1,2017,Montana,Biomass: Total,797943934.8542722
+134,Historical,Historical,Historical,1,2017,Arizona,Biomass: Total,111157893.92352512
+134,Historical,Historical,Historical,1,2018,Idaho,Biomass: Total,742299682.2632455
+134,Historical,Historical,Historical,1,2018,New Mexico,Biomass: Total,240481965.00557175
+134,Historical,Historical,Historical,1,2018,California,Biomass: Total,1085664163.5966187
+134,Historical,Historical,Historical,1,2018,Oregon,Biomass: Total,1266970526.5797467
+134,Historical,Historical,Historical,1,2018,Washington,Biomass: Total,1163828372.0039618
+134,Historical,Historical,Historical,1,2018,Utah,Biomass: Total,280589814.65184724
+134,Historical,Historical,Historical,1,2018,Colorado,Biomass: Total,558963915.208322
+134,Historical,Historical,Historical,1,2018,Wyoming,Biomass: Total,271126508.1766975
+134,Historical,Historical,Historical,1,2018,Nevada,Biomass: Total,105466775.08210501
+134,Historical,Historical,Historical,1,2018,Montana,Biomass: Total,811067325.7266202
+134,Historical,Historical,Historical,1,2018,Arizona,Biomass: Total,111096073.7931216
+134,Historical,Historical,Historical,1,2019,Idaho,Biomass: Total,750608797.2570281
+134,Historical,Historical,Historical,1,2019,New Mexico,Biomass: Total,244579018.44415447
+134,Historical,Historical,Historical,1,2019,California,Biomass: Total,1098910490.839129
+134,Historical,Historical,Historical,1,2019,Oregon,Biomass: Total,1266047551.4501617
+134,Historical,Historical,Historical,1,2019,Washington,Biomass: Total,1164679519.741204
+134,Historical,Historical,Historical,1,2019,Utah,Biomass: Total,289119004.3367385
+134,Historical,Historical,Historical,1,2019,Colorado,Biomass: Total,569358946.2205795
+134,Historical,Historical,Historical,1,2019,Wyoming,Biomass: Total,275625797.7564601
+134,Historical,Historical,Historical,1,2019,Nevada,Biomass: Total,110208340.21734196
+134,Historical,Historical,Historical,1,2019,Montana,Biomass: Total,825460655.77991
+134,Historical,Historical,Historical,1,2019,Arizona,Biomass: Total,112759639.12894596
+134,Historical,Historical,Historical,1,2020,Idaho,Biomass: Total,757763749.2825239
+134,Historical,Historical,Historical,1,2020,New Mexico,Biomass: Total,241049051.1178631
+134,Historical,Historical,Historical,1,2020,California,Biomass: Total,1016813274.4095861
+134,Historical,Historical,Historical,1,2020,Oregon,Biomass: Total,1238031376.3879733
+134,Historical,Historical,Historical,1,2020,Washington,Biomass: Total,1170447844.1434963
+134,Historical,Historical,Historical,1,2020,Utah,Biomass: Total,280271739.43119544
+134,Historical,Historical,Historical,1,2020,Colorado,Biomass: Total,558209176.4234793
+134,Historical,Historical,Historical,1,2020,Wyoming,Biomass: Total,275676913.04786885
+134,Historical,Historical,Historical,1,2020,Nevada,Biomass: Total,105907887.57471749
+134,Historical,Historical,Historical,1,2020,Montana,Biomass: Total,837251836.7919651
+134,Historical,Historical,Historical,1,2020,Arizona,Biomass: Total,106957300.92517416
+135,BAU CanESM2,CanESM2,BAU,1,2020,Idaho,Biomass: Total,757763749.2769107
+135,BAU CanESM2,CanESM2,BAU,1,2020,New Mexico,Biomass: Total,241049051.11351717
+135,BAU CanESM2,CanESM2,BAU,1,2020,California,Biomass: Total,1016813274.4066056
+135,BAU CanESM2,CanESM2,BAU,1,2020,Oregon,Biomass: Total,1238031376.3982975
+135,BAU CanESM2,CanESM2,BAU,1,2020,Washington,Biomass: Total,1170447844.2997873
+135,BAU CanESM2,CanESM2,BAU,1,2020,Utah,Biomass: Total,280271739.42808276
+135,BAU CanESM2,CanESM2,BAU,1,2020,Colorado,Biomass: Total,558209176.4159801
+135,BAU CanESM2,CanESM2,BAU,1,2020,Wyoming,Biomass: Total,275676913.0377469
+135,BAU CanESM2,CanESM2,BAU,1,2020,Nevada,Biomass: Total,105907887.56707636
+135,BAU CanESM2,CanESM2,BAU,1,2020,Montana,Biomass: Total,837251836.8043582
+135,BAU CanESM2,CanESM2,BAU,1,2020,Arizona,Biomass: Total,106957300.92357177
+135,BAU CanESM2,CanESM2,BAU,1,2021,Idaho,Biomass: Total,763071669.5913945
+135,BAU CanESM2,CanESM2,BAU,1,2021,New Mexico,Biomass: Total,248994709.2716986
+135,BAU CanESM2,CanESM2,BAU,1,2021,California,Biomass: Total,1017467468.7448196
+135,BAU CanESM2,CanESM2,BAU,1,2021,Oregon,Biomass: Total,1237762532.7189236
+135,BAU CanESM2,CanESM2,BAU,1,2021,Washington,Biomass: Total,1177061372.0818927
+135,BAU CanESM2,CanESM2,BAU,1,2021,Utah,Biomass: Total,287007441.5138569
+135,BAU CanESM2,CanESM2,BAU,1,2021,Colorado,Biomass: Total,572105558.5884861
+135,BAU CanESM2,CanESM2,BAU,1,2021,Wyoming,Biomass: Total,280665124.6849785
+135,BAU CanESM2,CanESM2,BAU,1,2021,Nevada,Biomass: Total,109053049.6541213
+135,BAU CanESM2,CanESM2,BAU,1,2021,Montana,Biomass: Total,849893958.4771935
+135,BAU CanESM2,CanESM2,BAU,1,2021,Arizona,Biomass: Total,108880063.33549207
+135,BAU CanESM2,CanESM2,BAU,1,2022,Idaho,Biomass: Total,772470649.3152897
+135,BAU CanESM2,CanESM2,BAU,1,2022,New Mexico,Biomass: Total,254142614.22027045
+135,BAU CanESM2,CanESM2,BAU,1,2022,California,Biomass: Total,1043413172.6500541
+135,BAU CanESM2,CanESM2,BAU,1,2022,Oregon,Biomass: Total,1243041202.744839
+135,BAU CanESM2,CanESM2,BAU,1,2022,Washington,Biomass: Total,1178399937.6211133
+135,BAU CanESM2,CanESM2,BAU,1,2022,Utah,Biomass: Total,297533521.62599736
+135,BAU CanESM2,CanESM2,BAU,1,2022,Colorado,Biomass: Total,578240192.3161144
+135,BAU CanESM2,CanESM2,BAU,1,2022,Wyoming,Biomass: Total,285238475.8370246
+135,BAU CanESM2,CanESM2,BAU,1,2022,Nevada,Biomass: Total,115691304.14553697
+135,BAU CanESM2,CanESM2,BAU,1,2022,Montana,Biomass: Total,863347440.9053072
+135,BAU CanESM2,CanESM2,BAU,1,2022,Arizona,Biomass: Total,113673885.00968245
+135,BAU CanESM2,CanESM2,BAU,1,2023,Idaho,Biomass: Total,770944840.8269895
+135,BAU CanESM2,CanESM2,BAU,1,2023,New Mexico,Biomass: Total,267198001.23641035
+135,BAU CanESM2,CanESM2,BAU,1,2023,California,Biomass: Total,1020407831.8395727
+135,BAU CanESM2,CanESM2,BAU,1,2023,Oregon,Biomass: Total,1232938145.7984257
+135,BAU CanESM2,CanESM2,BAU,1,2023,Washington,Biomass: Total,1171722361.6282978
+135,BAU CanESM2,CanESM2,BAU,1,2023,Utah,Biomass: Total,303940452.79489535
+135,BAU CanESM2,CanESM2,BAU,1,2023,Colorado,Biomass: Total,594496837.3414438
+135,BAU CanESM2,CanESM2,BAU,1,2023,Wyoming,Biomass: Total,288982335.5331809
+135,BAU CanESM2,CanESM2,BAU,1,2023,Nevada,Biomass: Total,116713197.93137448
+135,BAU CanESM2,CanESM2,BAU,1,2023,Montana,Biomass: Total,865318435.1837752
+135,BAU CanESM2,CanESM2,BAU,1,2023,Arizona,Biomass: Total,117220859.72770528
+135,BAU CanESM2,CanESM2,BAU,1,2024,Idaho,Biomass: Total,777469586.722483
+135,BAU CanESM2,CanESM2,BAU,1,2024,New Mexico,Biomass: Total,268021613.39404398
+135,BAU CanESM2,CanESM2,BAU,1,2024,California,Biomass: Total,1002438847.9823647
+135,BAU CanESM2,CanESM2,BAU,1,2024,Oregon,Biomass: Total,1216160672.20992
+135,BAU CanESM2,CanESM2,BAU,1,2024,Washington,Biomass: Total,1167434342.6526053
+135,BAU CanESM2,CanESM2,BAU,1,2024,Utah,Biomass: Total,303667414.2549714
+135,BAU CanESM2,CanESM2,BAU,1,2024,Colorado,Biomass: Total,590730592.1144568
+135,BAU CanESM2,CanESM2,BAU,1,2024,Wyoming,Biomass: Total,289693944.72923
+135,BAU CanESM2,CanESM2,BAU,1,2024,Nevada,Biomass: Total,117772665.54662852
+135,BAU CanESM2,CanESM2,BAU,1,2024,Montana,Biomass: Total,873027975.3278136
+135,BAU CanESM2,CanESM2,BAU,1,2024,Arizona,Biomass: Total,115468660.76496032
+135,BAU CanESM2,CanESM2,BAU,1,2025,Idaho,Biomass: Total,772880645.0898998
+135,BAU CanESM2,CanESM2,BAU,1,2025,New Mexico,Biomass: Total,278390243.5973317
+135,BAU CanESM2,CanESM2,BAU,1,2025,California,Biomass: Total,975936149.3926742
+135,BAU CanESM2,CanESM2,BAU,1,2025,Oregon,Biomass: Total,1196081508.70546
+135,BAU CanESM2,CanESM2,BAU,1,2025,Washington,Biomass: Total,1156051719.5919988
+135,BAU CanESM2,CanESM2,BAU,1,2025,Utah,Biomass: Total,306437978.69633484
+135,BAU CanESM2,CanESM2,BAU,1,2025,Colorado,Biomass: Total,603496570.1120877
+135,BAU CanESM2,CanESM2,BAU,1,2025,Wyoming,Biomass: Total,291269222.1600662
+135,BAU CanESM2,CanESM2,BAU,1,2025,Nevada,Biomass: Total,116934906.62891354
+135,BAU CanESM2,CanESM2,BAU,1,2025,Montana,Biomass: Total,867028373.8866904
+135,BAU CanESM2,CanESM2,BAU,1,2025,Arizona,Biomass: Total,117370387.33376479
+135,BAU CanESM2,CanESM2,BAU,1,2026,Idaho,Biomass: Total,778475475.0146515
+135,BAU CanESM2,CanESM2,BAU,1,2026,New Mexico,Biomass: Total,281989168.16073763
+135,BAU CanESM2,CanESM2,BAU,1,2026,California,Biomass: Total,993686911.0117751
+135,BAU CanESM2,CanESM2,BAU,1,2026,Oregon,Biomass: Total,1198664881.893369
+135,BAU CanESM2,CanESM2,BAU,1,2026,Washington,Biomass: Total,1159930380.2972693
+135,BAU CanESM2,CanESM2,BAU,1,2026,Utah,Biomass: Total,312789920.8255751
+135,BAU CanESM2,CanESM2,BAU,1,2026,Colorado,Biomass: Total,613183491.5016977
+135,BAU CanESM2,CanESM2,BAU,1,2026,Wyoming,Biomass: Total,294744917.0064845
+135,BAU CanESM2,CanESM2,BAU,1,2026,Nevada,Biomass: Total,120831428.95871587
+135,BAU CanESM2,CanESM2,BAU,1,2026,Montana,Biomass: Total,876098831.3804657
+135,BAU CanESM2,CanESM2,BAU,1,2026,Arizona,Biomass: Total,117462512.52380836
+135,BAU CanESM2,CanESM2,BAU,1,2027,Idaho,Biomass: Total,787822907.3139862
+135,BAU CanESM2,CanESM2,BAU,1,2027,New Mexico,Biomass: Total,283629292.4181495
+135,BAU CanESM2,CanESM2,BAU,1,2027,California,Biomass: Total,984862659.7529656
+135,BAU CanESM2,CanESM2,BAU,1,2027,Oregon,Biomass: Total,1195639039.2361696
+135,BAU CanESM2,CanESM2,BAU,1,2027,Washington,Biomass: Total,1163434857.2467086
+135,BAU CanESM2,CanESM2,BAU,1,2027,Utah,Biomass: Total,315460118.63402414
+135,BAU CanESM2,CanESM2,BAU,1,2027,Colorado,Biomass: Total,620166173.5326834
+135,BAU CanESM2,CanESM2,BAU,1,2027,Wyoming,Biomass: Total,298424742.24808687
+135,BAU CanESM2,CanESM2,BAU,1,2027,Nevada,Biomass: Total,121233965.57447527
+135,BAU CanESM2,CanESM2,BAU,1,2027,Montana,Biomass: Total,891917257.2763041
+135,BAU CanESM2,CanESM2,BAU,1,2027,Arizona,Biomass: Total,118518135.66440797
+135,BAU CanESM2,CanESM2,BAU,1,2028,Idaho,Biomass: Total,805845854.3095111
+135,BAU CanESM2,CanESM2,BAU,1,2028,New Mexico,Biomass: Total,281462674.5518232
+135,BAU CanESM2,CanESM2,BAU,1,2028,California,Biomass: Total,989312354.8915516
+135,BAU CanESM2,CanESM2,BAU,1,2028,Oregon,Biomass: Total,1201387199.7787795
+135,BAU CanESM2,CanESM2,BAU,1,2028,Washington,Biomass: Total,1165600581.5475905
+135,BAU CanESM2,CanESM2,BAU,1,2028,Utah,Biomass: Total,324343509.3678626
+135,BAU CanESM2,CanESM2,BAU,1,2028,Colorado,Biomass: Total,626041869.3056145
+135,BAU CanESM2,CanESM2,BAU,1,2028,Wyoming,Biomass: Total,304632219.64759374
+135,BAU CanESM2,CanESM2,BAU,1,2028,Nevada,Biomass: Total,126548195.88520752
+135,BAU CanESM2,CanESM2,BAU,1,2028,Montana,Biomass: Total,915695483.7614298
+135,BAU CanESM2,CanESM2,BAU,1,2028,Arizona,Biomass: Total,118875725.3361092
+135,BAU CanESM2,CanESM2,BAU,1,2029,Idaho,Biomass: Total,806306316.0567116
+135,BAU CanESM2,CanESM2,BAU,1,2029,New Mexico,Biomass: Total,291051954.2659181
+135,BAU CanESM2,CanESM2,BAU,1,2029,California,Biomass: Total,984162276.9468802
+135,BAU CanESM2,CanESM2,BAU,1,2029,Oregon,Biomass: Total,1196550363.124403
+135,BAU CanESM2,CanESM2,BAU,1,2029,Washington,Biomass: Total,1158535617.1911895
+135,BAU CanESM2,CanESM2,BAU,1,2029,Utah,Biomass: Total,333160071.01499313
+135,BAU CanESM2,CanESM2,BAU,1,2029,Colorado,Biomass: Total,642928595.8753742
+135,BAU CanESM2,CanESM2,BAU,1,2029,Wyoming,Biomass: Total,309188851.7593644
+135,BAU CanESM2,CanESM2,BAU,1,2029,Nevada,Biomass: Total,128397434.97451513
+135,BAU CanESM2,CanESM2,BAU,1,2029,Montana,Biomass: Total,924089588.110317
+135,BAU CanESM2,CanESM2,BAU,1,2029,Arizona,Biomass: Total,121846110.40002078
+135,BAU CanESM2,CanESM2,BAU,1,2030,Idaho,Biomass: Total,808389702.2444242
+135,BAU CanESM2,CanESM2,BAU,1,2030,New Mexico,Biomass: Total,296100855.8174326
+135,BAU CanESM2,CanESM2,BAU,1,2030,California,Biomass: Total,975018285.6705024
+135,BAU CanESM2,CanESM2,BAU,1,2030,Oregon,Biomass: Total,1194617058.0197453
+135,BAU CanESM2,CanESM2,BAU,1,2030,Washington,Biomass: Total,1160049152.3849018
+135,BAU CanESM2,CanESM2,BAU,1,2030,Utah,Biomass: Total,333657627.55637264
+135,BAU CanESM2,CanESM2,BAU,1,2030,Colorado,Biomass: Total,644726800.9256445
+135,BAU CanESM2,CanESM2,BAU,1,2030,Wyoming,Biomass: Total,311374057.0243596
+135,BAU CanESM2,CanESM2,BAU,1,2030,Nevada,Biomass: Total,129279927.7314067
+135,BAU CanESM2,CanESM2,BAU,1,2030,Montana,Biomass: Total,932029410.0143483
+135,BAU CanESM2,CanESM2,BAU,1,2030,Arizona,Biomass: Total,123248870.18800722
+135,BAU CanESM2,CanESM2,BAU,1,2031,Idaho,Biomass: Total,815634087.463445
+135,BAU CanESM2,CanESM2,BAU,1,2031,New Mexico,Biomass: Total,296240164.5398784
+135,BAU CanESM2,CanESM2,BAU,1,2031,California,Biomass: Total,969884519.5008974
+135,BAU CanESM2,CanESM2,BAU,1,2031,Oregon,Biomass: Total,1195686707.6554215
+135,BAU CanESM2,CanESM2,BAU,1,2031,Washington,Biomass: Total,1162839421.1542048
+135,BAU CanESM2,CanESM2,BAU,1,2031,Utah,Biomass: Total,331366244.6408521
+135,BAU CanESM2,CanESM2,BAU,1,2031,Colorado,Biomass: Total,642841089.0838507
+135,BAU CanESM2,CanESM2,BAU,1,2031,Wyoming,Biomass: Total,313282041.6822296
+135,BAU CanESM2,CanESM2,BAU,1,2031,Nevada,Biomass: Total,128420511.86888924
+135,BAU CanESM2,CanESM2,BAU,1,2031,Montana,Biomass: Total,942950403.0870821
+135,BAU CanESM2,CanESM2,BAU,1,2031,Arizona,Biomass: Total,122757964.68645531
+135,BAU CanESM2,CanESM2,BAU,1,2032,Idaho,Biomass: Total,828296801.7031645
+135,BAU CanESM2,CanESM2,BAU,1,2032,New Mexico,Biomass: Total,300562489.9741439
+135,BAU CanESM2,CanESM2,BAU,1,2032,California,Biomass: Total,978426010.6653134
+135,BAU CanESM2,CanESM2,BAU,1,2032,Oregon,Biomass: Total,1195192002.5348318
+135,BAU CanESM2,CanESM2,BAU,1,2032,Washington,Biomass: Total,1168439806.1164815
+135,BAU CanESM2,CanESM2,BAU,1,2032,Utah,Biomass: Total,339962151.4691537
+135,BAU CanESM2,CanESM2,BAU,1,2032,Colorado,Biomass: Total,654299961.4295053
+135,BAU CanESM2,CanESM2,BAU,1,2032,Wyoming,Biomass: Total,317729600.84186846
+135,BAU CanESM2,CanESM2,BAU,1,2032,Nevada,Biomass: Total,131906397.19412449
+135,BAU CanESM2,CanESM2,BAU,1,2032,Montana,Biomass: Total,963067253.1011419
+135,BAU CanESM2,CanESM2,BAU,1,2032,Arizona,Biomass: Total,125656792.02683511
+135,BAU CanESM2,CanESM2,BAU,1,2033,Idaho,Biomass: Total,839678767.7615206
+135,BAU CanESM2,CanESM2,BAU,1,2033,New Mexico,Biomass: Total,299704888.40329957
+135,BAU CanESM2,CanESM2,BAU,1,2033,California,Biomass: Total,980014557.1393982
+135,BAU CanESM2,CanESM2,BAU,1,2033,Oregon,Biomass: Total,1207233206.345618
+135,BAU CanESM2,CanESM2,BAU,1,2033,Washington,Biomass: Total,1180839894.3608263
+135,BAU CanESM2,CanESM2,BAU,1,2033,Utah,Biomass: Total,342543818.7225366
+135,BAU CanESM2,CanESM2,BAU,1,2033,Colorado,Biomass: Total,654880562.9269173
+135,BAU CanESM2,CanESM2,BAU,1,2033,Wyoming,Biomass: Total,321019119.056934
+135,BAU CanESM2,CanESM2,BAU,1,2033,Nevada,Biomass: Total,131981210.66506565
+135,BAU CanESM2,CanESM2,BAU,1,2033,Montana,Biomass: Total,975421502.7451246
+135,BAU CanESM2,CanESM2,BAU,1,2033,Arizona,Biomass: Total,124842046.80336052
+135,BAU CanESM2,CanESM2,BAU,1,2034,Idaho,Biomass: Total,847357613.784991
+135,BAU CanESM2,CanESM2,BAU,1,2034,New Mexico,Biomass: Total,296635331.7046309
+135,BAU CanESM2,CanESM2,BAU,1,2034,California,Biomass: Total,959982889.8225797
+135,BAU CanESM2,CanESM2,BAU,1,2034,Oregon,Biomass: Total,1208240499.1226807
+135,BAU CanESM2,CanESM2,BAU,1,2034,Washington,Biomass: Total,1193873740.1497972
+135,BAU CanESM2,CanESM2,BAU,1,2034,Utah,Biomass: Total,344492921.3105935
+135,BAU CanESM2,CanESM2,BAU,1,2034,Colorado,Biomass: Total,651674170.125755
+135,BAU CanESM2,CanESM2,BAU,1,2034,Wyoming,Biomass: Total,322876922.5508068
+135,BAU CanESM2,CanESM2,BAU,1,2034,Nevada,Biomass: Total,132235757.90571326
+135,BAU CanESM2,CanESM2,BAU,1,2034,Montana,Biomass: Total,987199895.4328883
+135,BAU CanESM2,CanESM2,BAU,1,2034,Arizona,Biomass: Total,123368555.85773954
+135,BAU CanESM2,CanESM2,BAU,1,2035,Idaho,Biomass: Total,855260145.6091195
+135,BAU CanESM2,CanESM2,BAU,1,2035,New Mexico,Biomass: Total,296212403.3115819
+135,BAU CanESM2,CanESM2,BAU,1,2035,California,Biomass: Total,960810924.5960646
+135,BAU CanESM2,CanESM2,BAU,1,2035,Oregon,Biomass: Total,1200013129.3666165
+135,BAU CanESM2,CanESM2,BAU,1,2035,Washington,Biomass: Total,1190973247.4361386
+135,BAU CanESM2,CanESM2,BAU,1,2035,Utah,Biomass: Total,350259888.5241905
+135,BAU CanESM2,CanESM2,BAU,1,2035,Colorado,Biomass: Total,654579719.9573978
+135,BAU CanESM2,CanESM2,BAU,1,2035,Wyoming,Biomass: Total,326787348.9414813
+135,BAU CanESM2,CanESM2,BAU,1,2035,Nevada,Biomass: Total,135252738.88741723
+135,BAU CanESM2,CanESM2,BAU,1,2035,Montana,Biomass: Total,1000006327.1499372
+135,BAU CanESM2,CanESM2,BAU,1,2035,Arizona,Biomass: Total,123496731.1142854
+135,BAU CanESM2,CanESM2,BAU,1,2036,Idaho,Biomass: Total,851451942.6378355
+135,BAU CanESM2,CanESM2,BAU,1,2036,New Mexico,Biomass: Total,294273863.8388256
+135,BAU CanESM2,CanESM2,BAU,1,2036,California,Biomass: Total,964506737.8101381
+135,BAU CanESM2,CanESM2,BAU,1,2036,Oregon,Biomass: Total,1204239566.0862503
+135,BAU CanESM2,CanESM2,BAU,1,2036,Washington,Biomass: Total,1199352446.4895954
+135,BAU CanESM2,CanESM2,BAU,1,2036,Utah,Biomass: Total,349971152.22428215
+135,BAU CanESM2,CanESM2,BAU,1,2036,Colorado,Biomass: Total,653039120.5004674
+135,BAU CanESM2,CanESM2,BAU,1,2036,Wyoming,Biomass: Total,328612372.9950158
+135,BAU CanESM2,CanESM2,BAU,1,2036,Nevada,Biomass: Total,137831184.71671948
+135,BAU CanESM2,CanESM2,BAU,1,2036,Montana,Biomass: Total,1000910872.2852993
+135,BAU CanESM2,CanESM2,BAU,1,2036,Arizona,Biomass: Total,122089087.0645476
+135,BAU CanESM2,CanESM2,BAU,1,2037,Idaho,Biomass: Total,866162017.2980535
+135,BAU CanESM2,CanESM2,BAU,1,2037,New Mexico,Biomass: Total,308377976.7131791
+135,BAU CanESM2,CanESM2,BAU,1,2037,California,Biomass: Total,974966519.0703429
+135,BAU CanESM2,CanESM2,BAU,1,2037,Oregon,Biomass: Total,1206576558.0444107
+135,BAU CanESM2,CanESM2,BAU,1,2037,Washington,Biomass: Total,1203000929.635367
+135,BAU CanESM2,CanESM2,BAU,1,2037,Utah,Biomass: Total,361630310.1843219
+135,BAU CanESM2,CanESM2,BAU,1,2037,Colorado,Biomass: Total,671941875.6712303
+135,BAU CanESM2,CanESM2,BAU,1,2037,Wyoming,Biomass: Total,335623578.6703
+135,BAU CanESM2,CanESM2,BAU,1,2037,Nevada,Biomass: Total,143146272.56673303
+135,BAU CanESM2,CanESM2,BAU,1,2037,Montana,Biomass: Total,1027587151.4768622
+135,BAU CanESM2,CanESM2,BAU,1,2037,Arizona,Biomass: Total,128403246.94100188
+135,BAU CanESM2,CanESM2,BAU,1,2038,Idaho,Biomass: Total,879692860.1657349
+135,BAU CanESM2,CanESM2,BAU,1,2038,New Mexico,Biomass: Total,302451574.1513044
+135,BAU CanESM2,CanESM2,BAU,1,2038,California,Biomass: Total,966373635.5317552
+135,BAU CanESM2,CanESM2,BAU,1,2038,Oregon,Biomass: Total,1212632843.3679857
+135,BAU CanESM2,CanESM2,BAU,1,2038,Washington,Biomass: Total,1211514913.6830919
+135,BAU CanESM2,CanESM2,BAU,1,2038,Utah,Biomass: Total,351856523.46064603
+135,BAU CanESM2,CanESM2,BAU,1,2038,Colorado,Biomass: Total,659764057.8631358
+135,BAU CanESM2,CanESM2,BAU,1,2038,Wyoming,Biomass: Total,335181785.0131223
+135,BAU CanESM2,CanESM2,BAU,1,2038,Nevada,Biomass: Total,139482509.12359205
+135,BAU CanESM2,CanESM2,BAU,1,2038,Montana,Biomass: Total,1048015187.5373893
+135,BAU CanESM2,CanESM2,BAU,1,2038,Arizona,Biomass: Total,123530602.31215188
+135,BAU CanESM2,CanESM2,BAU,1,2039,Idaho,Biomass: Total,884826004.8393465
+135,BAU CanESM2,CanESM2,BAU,1,2039,New Mexico,Biomass: Total,301530387.59395033
+135,BAU CanESM2,CanESM2,BAU,1,2039,California,Biomass: Total,936958334.3045915
+135,BAU CanESM2,CanESM2,BAU,1,2039,Oregon,Biomass: Total,1193918507.5251048
+135,BAU CanESM2,CanESM2,BAU,1,2039,Washington,Biomass: Total,1206353501.4249573
+135,BAU CanESM2,CanESM2,BAU,1,2039,Utah,Biomass: Total,352606708.33894897
+135,BAU CanESM2,CanESM2,BAU,1,2039,Colorado,Biomass: Total,662625896.4030122
+135,BAU CanESM2,CanESM2,BAU,1,2039,Wyoming,Biomass: Total,336662699.276457
+135,BAU CanESM2,CanESM2,BAU,1,2039,Nevada,Biomass: Total,136776740.53331974
+135,BAU CanESM2,CanESM2,BAU,1,2039,Montana,Biomass: Total,1053356288.7170961
+135,BAU CanESM2,CanESM2,BAU,1,2039,Arizona,Biomass: Total,121970519.28674334
+135,BAU CanESM2,CanESM2,BAU,1,2040,Idaho,Biomass: Total,894111651.7881694
+135,BAU CanESM2,CanESM2,BAU,1,2040,New Mexico,Biomass: Total,307966581.1852565
+135,BAU CanESM2,CanESM2,BAU,1,2040,California,Biomass: Total,943381762.8993623
+135,BAU CanESM2,CanESM2,BAU,1,2040,Oregon,Biomass: Total,1185764285.1404605
+135,BAU CanESM2,CanESM2,BAU,1,2040,Washington,Biomass: Total,1203102066.4379408
+135,BAU CanESM2,CanESM2,BAU,1,2040,Utah,Biomass: Total,363124313.1926176
+135,BAU CanESM2,CanESM2,BAU,1,2040,Colorado,Biomass: Total,678319701.4871353
+135,BAU CanESM2,CanESM2,BAU,1,2040,Wyoming,Biomass: Total,342938885.6112908
+135,BAU CanESM2,CanESM2,BAU,1,2040,Nevada,Biomass: Total,141936207.9362756
+135,BAU CanESM2,CanESM2,BAU,1,2040,Montana,Biomass: Total,1071733642.0097923
+135,BAU CanESM2,CanESM2,BAU,1,2040,Arizona,Biomass: Total,124639207.95152104
+135,BAU CanESM2,CanESM2,BAU,1,2041,Idaho,Biomass: Total,901285892.2622073
+135,BAU CanESM2,CanESM2,BAU,1,2041,New Mexico,Biomass: Total,311394677.5953149
+135,BAU CanESM2,CanESM2,BAU,1,2041,California,Biomass: Total,930763704.8150909
+135,BAU CanESM2,CanESM2,BAU,1,2041,Oregon,Biomass: Total,1184057728.7770162
+135,BAU CanESM2,CanESM2,BAU,1,2041,Washington,Biomass: Total,1207032947.366545
+135,BAU CanESM2,CanESM2,BAU,1,2041,Utah,Biomass: Total,358867910.05259913
+135,BAU CanESM2,CanESM2,BAU,1,2041,Colorado,Biomass: Total,681630316.7269222
+135,BAU CanESM2,CanESM2,BAU,1,2041,Wyoming,Biomass: Total,343803271.77294534
+135,BAU CanESM2,CanESM2,BAU,1,2041,Nevada,Biomass: Total,138960184.22447872
+135,BAU CanESM2,CanESM2,BAU,1,2041,Montana,Biomass: Total,1076999777.7916508
+135,BAU CanESM2,CanESM2,BAU,1,2041,Arizona,Biomass: Total,123070801.81066489
+135,BAU CanESM2,CanESM2,BAU,1,2042,Idaho,Biomass: Total,907648255.5204197
+135,BAU CanESM2,CanESM2,BAU,1,2042,New Mexico,Biomass: Total,311399456.9500206
+135,BAU CanESM2,CanESM2,BAU,1,2042,California,Biomass: Total,945836161.9817625
+135,BAU CanESM2,CanESM2,BAU,1,2042,Oregon,Biomass: Total,1181212851.5058608
+135,BAU CanESM2,CanESM2,BAU,1,2042,Washington,Biomass: Total,1204339465.211281
+135,BAU CanESM2,CanESM2,BAU,1,2042,Utah,Biomass: Total,365551460.7028483
+135,BAU CanESM2,CanESM2,BAU,1,2042,Colorado,Biomass: Total,688143258.0317652
+135,BAU CanESM2,CanESM2,BAU,1,2042,Wyoming,Biomass: Total,346716547.69956297
+135,BAU CanESM2,CanESM2,BAU,1,2042,Nevada,Biomass: Total,142940466.20704043
+135,BAU CanESM2,CanESM2,BAU,1,2042,Montana,Biomass: Total,1085226778.7896962
+135,BAU CanESM2,CanESM2,BAU,1,2042,Arizona,Biomass: Total,123102006.19781
+135,BAU CanESM2,CanESM2,BAU,1,2043,Idaho,Biomass: Total,893180524.9715743
+135,BAU CanESM2,CanESM2,BAU,1,2043,New Mexico,Biomass: Total,311235749.02781373
+135,BAU CanESM2,CanESM2,BAU,1,2043,California,Biomass: Total,927766589.6463892
+135,BAU CanESM2,CanESM2,BAU,1,2043,Oregon,Biomass: Total,1172899050.3739939
+135,BAU CanESM2,CanESM2,BAU,1,2043,Washington,Biomass: Total,1199422701.1535187
+135,BAU CanESM2,CanESM2,BAU,1,2043,Utah,Biomass: Total,357616521.6803311
+135,BAU CanESM2,CanESM2,BAU,1,2043,Colorado,Biomass: Total,678283570.9758979
+135,BAU CanESM2,CanESM2,BAU,1,2043,Wyoming,Biomass: Total,344620908.0006357
+135,BAU CanESM2,CanESM2,BAU,1,2043,Nevada,Biomass: Total,139493888.39986762
+135,BAU CanESM2,CanESM2,BAU,1,2043,Montana,Biomass: Total,1082763068.7348108
+135,BAU CanESM2,CanESM2,BAU,1,2043,Arizona,Biomass: Total,121830542.68696108
+135,BAU CanESM2,CanESM2,BAU,1,2044,Idaho,Biomass: Total,903271950.0452521
+135,BAU CanESM2,CanESM2,BAU,1,2044,New Mexico,Biomass: Total,312895681.29586524
+135,BAU CanESM2,CanESM2,BAU,1,2044,California,Biomass: Total,933554629.1575288
+135,BAU CanESM2,CanESM2,BAU,1,2044,Oregon,Biomass: Total,1178332373.1826777
+135,BAU CanESM2,CanESM2,BAU,1,2044,Washington,Biomass: Total,1206697340.2577834
+135,BAU CanESM2,CanESM2,BAU,1,2044,Utah,Biomass: Total,357951962.6401061
+135,BAU CanESM2,CanESM2,BAU,1,2044,Colorado,Biomass: Total,680758749.2385119
+135,BAU CanESM2,CanESM2,BAU,1,2044,Wyoming,Biomass: Total,347707595.5344399
+135,BAU CanESM2,CanESM2,BAU,1,2044,Nevada,Biomass: Total,139325921.4392953
+135,BAU CanESM2,CanESM2,BAU,1,2044,Montana,Biomass: Total,1094568368.7430477
+135,BAU CanESM2,CanESM2,BAU,1,2044,Arizona,Biomass: Total,119442760.69416551
+135,BAU CanESM2,CanESM2,BAU,1,2045,Idaho,Biomass: Total,898680985.0222367
+135,BAU CanESM2,CanESM2,BAU,1,2045,New Mexico,Biomass: Total,316267882.4721831
+135,BAU CanESM2,CanESM2,BAU,1,2045,California,Biomass: Total,943266690.0328088
+135,BAU CanESM2,CanESM2,BAU,1,2045,Oregon,Biomass: Total,1165901934.865203
+135,BAU CanESM2,CanESM2,BAU,1,2045,Washington,Biomass: Total,1194653754.2813144
+135,BAU CanESM2,CanESM2,BAU,1,2045,Utah,Biomass: Total,368751875.64244723
+135,BAU CanESM2,CanESM2,BAU,1,2045,Colorado,Biomass: Total,691546695.7669401
+135,BAU CanESM2,CanESM2,BAU,1,2045,Wyoming,Biomass: Total,351436045.2754831
+135,BAU CanESM2,CanESM2,BAU,1,2045,Nevada,Biomass: Total,144161461.8628766
+135,BAU CanESM2,CanESM2,BAU,1,2045,Montana,Biomass: Total,1084977341.9517937
+135,BAU CanESM2,CanESM2,BAU,1,2045,Arizona,Biomass: Total,118990248.65483372
+135,BAU CanESM2,CanESM2,BAU,1,2046,Idaho,Biomass: Total,909310913.0090324
+135,BAU CanESM2,CanESM2,BAU,1,2046,New Mexico,Biomass: Total,322821887.1769818
+135,BAU CanESM2,CanESM2,BAU,1,2046,California,Biomass: Total,957687282.3715789
+135,BAU CanESM2,CanESM2,BAU,1,2046,Oregon,Biomass: Total,1169541162.566965
+135,BAU CanESM2,CanESM2,BAU,1,2046,Washington,Biomass: Total,1196946796.1235216
+135,BAU CanESM2,CanESM2,BAU,1,2046,Utah,Biomass: Total,379768347.83321565
+135,BAU CanESM2,CanESM2,BAU,1,2046,Colorado,Biomass: Total,705349833.9571091
+135,BAU CanESM2,CanESM2,BAU,1,2046,Wyoming,Biomass: Total,354211273.7544727
+135,BAU CanESM2,CanESM2,BAU,1,2046,Nevada,Biomass: Total,148328306.82634422
+135,BAU CanESM2,CanESM2,BAU,1,2046,Montana,Biomass: Total,1102449577.9837656
+135,BAU CanESM2,CanESM2,BAU,1,2046,Arizona,Biomass: Total,122801944.3683514
+135,BAU CanESM2,CanESM2,BAU,1,2047,Idaho,Biomass: Total,915119548.0386504
+135,BAU CanESM2,CanESM2,BAU,1,2047,New Mexico,Biomass: Total,322562182.0365418
+135,BAU CanESM2,CanESM2,BAU,1,2047,California,Biomass: Total,947454325.2210964
+135,BAU CanESM2,CanESM2,BAU,1,2047,Oregon,Biomass: Total,1164839606.1974301
+135,BAU CanESM2,CanESM2,BAU,1,2047,Washington,Biomass: Total,1195584958.593347
+135,BAU CanESM2,CanESM2,BAU,1,2047,Utah,Biomass: Total,381175668.054316
+135,BAU CanESM2,CanESM2,BAU,1,2047,Colorado,Biomass: Total,708249019.006055
+135,BAU CanESM2,CanESM2,BAU,1,2047,Wyoming,Biomass: Total,355762881.6049099
+135,BAU CanESM2,CanESM2,BAU,1,2047,Nevada,Biomass: Total,147729701.0764915
+135,BAU CanESM2,CanESM2,BAU,1,2047,Montana,Biomass: Total,1115780681.0840037
+135,BAU CanESM2,CanESM2,BAU,1,2047,Arizona,Biomass: Total,124866118.5688709
+135,BAU CanESM2,CanESM2,BAU,1,2048,Idaho,Biomass: Total,916357699.5864867
+135,BAU CanESM2,CanESM2,BAU,1,2048,New Mexico,Biomass: Total,323974897.33446604
+135,BAU CanESM2,CanESM2,BAU,1,2048,California,Biomass: Total,956470425.7654381
+135,BAU CanESM2,CanESM2,BAU,1,2048,Oregon,Biomass: Total,1168491188.440501
+135,BAU CanESM2,CanESM2,BAU,1,2048,Washington,Biomass: Total,1193731542.3005826
+135,BAU CanESM2,CanESM2,BAU,1,2048,Utah,Biomass: Total,387319080.2898329
+135,BAU CanESM2,CanESM2,BAU,1,2048,Colorado,Biomass: Total,713617303.2112485
+135,BAU CanESM2,CanESM2,BAU,1,2048,Wyoming,Biomass: Total,359951133.81944793
+135,BAU CanESM2,CanESM2,BAU,1,2048,Nevada,Biomass: Total,150728599.52066067
+135,BAU CanESM2,CanESM2,BAU,1,2048,Montana,Biomass: Total,1126197503.1255648
+135,BAU CanESM2,CanESM2,BAU,1,2048,Arizona,Biomass: Total,124860662.97977549
+135,BAU CanESM2,CanESM2,BAU,1,2049,Idaho,Biomass: Total,918373432.9452547
+135,BAU CanESM2,CanESM2,BAU,1,2049,New Mexico,Biomass: Total,317048660.3954385
+135,BAU CanESM2,CanESM2,BAU,1,2049,California,Biomass: Total,945688522.0490557
+135,BAU CanESM2,CanESM2,BAU,1,2049,Oregon,Biomass: Total,1157978059.461317
+135,BAU CanESM2,CanESM2,BAU,1,2049,Washington,Biomass: Total,1194676071.8928924
+135,BAU CanESM2,CanESM2,BAU,1,2049,Utah,Biomass: Total,378574899.2793188
+135,BAU CanESM2,CanESM2,BAU,1,2049,Colorado,Biomass: Total,706932284.2104363
+135,BAU CanESM2,CanESM2,BAU,1,2049,Wyoming,Biomass: Total,360480911.261578
+135,BAU CanESM2,CanESM2,BAU,1,2049,Nevada,Biomass: Total,146924936.01309204
+135,BAU CanESM2,CanESM2,BAU,1,2049,Montana,Biomass: Total,1124091882.2597022
+135,BAU CanESM2,CanESM2,BAU,1,2049,Arizona,Biomass: Total,120775603.91844355
+135,BAU CanESM2,CanESM2,BAU,1,2050,Idaho,Biomass: Total,927812103.5432057
+135,BAU CanESM2,CanESM2,BAU,1,2050,New Mexico,Biomass: Total,323888489.0475667
+135,BAU CanESM2,CanESM2,BAU,1,2050,California,Biomass: Total,939015100.7564466
+135,BAU CanESM2,CanESM2,BAU,1,2050,Oregon,Biomass: Total,1163774096.8804784
+135,BAU CanESM2,CanESM2,BAU,1,2050,Washington,Biomass: Total,1203209071.5281167
+135,BAU CanESM2,CanESM2,BAU,1,2050,Utah,Biomass: Total,387648589.1525766
+135,BAU CanESM2,CanESM2,BAU,1,2050,Colorado,Biomass: Total,721298498.0768399
+135,BAU CanESM2,CanESM2,BAU,1,2050,Wyoming,Biomass: Total,365565527.29782116
+135,BAU CanESM2,CanESM2,BAU,1,2050,Nevada,Biomass: Total,148238015.2153787
+135,BAU CanESM2,CanESM2,BAU,1,2050,Montana,Biomass: Total,1142494154.6514213
+135,BAU CanESM2,CanESM2,BAU,1,2050,Arizona,Biomass: Total,123868217.09975122
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Idaho,Biomass: Total,757763749.2769107
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,New Mexico,Biomass: Total,241049051.11351717
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,California,Biomass: Total,1016813274.4066056
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Oregon,Biomass: Total,1238031376.3982975
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Washington,Biomass: Total,1170447844.2997873
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Utah,Biomass: Total,280271739.42808276
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Colorado,Biomass: Total,558209176.4159801
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Wyoming,Biomass: Total,275676913.0377469
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Nevada,Biomass: Total,105907887.56707636
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Montana,Biomass: Total,837251836.8043582
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Arizona,Biomass: Total,106957300.92357177
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Idaho,Biomass: Total,766490812.0620877
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,New Mexico,Biomass: Total,246410490.49702647
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,California,Biomass: Total,1012025730.77515
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Oregon,Biomass: Total,1240480857.1945562
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Washington,Biomass: Total,1178261560.1174362
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Utah,Biomass: Total,282239713.09522843
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Colorado,Biomass: Total,565466409.4680548
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Wyoming,Biomass: Total,278220478.7859439
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Nevada,Biomass: Total,105395568.92736587
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Montana,Biomass: Total,854745421.627256
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Arizona,Biomass: Total,107787438.30301048
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Idaho,Biomass: Total,770766599.3570031
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,New Mexico,Biomass: Total,245333618.68231666
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,California,Biomass: Total,1019992477.8792765
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Oregon,Biomass: Total,1245285537.8041358
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Washington,Biomass: Total,1185408771.6786082
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Utah,Biomass: Total,283174407.5776383
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Colorado,Biomass: Total,567059276.4897074
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Wyoming,Biomass: Total,281354039.3131073
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Nevada,Biomass: Total,106629829.48283072
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Montana,Biomass: Total,868095163.4615262
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Arizona,Biomass: Total,106421152.78373654
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Idaho,Biomass: Total,779803279.12688
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,New Mexico,Biomass: Total,253408979.3178099
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,California,Biomass: Total,1024642385.734168
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Oregon,Biomass: Total,1246936849.2834148
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Washington,Biomass: Total,1186687992.6430461
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Utah,Biomass: Total,297218369.97366506
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Colorado,Biomass: Total,582404152.4654095
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Wyoming,Biomass: Total,287294812.0657933
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Nevada,Biomass: Total,113712057.0558411
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Montana,Biomass: Total,876321682.0953963
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Arizona,Biomass: Total,110632728.96292806
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Idaho,Biomass: Total,788950349.5067575
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,New Mexico,Biomass: Total,259933771.66046718
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,California,Biomass: Total,998853917.8704625
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Oregon,Biomass: Total,1226574759.3475559
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Washington,Biomass: Total,1186401835.300509
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Utah,Biomass: Total,297586515.3885969
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Colorado,Biomass: Total,586881028.7907137
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Wyoming,Biomass: Total,288792727.3404672
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Nevada,Biomass: Total,113616492.66370422
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Montana,Biomass: Total,885970808.827212
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Arizona,Biomass: Total,110422323.4519574
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Idaho,Biomass: Total,784418248.5985985
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,New Mexico,Biomass: Total,258104508.0106045
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,California,Biomass: Total,966530687.9843597
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Oregon,Biomass: Total,1201691905.7458181
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Washington,Biomass: Total,1177716317.6691172
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Utah,Biomass: Total,295472422.78081316
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Colorado,Biomass: Total,587188515.8246078
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Wyoming,Biomass: Total,288855174.65307593
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Nevada,Biomass: Total,111035272.32133493
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Montana,Biomass: Total,885367206.1664981
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Arizona,Biomass: Total,108837881.74474318
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Idaho,Biomass: Total,791186254.6098018
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,New Mexico,Biomass: Total,259713022.30907035
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,California,Biomass: Total,960877724.4760232
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Oregon,Biomass: Total,1203548192.3379571
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Washington,Biomass: Total,1182167153.977691
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Utah,Biomass: Total,295197258.247966
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Colorado,Biomass: Total,590125164.8088052
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Wyoming,Biomass: Total,291519865.8476519
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Nevada,Biomass: Total,109740623.83765557
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Montana,Biomass: Total,891919423.2369581
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Arizona,Biomass: Total,107681575.46185288
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Idaho,Biomass: Total,800067052.674964
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,New Mexico,Biomass: Total,259296695.58086994
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,California,Biomass: Total,949782325.6210502
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Oregon,Biomass: Total,1192760847.3225806
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Washington,Biomass: Total,1182250731.7452364
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Utah,Biomass: Total,293606052.4580212
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Colorado,Biomass: Total,591934056.2794083
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Wyoming,Biomass: Total,296146846.23991406
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Nevada,Biomass: Total,109573020.31243257
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Montana,Biomass: Total,912329726.3602542
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Arizona,Biomass: Total,105665511.12924731
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Idaho,Biomass: Total,814775186.4995503
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,New Mexico,Biomass: Total,257631130.08494413
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,California,Biomass: Total,966631541.1745592
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Oregon,Biomass: Total,1197819808.490994
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Washington,Biomass: Total,1190512542.3184178
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Utah,Biomass: Total,296647265.3103101
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Colorado,Biomass: Total,594835253.4801977
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Wyoming,Biomass: Total,300449614.8425284
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Nevada,Biomass: Total,112740884.85965106
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Montana,Biomass: Total,928763887.0443254
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Arizona,Biomass: Total,104829151.57932861
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Idaho,Biomass: Total,820511863.4625936
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,New Mexico,Biomass: Total,260851929.80644092
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,California,Biomass: Total,953122906.829703
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Oregon,Biomass: Total,1200027591.5735936
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Washington,Biomass: Total,1189668555.53177
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Utah,Biomass: Total,296528264.4108262
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Colorado,Biomass: Total,602781992.0268135
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Wyoming,Biomass: Total,303764363.7707691
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Nevada,Biomass: Total,112299650.71551009
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Montana,Biomass: Total,941683862.4101701
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Arizona,Biomass: Total,104962017.56565231
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Idaho,Biomass: Total,812764563.8142713
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,New Mexico,Biomass: Total,257363418.54525524
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,California,Biomass: Total,944874828.0779809
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Oregon,Biomass: Total,1189622994.4030306
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Washington,Biomass: Total,1186688474.3926747
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Utah,Biomass: Total,289630519.91681534
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Colorado,Biomass: Total,596853755.1836762
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Wyoming,Biomass: Total,303169000.76209193
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Nevada,Biomass: Total,110286429.91770273
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Montana,Biomass: Total,950660116.782724
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Arizona,Biomass: Total,103588705.05683607
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Idaho,Biomass: Total,820073952.014691
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,New Mexico,Biomass: Total,263302995.1104229
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,California,Biomass: Total,960116468.4680903
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Oregon,Biomass: Total,1194047194.1619492
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Washington,Biomass: Total,1191705988.5154467
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Utah,Biomass: Total,302192325.12835777
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Colorado,Biomass: Total,611134159.8325802
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Wyoming,Biomass: Total,306253401.5832362
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Nevada,Biomass: Total,113115005.69584394
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Montana,Biomass: Total,960389524.6695524
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Arizona,Biomass: Total,108809968.09339412
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Idaho,Biomass: Total,824948195.1407261
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,New Mexico,Biomass: Total,269237497.49571776
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,California,Biomass: Total,956617854.0596
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Oregon,Biomass: Total,1190806200.685987
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Washington,Biomass: Total,1188354253.1470594
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Utah,Biomass: Total,304054744.03344893
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Colorado,Biomass: Total,617491574.386761
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Wyoming,Biomass: Total,307979669.75064355
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Nevada,Biomass: Total,115790857.33183062
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Montana,Biomass: Total,963712691.4819409
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Arizona,Biomass: Total,111352601.04678452
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Idaho,Biomass: Total,838243426.0249488
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,New Mexico,Biomass: Total,272507719.25131834
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,California,Biomass: Total,962390161.327285
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Oregon,Biomass: Total,1197351374.3424811
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Washington,Biomass: Total,1197148303.5114272
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Utah,Biomass: Total,310618791.35922253
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Colorado,Biomass: Total,629036675.211358
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Wyoming,Biomass: Total,312606977.3668486
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Nevada,Biomass: Total,117416723.14845349
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Montana,Biomass: Total,983134547.065167
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Arizona,Biomass: Total,110975587.0046854
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Idaho,Biomass: Total,844635521.7159158
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,New Mexico,Biomass: Total,277435710.82086337
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,California,Biomass: Total,924330000.9415534
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Oregon,Biomass: Total,1197394884.0296526
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Washington,Biomass: Total,1200975289.0186586
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Utah,Biomass: Total,306364870.59028757
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Colorado,Biomass: Total,635743459.7139403
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Wyoming,Biomass: Total,316741864.48195136
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Nevada,Biomass: Total,114566152.88394871
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Montana,Biomass: Total,995395377.4998996
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Arizona,Biomass: Total,109381072.98241974
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Idaho,Biomass: Total,857754118.3296924
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,New Mexico,Biomass: Total,275713767.64306605
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,California,Biomass: Total,925834128.7520128
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Oregon,Biomass: Total,1191732346.0736036
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Washington,Biomass: Total,1204438105.6503704
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Utah,Biomass: Total,309310778.0782176
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Colorado,Biomass: Total,635987960.2192787
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Wyoming,Biomass: Total,321430742.2333706
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Nevada,Biomass: Total,118808835.01639622
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Montana,Biomass: Total,1014190093.6864977
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Arizona,Biomass: Total,108982578.45203674
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Idaho,Biomass: Total,846474100.2579551
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,New Mexico,Biomass: Total,275814842.9458823
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,California,Biomass: Total,929109538.7889653
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Oregon,Biomass: Total,1189311631.7703075
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Washington,Biomass: Total,1203310415.8925385
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Utah,Biomass: Total,316625430.9988117
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Colorado,Biomass: Total,640555996.15174
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Wyoming,Biomass: Total,323543368.3391205
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Nevada,Biomass: Total,120767705.72095416
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Montana,Biomass: Total,1014266508.7932826
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Arizona,Biomass: Total,110652830.51464525
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Idaho,Biomass: Total,859095007.5324754
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,New Mexico,Biomass: Total,277349693.2620541
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,California,Biomass: Total,934301215.7438531
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Oregon,Biomass: Total,1196722960.800998
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Washington,Biomass: Total,1204656235.859653
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Utah,Biomass: Total,318145460.4023316
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Colorado,Biomass: Total,644900504.1055506
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Wyoming,Biomass: Total,326782486.8597607
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Nevada,Biomass: Total,121032030.64566378
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Montana,Biomass: Total,1029095398.5762477
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Arizona,Biomass: Total,110903636.80204117
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Idaho,Biomass: Total,859871660.9898176
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,New Mexico,Biomass: Total,280848159.7756207
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,California,Biomass: Total,940545608.3229086
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Oregon,Biomass: Total,1192188029.757857
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Washington,Biomass: Total,1204144186.9675064
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Utah,Biomass: Total,318974213.8814727
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Colorado,Biomass: Total,647001039.8792576
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Wyoming,Biomass: Total,328230482.33950686
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Nevada,Biomass: Total,121808525.46352434
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Montana,Biomass: Total,1033245507.907293
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Arizona,Biomass: Total,112154964.89207464
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Idaho,Biomass: Total,868649290.2069004
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,New Mexico,Biomass: Total,279833426.176935
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,California,Biomass: Total,906409146.0505335
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Oregon,Biomass: Total,1178710219.1240616
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Washington,Biomass: Total,1198753417.2008753
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Utah,Biomass: Total,316270193.6322612
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Colorado,Biomass: Total,645556590.0370225
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Wyoming,Biomass: Total,331831722.6435899
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Nevada,Biomass: Total,120041741.5977408
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Montana,Biomass: Total,1042014248.9673395
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Arizona,Biomass: Total,109507787.00535733
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Idaho,Biomass: Total,872241735.5120984
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,New Mexico,Biomass: Total,277017352.79122597
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,California,Biomass: Total,897417939.6701291
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Oregon,Biomass: Total,1170053958.6529076
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Washington,Biomass: Total,1196410549.661427
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Utah,Biomass: Total,317540934.96056545
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Colorado,Biomass: Total,646952109.1549866
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Wyoming,Biomass: Total,335052858.5009781
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Nevada,Biomass: Total,120541782.07955556
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Montana,Biomass: Total,1048032838.5618557
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Arizona,Biomass: Total,107782998.031279
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Idaho,Biomass: Total,871583499.6439455
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,New Mexico,Biomass: Total,282597366.35153365
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,California,Biomass: Total,896573537.0077426
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Oregon,Biomass: Total,1162249860.0996861
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Washington,Biomass: Total,1196092518.263521
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Utah,Biomass: Total,319649322.39480525
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Colorado,Biomass: Total,651945173.722449
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Wyoming,Biomass: Total,334922887.3637921
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Nevada,Biomass: Total,120688145.2861163
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Montana,Biomass: Total,1049721588.5776589
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Arizona,Biomass: Total,112392767.12429084
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Idaho,Biomass: Total,882542008.6967306
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,New Mexico,Biomass: Total,275117502.33982897
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,California,Biomass: Total,917536454.3361303
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Oregon,Biomass: Total,1164221845.205305
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Washington,Biomass: Total,1198038430.4668157
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Utah,Biomass: Total,321919911.8988292
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Colorado,Biomass: Total,647405132.7268436
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Wyoming,Biomass: Total,336065649.3916393
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Nevada,Biomass: Total,125438121.22246358
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Montana,Biomass: Total,1052801492.1107394
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Arizona,Biomass: Total,110672079.00903617
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Idaho,Biomass: Total,877997767.0987688
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,New Mexico,Biomass: Total,283153586.1042027
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,California,Biomass: Total,912072646.6093106
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Oregon,Biomass: Total,1161588702.055379
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Washington,Biomass: Total,1196814931.761434
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Utah,Biomass: Total,324522066.4626175
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Colorado,Biomass: Total,658299679.4404182
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Wyoming,Biomass: Total,338571266.8202912
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Nevada,Biomass: Total,124788063.82653101
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Montana,Biomass: Total,1051180435.5501827
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Arizona,Biomass: Total,110273560.09909391
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Idaho,Biomass: Total,882235385.3611263
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,New Mexico,Biomass: Total,285465189.961991
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,California,Biomass: Total,910883252.762778
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Oregon,Biomass: Total,1161463126.7599287
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Washington,Biomass: Total,1202887951.4519405
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Utah,Biomass: Total,325061264.3598496
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Colorado,Biomass: Total,664247373.3339043
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Wyoming,Biomass: Total,339859536.77611893
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Nevada,Biomass: Total,124262087.62762538
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Montana,Biomass: Total,1058382399.3069724
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Arizona,Biomass: Total,109077650.96955241
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Idaho,Biomass: Total,890198382.9666982
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,New Mexico,Biomass: Total,290968191.7411908
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,California,Biomass: Total,923942396.1969925
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Oregon,Biomass: Total,1162020510.717512
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Washington,Biomass: Total,1197583978.0449696
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Utah,Biomass: Total,331944084.2848145
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Colorado,Biomass: Total,674879866.7369854
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Wyoming,Biomass: Total,344449468.34077966
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Nevada,Biomass: Total,127364620.15906624
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Montana,Biomass: Total,1063979643.4967163
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Arizona,Biomass: Total,108965444.55930816
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Idaho,Biomass: Total,893816087.2221559
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,New Mexico,Biomass: Total,292706647.58291847
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,California,Biomass: Total,927547860.1082163
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Oregon,Biomass: Total,1158192723.7047563
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Washington,Biomass: Total,1195064578.4703574
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Utah,Biomass: Total,333083987.3068699
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Colorado,Biomass: Total,675465821.6593971
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Wyoming,Biomass: Total,345768209.8024047
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Nevada,Biomass: Total,127723151.7400027
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Montana,Biomass: Total,1060395275.9221971
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Arizona,Biomass: Total,109477209.10947242
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Idaho,Biomass: Total,895282924.6620226
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,New Mexico,Biomass: Total,292461279.59592396
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,California,Biomass: Total,912956753.546618
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Oregon,Biomass: Total,1152666348.7320578
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Washington,Biomass: Total,1190992104.7331607
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Utah,Biomass: Total,331206235.29298127
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Colorado,Biomass: Total,677507729.0228778
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Wyoming,Biomass: Total,347434994.35854954
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Nevada,Biomass: Total,126323249.02280067
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Montana,Biomass: Total,1065116444.2753291
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Arizona,Biomass: Total,108812894.42797399
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Idaho,Biomass: Total,895987921.7068983
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,New Mexico,Biomass: Total,296290845.15115124
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,California,Biomass: Total,908259975.3327669
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Oregon,Biomass: Total,1158540948.2960541
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Washington,Biomass: Total,1194658103.2961555
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Utah,Biomass: Total,336666412.90292156
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Colorado,Biomass: Total,685665057.8294898
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Wyoming,Biomass: Total,349131965.52583855
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Nevada,Biomass: Total,126737146.4237806
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Montana,Biomass: Total,1071861442.4959848
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Arizona,Biomass: Total,109661035.40301192
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Idaho,Biomass: Total,897810192.3330272
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,New Mexico,Biomass: Total,300139166.9347929
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,California,Biomass: Total,915627490.3190887
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Oregon,Biomass: Total,1155285157.5165753
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Washington,Biomass: Total,1196966448.3454318
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Utah,Biomass: Total,340941769.53882796
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Colorado,Biomass: Total,694003155.522972
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Wyoming,Biomass: Total,351918761.67941695
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Nevada,Biomass: Total,128095030.9608933
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Montana,Biomass: Total,1079749851.204315
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Arizona,Biomass: Total,112723135.0014967
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Idaho,Biomass: Total,908013724.8044254
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,New Mexico,Biomass: Total,298405727.5790205
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,California,Biomass: Total,933765269.0804919
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Oregon,Biomass: Total,1153573265.4378738
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Washington,Biomass: Total,1208331666.668113
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Utah,Biomass: Total,348266290.523011
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Colorado,Biomass: Total,701642827.0661823
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Wyoming,Biomass: Total,356278014.7017136
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Nevada,Biomass: Total,131432107.36940852
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Montana,Biomass: Total,1091065550.1013649
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Arizona,Biomass: Total,111061827.4453447
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Idaho,Biomass: Total,757763749.2769107
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,New Mexico,Biomass: Total,241049051.11351717
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,California,Biomass: Total,1016813274.4066056
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Oregon,Biomass: Total,1238031376.3982975
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Washington,Biomass: Total,1170447844.2997873
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Utah,Biomass: Total,280271739.42808276
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Colorado,Biomass: Total,558209176.4159801
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Wyoming,Biomass: Total,275676913.0377469
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Nevada,Biomass: Total,105907887.56707636
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Montana,Biomass: Total,837251836.8043582
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Arizona,Biomass: Total,106957300.92357177
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Idaho,Biomass: Total,762950416.6911341
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,New Mexico,Biomass: Total,248408888.53832975
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,California,Biomass: Total,1015289864.7030107
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Oregon,Biomass: Total,1238698807.8265553
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Washington,Biomass: Total,1176791401.8154142
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Utah,Biomass: Total,287015616.8247662
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Colorado,Biomass: Total,572280234.777351
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Wyoming,Biomass: Total,279838942.063612
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Nevada,Biomass: Total,108624548.82519683
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Montana,Biomass: Total,849244031.6348745
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Arizona,Biomass: Total,109204219.02797455
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Idaho,Biomass: Total,773638811.7626128
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,New Mexico,Biomass: Total,253599568.14238143
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,California,Biomass: Total,1041378412.3971393
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Oregon,Biomass: Total,1242654099.282114
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Washington,Biomass: Total,1179308021.8773346
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Utah,Biomass: Total,297763657.6402327
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Colorado,Biomass: Total,578296756.2292948
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Wyoming,Biomass: Total,284106196.90043914
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Nevada,Biomass: Total,115258036.25095443
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Montana,Biomass: Total,863917241.0715905
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Arizona,Biomass: Total,114148393.97703496
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Idaho,Biomass: Total,769299576.4515312
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,New Mexico,Biomass: Total,266761048.9950738
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,California,Biomass: Total,1019149300.1838313
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Oregon,Biomass: Total,1229771952.1713607
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Washington,Biomass: Total,1171333114.7786252
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Utah,Biomass: Total,304151999.0157048
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Colorado,Biomass: Total,594575291.613045
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Wyoming,Biomass: Total,288037465.1073722
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Nevada,Biomass: Total,116268762.48829691
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Montana,Biomass: Total,865007414.3117561
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Arizona,Biomass: Total,117862057.24910204
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Idaho,Biomass: Total,775307094.7076368
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,New Mexico,Biomass: Total,266982750.37776196
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,California,Biomass: Total,1004819018.6565994
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Oregon,Biomass: Total,1210575320.3223858
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Washington,Biomass: Total,1165242724.8195965
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Utah,Biomass: Total,303699177.144734
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Colorado,Biomass: Total,590238627.467666
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Wyoming,Biomass: Total,288904854.72226006
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Nevada,Biomass: Total,117099677.41742195
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Montana,Biomass: Total,872549591.5916033
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Arizona,Biomass: Total,115736634.41814704
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Idaho,Biomass: Total,769395069.972415
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,New Mexico,Biomass: Total,277387239.76179
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,California,Biomass: Total,978085109.860412
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Oregon,Biomass: Total,1192317601.8587909
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Washington,Biomass: Total,1154401855.8801448
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Utah,Biomass: Total,306367585.46523935
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Colorado,Biomass: Total,603160951.3402492
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Wyoming,Biomass: Total,289850130.9575227
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Nevada,Biomass: Total,116339074.17090894
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Montana,Biomass: Total,869419185.856573
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Arizona,Biomass: Total,117876273.38673025
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Idaho,Biomass: Total,775941686.0409721
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,New Mexico,Biomass: Total,281358464.69193196
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,California,Biomass: Total,995899114.9624599
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Oregon,Biomass: Total,1194083134.617507
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Washington,Biomass: Total,1158004895.28943
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Utah,Biomass: Total,312576915.1742156
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Colorado,Biomass: Total,612627577.4772543
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Wyoming,Biomass: Total,293264883.00488764
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Nevada,Biomass: Total,120092060.72317469
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Montana,Biomass: Total,877856490.0796456
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Arizona,Biomass: Total,117157730.10282154
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Idaho,Biomass: Total,783715388.4510938
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,New Mexico,Biomass: Total,283018116.43337506
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,California,Biomass: Total,990098930.1066846
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Oregon,Biomass: Total,1191397481.404156
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Washington,Biomass: Total,1163333607.0025783
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Utah,Biomass: Total,315052854.5605905
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Colorado,Biomass: Total,618849891.3135087
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Wyoming,Biomass: Total,296972753.1334576
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Nevada,Biomass: Total,120375657.40049222
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Montana,Biomass: Total,893634776.5876398
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Arizona,Biomass: Total,118666387.87080789
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Idaho,Biomass: Total,801168399.5887326
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,New Mexico,Biomass: Total,281310675.1465107
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,California,Biomass: Total,994947339.5284362
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Oregon,Biomass: Total,1196723392.777922
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Washington,Biomass: Total,1166235607.024537
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Utah,Biomass: Total,323804655.2880062
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Colorado,Biomass: Total,624720915.3698033
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Wyoming,Biomass: Total,303027418.7083509
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Nevada,Biomass: Total,125669847.24232137
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Montana,Biomass: Total,917609754.884247
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Arizona,Biomass: Total,119034770.7850265
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Idaho,Biomass: Total,802450124.941497
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,New Mexico,Biomass: Total,291396675.4845037
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,California,Biomass: Total,991859128.9901757
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Oregon,Biomass: Total,1187643700.302687
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Washington,Biomass: Total,1161230455.0510843
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Utah,Biomass: Total,332534566.4695016
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Colorado,Biomass: Total,641561981.9632047
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Wyoming,Biomass: Total,307446864.6525161
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Nevada,Biomass: Total,127719051.49285415
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Montana,Biomass: Total,925127868.2124505
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Arizona,Biomass: Total,121785149.86797026
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Idaho,Biomass: Total,801488128.9606956
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,New Mexico,Biomass: Total,296285029.32872266
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,California,Biomass: Total,983925857.6554482
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Oregon,Biomass: Total,1185732748.5606508
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Washington,Biomass: Total,1165638109.9114268
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Utah,Biomass: Total,332927780.30088055
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Colorado,Biomass: Total,643681687.4854996
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Wyoming,Biomass: Total,309991507.3683509
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Nevada,Biomass: Total,128503075.02217178
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Montana,Biomass: Total,932551235.3906232
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Arizona,Biomass: Total,123204127.58985892
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Idaho,Biomass: Total,809582491.6157784
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,New Mexico,Biomass: Total,296446131.332528
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,California,Biomass: Total,979185883.8432196
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Oregon,Biomass: Total,1187758769.5099945
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Washington,Biomass: Total,1168477110.3334446
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Utah,Biomass: Total,330869934.0601349
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Colorado,Biomass: Total,642102109.5813076
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Wyoming,Biomass: Total,312120937.38426787
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Nevada,Biomass: Total,128015931.80625984
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Montana,Biomass: Total,944369728.6418604
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Arizona,Biomass: Total,122999812.70500322
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Idaho,Biomass: Total,824739447.4033314
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,New Mexico,Biomass: Total,301592470.86996394
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,California,Biomass: Total,991356415.1963387
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Oregon,Biomass: Total,1188533506.0872858
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Washington,Biomass: Total,1172614683.7935867
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Utah,Biomass: Total,339775703.738338
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Colorado,Biomass: Total,653648460.887064
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Wyoming,Biomass: Total,316928246.39287126
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Nevada,Biomass: Total,130963707.37158018
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Montana,Biomass: Total,966328880.7947575
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Arizona,Biomass: Total,126400709.85573898
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Idaho,Biomass: Total,837428908.6819016
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,New Mexico,Biomass: Total,302253992.70037854
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,California,Biomass: Total,994632260.5898951
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Oregon,Biomass: Total,1200018556.3611448
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Washington,Biomass: Total,1185402839.3320527
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Utah,Biomass: Total,342598366.62728894
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Colorado,Biomass: Total,653786386.2517198
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Wyoming,Biomass: Total,320471915.61899626
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Nevada,Biomass: Total,131413108.48835985
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Montana,Biomass: Total,979728495.5449158
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Arizona,Biomass: Total,124895843.3715772
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Idaho,Biomass: Total,846808034.361025
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,New Mexico,Biomass: Total,299056523.40690935
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,California,Biomass: Total,969334621.3052219
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Oregon,Biomass: Total,1208098649.9832547
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Washington,Biomass: Total,1198493111.5157158
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Utah,Biomass: Total,345503381.38927037
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Colorado,Biomass: Total,652402420.9860547
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Wyoming,Biomass: Total,322412013.69537795
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Nevada,Biomass: Total,131953853.86030635
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Montana,Biomass: Total,993560355.0898097
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Arizona,Biomass: Total,123876575.22926717
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Idaho,Biomass: Total,857423391.6668819
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,New Mexico,Biomass: Total,298269600.32519495
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,California,Biomass: Total,973450083.4214021
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Oregon,Biomass: Total,1200989060.2351668
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Washington,Biomass: Total,1196481288.332047
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Utah,Biomass: Total,350666324.2386519
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Colorado,Biomass: Total,654981325.4474927
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Wyoming,Biomass: Total,326680080.79211086
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Nevada,Biomass: Total,135002713.61152303
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Montana,Biomass: Total,1008148809.7708306
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Arizona,Biomass: Total,126191700.3924881
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Idaho,Biomass: Total,855615501.3981055
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,New Mexico,Biomass: Total,296469608.08687687
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,California,Biomass: Total,976540335.6463778
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Oregon,Biomass: Total,1204382915.2492852
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Washington,Biomass: Total,1202417405.394281
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Utah,Biomass: Total,350335385.80583507
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Colorado,Biomass: Total,653663069.053127
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Wyoming,Biomass: Total,327446712.7127918
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Nevada,Biomass: Total,138186465.0157281
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Montana,Biomass: Total,1015587941.5526798
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Arizona,Biomass: Total,125012836.73222332
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Idaho,Biomass: Total,872733792.6837331
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,New Mexico,Biomass: Total,311184824.87247163
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,California,Biomass: Total,988192215.6144006
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Oregon,Biomass: Total,1208513447.1675904
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Washington,Biomass: Total,1206689984.8941648
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Utah,Biomass: Total,362762183.76699865
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Colorado,Biomass: Total,672937243.2228016
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Wyoming,Biomass: Total,335471510.6973659
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Nevada,Biomass: Total,144162940.55051348
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Montana,Biomass: Total,1046240791.7910695
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Arizona,Biomass: Total,132603172.5182662
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Idaho,Biomass: Total,887511896.2961543
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,New Mexico,Biomass: Total,305356780.14576894
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,California,Biomass: Total,980077386.6624044
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Oregon,Biomass: Total,1215210296.9990656
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Washington,Biomass: Total,1215594402.5727122
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Utah,Biomass: Total,353182372.0329943
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Colorado,Biomass: Total,661047593.6926498
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Wyoming,Biomass: Total,335995518.43137795
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Nevada,Biomass: Total,140705915.62414482
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Montana,Biomass: Total,1069330353.7511432
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Arizona,Biomass: Total,127607442.2666244
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Idaho,Biomass: Total,894743442.5832062
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,New Mexico,Biomass: Total,305056173.8808646
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,California,Biomass: Total,953217823.967897
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Oregon,Biomass: Total,1196866793.2709394
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Washington,Biomass: Total,1215347847.8070939
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Utah,Biomass: Total,353763417.1987996
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Colorado,Biomass: Total,665206516.8218209
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Wyoming,Biomass: Total,338094079.7716616
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Nevada,Biomass: Total,138703829.8782201
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Montana,Biomass: Total,1077547056.963789
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Arizona,Biomass: Total,126148237.91859737
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Idaho,Biomass: Total,905418342.2781292
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,New Mexico,Biomass: Total,312061592.7238087
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,California,Biomass: Total,962724388.0375451
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Oregon,Biomass: Total,1188843090.8825505
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Washington,Biomass: Total,1213384297.8059452
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Utah,Biomass: Total,365039390.30248797
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Colorado,Biomass: Total,681937936.9643565
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Wyoming,Biomass: Total,345468289.18596697
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Nevada,Biomass: Total,144364023.04689884
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Montana,Biomass: Total,1100349070.7151515
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Arizona,Biomass: Total,129520966.06835796
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Idaho,Biomass: Total,914113571.0005817
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,New Mexico,Biomass: Total,315791285.563422
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,California,Biomass: Total,948451915.1319015
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Oregon,Biomass: Total,1189989615.2170622
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Washington,Biomass: Total,1217252881.7073095
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Utah,Biomass: Total,361130560.6485533
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Colorado,Biomass: Total,685512916.0501148
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Wyoming,Biomass: Total,347205915.59067297
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Nevada,Biomass: Total,141576974.7896233
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Montana,Biomass: Total,1107808095.3066535
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Arizona,Biomass: Total,128878088.50486498
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Idaho,Biomass: Total,923441986.1567128
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,New Mexico,Biomass: Total,315768137.287199
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,California,Biomass: Total,963298198.7596235
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Oregon,Biomass: Total,1191266494.026985
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Washington,Biomass: Total,1215498376.2580323
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Utah,Biomass: Total,369104157.125481
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Colorado,Biomass: Total,692693910.1357671
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Wyoming,Biomass: Total,352106457.1082179
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Nevada,Biomass: Total,146143400.6135674
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Montana,Biomass: Total,1115971363.8867755
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Arizona,Biomass: Total,129550696.56367846
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Idaho,Biomass: Total,911947120.5228028
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,New Mexico,Biomass: Total,315886657.0775974
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,California,Biomass: Total,945220721.5499929
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Oregon,Biomass: Total,1182472450.218716
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Washington,Biomass: Total,1212432772.6543517
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Utah,Biomass: Total,361645245.22627825
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Colorado,Biomass: Total,683064572.0911565
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Wyoming,Biomass: Total,349597622.097379
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Nevada,Biomass: Total,142278903.5896783
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Montana,Biomass: Total,1114564389.760804
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Arizona,Biomass: Total,129708870.26582028
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Idaho,Biomass: Total,923223484.0150228
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,New Mexico,Biomass: Total,318091159.21956307
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,California,Biomass: Total,952121571.3826227
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Oregon,Biomass: Total,1188312433.3204513
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Washington,Biomass: Total,1219178738.1770577
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Utah,Biomass: Total,362423087.6134089
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Colorado,Biomass: Total,685938065.1938504
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Wyoming,Biomass: Total,353084043.3135082
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Nevada,Biomass: Total,142997268.2508301
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Montana,Biomass: Total,1128351516.470316
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Arizona,Biomass: Total,129204712.5755592
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Idaho,Biomass: Total,920453659.7065091
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,New Mexico,Biomass: Total,322351036.2189574
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,California,Biomass: Total,963242493.6000904
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Oregon,Biomass: Total,1176753138.317256
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Washington,Biomass: Total,1204632419.2763531
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Utah,Biomass: Total,374063278.18793684
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Colorado,Biomass: Total,697624166.2811742
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Wyoming,Biomass: Total,357917197.4986034
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Nevada,Biomass: Total,148251614.74995708
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Montana,Biomass: Total,1120132441.8551006
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Arizona,Biomass: Total,129655025.05420044
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Idaho,Biomass: Total,929613906.2151716
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,New Mexico,Biomass: Total,329514071.33443284
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,California,Biomass: Total,977118382.9962964
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Oregon,Biomass: Total,1184202527.7730095
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Washington,Biomass: Total,1206960083.1878428
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Utah,Biomass: Total,386268914.123198
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Colorado,Biomass: Total,712008955.4525203
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Wyoming,Biomass: Total,362303085.39718735
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Nevada,Biomass: Total,152498433.07807902
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Montana,Biomass: Total,1141864026.2544394
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Arizona,Biomass: Total,134761196.512474
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Idaho,Biomass: Total,936341707.3197687
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,New Mexico,Biomass: Total,329718254.8580604
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,California,Biomass: Total,967886390.6575222
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Oregon,Biomass: Total,1179892196.8813
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Washington,Biomass: Total,1205871035.1249664
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Utah,Biomass: Total,388428933.32992864
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Colorado,Biomass: Total,715226576.2700942
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Wyoming,Biomass: Total,364814536.1739301
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Nevada,Biomass: Total,152154478.78141147
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Montana,Biomass: Total,1158017332.7931774
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Arizona,Biomass: Total,138056676.66810614
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Idaho,Biomass: Total,938978077.2166553
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,New Mexico,Biomass: Total,332009812.02949935
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,California,Biomass: Total,976892834.3849063
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Oregon,Biomass: Total,1183698720.066596
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Washington,Biomass: Total,1206788837.098804
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Utah,Biomass: Total,395220777.1432302
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Colorado,Biomass: Total,720806329.70920825
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Wyoming,Biomass: Total,370867477.6806173
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Nevada,Biomass: Total,156238387.6873185
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Montana,Biomass: Total,1170876513.6161551
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Arizona,Biomass: Total,138275596.54657978
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Idaho,Biomass: Total,942077008.7257143
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,New Mexico,Biomass: Total,325410450.1661705
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,California,Biomass: Total,962566882.205909
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Oregon,Biomass: Total,1182767471.832888
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Washington,Biomass: Total,1202311786.899185
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Utah,Biomass: Total,386748706.1325796
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Colorado,Biomass: Total,714346549.4961698
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Wyoming,Biomass: Total,371463080.4394433
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Nevada,Biomass: Total,152463804.52968347
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Montana,Biomass: Total,1175951898.2882338
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Arizona,Biomass: Total,134677026.8791735
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Idaho,Biomass: Total,950011924.486084
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,New Mexico,Biomass: Total,332557143.93275774
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,California,Biomass: Total,954642339.6198851
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Oregon,Biomass: Total,1194798192.7245715
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Washington,Biomass: Total,1213281234.5910456
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Utah,Biomass: Total,397105702.21373934
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Colorado,Biomass: Total,729056468.3928105
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Wyoming,Biomass: Total,378523617.9819382
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Nevada,Biomass: Total,154232045.8877831
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Montana,Biomass: Total,1198480175.2255046
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Arizona,Biomass: Total,140173860.19873285
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Idaho,Biomass: Total,757763749.2769107
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,New Mexico,Biomass: Total,241049051.11351717
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,California,Biomass: Total,1016813274.4066056
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Oregon,Biomass: Total,1238031376.3982975
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Washington,Biomass: Total,1170447844.2997873
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Utah,Biomass: Total,280271739.42808276
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Colorado,Biomass: Total,558209176.4159801
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Wyoming,Biomass: Total,275676913.0377469
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Nevada,Biomass: Total,105907887.56707636
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Montana,Biomass: Total,837251836.8043582
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Arizona,Biomass: Total,106957300.92357177
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Idaho,Biomass: Total,765555993.3086433
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,New Mexico,Biomass: Total,244918101.9956383
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,California,Biomass: Total,1014678996.6643184
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Oregon,Biomass: Total,1237792282.415762
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Washington,Biomass: Total,1178750862.1211197
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Utah,Biomass: Total,282119710.84171224
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Colorado,Biomass: Total,565349072.40806
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Wyoming,Biomass: Total,278131674.5154403
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Nevada,Biomass: Total,105277815.25646235
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Montana,Biomass: Total,854721815.2236749
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Arizona,Biomass: Total,107652896.35162424
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Idaho,Biomass: Total,772930089.1513798
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,New Mexico,Biomass: Total,243703092.1422498
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,California,Biomass: Total,1021873334.991956
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Oregon,Biomass: Total,1243259601.8711233
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Washington,Biomass: Total,1182815324.79706
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Utah,Biomass: Total,282955643.6814712
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Colorado,Biomass: Total,567005671.2572639
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Wyoming,Biomass: Total,280951653.48761797
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Nevada,Biomass: Total,106560559.07695974
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Montana,Biomass: Total,869084012.0363984
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Arizona,Biomass: Total,106295309.9437491
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Idaho,Biomass: Total,784106583.9696025
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,New Mexico,Biomass: Total,251653177.45193478
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,California,Biomass: Total,1027261178.1797208
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Oregon,Biomass: Total,1242747414.0061464
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Washington,Biomass: Total,1181934474.2577426
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Utah,Biomass: Total,296980719.01662445
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Colorado,Biomass: Total,582381575.2164929
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Wyoming,Biomass: Total,286927561.2045384
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Nevada,Biomass: Total,113338278.66205089
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Montana,Biomass: Total,876709091.2491732
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Arizona,Biomass: Total,110546092.3701358
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Idaho,Biomass: Total,793401772.6020882
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,New Mexico,Biomass: Total,258680492.01195666
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,California,Biomass: Total,990996100.3283012
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Oregon,Biomass: Total,1229793113.4160438
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Washington,Biomass: Total,1186658723.5827098
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Utah,Biomass: Total,297490116.81966275
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Colorado,Biomass: Total,587169319.3268116
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Wyoming,Biomass: Total,288217410.1717869
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Nevada,Biomass: Total,113240176.36889473
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Montana,Biomass: Total,885448913.9760438
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Arizona,Biomass: Total,110089970.48822257
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Idaho,Biomass: Total,788775773.9086121
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,New Mexico,Biomass: Total,256734979.47625664
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,California,Biomass: Total,956865535.2839979
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Oregon,Biomass: Total,1212184135.5680773
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Washington,Biomass: Total,1181270607.208858
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Utah,Biomass: Total,295239450.75530124
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Colorado,Biomass: Total,587505960.445597
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Wyoming,Biomass: Total,286531314.20629215
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Nevada,Biomass: Total,110720933.17147052
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Montana,Biomass: Total,884837180.3391988
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Arizona,Biomass: Total,108199300.01695563
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Idaho,Biomass: Total,794860685.1256431
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,New Mexico,Biomass: Total,257631337.8806221
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,California,Biomass: Total,950606461.2887092
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Oregon,Biomass: Total,1213735937.9705944
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Washington,Biomass: Total,1185410195.6496677
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Utah,Biomass: Total,295149299.77232486
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Colorado,Biomass: Total,590497618.6250834
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Wyoming,Biomass: Total,289108671.36226654
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Nevada,Biomass: Total,109374485.88061428
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Montana,Biomass: Total,891999096.2209547
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Arizona,Biomass: Total,108022691.69832398
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Idaho,Biomass: Total,803501653.1079531
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,New Mexico,Biomass: Total,257403303.50284854
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,California,Biomass: Total,938399115.7615848
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Oregon,Biomass: Total,1201257116.8432295
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Washington,Biomass: Total,1186631285.359131
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Utah,Biomass: Total,293901724.2912513
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Colorado,Biomass: Total,593399765.1431627
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Wyoming,Biomass: Total,294034642.6183633
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Nevada,Biomass: Total,109199543.09385651
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Montana,Biomass: Total,912161473.7490138
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Arizona,Biomass: Total,105684081.57683083
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Idaho,Biomass: Total,818284800.3574448
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,New Mexico,Biomass: Total,255680141.69513735
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,California,Biomass: Total,955911619.5229115
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Oregon,Biomass: Total,1206866433.6338599
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Washington,Biomass: Total,1194090210.990447
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Utah,Biomass: Total,296842240.8317731
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Colorado,Biomass: Total,596417514.2499694
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Wyoming,Biomass: Total,298224562.0772054
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Nevada,Biomass: Total,112296978.38753821
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Montana,Biomass: Total,928504143.2245265
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Arizona,Biomass: Total,104904819.31324668
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Idaho,Biomass: Total,824888567.2949834
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,New Mexico,Biomass: Total,258844977.1144688
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,California,Biomass: Total,944749045.3693652
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Oregon,Biomass: Total,1199588618.3490136
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Washington,Biomass: Total,1196351401.5474496
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Utah,Biomass: Total,296889601.4211021
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Colorado,Biomass: Total,604586156.6950445
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Wyoming,Biomass: Total,301084594.7909149
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Nevada,Biomass: Total,111007640.14967723
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Montana,Biomass: Total,940111870.6728697
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Arizona,Biomass: Total,104855176.20182118
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Idaho,Biomass: Total,818585464.5517974
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,New Mexico,Biomass: Total,255188135.73180482
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,California,Biomass: Total,937323250.6501737
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Oregon,Biomass: Total,1188947427.4202058
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Washington,Biomass: Total,1191234827.9641933
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Utah,Biomass: Total,290318572.01803875
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Colorado,Biomass: Total,599422496.1241035
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Wyoming,Biomass: Total,300387681.94148576
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Nevada,Biomass: Total,108917193.3457344
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Montana,Biomass: Total,948454881.6825414
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Arizona,Biomass: Total,103795604.36186852
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Idaho,Biomass: Total,826000261.4842575
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,New Mexico,Biomass: Total,261119915.60163677
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,California,Biomass: Total,954768520.0802115
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Oregon,Biomass: Total,1193921218.503833
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Washington,Biomass: Total,1196776511.6318867
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Utah,Biomass: Total,303317135.7250738
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Colorado,Biomass: Total,614133008.1196692
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Wyoming,Biomass: Total,304141309.6415183
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Nevada,Biomass: Total,111243080.97203283
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Montana,Biomass: Total,959276351.5797722
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Arizona,Biomass: Total,109537627.93054609
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Idaho,Biomass: Total,830654863.3396735
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,New Mexico,Biomass: Total,267102924.05040017
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,California,Biomass: Total,955708607.0602746
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Oregon,Biomass: Total,1184018309.5727758
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Washington,Biomass: Total,1197603085.773797
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Utah,Biomass: Total,306411227.4981832
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Colorado,Biomass: Total,620599445.5580474
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Wyoming,Biomass: Total,305396103.16400933
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Nevada,Biomass: Total,113771333.20650953
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Montana,Biomass: Total,967548469.1903923
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Arizona,Biomass: Total,111850901.36746398
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Idaho,Biomass: Total,844498472.2438337
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,New Mexico,Biomass: Total,267692336.87907118
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,California,Biomass: Total,963622549.4982513
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Oregon,Biomass: Total,1190131650.3405824
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Washington,Biomass: Total,1206441576.6197028
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Utah,Biomass: Total,313878724.65146035
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Colorado,Biomass: Total,630972084.9179636
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Wyoming,Biomass: Total,310479849.87382317
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Nevada,Biomass: Total,115585125.805121
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Montana,Biomass: Total,988223247.6889265
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Arizona,Biomass: Total,112459067.24686702
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Idaho,Biomass: Total,851693991.9727626
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,New Mexico,Biomass: Total,272804636.44478595
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,California,Biomass: Total,928919146.7892127
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Oregon,Biomass: Total,1188294690.6690743
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Washington,Biomass: Total,1211013355.2791622
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Utah,Biomass: Total,308934342.47299665
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Colorado,Biomass: Total,637658280.6161989
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Wyoming,Biomass: Total,315262520.102461
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Nevada,Biomass: Total,112727016.35631089
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Montana,Biomass: Total,1001147739.0286733
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Arizona,Biomass: Total,111056190.2276121
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Idaho,Biomass: Total,866229239.653038
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,New Mexico,Biomass: Total,271449904.42540383
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,California,Biomass: Total,933930161.6489209
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Oregon,Biomass: Total,1183146842.21031
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Washington,Biomass: Total,1213216179.03048
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Utah,Biomass: Total,312331412.1562721
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Colorado,Biomass: Total,638493506.8018156
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Wyoming,Biomass: Total,320134418.79645646
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Nevada,Biomass: Total,117093641.53205536
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Montana,Biomass: Total,1021546459.5925612
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Arizona,Biomass: Total,111142537.35644048
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Idaho,Biomass: Total,860571466.9155141
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,New Mexico,Biomass: Total,271634176.5249478
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,California,Biomass: Total,936712422.6822847
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Oregon,Biomass: Total,1181005945.3268821
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Washington,Biomass: Total,1212261865.7320879
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Utah,Biomass: Total,319671000.15704274
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Colorado,Biomass: Total,643287073.1897138
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Wyoming,Biomass: Total,322640794.0764943
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Nevada,Biomass: Total,119395764.19898477
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Montana,Biomass: Total,1023523695.3588731
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Arizona,Biomass: Total,113657732.53234285
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Idaho,Biomass: Total,875361120.9913939
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,New Mexico,Biomass: Total,273166540.326664
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,California,Biomass: Total,943542251.3050078
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Oregon,Biomass: Total,1189363703.0571194
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Washington,Biomass: Total,1215146009.0704622
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Utah,Biomass: Total,321551471.33001626
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Colorado,Biomass: Total,648043357.0184811
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Wyoming,Biomass: Total,326579319.4579103
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Nevada,Biomass: Total,119794177.0645592
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Montana,Biomass: Total,1040746902.5624622
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Arizona,Biomass: Total,114379694.26097676
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Idaho,Biomass: Total,877164696.4236966
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,New Mexico,Biomass: Total,277006576.0430863
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,California,Biomass: Total,951708848.6306133
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Oregon,Biomass: Total,1185692834.308267
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Washington,Biomass: Total,1215197412.2867787
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Utah,Biomass: Total,322529197.10198873
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Colorado,Biomass: Total,650237395.7588229
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Wyoming,Biomass: Total,328705906.79145104
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Nevada,Biomass: Total,120999849.94375637
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Montana,Biomass: Total,1046556211.2077453
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Arizona,Biomass: Total,116496532.35122664
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Idaho,Biomass: Total,887219376.5084342
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,New Mexico,Biomass: Total,276528379.8035932
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,California,Biomass: Total,915458779.715556
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Oregon,Biomass: Total,1167017738.1357553
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Washington,Biomass: Total,1211921385.3394558
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Utah,Biomass: Total,320632615.5330664
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Colorado,Biomass: Total,648279536.4146142
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Wyoming,Biomass: Total,333067806.69499034
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Nevada,Biomass: Total,119413261.23422058
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Montana,Biomass: Total,1058608563.0735348
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Arizona,Biomass: Total,114869450.3668773
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Idaho,Biomass: Total,892805172.9249233
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,New Mexico,Biomass: Total,276291381.99344265
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,California,Biomass: Total,905559960.4991089
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Oregon,Biomass: Total,1159234059.2545698
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Washington,Biomass: Total,1209280026.2094073
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Utah,Biomass: Total,322331877.6379065
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Colorado,Biomass: Total,648667360.556637
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Wyoming,Biomass: Total,336948413.9919908
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Nevada,Biomass: Total,120425721.54889998
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Montana,Biomass: Total,1067985492.9859601
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Arizona,Biomass: Total,113370007.62580904
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Idaho,Biomass: Total,892481135.5092797
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,New Mexico,Biomass: Total,282712778.07799524
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,California,Biomass: Total,904749256.875967
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Oregon,Biomass: Total,1149949567.0063229
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Washington,Biomass: Total,1208960886.337969
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Utah,Biomass: Total,324774767.3030405
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Colorado,Biomass: Total,653804702.5147829
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Wyoming,Biomass: Total,337778193.90392816
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Nevada,Biomass: Total,120833786.22498225
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Montana,Biomass: Total,1070174266.5930718
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Arizona,Biomass: Total,119060850.62220158
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Idaho,Biomass: Total,904202887.0227928
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,New Mexico,Biomass: Total,276785498.59789026
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,California,Biomass: Total,927100732.5028573
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Oregon,Biomass: Total,1154213368.2716105
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Washington,Biomass: Total,1211276195.1052394
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Utah,Biomass: Total,327537582.9857125
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Colorado,Biomass: Total,649384602.2958872
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Wyoming,Biomass: Total,339467729.0922156
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Nevada,Biomass: Total,126189465.35783228
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Montana,Biomass: Total,1076868846.1475902
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Arizona,Biomass: Total,117517283.72886771
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Idaho,Biomass: Total,897245863.0000149
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,New Mexico,Biomass: Total,285406009.627512
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,California,Biomass: Total,923010003.189841
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Oregon,Biomass: Total,1150747314.5967681
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Washington,Biomass: Total,1212110514.8653817
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Utah,Biomass: Total,330451105.7698465
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Colorado,Biomass: Total,659830572.8369391
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Wyoming,Biomass: Total,341569079.18850136
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Nevada,Biomass: Total,125928707.78220153
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Montana,Biomass: Total,1082067993.8636084
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Arizona,Biomass: Total,120161600.44636984
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Idaho,Biomass: Total,901678695.4347296
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,New Mexico,Biomass: Total,289041489.9554375
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,California,Biomass: Total,923432758.4784745
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Oregon,Biomass: Total,1150859085.5640552
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Washington,Biomass: Total,1218713421.1407003
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Utah,Biomass: Total,331394884.253567
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Colorado,Biomass: Total,665444457.3597434
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Wyoming,Biomass: Total,343896164.33088756
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Nevada,Biomass: Total,125435148.18165283
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Montana,Biomass: Total,1092440771.2917995
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Arizona,Biomass: Total,120090229.75603071
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Idaho,Biomass: Total,912046438.8558071
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,New Mexico,Biomass: Total,295703621.8375915
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,California,Biomass: Total,937906232.8549705
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Oregon,Biomass: Total,1153902095.341813
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Washington,Biomass: Total,1210927695.2516713
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Utah,Biomass: Total,339116466.5582371
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Colorado,Biomass: Total,676621261.9815323
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Wyoming,Biomass: Total,349796252.85328174
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Nevada,Biomass: Total,129426776.10438056
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Montana,Biomass: Total,1099667973.8455956
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Arizona,Biomass: Total,120572983.1042603
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Idaho,Biomass: Total,914110539.6336291
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,New Mexico,Biomass: Total,298270036.56022245
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,California,Biomass: Total,941397735.4133201
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Oregon,Biomass: Total,1152242559.4370697
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Washington,Biomass: Total,1209667458.201785
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Utah,Biomass: Total,340429095.1665946
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Colorado,Biomass: Total,677753223.0370922
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Wyoming,Biomass: Total,351576887.60241795
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Nevada,Biomass: Total,129907205.52762023
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Montana,Biomass: Total,1102388553.427779
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Arizona,Biomass: Total,121388559.8300315
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Idaho,Biomass: Total,916494330.3085554
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,New Mexico,Biomass: Total,298565136.5439269
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,California,Biomass: Total,925832812.701007
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Oregon,Biomass: Total,1148108030.9870756
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Washington,Biomass: Total,1206754703.4450045
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Utah,Biomass: Total,338836319.25917614
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Colorado,Biomass: Total,680028534.0688695
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Wyoming,Biomass: Total,353898671.4674404
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Nevada,Biomass: Total,128748795.76405035
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Montana,Biomass: Total,1109465815.7815306
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Arizona,Biomass: Total,120698312.78146559
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Idaho,Biomass: Total,919581935.5954224
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,New Mexico,Biomass: Total,303147329.6830615
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,California,Biomass: Total,922036474.892595
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Oregon,Biomass: Total,1155745944.7668698
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Washington,Biomass: Total,1206960064.7426343
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Utah,Biomass: Total,344755991.8698725
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Colorado,Biomass: Total,687244198.648779
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Wyoming,Biomass: Total,357815750.4479075
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Nevada,Biomass: Total,129289642.06476916
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Montana,Biomass: Total,1118839985.7740426
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Arizona,Biomass: Total,122362372.03920004
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Idaho,Biomass: Total,924685128.4988108
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,New Mexico,Biomass: Total,307717429.1703864
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,California,Biomass: Total,930426909.0003295
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Oregon,Biomass: Total,1154882862.10469
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Washington,Biomass: Total,1208783069.8202333
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Utah,Biomass: Total,349263275.56596416
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Colorado,Biomass: Total,696069127.4176223
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Wyoming,Biomass: Total,360161297.61520964
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Nevada,Biomass: Total,131075823.93118848
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Montana,Biomass: Total,1129777731.3520708
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Arizona,Biomass: Total,126630151.95070566
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Idaho,Biomass: Total,938725754.5332115
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,New Mexico,Biomass: Total,306178996.8435612
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,California,Biomass: Total,948119306.5546484
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Oregon,Biomass: Total,1162499329.074866
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Washington,Biomass: Total,1216331759.5826752
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Utah,Biomass: Total,358112816.3026485
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Colorado,Biomass: Total,704491314.5455191
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Wyoming,Biomass: Total,365318738.6802184
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Nevada,Biomass: Total,135222632.80884025
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Montana,Biomass: Total,1143551601.0568762
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Arizona,Biomass: Total,124736776.4155794

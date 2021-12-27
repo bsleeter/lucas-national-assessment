@@ -1,0 +1,1585 @@
+ScenarioID,ScenarioName,GCM,LUC,Iteration,Timestep,SecondaryStratumID,StockGroupID,Amount
+134,Historical,Historical,Historical,1,2001,Idaho,Total Ecosystem,2529777448.332845
+134,Historical,Historical,Historical,1,2001,New Mexico,Total Ecosystem,836873966.6363595
+134,Historical,Historical,Historical,1,2001,California,Total Ecosystem,3274584536.7272015
+134,Historical,Historical,Historical,1,2001,Oregon,Total Ecosystem,3781407338.801505
+134,Historical,Historical,Historical,1,2001,Washington,Total Ecosystem,3379599452.036594
+134,Historical,Historical,Historical,1,2001,Utah,Total Ecosystem,1005017811.5127419
+134,Historical,Historical,Historical,1,2001,Colorado,Total Ecosystem,1818882240.5236232
+134,Historical,Historical,Historical,1,2001,Wyoming,Total Ecosystem,829727976.7917424
+134,Historical,Historical,Historical,1,2001,Nevada,Total Ecosystem,369100037.43993866
+134,Historical,Historical,Historical,1,2001,Montana,Total Ecosystem,2797336188.981626
+134,Historical,Historical,Historical,1,2001,Arizona,Total Ecosystem,389654387.61066324
+134,Historical,Historical,Historical,1,2002,Idaho,Total Ecosystem,2513203009.5437593
+134,Historical,Historical,Historical,1,2002,New Mexico,Total Ecosystem,835399691.212312
+134,Historical,Historical,Historical,1,2002,California,Total Ecosystem,3270354529.887916
+134,Historical,Historical,Historical,1,2002,Oregon,Total Ecosystem,3782219986.0463324
+134,Historical,Historical,Historical,1,2002,Washington,Total Ecosystem,3383441505.639127
+134,Historical,Historical,Historical,1,2002,Utah,Total Ecosystem,1000325168.537031
+134,Historical,Historical,Historical,1,2002,Colorado,Total Ecosystem,1813675408.9488778
+134,Historical,Historical,Historical,1,2002,Wyoming,Total Ecosystem,829979978.1048881
+134,Historical,Historical,Historical,1,2002,Nevada,Total Ecosystem,366674378.0303793
+134,Historical,Historical,Historical,1,2002,Montana,Total Ecosystem,2787765146.5734797
+134,Historical,Historical,Historical,1,2002,Arizona,Total Ecosystem,387502868.06556374
+134,Historical,Historical,Historical,1,2003,Idaho,Total Ecosystem,2517326565.337651
+134,Historical,Historical,Historical,1,2003,New Mexico,Total Ecosystem,831161963.3530309
+134,Historical,Historical,Historical,1,2003,California,Total Ecosystem,3267936848.926923
+134,Historical,Historical,Historical,1,2003,Oregon,Total Ecosystem,3767184525.8079047
+134,Historical,Historical,Historical,1,2003,Washington,Total Ecosystem,3387372851.607584
+134,Historical,Historical,Historical,1,2003,Utah,Total Ecosystem,997340422.461342
+134,Historical,Historical,Historical,1,2003,Colorado,Total Ecosystem,1811828567.5147023
+134,Historical,Historical,Historical,1,2003,Wyoming,Total Ecosystem,831385449.359827
+134,Historical,Historical,Historical,1,2003,Nevada,Total Ecosystem,366327328.4272154
+134,Historical,Historical,Historical,1,2003,Montana,Total Ecosystem,2788443837.3451743
+134,Historical,Historical,Historical,1,2003,Arizona,Total Ecosystem,385759809.8081292
+134,Historical,Historical,Historical,1,2004,Idaho,Total Ecosystem,2519594172.999862
+134,Historical,Historical,Historical,1,2004,New Mexico,Total Ecosystem,834675007.064574
+134,Historical,Historical,Historical,1,2004,California,Total Ecosystem,3263247661.398505
+134,Historical,Historical,Historical,1,2004,Oregon,Total Ecosystem,3771865847.8205976
+134,Historical,Historical,Historical,1,2004,Washington,Total Ecosystem,3385380717.6816244
+134,Historical,Historical,Historical,1,2004,Utah,Total Ecosystem,1003862219.5196662
+134,Historical,Historical,Historical,1,2004,Colorado,Total Ecosystem,1820238292.7517228
+134,Historical,Historical,Historical,1,2004,Wyoming,Total Ecosystem,833449669.3488605
+134,Historical,Historical,Historical,1,2004,Nevada,Total Ecosystem,368453601.68169916
+134,Historical,Historical,Historical,1,2004,Montana,Total Ecosystem,2788384670.704294
+134,Historical,Historical,Historical,1,2004,Arizona,Total Ecosystem,386894890.40135276
+134,Historical,Historical,Historical,1,2005,Idaho,Total Ecosystem,2527948980.490997
+134,Historical,Historical,Historical,1,2005,New Mexico,Total Ecosystem,837007077.7035825
+134,Historical,Historical,Historical,1,2005,California,Total Ecosystem,3277802309.790637
+134,Historical,Historical,Historical,1,2005,Oregon,Total Ecosystem,3778336534.5271173
+134,Historical,Historical,Historical,1,2005,Washington,Total Ecosystem,3390896707.474815
+134,Historical,Historical,Historical,1,2005,Utah,Total Ecosystem,1010559821.0546569
+134,Historical,Historical,Historical,1,2005,Colorado,Total Ecosystem,1828324965.9017596
+134,Historical,Historical,Historical,1,2005,Wyoming,Total Ecosystem,836702725.7594528
+134,Historical,Historical,Historical,1,2005,Nevada,Total Ecosystem,371965855.1623419
+134,Historical,Historical,Historical,1,2005,Montana,Total Ecosystem,2796062219.2146525
+134,Historical,Historical,Historical,1,2005,Arizona,Total Ecosystem,387885039.0047629
+134,Historical,Historical,Historical,1,2006,Idaho,Total Ecosystem,2537922820.8071117
+134,Historical,Historical,Historical,1,2006,New Mexico,Total Ecosystem,840560793.9293197
+134,Historical,Historical,Historical,1,2006,California,Total Ecosystem,3284389364.171251
+134,Historical,Historical,Historical,1,2006,Oregon,Total Ecosystem,3786391963.0044427
+134,Historical,Historical,Historical,1,2006,Washington,Total Ecosystem,3398726495.584313
+134,Historical,Historical,Historical,1,2006,Utah,Total Ecosystem,1015450051.4515074
+134,Historical,Historical,Historical,1,2006,Colorado,Total Ecosystem,1836576983.135212
+134,Historical,Historical,Historical,1,2006,Wyoming,Total Ecosystem,838247250.8503395
+134,Historical,Historical,Historical,1,2006,Nevada,Total Ecosystem,372598851.7175348
+134,Historical,Historical,Historical,1,2006,Montana,Total Ecosystem,2802903401.5306373
+134,Historical,Historical,Historical,1,2006,Arizona,Total Ecosystem,387736036.2728772
+134,Historical,Historical,Historical,1,2007,Idaho,Total Ecosystem,2537078762.229938
+134,Historical,Historical,Historical,1,2007,New Mexico,Total Ecosystem,842847298.8115546
+134,Historical,Historical,Historical,1,2007,California,Total Ecosystem,3264057138.073601
+134,Historical,Historical,Historical,1,2007,Oregon,Total Ecosystem,3786747777.288332
+134,Historical,Historical,Historical,1,2007,Washington,Total Ecosystem,3398138309.88213
+134,Historical,Historical,Historical,1,2007,Utah,Total Ecosystem,1014646118.8479573
+134,Historical,Historical,Historical,1,2007,Colorado,Total Ecosystem,1842578562.4811025
+134,Historical,Historical,Historical,1,2007,Wyoming,Total Ecosystem,840270544.5532945
+134,Historical,Historical,Historical,1,2007,Nevada,Total Ecosystem,371877142.9321302
+134,Historical,Historical,Historical,1,2007,Montana,Total Ecosystem,2795309699.1619883
+134,Historical,Historical,Historical,1,2007,Arizona,Total Ecosystem,387829756.7701621
+134,Historical,Historical,Historical,1,2008,Idaho,Total Ecosystem,2544235177.694165
+134,Historical,Historical,Historical,1,2008,New Mexico,Total Ecosystem,844723534.7073414
+134,Historical,Historical,Historical,1,2008,California,Total Ecosystem,3258754563.868217
+134,Historical,Historical,Historical,1,2008,Oregon,Total Ecosystem,3787840935.855292
+134,Historical,Historical,Historical,1,2008,Washington,Total Ecosystem,3400729218.2676125
+134,Historical,Historical,Historical,1,2008,Utah,Total Ecosystem,1017449312.7569351
+134,Historical,Historical,Historical,1,2008,Colorado,Total Ecosystem,1846278403.4480636
+134,Historical,Historical,Historical,1,2008,Wyoming,Total Ecosystem,844020713.7235801
+134,Historical,Historical,Historical,1,2008,Nevada,Total Ecosystem,371708728.0240493
+134,Historical,Historical,Historical,1,2008,Montana,Total Ecosystem,2804435574.263683
+134,Historical,Historical,Historical,1,2008,Arizona,Total Ecosystem,389578478.20002925
+134,Historical,Historical,Historical,1,2009,Idaho,Total Ecosystem,2546756035.3244777
+134,Historical,Historical,Historical,1,2009,New Mexico,Total Ecosystem,843693106.8628607
+134,Historical,Historical,Historical,1,2009,California,Total Ecosystem,3249894603.6699667
+134,Historical,Historical,Historical,1,2009,Oregon,Total Ecosystem,3783896986.8000093
+134,Historical,Historical,Historical,1,2009,Washington,Total Ecosystem,3403944575.308094
+134,Historical,Historical,Historical,1,2009,Utah,Total Ecosystem,1019959918.8244457
+134,Historical,Historical,Historical,1,2009,Colorado,Total Ecosystem,1847791347.6487517
+134,Historical,Historical,Historical,1,2009,Wyoming,Total Ecosystem,847198350.7598051
+134,Historical,Historical,Historical,1,2009,Nevada,Total Ecosystem,373449205.17398584
+134,Historical,Historical,Historical,1,2009,Montana,Total Ecosystem,2809027766.87813
+134,Historical,Historical,Historical,1,2009,Arizona,Total Ecosystem,387656012.73805285
+134,Historical,Historical,Historical,1,2010,Idaho,Total Ecosystem,2535301548.340378
+134,Historical,Historical,Historical,1,2010,New Mexico,Total Ecosystem,841416338.0383692
+134,Historical,Historical,Historical,1,2010,California,Total Ecosystem,3261918319.8406773
+134,Historical,Historical,Historical,1,2010,Oregon,Total Ecosystem,3790212800.2392306
+134,Historical,Historical,Historical,1,2010,Washington,Total Ecosystem,3406773282.3588753
+134,Historical,Historical,Historical,1,2010,Utah,Total Ecosystem,1024823885.470832
+134,Historical,Historical,Historical,1,2010,Colorado,Total Ecosystem,1847683757.9342556
+134,Historical,Historical,Historical,1,2010,Wyoming,Total Ecosystem,847056838.1703627
+134,Historical,Historical,Historical,1,2010,Nevada,Total Ecosystem,376533747.0390529
+134,Historical,Historical,Historical,1,2010,Montana,Total Ecosystem,2812935746.1110177
+134,Historical,Historical,Historical,1,2010,Arizona,Total Ecosystem,388915918.5246731
+134,Historical,Historical,Historical,1,2011,Idaho,Total Ecosystem,2547811827.4154882
+134,Historical,Historical,Historical,1,2011,New Mexico,Total Ecosystem,842492623.668369
+134,Historical,Historical,Historical,1,2011,California,Total Ecosystem,3236846515.6449895
+134,Historical,Historical,Historical,1,2011,Oregon,Total Ecosystem,3793157070.465567
+134,Historical,Historical,Historical,1,2011,Washington,Total Ecosystem,3414392848.8587165
+134,Historical,Historical,Historical,1,2011,Utah,Total Ecosystem,1031955365.5794114
+134,Historical,Historical,Historical,1,2011,Colorado,Total Ecosystem,1854306064.9916964
+134,Historical,Historical,Historical,1,2011,Wyoming,Total Ecosystem,851109094.18538
+134,Historical,Historical,Historical,1,2011,Nevada,Total Ecosystem,377732352.9171131
+134,Historical,Historical,Historical,1,2011,Montana,Total Ecosystem,2827942380.596357
+134,Historical,Historical,Historical,1,2011,Arizona,Total Ecosystem,388862137.0658685
+134,Historical,Historical,Historical,1,2012,Idaho,Total Ecosystem,2557289289.1565137
+134,Historical,Historical,Historical,1,2012,New Mexico,Total Ecosystem,838613465.7687316
+134,Historical,Historical,Historical,1,2012,California,Total Ecosystem,3241445336.6496425
+134,Historical,Historical,Historical,1,2012,Oregon,Total Ecosystem,3801465157.6069155
+134,Historical,Historical,Historical,1,2012,Washington,Total Ecosystem,3424897687.907793
+134,Historical,Historical,Historical,1,2012,Utah,Total Ecosystem,1030416724.7416977
+134,Historical,Historical,Historical,1,2012,Colorado,Total Ecosystem,1847164241.6428783
+134,Historical,Historical,Historical,1,2012,Wyoming,Total Ecosystem,851093614.4410906
+134,Historical,Historical,Historical,1,2012,Nevada,Total Ecosystem,377453309.419051
+134,Historical,Historical,Historical,1,2012,Montana,Total Ecosystem,2833657313.2161126
+134,Historical,Historical,Historical,1,2012,Arizona,Total Ecosystem,387298967.5323923
+134,Historical,Historical,Historical,1,2013,Idaho,Total Ecosystem,2558707791.522027
+134,Historical,Historical,Historical,1,2013,New Mexico,Total Ecosystem,839870967.3168938
+134,Historical,Historical,Historical,1,2013,California,Total Ecosystem,3199791502.367026
+134,Historical,Historical,Historical,1,2013,Oregon,Total Ecosystem,3788836366.2583795
+134,Historical,Historical,Historical,1,2013,Washington,Total Ecosystem,3425006490.7890296
+134,Historical,Historical,Historical,1,2013,Utah,Total Ecosystem,1035176827.3785553
+134,Historical,Historical,Historical,1,2013,Colorado,Total Ecosystem,1857722155.4745686
+134,Historical,Historical,Historical,1,2013,Wyoming,Total Ecosystem,854439379.8532104
+134,Historical,Historical,Historical,1,2013,Nevada,Total Ecosystem,377771222.2724665
+134,Historical,Historical,Historical,1,2013,Montana,Total Ecosystem,2839357316.2983966
+134,Historical,Historical,Historical,1,2013,Arizona,Total Ecosystem,383763684.3693414
+134,Historical,Historical,Historical,1,2014,Idaho,Total Ecosystem,2567260395.702453
+134,Historical,Historical,Historical,1,2014,New Mexico,Total Ecosystem,841628831.4052241
+134,Historical,Historical,Historical,1,2014,California,Total Ecosystem,3199653227.135089
+134,Historical,Historical,Historical,1,2014,Oregon,Total Ecosystem,3789229642.6492743
+134,Historical,Historical,Historical,1,2014,Washington,Total Ecosystem,3427441102.4961777
+134,Historical,Historical,Historical,1,2014,Utah,Total Ecosystem,1037486865.3555893
+134,Historical,Historical,Historical,1,2014,Colorado,Total Ecosystem,1864104958.3854835
+134,Historical,Historical,Historical,1,2014,Wyoming,Total Ecosystem,858746064.7876296
+134,Historical,Historical,Historical,1,2014,Nevada,Total Ecosystem,378328110.4375141
+134,Historical,Historical,Historical,1,2014,Montana,Total Ecosystem,2851012697.835708
+134,Historical,Historical,Historical,1,2014,Arizona,Total Ecosystem,383232019.08780074
+134,Historical,Historical,Historical,1,2015,Idaho,Total Ecosystem,2559517299.6158757
+134,Historical,Historical,Historical,1,2015,New Mexico,Total Ecosystem,849290813.6089094
+134,Historical,Historical,Historical,1,2015,California,Total Ecosystem,3179459892.322891
+134,Historical,Historical,Historical,1,2015,Oregon,Total Ecosystem,3782149456.425642
+134,Historical,Historical,Historical,1,2015,Washington,Total Ecosystem,3418379548.9306
+134,Historical,Historical,Historical,1,2015,Utah,Total Ecosystem,1041046919.9501151
+134,Historical,Historical,Historical,1,2015,Colorado,Total Ecosystem,1872136757.867155
+134,Historical,Historical,Historical,1,2015,Wyoming,Total Ecosystem,860809735.0106939
+134,Historical,Historical,Historical,1,2015,Nevada,Total Ecosystem,379569864.401645
+134,Historical,Historical,Historical,1,2015,Montana,Total Ecosystem,2845795851.124963
+134,Historical,Historical,Historical,1,2015,Arizona,Total Ecosystem,384869497.28056383
+134,Historical,Historical,Historical,1,2016,Idaho,Total Ecosystem,2563304267.6000547
+134,Historical,Historical,Historical,1,2016,New Mexico,Total Ecosystem,850665917.5992199
+134,Historical,Historical,Historical,1,2016,California,Total Ecosystem,3191202666.3854957
+134,Historical,Historical,Historical,1,2016,Oregon,Total Ecosystem,3786028335.8438067
+134,Historical,Historical,Historical,1,2016,Washington,Total Ecosystem,3425943044.8270197
+134,Historical,Historical,Historical,1,2016,Utah,Total Ecosystem,1043192466.2173529
+134,Historical,Historical,Historical,1,2016,Colorado,Total Ecosystem,1872505209.354051
+134,Historical,Historical,Historical,1,2016,Wyoming,Total Ecosystem,862091057.3284652
+134,Historical,Historical,Historical,1,2016,Nevada,Total Ecosystem,381197137.3602115
+134,Historical,Historical,Historical,1,2016,Montana,Total Ecosystem,2854169119.508042
+134,Historical,Historical,Historical,1,2016,Arizona,Total Ecosystem,384687148.00755507
+134,Historical,Historical,Historical,1,2017,Idaho,Total Ecosystem,2571062602.121525
+134,Historical,Historical,Historical,1,2017,New Mexico,Total Ecosystem,852486679.7666669
+134,Historical,Historical,Historical,1,2017,California,Total Ecosystem,3189070782.0770783
+134,Historical,Historical,Historical,1,2017,Oregon,Total Ecosystem,3773300923.425017
+134,Historical,Historical,Historical,1,2017,Washington,Total Ecosystem,3427997589.068451
+134,Historical,Historical,Historical,1,2017,Utah,Total Ecosystem,1042817997.5059341
+134,Historical,Historical,Historical,1,2017,Colorado,Total Ecosystem,1874480894.9014947
+134,Historical,Historical,Historical,1,2017,Wyoming,Total Ecosystem,866555135.2482371
+134,Historical,Historical,Historical,1,2017,Nevada,Total Ecosystem,382645997.71189797
+134,Historical,Historical,Historical,1,2017,Montana,Total Ecosystem,2848541442.6490693
+134,Historical,Historical,Historical,1,2017,Arizona,Total Ecosystem,381919910.945058
+134,Historical,Historical,Historical,1,2018,Idaho,Total Ecosystem,2573208360.408007
+134,Historical,Historical,Historical,1,2018,New Mexico,Total Ecosystem,852707468.4771525
+134,Historical,Historical,Historical,1,2018,California,Total Ecosystem,3159021689.945069
+134,Historical,Historical,Historical,1,2018,Oregon,Total Ecosystem,3754662652.3741665
+134,Historical,Historical,Historical,1,2018,Washington,Total Ecosystem,3427831684.4275055
+134,Historical,Historical,Historical,1,2018,Utah,Total Ecosystem,1037220985.4460753
+134,Historical,Historical,Historical,1,2018,Colorado,Total Ecosystem,1866719533.360266
+134,Historical,Historical,Historical,1,2018,Wyoming,Total Ecosystem,866923877.6557322
+134,Historical,Historical,Historical,1,2018,Nevada,Total Ecosystem,381735539.4129618
+134,Historical,Historical,Historical,1,2018,Montana,Total Ecosystem,2860104899.124604
+134,Historical,Historical,Historical,1,2018,Arizona,Total Ecosystem,381179298.4667872
+134,Historical,Historical,Historical,1,2019,Idaho,Total Ecosystem,2580984494.2731185
+134,Historical,Historical,Historical,1,2019,New Mexico,Total Ecosystem,856568427.843667
+134,Historical,Historical,Historical,1,2019,California,Total Ecosystem,3174366598.851433
+134,Historical,Historical,Historical,1,2019,Oregon,Total Ecosystem,3757135146.204267
+134,Historical,Historical,Historical,1,2019,Washington,Total Ecosystem,3429900614.811806
+134,Historical,Historical,Historical,1,2019,Utah,Total Ecosystem,1047077625.4959446
+134,Historical,Historical,Historical,1,2019,Colorado,Total Ecosystem,1877562029.508402
+134,Historical,Historical,Historical,1,2019,Wyoming,Total Ecosystem,872264245.882947
+134,Historical,Historical,Historical,1,2019,Nevada,Total Ecosystem,386811304.83209616
+134,Historical,Historical,Historical,1,2019,Montana,Total Ecosystem,2875500355.966307
+134,Historical,Historical,Historical,1,2019,Arizona,Total Ecosystem,382888994.17764586
+134,Historical,Historical,Historical,1,2020,Idaho,Total Ecosystem,2585573497.5932865
+134,Historical,Historical,Historical,1,2020,New Mexico,Total Ecosystem,852190851.0286627
+134,Historical,Historical,Historical,1,2020,California,Total Ecosystem,3089107007.6370726
+134,Historical,Historical,Historical,1,2020,Oregon,Total Ecosystem,3725267680.834682
+134,Historical,Historical,Historical,1,2020,Washington,Total Ecosystem,3433553200.1039314
+134,Historical,Historical,Historical,1,2020,Utah,Total Ecosystem,1038470585.4177469
+134,Historical,Historical,Historical,1,2020,Colorado,Total Ecosystem,1864376827.0707376
+134,Historical,Historical,Historical,1,2020,Wyoming,Total Ecosystem,871623423.9432634
+134,Historical,Historical,Historical,1,2020,Nevada,Total Ecosystem,382604328.88072085
+134,Historical,Historical,Historical,1,2020,Montana,Total Ecosystem,2883431295.845853
+134,Historical,Historical,Historical,1,2020,Arizona,Total Ecosystem,377102449.09083426
+135,BAU CanESM2,CanESM2,BAU,1,2020,Idaho,Total Ecosystem,2585573497.601532
+135,BAU CanESM2,CanESM2,BAU,1,2020,New Mexico,Total Ecosystem,852190851.0362096
+135,BAU CanESM2,CanESM2,BAU,1,2020,California,Total Ecosystem,3089107007.4563293
+135,BAU CanESM2,CanESM2,BAU,1,2020,Oregon,Total Ecosystem,3725267681.1213374
+135,BAU CanESM2,CanESM2,BAU,1,2020,Washington,Total Ecosystem,3433553200.2970996
+135,BAU CanESM2,CanESM2,BAU,1,2020,Utah,Total Ecosystem,1038470585.376423
+135,BAU CanESM2,CanESM2,BAU,1,2020,Colorado,Total Ecosystem,1864376827.0884516
+135,BAU CanESM2,CanESM2,BAU,1,2020,Wyoming,Total Ecosystem,871623423.981351
+135,BAU CanESM2,CanESM2,BAU,1,2020,Nevada,Total Ecosystem,382604328.90623224
+135,BAU CanESM2,CanESM2,BAU,1,2020,Montana,Total Ecosystem,2883431295.7620363
+135,BAU CanESM2,CanESM2,BAU,1,2020,Arizona,Total Ecosystem,377102449.08835405
+135,BAU CanESM2,CanESM2,BAU,1,2021,Idaho,Total Ecosystem,2574984350.663651
+135,BAU CanESM2,CanESM2,BAU,1,2021,New Mexico,Total Ecosystem,857435734.3299526
+135,BAU CanESM2,CanESM2,BAU,1,2021,California,Total Ecosystem,3075249056.4486394
+135,BAU CanESM2,CanESM2,BAU,1,2021,Oregon,Total Ecosystem,3715853077.790333
+135,BAU CanESM2,CanESM2,BAU,1,2021,Washington,Total Ecosystem,3429480106.1400437
+135,BAU CanESM2,CanESM2,BAU,1,2021,Utah,Total Ecosystem,1040041163.7328851
+135,BAU CanESM2,CanESM2,BAU,1,2021,Colorado,Total Ecosystem,1871979025.000263
+135,BAU CanESM2,CanESM2,BAU,1,2021,Wyoming,Total Ecosystem,873628396.777861
+135,BAU CanESM2,CanESM2,BAU,1,2021,Nevada,Total Ecosystem,383716870.6602128
+135,BAU CanESM2,CanESM2,BAU,1,2021,Montana,Total Ecosystem,2881777240.6793604
+135,BAU CanESM2,CanESM2,BAU,1,2021,Arizona,Total Ecosystem,377435334.2380081
+135,BAU CanESM2,CanESM2,BAU,1,2022,Idaho,Total Ecosystem,2574698655.350767
+135,BAU CanESM2,CanESM2,BAU,1,2022,New Mexico,Total Ecosystem,861955505.3273054
+135,BAU CanESM2,CanESM2,BAU,1,2022,California,Total Ecosystem,3098552731.2624807
+135,BAU CanESM2,CanESM2,BAU,1,2022,Oregon,Total Ecosystem,3712053522.400964
+135,BAU CanESM2,CanESM2,BAU,1,2022,Washington,Total Ecosystem,3418347709.382328
+135,BAU CanESM2,CanESM2,BAU,1,2022,Utah,Total Ecosystem,1049590939.2809397
+135,BAU CanESM2,CanESM2,BAU,1,2022,Colorado,Total Ecosystem,1878533264.1817114
+135,BAU CanESM2,CanESM2,BAU,1,2022,Wyoming,Total Ecosystem,877292305.5316658
+135,BAU CanESM2,CanESM2,BAU,1,2022,Nevada,Total Ecosystem,390267489.4060684
+135,BAU CanESM2,CanESM2,BAU,1,2022,Montana,Total Ecosystem,2884559901.9063253
+135,BAU CanESM2,CanESM2,BAU,1,2022,Arizona,Total Ecosystem,382171548.25416785
+135,BAU CanESM2,CanESM2,BAU,1,2023,Idaho,Total Ecosystem,2563258235.0411696
+135,BAU CanESM2,CanESM2,BAU,1,2023,New Mexico,Total Ecosystem,874683948.5492648
+135,BAU CanESM2,CanESM2,BAU,1,2023,California,Total Ecosystem,3077150583.0194993
+135,BAU CanESM2,CanESM2,BAU,1,2023,Oregon,Total Ecosystem,3695750737.951646
+135,BAU CanESM2,CanESM2,BAU,1,2023,Washington,Total Ecosystem,3404702636.933867
+135,BAU CanESM2,CanESM2,BAU,1,2023,Utah,Total Ecosystem,1055180758.5281585
+135,BAU CanESM2,CanESM2,BAU,1,2023,Colorado,Total Ecosystem,1893089153.602749
+135,BAU CanESM2,CanESM2,BAU,1,2023,Wyoming,Total Ecosystem,879275398.784182
+135,BAU CanESM2,CanESM2,BAU,1,2023,Nevada,Total Ecosystem,391580298.4705842
+135,BAU CanESM2,CanESM2,BAU,1,2023,Montana,Total Ecosystem,2876987612.2426023
+135,BAU CanESM2,CanESM2,BAU,1,2023,Arizona,Total Ecosystem,386295944.71411264
+135,BAU CanESM2,CanESM2,BAU,1,2024,Idaho,Total Ecosystem,2565175514.26599
+135,BAU CanESM2,CanESM2,BAU,1,2024,New Mexico,Total Ecosystem,876048349.5539813
+135,BAU CanESM2,CanESM2,BAU,1,2024,California,Total Ecosystem,3044281235.7317553
+135,BAU CanESM2,CanESM2,BAU,1,2024,Oregon,Total Ecosystem,3667642072.435158
+135,BAU CanESM2,CanESM2,BAU,1,2024,Washington,Total Ecosystem,3395918395.9193926
+135,BAU CanESM2,CanESM2,BAU,1,2024,Utah,Total Ecosystem,1053867471.9157647
+135,BAU CanESM2,CanESM2,BAU,1,2024,Colorado,Total Ecosystem,1888930602.5024445
+135,BAU CanESM2,CanESM2,BAU,1,2024,Wyoming,Total Ecosystem,878388043.6748075
+135,BAU CanESM2,CanESM2,BAU,1,2024,Nevada,Total Ecosystem,392439430.73638576
+135,BAU CanESM2,CanESM2,BAU,1,2024,Montana,Total Ecosystem,2879594239.69551
+135,BAU CanESM2,CanESM2,BAU,1,2024,Arizona,Total Ecosystem,384490374.0909855
+135,BAU CanESM2,CanESM2,BAU,1,2025,Idaho,Total Ecosystem,2554011261.6123724
+135,BAU CanESM2,CanESM2,BAU,1,2025,New Mexico,Total Ecosystem,886037770.8445804
+135,BAU CanESM2,CanESM2,BAU,1,2025,California,Total Ecosystem,3018905804.944767
+135,BAU CanESM2,CanESM2,BAU,1,2025,Oregon,Total Ecosystem,3642757516.5514674
+135,BAU CanESM2,CanESM2,BAU,1,2025,Washington,Total Ecosystem,3381681140.127637
+135,BAU CanESM2,CanESM2,BAU,1,2025,Utah,Total Ecosystem,1054692746.2949594
+135,BAU CanESM2,CanESM2,BAU,1,2025,Colorado,Total Ecosystem,1898692079.6452122
+135,BAU CanESM2,CanESM2,BAU,1,2025,Wyoming,Total Ecosystem,878069506.9808329
+135,BAU CanESM2,CanESM2,BAU,1,2025,Nevada,Total Ecosystem,391332401.2392787
+135,BAU CanESM2,CanESM2,BAU,1,2025,Montana,Total Ecosystem,2862706362.3716617
+135,BAU CanESM2,CanESM2,BAU,1,2025,Arizona,Total Ecosystem,385989150.22500974
+135,BAU CanESM2,CanESM2,BAU,1,2026,Idaho,Total Ecosystem,2552738952.47291
+135,BAU CanESM2,CanESM2,BAU,1,2026,New Mexico,Total Ecosystem,889870115.2057526
+135,BAU CanESM2,CanESM2,BAU,1,2026,California,Total Ecosystem,3029330418.5507517
+135,BAU CanESM2,CanESM2,BAU,1,2026,Oregon,Total Ecosystem,3639584703.292275
+135,BAU CanESM2,CanESM2,BAU,1,2026,Washington,Total Ecosystem,3379997159.0897546
+135,BAU CanESM2,CanESM2,BAU,1,2026,Utah,Total Ecosystem,1059499484.881232
+135,BAU CanESM2,CanESM2,BAU,1,2026,Colorado,Total Ecosystem,1907276044.633976
+135,BAU CanESM2,CanESM2,BAU,1,2026,Wyoming,Total Ecosystem,879741372.4762745
+135,BAU CanESM2,CanESM2,BAU,1,2026,Nevada,Total Ecosystem,394610444.1750425
+135,BAU CanESM2,CanESM2,BAU,1,2026,Montana,Total Ecosystem,2862956762.787241
+135,BAU CanESM2,CanESM2,BAU,1,2026,Arizona,Total Ecosystem,385721488.179655
+135,BAU CanESM2,CanESM2,BAU,1,2027,Idaho,Total Ecosystem,2558559179.990843
+135,BAU CanESM2,CanESM2,BAU,1,2027,New Mexico,Total Ecosystem,891847828.8046459
+135,BAU CanESM2,CanESM2,BAU,1,2027,California,Total Ecosystem,3023199769.8693185
+135,BAU CanESM2,CanESM2,BAU,1,2027,Oregon,Total Ecosystem,3633934553.156835
+135,BAU CanESM2,CanESM2,BAU,1,2027,Washington,Total Ecosystem,3381993063.2208567
+135,BAU CanESM2,CanESM2,BAU,1,2027,Utah,Total Ecosystem,1062489818.3668507
+135,BAU CanESM2,CanESM2,BAU,1,2027,Colorado,Total Ecosystem,1914104982.2877405
+135,BAU CanESM2,CanESM2,BAU,1,2027,Wyoming,Total Ecosystem,882175193.356128
+135,BAU CanESM2,CanESM2,BAU,1,2027,Nevada,Total Ecosystem,395796482.034602
+135,BAU CanESM2,CanESM2,BAU,1,2027,Montana,Total Ecosystem,2873413252.659
+135,BAU CanESM2,CanESM2,BAU,1,2027,Arizona,Total Ecosystem,386459406.19716394
+135,BAU CanESM2,CanESM2,BAU,1,2028,Idaho,Total Ecosystem,2574010359.428028
+135,BAU CanESM2,CanESM2,BAU,1,2028,New Mexico,Total Ecosystem,889997489.8222541
+135,BAU CanESM2,CanESM2,BAU,1,2028,California,Total Ecosystem,3026112178.2880306
+135,BAU CanESM2,CanESM2,BAU,1,2028,Oregon,Total Ecosystem,3638809750.8032513
+135,BAU CanESM2,CanESM2,BAU,1,2028,Washington,Total Ecosystem,3380609831.7853208
+135,BAU CanESM2,CanESM2,BAU,1,2028,Utah,Total Ecosystem,1072568259.9859555
+135,BAU CanESM2,CanESM2,BAU,1,2028,Colorado,Total Ecosystem,1923487594.2940342
+135,BAU CanESM2,CanESM2,BAU,1,2028,Wyoming,Total Ecosystem,888974874.0542176
+135,BAU CanESM2,CanESM2,BAU,1,2028,Nevada,Total Ecosystem,401146214.6842571
+135,BAU CanESM2,CanESM2,BAU,1,2028,Montana,Total Ecosystem,2895488199.1821194
+135,BAU CanESM2,CanESM2,BAU,1,2028,Arizona,Total Ecosystem,386893921.31485385
+135,BAU CanESM2,CanESM2,BAU,1,2029,Idaho,Total Ecosystem,2566561873.8592377
+135,BAU CanESM2,CanESM2,BAU,1,2029,New Mexico,Total Ecosystem,898441288.9955196
+135,BAU CanESM2,CanESM2,BAU,1,2029,California,Total Ecosystem,3014152951.923575
+135,BAU CanESM2,CanESM2,BAU,1,2029,Oregon,Total Ecosystem,3626278197.258842
+135,BAU CanESM2,CanESM2,BAU,1,2029,Washington,Total Ecosystem,3364899148.4291396
+135,BAU CanESM2,CanESM2,BAU,1,2029,Utah,Total Ecosystem,1082109508.207372
+135,BAU CanESM2,CanESM2,BAU,1,2029,Colorado,Total Ecosystem,1941500341.8904867
+135,BAU CanESM2,CanESM2,BAU,1,2029,Wyoming,Total Ecosystem,893247744.6584312
+135,BAU CanESM2,CanESM2,BAU,1,2029,Nevada,Total Ecosystem,403523364.26303416
+135,BAU CanESM2,CanESM2,BAU,1,2029,Montana,Total Ecosystem,2896368427.1157694
+135,BAU CanESM2,CanESM2,BAU,1,2029,Arizona,Total Ecosystem,389667273.7025226
+135,BAU CanESM2,CanESM2,BAU,1,2030,Idaho,Total Ecosystem,2559943025.288627
+135,BAU CanESM2,CanESM2,BAU,1,2030,New Mexico,Total Ecosystem,902829773.6199332
+135,BAU CanESM2,CanESM2,BAU,1,2030,California,Total Ecosystem,3002742109.119286
+135,BAU CanESM2,CanESM2,BAU,1,2030,Oregon,Total Ecosystem,3623753704.5654263
+135,BAU CanESM2,CanESM2,BAU,1,2030,Washington,Total Ecosystem,3362999757.902527
+135,BAU CanESM2,CanESM2,BAU,1,2030,Utah,Total Ecosystem,1083872057.35815
+135,BAU CanESM2,CanESM2,BAU,1,2030,Colorado,Total Ecosystem,1944107398.186792
+135,BAU CanESM2,CanESM2,BAU,1,2030,Wyoming,Total Ecosystem,895447315.6821148
+135,BAU CanESM2,CanESM2,BAU,1,2030,Nevada,Total Ecosystem,404565973.3411335
+135,BAU CanESM2,CanESM2,BAU,1,2030,Montana,Total Ecosystem,2898785668.6675224
+135,BAU CanESM2,CanESM2,BAU,1,2030,Arizona,Total Ecosystem,390987195.4418148
+135,BAU CanESM2,CanESM2,BAU,1,2031,Idaho,Total Ecosystem,2564634621.363032
+135,BAU CanESM2,CanESM2,BAU,1,2031,New Mexico,Total Ecosystem,902964701.3627957
+135,BAU CanESM2,CanESM2,BAU,1,2031,California,Total Ecosystem,2990497569.0775976
+135,BAU CanESM2,CanESM2,BAU,1,2031,Oregon,Total Ecosystem,3619797228.453654
+135,BAU CanESM2,CanESM2,BAU,1,2031,Washington,Total Ecosystem,3361110479.327283
+135,BAU CanESM2,CanESM2,BAU,1,2031,Utah,Total Ecosystem,1080694266.631652
+135,BAU CanESM2,CanESM2,BAU,1,2031,Colorado,Total Ecosystem,1940729370.4747953
+135,BAU CanESM2,CanESM2,BAU,1,2031,Wyoming,Total Ecosystem,896172633.1703055
+135,BAU CanESM2,CanESM2,BAU,1,2031,Nevada,Total Ecosystem,403262158.5506693
+135,BAU CanESM2,CanESM2,BAU,1,2031,Montana,Total Ecosystem,2905434836.6399775
+135,BAU CanESM2,CanESM2,BAU,1,2031,Arizona,Total Ecosystem,390106313.1686177
+135,BAU CanESM2,CanESM2,BAU,1,2032,Idaho,Total Ecosystem,2574927273.1813016
+135,BAU CanESM2,CanESM2,BAU,1,2032,New Mexico,Total Ecosystem,905478008.977693
+135,BAU CanESM2,CanESM2,BAU,1,2032,California,Total Ecosystem,2991736399.4494834
+135,BAU CanESM2,CanESM2,BAU,1,2032,Oregon,Total Ecosystem,3614762535.294719
+135,BAU CanESM2,CanESM2,BAU,1,2032,Washington,Total Ecosystem,3364916623.3634086
+135,BAU CanESM2,CanESM2,BAU,1,2032,Utah,Total Ecosystem,1086464156.078597
+135,BAU CanESM2,CanESM2,BAU,1,2032,Colorado,Total Ecosystem,1947413077.0924764
+135,BAU CanESM2,CanESM2,BAU,1,2032,Wyoming,Total Ecosystem,899488862.6487714
+135,BAU CanESM2,CanESM2,BAU,1,2032,Nevada,Total Ecosystem,406436230.7581878
+135,BAU CanESM2,CanESM2,BAU,1,2032,Montana,Total Ecosystem,2921937258.3566427
+135,BAU CanESM2,CanESM2,BAU,1,2032,Arizona,Total Ecosystem,392087344.7452205
+135,BAU CanESM2,CanESM2,BAU,1,2033,Idaho,Total Ecosystem,2583581619.787746
+135,BAU CanESM2,CanESM2,BAU,1,2033,New Mexico,Total Ecosystem,905234167.255916
+135,BAU CanESM2,CanESM2,BAU,1,2033,California,Total Ecosystem,2995133846.1311116
+135,BAU CanESM2,CanESM2,BAU,1,2033,Oregon,Total Ecosystem,3623175189.235774
+135,BAU CanESM2,CanESM2,BAU,1,2033,Washington,Total Ecosystem,3373391704.8541956
+135,BAU CanESM2,CanESM2,BAU,1,2033,Utah,Total Ecosystem,1091452270.7042725
+135,BAU CanESM2,CanESM2,BAU,1,2033,Colorado,Total Ecosystem,1949790179.6473117
+135,BAU CanESM2,CanESM2,BAU,1,2033,Wyoming,Total Ecosystem,902786764.1645725
+135,BAU CanESM2,CanESM2,BAU,1,2033,Nevada,Total Ecosystem,407179527.29718643
+135,BAU CanESM2,CanESM2,BAU,1,2033,Montana,Total Ecosystem,2932461496.8256607
+135,BAU CanESM2,CanESM2,BAU,1,2033,Arizona,Total Ecosystem,391783824.8537491
+135,BAU CanESM2,CanESM2,BAU,1,2034,Idaho,Total Ecosystem,2587978599.0221
+135,BAU CanESM2,CanESM2,BAU,1,2034,New Mexico,Total Ecosystem,900623181.1036309
+135,BAU CanESM2,CanESM2,BAU,1,2034,California,Total Ecosystem,2963550207.4950395
+135,BAU CanESM2,CanESM2,BAU,1,2034,Oregon,Total Ecosystem,3618003754.033951
+135,BAU CanESM2,CanESM2,BAU,1,2034,Washington,Total Ecosystem,3381590587.3330994
+135,BAU CanESM2,CanESM2,BAU,1,2034,Utah,Total Ecosystem,1091294645.771159
+135,BAU CanESM2,CanESM2,BAU,1,2034,Colorado,Total Ecosystem,1943416789.281178
+135,BAU CanESM2,CanESM2,BAU,1,2034,Wyoming,Total Ecosystem,903970341.2045068
+135,BAU CanESM2,CanESM2,BAU,1,2034,Nevada,Total Ecosystem,407600404.4096255
+135,BAU CanESM2,CanESM2,BAU,1,2034,Montana,Total Ecosystem,2941768026.1067624
+135,BAU CanESM2,CanESM2,BAU,1,2034,Arizona,Total Ecosystem,389828368.7032639
+135,BAU CanESM2,CanESM2,BAU,1,2035,Idaho,Total Ecosystem,2596608762.5291276
+135,BAU CanESM2,CanESM2,BAU,1,2035,New Mexico,Total Ecosystem,898628094.2921073
+135,BAU CanESM2,CanESM2,BAU,1,2035,California,Total Ecosystem,2957466228.516665
+135,BAU CanESM2,CanESM2,BAU,1,2035,Oregon,Total Ecosystem,3611136504.333155
+135,BAU CanESM2,CanESM2,BAU,1,2035,Washington,Total Ecosystem,3380341491.2434692
+135,BAU CanESM2,CanESM2,BAU,1,2035,Utah,Total Ecosystem,1099606593.3007503
+135,BAU CanESM2,CanESM2,BAU,1,2035,Colorado,Total Ecosystem,1945501697.276607
+135,BAU CanESM2,CanESM2,BAU,1,2035,Wyoming,Total Ecosystem,908164188.5422245
+135,BAU CanESM2,CanESM2,BAU,1,2035,Nevada,Total Ecosystem,411044487.55647165
+135,BAU CanESM2,CanESM2,BAU,1,2035,Montana,Total Ecosystem,2955392105.733968
+135,BAU CanESM2,CanESM2,BAU,1,2035,Arizona,Total Ecosystem,389528350.65359175
+135,BAU CanESM2,CanESM2,BAU,1,2036,Idaho,Total Ecosystem,2580852365.4293184
+135,BAU CanESM2,CanESM2,BAU,1,2036,New Mexico,Total Ecosystem,895458696.585987
+135,BAU CanESM2,CanESM2,BAU,1,2036,California,Total Ecosystem,2955729519.440242
+135,BAU CanESM2,CanESM2,BAU,1,2036,Oregon,Total Ecosystem,3611542100.021047
+135,BAU CanESM2,CanESM2,BAU,1,2036,Washington,Total Ecosystem,3383971051.089
+135,BAU CanESM2,CanESM2,BAU,1,2036,Utah,Total Ecosystem,1099742468.1768692
+135,BAU CanESM2,CanESM2,BAU,1,2036,Colorado,Total Ecosystem,1943845369.720984
+135,BAU CanESM2,CanESM2,BAU,1,2036,Wyoming,Total Ecosystem,909459768.8626986
+135,BAU CanESM2,CanESM2,BAU,1,2036,Nevada,Total Ecosystem,413668845.1282989
+135,BAU CanESM2,CanESM2,BAU,1,2036,Montana,Total Ecosystem,2949482191.4862456
+135,BAU CanESM2,CanESM2,BAU,1,2036,Arizona,Total Ecosystem,387935394.71842897
+135,BAU CanESM2,CanESM2,BAU,1,2037,Idaho,Total Ecosystem,2595368676.6690593
+135,BAU CanESM2,CanESM2,BAU,1,2037,New Mexico,Total Ecosystem,909202982.9480346
+135,BAU CanESM2,CanESM2,BAU,1,2037,California,Total Ecosystem,2967353938.663257
+135,BAU CanESM2,CanESM2,BAU,1,2037,Oregon,Total Ecosystem,3610226968.446127
+135,BAU CanESM2,CanESM2,BAU,1,2037,Washington,Total Ecosystem,3382206081.4184217
+135,BAU CanESM2,CanESM2,BAU,1,2037,Utah,Total Ecosystem,1111218892.9102666
+135,BAU CanESM2,CanESM2,BAU,1,2037,Colorado,Total Ecosystem,1961882631.6372473
+135,BAU CanESM2,CanESM2,BAU,1,2037,Wyoming,Total Ecosystem,916127071.327689
+135,BAU CanESM2,CanESM2,BAU,1,2037,Nevada,Total Ecosystem,419578115.835465
+135,BAU CanESM2,CanESM2,BAU,1,2037,Montana,Total Ecosystem,2972630253.3690705
+135,BAU CanESM2,CanESM2,BAU,1,2037,Arizona,Total Ecosystem,393947904.35060406
+135,BAU CanESM2,CanESM2,BAU,1,2038,Idaho,Total Ecosystem,2609761727.9568715
+135,BAU CanESM2,CanESM2,BAU,1,2038,New Mexico,Total Ecosystem,903781542.9280086
+135,BAU CanESM2,CanESM2,BAU,1,2038,California,Total Ecosystem,2960529393.944719
+135,BAU CanESM2,CanESM2,BAU,1,2038,Oregon,Total Ecosystem,3616774599.0168123
+135,BAU CanESM2,CanESM2,BAU,1,2038,Washington,Total Ecosystem,3390464360.0481753
+135,BAU CanESM2,CanESM2,BAU,1,2038,Utah,Total Ecosystem,1102195206.777397
+135,BAU CanESM2,CanESM2,BAU,1,2038,Colorado,Total Ecosystem,1950535327.450134
+135,BAU CanESM2,CanESM2,BAU,1,2038,Wyoming,Total Ecosystem,915446599.3649409
+135,BAU CanESM2,CanESM2,BAU,1,2038,Nevada,Total Ecosystem,416608361.8600207
+135,BAU CanESM2,CanESM2,BAU,1,2038,Montana,Total Ecosystem,2993460453.0106883
+135,BAU CanESM2,CanESM2,BAU,1,2038,Arizona,Total Ecosystem,389401451.57999694
+135,BAU CanESM2,CanESM2,BAU,1,2039,Idaho,Total Ecosystem,2617338934.2789674
+135,BAU CanESM2,CanESM2,BAU,1,2039,New Mexico,Total Ecosystem,900950701.8118424
+135,BAU CanESM2,CanESM2,BAU,1,2039,California,Total Ecosystem,2913577703.1031632
+135,BAU CanESM2,CanESM2,BAU,1,2039,Oregon,Total Ecosystem,3590724901.720822
+135,BAU CanESM2,CanESM2,BAU,1,2039,Washington,Total Ecosystem,3386436824.8565235
+135,BAU CanESM2,CanESM2,BAU,1,2039,Utah,Total Ecosystem,1100878539.658471
+135,BAU CanESM2,CanESM2,BAU,1,2039,Colorado,Total Ecosystem,1949862180.5335166
+135,BAU CanESM2,CanESM2,BAU,1,2039,Wyoming,Total Ecosystem,917035541.6679657
+135,BAU CanESM2,CanESM2,BAU,1,2039,Nevada,Total Ecosystem,413437914.9748044
+135,BAU CanESM2,CanESM2,BAU,1,2039,Montana,Total Ecosystem,3002337925.746302
+135,BAU CanESM2,CanESM2,BAU,1,2039,Arizona,Total Ecosystem,386288517.67878956
+135,BAU CanESM2,CanESM2,BAU,1,2040,Idaho,Total Ecosystem,2626773804.535979
+135,BAU CanESM2,CanESM2,BAU,1,2040,New Mexico,Total Ecosystem,906911522.4752862
+135,BAU CanESM2,CanESM2,BAU,1,2040,California,Total Ecosystem,2921652598.68209
+135,BAU CanESM2,CanESM2,BAU,1,2040,Oregon,Total Ecosystem,3585472105.6631374
+135,BAU CanESM2,CanESM2,BAU,1,2040,Washington,Total Ecosystem,3384235596.3802886
+135,BAU CanESM2,CanESM2,BAU,1,2040,Utah,Total Ecosystem,1112331591.2869341
+135,BAU CanESM2,CanESM2,BAU,1,2040,Colorado,Total Ecosystem,1965435861.0192747
+135,BAU CanESM2,CanESM2,BAU,1,2040,Wyoming,Total Ecosystem,923709789.8862203
+135,BAU CanESM2,CanESM2,BAU,1,2040,Nevada,Total Ecosystem,418396830.7977428
+135,BAU CanESM2,CanESM2,BAU,1,2040,Montana,Total Ecosystem,3021429394.9140477
+135,BAU CanESM2,CanESM2,BAU,1,2040,Arizona,Total Ecosystem,388873795.3064357
+135,BAU CanESM2,CanESM2,BAU,1,2041,Idaho,Total Ecosystem,2632826395.997307
+135,BAU CanESM2,CanESM2,BAU,1,2041,New Mexico,Total Ecosystem,911569772.2726516
+135,BAU CanESM2,CanESM2,BAU,1,2041,California,Total Ecosystem,2909090572.125704
+135,BAU CanESM2,CanESM2,BAU,1,2041,Oregon,Total Ecosystem,3583347254.8281884
+135,BAU CanESM2,CanESM2,BAU,1,2041,Washington,Total Ecosystem,3386120017.051297
+135,BAU CanESM2,CanESM2,BAU,1,2041,Utah,Total Ecosystem,1108471590.8553689
+135,BAU CanESM2,CanESM2,BAU,1,2041,Colorado,Total Ecosystem,1971940419.3292751
+135,BAU CanESM2,CanESM2,BAU,1,2041,Wyoming,Total Ecosystem,924994886.4974293
+135,BAU CanESM2,CanESM2,BAU,1,2041,Nevada,Total Ecosystem,415749349.2005379
+135,BAU CanESM2,CanESM2,BAU,1,2041,Montana,Total Ecosystem,3025411136.2390385
+135,BAU CanESM2,CanESM2,BAU,1,2041,Arizona,Total Ecosystem,387539179.8191457
+135,BAU CanESM2,CanESM2,BAU,1,2042,Idaho,Total Ecosystem,2638165903.9245377
+135,BAU CanESM2,CanESM2,BAU,1,2042,New Mexico,Total Ecosystem,911821859.2292798
+135,BAU CanESM2,CanESM2,BAU,1,2042,California,Total Ecosystem,2920336084.046736
+135,BAU CanESM2,CanESM2,BAU,1,2042,Oregon,Total Ecosystem,3581107045.2482247
+135,BAU CanESM2,CanESM2,BAU,1,2042,Washington,Total Ecosystem,3383282276.769475
+135,BAU CanESM2,CanESM2,BAU,1,2042,Utah,Total Ecosystem,1115303626.5810227
+135,BAU CanESM2,CanESM2,BAU,1,2042,Colorado,Total Ecosystem,1979850424.2740705
+135,BAU CanESM2,CanESM2,BAU,1,2042,Wyoming,Total Ecosystem,928585027.5946391
+135,BAU CanESM2,CanESM2,BAU,1,2042,Nevada,Total Ecosystem,419863674.4949994
+135,BAU CanESM2,CanESM2,BAU,1,2042,Montana,Total Ecosystem,3031211556.826952
+135,BAU CanESM2,CanESM2,BAU,1,2042,Arizona,Total Ecosystem,387558262.3969888
+135,BAU CanESM2,CanESM2,BAU,1,2043,Idaho,Total Ecosystem,2618826114.9124956
+135,BAU CanESM2,CanESM2,BAU,1,2043,New Mexico,Total Ecosystem,911254437.8153135
+135,BAU CanESM2,CanESM2,BAU,1,2043,California,Total Ecosystem,2902728695.4060187
+135,BAU CanESM2,CanESM2,BAU,1,2043,Oregon,Total Ecosystem,3573735903.5846868
+135,BAU CanESM2,CanESM2,BAU,1,2043,Washington,Total Ecosystem,3381427825.283553
+135,BAU CanESM2,CanESM2,BAU,1,2043,Utah,Total Ecosystem,1107036361.271719
+135,BAU CanESM2,CanESM2,BAU,1,2043,Colorado,Total Ecosystem,1968650125.21698
+135,BAU CanESM2,CanESM2,BAU,1,2043,Wyoming,Total Ecosystem,926610672.504508
+135,BAU CanESM2,CanESM2,BAU,1,2043,Nevada,Total Ecosystem,416494142.99590504
+135,BAU CanESM2,CanESM2,BAU,1,2043,Montana,Total Ecosystem,3030071382.686905
+135,BAU CanESM2,CanESM2,BAU,1,2043,Arizona,Total Ecosystem,386300851.84616065
+135,BAU CanESM2,CanESM2,BAU,1,2044,Idaho,Total Ecosystem,2628120817.3272533
+135,BAU CanESM2,CanESM2,BAU,1,2044,New Mexico,Total Ecosystem,911551748.2093333
+135,BAU CanESM2,CanESM2,BAU,1,2044,California,Total Ecosystem,2904501628.52169
+135,BAU CanESM2,CanESM2,BAU,1,2044,Oregon,Total Ecosystem,3577203718.0573277
+135,BAU CanESM2,CanESM2,BAU,1,2044,Washington,Total Ecosystem,3386545076.6127095
+135,BAU CanESM2,CanESM2,BAU,1,2044,Utah,Total Ecosystem,1105020744.0252335
+135,BAU CanESM2,CanESM2,BAU,1,2044,Colorado,Total Ecosystem,1966859482.356649
+135,BAU CanESM2,CanESM2,BAU,1,2044,Wyoming,Total Ecosystem,929014507.9082396
+135,BAU CanESM2,CanESM2,BAU,1,2044,Nevada,Total Ecosystem,415528691.31161165
+135,BAU CanESM2,CanESM2,BAU,1,2044,Montana,Total Ecosystem,3041407570.0305405
+135,BAU CanESM2,CanESM2,BAU,1,2044,Arizona,Total Ecosystem,383278097.629368
+135,BAU CanESM2,CanESM2,BAU,1,2045,Idaho,Total Ecosystem,2619460903.3978786
+135,BAU CanESM2,CanESM2,BAU,1,2045,New Mexico,Total Ecosystem,914768298.0722388
+135,BAU CanESM2,CanESM2,BAU,1,2045,California,Total Ecosystem,2908088223.5035295
+135,BAU CanESM2,CanESM2,BAU,1,2045,Oregon,Total Ecosystem,3558074136.285656
+135,BAU CanESM2,CanESM2,BAU,1,2045,Washington,Total Ecosystem,3367849578.607656
+135,BAU CanESM2,CanESM2,BAU,1,2045,Utah,Total Ecosystem,1112717526.3437939
+135,BAU CanESM2,CanESM2,BAU,1,2045,Colorado,Total Ecosystem,1974850460.9308438
+135,BAU CanESM2,CanESM2,BAU,1,2045,Wyoming,Total Ecosystem,931339718.557138
+135,BAU CanESM2,CanESM2,BAU,1,2045,Nevada,Total Ecosystem,419638111.21101636
+135,BAU CanESM2,CanESM2,BAU,1,2045,Montana,Total Ecosystem,3025692616.682447
+135,BAU CanESM2,CanESM2,BAU,1,2045,Arizona,Total Ecosystem,383056202.138594
+135,BAU CanESM2,CanESM2,BAU,1,2046,Idaho,Total Ecosystem,2625271708.3891373
+135,BAU CanESM2,CanESM2,BAU,1,2046,New Mexico,Total Ecosystem,921633348.808519
+135,BAU CanESM2,CanESM2,BAU,1,2046,California,Total Ecosystem,2918119300.5737
+135,BAU CanESM2,CanESM2,BAU,1,2046,Oregon,Total Ecosystem,3554802634.8199434
+135,BAU CanESM2,CanESM2,BAU,1,2046,Washington,Total Ecosystem,3363443787.1318364
+135,BAU CanESM2,CanESM2,BAU,1,2046,Utah,Total Ecosystem,1125299342.9556155
+135,BAU CanESM2,CanESM2,BAU,1,2046,Colorado,Total Ecosystem,1991019248.767076
+135,BAU CanESM2,CanESM2,BAU,1,2046,Wyoming,Total Ecosystem,933682200.6927948
+135,BAU CanESM2,CanESM2,BAU,1,2046,Nevada,Total Ecosystem,424708303.2421275
+135,BAU CanESM2,CanESM2,BAU,1,2046,Montana,Total Ecosystem,3036834786.8687415
+135,BAU CanESM2,CanESM2,BAU,1,2046,Arizona,Total Ecosystem,386802230.18832946
+135,BAU CanESM2,CanESM2,BAU,1,2047,Idaho,Total Ecosystem,2629839996.08071
+135,BAU CanESM2,CanESM2,BAU,1,2047,New Mexico,Total Ecosystem,922123281.1550105
+135,BAU CanESM2,CanESM2,BAU,1,2047,California,Total Ecosystem,2911866366.869594
+135,BAU CanESM2,CanESM2,BAU,1,2047,Oregon,Total Ecosystem,3547194597.748433
+135,BAU CanESM2,CanESM2,BAU,1,2047,Washington,Total Ecosystem,3358808233.259956
+135,BAU CanESM2,CanESM2,BAU,1,2047,Utah,Total Ecosystem,1130306034.637046
+135,BAU CanESM2,CanESM2,BAU,1,2047,Colorado,Total Ecosystem,1998008035.9781187
+135,BAU CanESM2,CanESM2,BAU,1,2047,Wyoming,Total Ecosystem,936118162.098339
+135,BAU CanESM2,CanESM2,BAU,1,2047,Nevada,Total Ecosystem,425221552.6689687
+135,BAU CanESM2,CanESM2,BAU,1,2047,Montana,Total Ecosystem,3049493311.1612167
+135,BAU CanESM2,CanESM2,BAU,1,2047,Arizona,Total Ecosystem,389260155.5424067
+135,BAU CanESM2,CanESM2,BAU,1,2048,Idaho,Total Ecosystem,2623436966.8930526
+135,BAU CanESM2,CanESM2,BAU,1,2048,New Mexico,Total Ecosystem,923880692.7163472
+135,BAU CanESM2,CanESM2,BAU,1,2048,California,Total Ecosystem,2913198027.884552
+135,BAU CanESM2,CanESM2,BAU,1,2048,Oregon,Total Ecosystem,3543229623.2767606
+135,BAU CanESM2,CanESM2,BAU,1,2048,Washington,Total Ecosystem,3351514666.088727
+135,BAU CanESM2,CanESM2,BAU,1,2048,Utah,Total Ecosystem,1137330299.726808
+135,BAU CanESM2,CanESM2,BAU,1,2048,Colorado,Total Ecosystem,2005046102.816523
+135,BAU CanESM2,CanESM2,BAU,1,2048,Wyoming,Total Ecosystem,940468913.1623799
+135,BAU CanESM2,CanESM2,BAU,1,2048,Nevada,Total Ecosystem,428164904.0435775
+135,BAU CanESM2,CanESM2,BAU,1,2048,Montana,Total Ecosystem,3056546862.9886646
+135,BAU CanESM2,CanESM2,BAU,1,2048,Arizona,Total Ecosystem,389543792.7233086
+135,BAU CanESM2,CanESM2,BAU,1,2049,Idaho,Total Ecosystem,2625306020.146854
+135,BAU CanESM2,CanESM2,BAU,1,2049,New Mexico,Total Ecosystem,915645013.6965953
+135,BAU CanESM2,CanESM2,BAU,1,2049,California,Total Ecosystem,2898842162.1200805
+135,BAU CanESM2,CanESM2,BAU,1,2049,Oregon,Total Ecosystem,3526291958.4364305
+135,BAU CanESM2,CanESM2,BAU,1,2049,Washington,Total Ecosystem,3349946685.443949
+135,BAU CanESM2,CanESM2,BAU,1,2049,Utah,Total Ecosystem,1129487958.9428763
+135,BAU CanESM2,CanESM2,BAU,1,2049,Colorado,Total Ecosystem,1997193766.6752923
+135,BAU CanESM2,CanESM2,BAU,1,2049,Wyoming,Total Ecosystem,941191435.0271845
+135,BAU CanESM2,CanESM2,BAU,1,2049,Nevada,Total Ecosystem,425099416.1822165
+135,BAU CanESM2,CanESM2,BAU,1,2049,Montana,Total Ecosystem,3053451749.5798373
+135,BAU CanESM2,CanESM2,BAU,1,2049,Arizona,Total Ecosystem,384876358.7554739
+135,BAU CanESM2,CanESM2,BAU,1,2050,Idaho,Total Ecosystem,2634452450.3801875
+135,BAU CanESM2,CanESM2,BAU,1,2050,New Mexico,Total Ecosystem,921049382.1915588
+135,BAU CanESM2,CanESM2,BAU,1,2050,California,Total Ecosystem,2884847537.7092676
+135,BAU CanESM2,CanESM2,BAU,1,2050,Oregon,Total Ecosystem,3526825250.5892954
+135,BAU CanESM2,CanESM2,BAU,1,2050,Washington,Total Ecosystem,3353130217.638275
+135,BAU CanESM2,CanESM2,BAU,1,2050,Utah,Total Ecosystem,1136702426.681216
+135,BAU CanESM2,CanESM2,BAU,1,2050,Colorado,Total Ecosystem,2009725312.0798914
+135,BAU CanESM2,CanESM2,BAU,1,2050,Wyoming,Total Ecosystem,947240433.3976679
+135,BAU CanESM2,CanESM2,BAU,1,2050,Nevada,Total Ecosystem,426219715.9015451
+135,BAU CanESM2,CanESM2,BAU,1,2050,Montana,Total Ecosystem,3073002244.5188775
+135,BAU CanESM2,CanESM2,BAU,1,2050,Arizona,Total Ecosystem,386775892.930223
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Idaho,Total Ecosystem,2585573497.601532
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,New Mexico,Total Ecosystem,852190851.0362096
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,California,Total Ecosystem,3089107007.4563293
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Oregon,Total Ecosystem,3725267681.1213374
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Washington,Total Ecosystem,3433553200.2970996
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Utah,Total Ecosystem,1038470585.376423
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Colorado,Total Ecosystem,1864376827.0884516
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Wyoming,Total Ecosystem,871623423.981351
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Nevada,Total Ecosystem,382604328.90623224
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Montana,Total Ecosystem,2883431295.7620363
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2020,Arizona,Total Ecosystem,377102449.08835405
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Idaho,Total Ecosystem,2587389150.01013
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,New Mexico,Total Ecosystem,854754194.9624459
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,California,Total Ecosystem,3075852228.296085
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Oregon,Total Ecosystem,3731314678.3800473
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Washington,Total Ecosystem,3439729015.7985597
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Utah,Total Ecosystem,1036138127.0187933
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Colorado,Total Ecosystem,1865071214.2997456
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Wyoming,Total Ecosystem,872117200.9905275
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Nevada,Total Ecosystem,380380546.8754949
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Montana,Total Ecosystem,2893703192.052713
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2021,Arizona,Total Ecosystem,376694060.2924159
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Idaho,Total Ecosystem,2585611597.3561625
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,New Mexico,Total Ecosystem,852039470.0477351
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,California,Total Ecosystem,3077382051.5657425
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Oregon,Total Ecosystem,3731205554.2918057
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Washington,Total Ecosystem,3436822233.6701326
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Utah,Total Ecosystem,1034049397.8829368
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Colorado,Total Ecosystem,1863444091.7237754
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Wyoming,Total Ecosystem,874052212.1180171
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Nevada,Total Ecosystem,380409188.7920199
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Montana,Total Ecosystem,2901406063.843372
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2022,Arizona,Total Ecosystem,374735782.31275266
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Idaho,Total Ecosystem,2584723266.552875
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,New Mexico,Total Ecosystem,858458922.6177694
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,California,Total Ecosystem,3081067574.7015486
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Oregon,Total Ecosystem,3727655434.9513216
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Washington,Total Ecosystem,3432430515.418395
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Utah,Total Ecosystem,1045636582.8653681
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Colorado,Total Ecosystem,1875999800.5768394
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Wyoming,Total Ecosystem,878147455.4571283
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Nevada,Total Ecosystem,387063263.26119494
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Montana,Total Ecosystem,2897862852.196671
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2023,Arizona,Total Ecosystem,378310693.0691087
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Idaho,Total Ecosystem,2592051532.8140216
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,New Mexico,Total Ecosystem,864951149.0064868
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,California,Total Ecosystem,3044118986.482246
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Oregon,Total Ecosystem,3691295146.1964564
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Washington,Total Ecosystem,3427158835.638099
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Utah,Total Ecosystem,1046759831.0545213
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Colorado,Total Ecosystem,1881018508.293569
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Wyoming,Total Ecosystem,879227957.6942278
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Nevada,Total Ecosystem,387640862.31949425
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Montana,Total Ecosystem,2903684475.73003
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2024,Arizona,Total Ecosystem,378011544.8014634
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Idaho,Total Ecosystem,2580289823.74119
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,New Mexico,Total Ecosystem,862772410.2074203
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,California,Total Ecosystem,3010301901.73804
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Oregon,Total Ecosystem,3670889246.9932914
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Washington,Total Ecosystem,3418840155.64298
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Utah,Total Ecosystem,1042458099.2386547
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Colorado,Total Ecosystem,1879749884.7479005
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Wyoming,Total Ecosystem,877509225.9958498
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Nevada,Total Ecosystem,384499640.4559498
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Montana,Total Ecosystem,2892842819.85915
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2025,Arizona,Total Ecosystem,376263838.0056958
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Idaho,Total Ecosystem,2582633340.904041
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,New Mexico,Total Ecosystem,862784679.3954117
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,California,Total Ecosystem,2997963951.7015743
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Oregon,Total Ecosystem,3673979614.5559936
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Washington,Total Ecosystem,3424294114.636525
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Utah,Total Ecosystem,1038840033.5057019
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Colorado,Total Ecosystem,1878462200.8905082
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Wyoming,Total Ecosystem,877707669.4479258
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Nevada,Total Ecosystem,381820131.3783824
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Montana,Total Ecosystem,2894689050.0216274
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2026,Arizona,Total Ecosystem,374393353.7262048
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Idaho,Total Ecosystem,2590763402.151559
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,New Mexico,Total Ecosystem,860456944.3418162
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,California,Total Ecosystem,2979855988.4576354
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Oregon,Total Ecosystem,3665185911.4095387
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Washington,Total Ecosystem,3425638721.8746295
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Utah,Total Ecosystem,1035523118.54576
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Colorado,Total Ecosystem,1878719937.3978615
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Wyoming,Total Ecosystem,882403247.2300715
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Nevada,Total Ecosystem,381116483.60396105
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Montana,Total Ecosystem,2915461171.627721
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2027,Arizona,Total Ecosystem,371929036.68954104
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Idaho,Total Ecosystem,2602711228.400952
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,New Mexico,Total Ecosystem,858002332.9078331
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,California,Total Ecosystem,2996553326.102212
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Oregon,Total Ecosystem,3672197373.371477
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Washington,Total Ecosystem,3432415369.3301587
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Utah,Total Ecosystem,1037553862.8004063
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Colorado,Total Ecosystem,1880261939.6595917
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Wyoming,Total Ecosystem,886757830.7548593
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Nevada,Total Ecosystem,384128194.6709702
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Montana,Total Ecosystem,2930225519.689752
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2028,Arizona,Total Ecosystem,369787140.8483052
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Idaho,Total Ecosystem,2607050018.804749
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,New Mexico,Total Ecosystem,860271045.7508981
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,California,Total Ecosystem,2985183541.80189
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Oregon,Total Ecosystem,3673389139.3331966
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Washington,Total Ecosystem,3429216751.1638155
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Utah,Total Ecosystem,1037759564.7718602
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Colorado,Total Ecosystem,1888741583.5180285
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Wyoming,Total Ecosystem,891708439.5506746
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Nevada,Total Ecosystem,384241102.6427177
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Montana,Total Ecosystem,2944804803.983782
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2029,Arizona,Total Ecosystem,369183639.8496397
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Idaho,Total Ecosystem,2596845979.7880745
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,New Mexico,Total Ecosystem,855766510.1961392
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,California,Total Ecosystem,2975247349.815571
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Oregon,Total Ecosystem,3664669058.5307493
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Washington,Total Ecosystem,3426867251.9239836
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Utah,Total Ecosystem,1030487949.6935623
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Colorado,Total Ecosystem,1881674596.725462
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Wyoming,Total Ecosystem,890723314.0213764
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Nevada,Total Ecosystem,382209621.31030464
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Montana,Total Ecosystem,2953005416.6469226
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2030,Arizona,Total Ecosystem,366898311.07157683
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Idaho,Total Ecosystem,2598010745.866301
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,New Mexico,Total Ecosystem,860028562.7991165
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,California,Total Ecosystem,2984132347.2737784
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Oregon,Total Ecosystem,3660367818.6943445
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Washington,Total Ecosystem,3423915739.24667
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Utah,Total Ecosystem,1039115252.6558962
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Colorado,Total Ecosystem,1891927696.7555578
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Wyoming,Total Ecosystem,891348390.2845052
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Nevada,Total Ecosystem,384092512.22477573
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Montana,Total Ecosystem,2953899001.7748795
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2031,Arizona,Total Ecosystem,371248364.29784524
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Idaho,Total Ecosystem,2596863360.21577
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,New Mexico,Total Ecosystem,865355554.8068295
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,California,Total Ecosystem,2978707760.19285
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Oregon,Total Ecosystem,3648077397.630065
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Washington,Total Ecosystem,3413145126.969125
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Utah,Total Ecosystem,1040456618.6382785
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Colorado,Total Ecosystem,1898579003.038514
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Wyoming,Total Ecosystem,892126771.5107882
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Nevada,Total Ecosystem,386559716.1792133
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Montana,Total Ecosystem,2948959101.1357045
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2032,Arizona,Total Ecosystem,374032273.22084427
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Idaho,Total Ecosystem,2607919759.754422
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,New Mexico,Total Ecosystem,869406319.5597461
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,California,Total Ecosystem,2986189315.7919664
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Oregon,Total Ecosystem,3647719959.343943
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Washington,Total Ecosystem,3414923731.6827316
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Utah,Total Ecosystem,1049074313.3786454
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Colorado,Total Ecosystem,1913377167.1598747
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Wyoming,Total Ecosystem,897918291.0830537
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Nevada,Total Ecosystem,388804157.37284714
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Montana,Total Ecosystem,2968405268.6941357
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2033,Arizona,Total Ecosystem,374123385.3554079
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Idaho,Total Ecosystem,2608652082.5677605
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,New Mexico,Total Ecosystem,874500590.1262436
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,California,Total Ecosystem,2933257017.0142493
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Oregon,Total Ecosystem,3634458748.1290054
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Washington,Total Ecosystem,3405013403.5856037
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Utah,Total Ecosystem,1044105062.5157387
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Colorado,Total Ecosystem,1921884022.2153041
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Wyoming,Total Ecosystem,902602684.8501319
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Nevada,Total Ecosystem,385682751.30643904
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Montana,Total Ecosystem,2976412931.224226
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2034,Arizona,Total Ecosystem,372269281.4083423
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Idaho,Total Ecosystem,2621098499.651152
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,New Mexico,Total Ecosystem,873575342.3128229
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,California,Total Ecosystem,2928267782.838087
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Oregon,Total Ecosystem,3629433487.562776
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Washington,Total Ecosystem,3411735138.938317
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Utah,Total Ecosystem,1047016306.3274041
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Colorado,Total Ecosystem,1924525969.3346965
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Wyoming,Total Ecosystem,908195114.615652
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Nevada,Total Ecosystem,389475971.4701156
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Montana,Total Ecosystem,2994252025.5410566
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2035,Arizona,Total Ecosystem,371491248.92478764
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Idaho,Total Ecosystem,2600684649.218234
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,New Mexico,Total Ecosystem,872222831.2474751
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,California,Total Ecosystem,2928886554.0302987
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Oregon,Total Ecosystem,3628041742.235146
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Washington,Total Ecosystem,3413986884.761966
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Utah,Total Ecosystem,1054292698.9707854
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Colorado,Total Ecosystem,1930160433.2095816
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Wyoming,Total Ecosystem,911607057.7203474
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Nevada,Total Ecosystem,391592252.51760745
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Montana,Total Ecosystem,2994633158.0192657
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2036,Arizona,Total Ecosystem,372517689.15676093
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Idaho,Total Ecosystem,2615888025.208464
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,New Mexico,Total Ecosystem,872475301.8160454
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,California,Total Ecosystem,2936433848.3715425
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Oregon,Total Ecosystem,3631686762.7236304
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Washington,Total Ecosystem,3410913144.59469
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Utah,Total Ecosystem,1056861562.290455
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Colorado,Total Ecosystem,1934320979.3049302
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Wyoming,Total Ecosystem,914859926.7613865
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Nevada,Total Ecosystem,392187334.2705721
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Montana,Total Ecosystem,3007380509.178928
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2037,Arizona,Total Ecosystem,372546949.042483
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Idaho,Total Ecosystem,2618741686.564421
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,New Mexico,Total Ecosystem,874623471.4071873
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,California,Total Ecosystem,2943160884.3038735
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Oregon,Total Ecosystem,3627429773.990376
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Washington,Total Ecosystem,3411854108.355855
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Utah,Total Ecosystem,1056169021.2033551
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Colorado,Total Ecosystem,1934499754.1663837
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Wyoming,Total Ecosystem,915459906.8898591
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Nevada,Total Ecosystem,392646282.79269767
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Montana,Total Ecosystem,3011118564.738216
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2038,Arizona,Total Ecosystem,373285735.47594726
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Idaho,Total Ecosystem,2626215212.5270247
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,New Mexico,Total Ecosystem,873103579.8943565
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,California,Total Ecosystem,2894286839.812607
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Oregon,Total Ecosystem,3603928995.687982
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Washington,Total Ecosystem,3399679667.7953324
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Utah,Total Ecosystem,1053043600.6663356
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Colorado,Total Ecosystem,1933252415.2707124
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Wyoming,Total Ecosystem,918617787.2052234
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Nevada,Total Ecosystem,390907908.4465596
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Montana,Total Ecosystem,3015353392.4971676
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2039,Arizona,Total Ecosystem,370279118.8263336
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Idaho,Total Ecosystem,2630760970.930179
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,New Mexico,Total Ecosystem,869452260.9281297
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,California,Total Ecosystem,2885685855.7847066
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Oregon,Total Ecosystem,3600649787.7173142
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Washington,Total Ecosystem,3402172947.7255816
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Utah,Total Ecosystem,1053764021.7016467
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Colorado,Total Ecosystem,1932425724.967797
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Wyoming,Total Ecosystem,922562614.6407255
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Nevada,Total Ecosystem,391252182.31617713
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Montana,Total Ecosystem,3022444424.3146715
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2040,Arizona,Total Ecosystem,368138814.8353116
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Idaho,Total Ecosystem,2624904187.8063083
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,New Mexico,Total Ecosystem,874251531.462256
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,California,Total Ecosystem,2877843352.6293936
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Oregon,Total Ecosystem,3589960076.526895
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Washington,Total Ecosystem,3399397265.265806
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Utah,Total Ecosystem,1052752211.7155937
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Colorado,Total Ecosystem,1932577146.148541
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Wyoming,Total Ecosystem,920731302.1499735
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Nevada,Total Ecosystem,390451246.00413996
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Montana,Total Ecosystem,3018378777.74062
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2041,Arizona,Total Ecosystem,372002426.40586495
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Idaho,Total Ecosystem,2631367441.310785
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,New Mexico,Total Ecosystem,867030350.0979394
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,California,Total Ecosystem,2896913895.449069
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Oregon,Total Ecosystem,3589991609.5425496
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Washington,Total Ecosystem,3402084648.1037955
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Utah,Total Ecosystem,1054758761.6550033
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Colorado,Total Ecosystem,1925807995.012927
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Wyoming,Total Ecosystem,920606474.0811304
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Nevada,Total Ecosystem,395069752.5584032
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Montana,Total Ecosystem,3014052257.55245
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2042,Arizona,Total Ecosystem,371033479.29686767
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Idaho,Total Ecosystem,2618720988.4177327
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,New Mexico,Total Ecosystem,873511215.69798
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,California,Total Ecosystem,2886814732.616357
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Oregon,Total Ecosystem,3582146631.56137
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Washington,Total Ecosystem,3397335938.7587886
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Utah,Total Ecosystem,1055456368.3511289
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Colorado,Total Ecosystem,1931474573.5408902
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Wyoming,Total Ecosystem,921434449.889203
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Nevada,Total Ecosystem,394443082.34026784
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Montana,Total Ecosystem,3007485733.6978617
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2043,Arizona,Total Ecosystem,370685660.28489584
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Idaho,Total Ecosystem,2617991711.576167
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,New Mexico,Total Ecosystem,875607973.1671699
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,California,Total Ecosystem,2878533025.6109056
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Oregon,Total Ecosystem,3571681979.864303
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Washington,Total Ecosystem,3394346830.7526617
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Utah,Total Ecosystem,1053903391.6475297
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Colorado,Total Ecosystem,1938019364.6367805
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Wyoming,Total Ecosystem,921246600.4432874
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Nevada,Total Ecosystem,393205298.0989883
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Montana,Total Ecosystem,3011356404.736563
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2044,Arizona,Total Ecosystem,368893038.1246368
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Idaho,Total Ecosystem,2624450196.048854
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,New Mexico,Total Ecosystem,882902402.0943518
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,California,Total Ecosystem,2890397636.577877
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Oregon,Total Ecosystem,3567109320.047344
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Washington,Total Ecosystem,3385159238.2305746
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Utah,Total Ecosystem,1061049058.5401781
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Colorado,Total Ecosystem,1951911360.2481735
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Wyoming,Total Ecosystem,925986954.1865902
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Nevada,Total Ecosystem,396435956.91797507
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Montana,Total Ecosystem,3015959100.515312
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2045,Arizona,Total Ecosystem,369513116.99693906
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Idaho,Total Ecosystem,2624172579.628838
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,New Mexico,Total Ecosystem,885817185.6067308
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,California,Total Ecosystem,2888792763.245731
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Oregon,Total Ecosystem,3556353271.5352902
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Washington,Total Ecosystem,3376303845.5805926
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Utah,Total Ecosystem,1062010618.8839248
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Colorado,Total Ecosystem,1955420232.521328
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Wyoming,Total Ecosystem,927116790.0918585
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Nevada,Total Ecosystem,397198396.9514753
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Montana,Total Ecosystem,3004028822.3685403
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2046,Arizona,Total Ecosystem,369795186.0564855
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Idaho,Total Ecosystem,2622380863.2632565
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,New Mexico,Total Ecosystem,884948781.4866812
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,California,Total Ecosystem,2871834822.1454678
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Oregon,Total Ecosystem,3545462484.392718
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Washington,Total Ecosystem,3369067667.7248845
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Utah,Total Ecosystem,1058485340.6020957
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Colorado,Total Ecosystem,1955667987.789787
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Wyoming,Total Ecosystem,928124358.4702178
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Nevada,Total Ecosystem,395342843.1632164
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Montana,Total Ecosystem,3006882437.443633
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2047,Arizona,Total Ecosystem,368504590.2737805
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Idaho,Total Ecosystem,2611305286.945051
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,New Mexico,Total Ecosystem,888270902.7882817
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,California,Total Ecosystem,2857798271.5657716
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Oregon,Total Ecosystem,3545122426.980159
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Washington,Total Ecosystem,3369483598.2457857
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Utah,Total Ecosystem,1062861468.6991749
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Colorado,Total Ecosystem,1964127972.8511093
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Wyoming,Total Ecosystem,930008478.9403031
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Nevada,Total Ecosystem,395353595.2910421
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Montana,Total Ecosystem,3011839183.427599
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2048,Arizona,Total Ecosystem,368683158.2155155
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Idaho,Total Ecosystem,2609686942.562576
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,New Mexico,Total Ecosystem,891201308.1328528
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,California,Total Ecosystem,2857634478.1126566
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Oregon,Total Ecosystem,3535434573.983194
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Washington,Total Ecosystem,3365758366.987567
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Utah,Total Ecosystem,1066090272.6741611
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Colorado,Total Ecosystem,1970272206.1783175
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Wyoming,Total Ecosystem,931213194.265225
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Nevada,Total Ecosystem,396310971.4612643
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Montana,Total Ecosystem,3014051568.933087
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2049,Arizona,Total Ecosystem,370943032.16612554
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Idaho,Total Ecosystem,2624362848.722959
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,New Mexico,Total Ecosystem,889784455.891549
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,California,Total Ecosystem,2872192338.169122
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Oregon,Total Ecosystem,3522536781.3317723
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Washington,Total Ecosystem,3372764166.9708652
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Utah,Total Ecosystem,1076161286.0104866
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Colorado,Total Ecosystem,1981375816.849004
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Wyoming,Total Ecosystem,937661544.6073027
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Nevada,Total Ecosystem,400440759.7070408
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Montana,Total Ecosystem,3028874746.1617613
+136,BAU HadGEM2-ES365,HadGEM2-ES365,BAU,1,2050,Arizona,Total Ecosystem,369526961.8576545
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Idaho,Total Ecosystem,2585573497.601532
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,New Mexico,Total Ecosystem,852190851.0362096
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,California,Total Ecosystem,3089107007.4563293
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Oregon,Total Ecosystem,3725267681.1213374
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Washington,Total Ecosystem,3433553200.2970996
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Utah,Total Ecosystem,1038470585.376423
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Colorado,Total Ecosystem,1864376827.0884516
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Wyoming,Total Ecosystem,871623423.981351
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Nevada,Total Ecosystem,382604328.90623224
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Montana,Total Ecosystem,2883431295.7620363
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2020,Arizona,Total Ecosystem,377102449.08835405
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Idaho,Total Ecosystem,2577688776.5486174
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,New Mexico,Total Ecosystem,856576791.7465965
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,California,Total Ecosystem,3082380139.250785
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Oregon,Total Ecosystem,3725302313.705203
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Washington,Total Ecosystem,3430891676.064586
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Utah,Total Ecosystem,1039999011.2747077
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Colorado,Total Ecosystem,1872959827.8062186
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Wyoming,Total Ecosystem,873108305.5123268
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Nevada,Total Ecosystem,383300931.5759558
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Montana,Total Ecosystem,2883109361.8303576
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2021,Arizona,Total Ecosystem,378236643.01933
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Idaho,Total Ecosystem,2579112278.5429425
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,New Mexico,Total Ecosystem,861348080.0688283
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,California,Total Ecosystem,3108956738.6161494
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Oregon,Total Ecosystem,3723698697.371573
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Washington,Total Ecosystem,3420645304.2263355
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Utah,Total Ecosystem,1049813402.0781964
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Colorado,Total Ecosystem,1879571583.228685
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Wyoming,Total Ecosystem,876744451.3381783
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Nevada,Total Ecosystem,389877659.354098
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Montana,Total Ecosystem,2889383453.3199425
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2022,Arizona,Total Ecosystem,383172325.2444285
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Idaho,Total Ecosystem,2564694850.969454
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,New Mexico,Total Ecosystem,874199970.995893
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,California,Total Ecosystem,3089872459.4115705
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Oregon,Total Ecosystem,3706264548.623225
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Washington,Total Ecosystem,3407932519.1857705
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Utah,Total Ecosystem,1055583040.1034626
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Colorado,Total Ecosystem,1894393426.235306
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Wyoming,Total Ecosystem,879029983.6983265
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Nevada,Total Ecosystem,391209780.7482159
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Montana,Total Ecosystem,2882306129.1694207
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2023,Arizona,Total Ecosystem,387342958.54192936
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Idaho,Total Ecosystem,2568028345.391259
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,New Mexico,Total Ecosystem,874991500.6465628
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,California,Total Ecosystem,3061549099.8336754
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Oregon,Total Ecosystem,3675233078.63657
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Washington,Total Ecosystem,3397701669.7666407
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Utah,Total Ecosystem,1054350578.5983294
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Colorado,Total Ecosystem,1890007490.0255058
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Wyoming,Total Ecosystem,878486078.2868685
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Nevada,Total Ecosystem,391872316.7290272
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Montana,Total Ecosystem,2884881147.279626
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2024,Arizona,Total Ecosystem,385405812.3173933
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Idaho,Total Ecosystem,2556347398.8137383
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,New Mexico,Total Ecosystem,885201896.351051
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,California,Total Ecosystem,3039076834.597406
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Oregon,Total Ecosystem,3659026083.913052
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Washington,Total Ecosystem,3388242911.706149
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Utah,Total Ecosystem,1054988009.3414668
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Colorado,Total Ecosystem,1899529417.4222329
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Wyoming,Total Ecosystem,877530241.2293504
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Nevada,Total Ecosystem,390785265.0741528
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Montana,Total Ecosystem,2871917088.5898848
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2025,Arizona,Total Ecosystem,387281035.93601185
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Idaho,Total Ecosystem,2556059830.6864634
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,New Mexico,Total Ecosystem,889463118.3574286
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,California,Total Ecosystem,3050294591.9932423
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Oregon,Total Ecosystem,3656738895.101278
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Washington,Total Ecosystem,3388264325.385806
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Utah,Total Ecosystem,1059338717.5156032
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Colorado,Total Ecosystem,1907730167.1727822
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Wyoming,Total Ecosystem,879153474.3524177
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Nevada,Total Ecosystem,393847345.3147604
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Montana,Total Ecosystem,2870479985.2074094
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2026,Arizona,Total Ecosystem,386244380.40585536
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Idaho,Total Ecosystem,2560284862.6397276
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,New Mexico,Total Ecosystem,891122467.8892089
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,California,Total Ecosystem,3045490099.2066827
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Oregon,Total Ecosystem,3653010170.2560863
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Washington,Total Ecosystem,3391144925.98636
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Utah,Total Ecosystem,1061564093.3109516
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Colorado,Total Ecosystem,1912183686.05946
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Wyoming,Total Ecosystem,881610758.2944605
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Nevada,Total Ecosystem,394961373.01816565
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Montana,Total Ecosystem,2880590405.560818
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2027,Arizona,Total Ecosystem,387658582.39396083
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Idaho,Total Ecosystem,2574577768.6389065
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,New Mexico,Total Ecosystem,889927193.801774
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,California,Total Ecosystem,3048916970.2100477
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Oregon,Total Ecosystem,3656345688.0211563
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Washington,Total Ecosystem,3391283886.0054164
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Utah,Total Ecosystem,1072017812.5528038
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Colorado,Total Ecosystem,1922819365.654842
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Wyoming,Total Ecosystem,888454750.5321436
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Nevada,Total Ecosystem,400292891.60854083
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Montana,Total Ecosystem,2902007387.3843293
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2028,Arizona,Total Ecosystem,388127553.42691404
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Idaho,Total Ecosystem,2568339072.5446334
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,New Mexico,Total Ecosystem,899188961.2570767
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,California,Total Ecosystem,3041921547.480573
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Oregon,Total Ecosystem,3641913336.1880336
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Washington,Total Ecosystem,3381190278.1948695
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Utah,Total Ecosystem,1082056952.0794685
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Colorado,Total Ecosystem,1941348690.936366
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Wyoming,Total Ecosystem,892657900.921387
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Nevada,Total Ecosystem,402890492.92682254
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Montana,Total Ecosystem,2902874223.758021
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2029,Arizona,Total Ecosystem,390345359.12382245
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Idaho,Total Ecosystem,2561568576.80602
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,New Mexico,Total Ecosystem,903316308.8080556
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,California,Total Ecosystem,3028859018.62977
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Oregon,Total Ecosystem,3638355785.016242
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Washington,Total Ecosystem,3382612004.4547606
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Utah,Total Ecosystem,1084094517.6516728
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Colorado,Total Ecosystem,1944772795.6481233
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Wyoming,Total Ecosystem,894919714.8262165
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Nevada,Total Ecosystem,403935348.68749326
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Montana,Total Ecosystem,2904851546.0661206
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2030,Arizona,Total Ecosystem,391484729.76335657
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Idaho,Total Ecosystem,2566792445.467812
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,New Mexico,Total Ecosystem,903335431.853301
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,California,Total Ecosystem,3015231603.102972
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Oregon,Total Ecosystem,3632805202.8557663
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Washington,Total Ecosystem,3380129426.332932
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Utah,Total Ecosystem,1080859472.7728074
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Colorado,Total Ecosystem,1941787500.5229962
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Wyoming,Total Ecosystem,895848669.850706
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Nevada,Total Ecosystem,402895752.4140191
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Montana,Total Ecosystem,2912185758.3684044
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2031,Arizona,Total Ecosystem,390798751.0934906
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Idaho,Total Ecosystem,2580483254.9250836
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,New Mexico,Total Ecosystem,906609053.6459544
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,California,Total Ecosystem,3017511301.449843
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Oregon,Total Ecosystem,3627952636.5566535
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Washington,Total Ecosystem,3382943461.6153255
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Utah,Total Ecosystem,1087084474.093939
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Colorado,Total Ecosystem,1948259715.789191
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Wyoming,Total Ecosystem,899689275.5148484
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Nevada,Total Ecosystem,405243085.8542986
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Montana,Total Ecosystem,2932234387.134079
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2032,Arizona,Total Ecosystem,393320279.5803274
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Idaho,Total Ecosystem,2589512011.714907
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,New Mexico,Total Ecosystem,908204741.6732908
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,California,Total Ecosystem,3022842455.012563
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Oregon,Total Ecosystem,3636164535.8817463
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Washington,Total Ecosystem,3392598725.5320826
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Utah,Total Ecosystem,1092154943.4876513
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Colorado,Total Ecosystem,1951024914.676797
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Wyoming,Total Ecosystem,903459731.5906265
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Nevada,Total Ecosystem,406466550.3445177
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Montana,Total Ecosystem,2943802087.645619
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2033,Arizona,Total Ecosystem,392464227.0218801
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Idaho,Total Ecosystem,2596752762.704049
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,New Mexico,Total Ecosystem,903339381.2060194
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,California,Total Ecosystem,2990845918.187728
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Oregon,Total Ecosystem,3638969312.1425653
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Washington,Total Ecosystem,3401140970.7901387
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Utah,Total Ecosystem,1093119474.097017
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Colorado,Total Ecosystem,1946294786.5007586
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Wyoming,Total Ecosystem,904801747.6835738
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Nevada,Total Ecosystem,407323730.9133576
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Montana,Total Ecosystem,2954681211.1456943
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2034,Arizona,Total Ecosystem,391030554.1010112
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Idaho,Total Ecosystem,2607316581.1579776
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,New Mexico,Total Ecosystem,901147058.8022329
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,California,Total Ecosystem,2993053337.3845186
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Oregon,Total Ecosystem,3633483073.873978
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Washington,Total Ecosystem,3401203996.051941
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Utah,Total Ecosystem,1100599287.1681445
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Colorado,Total Ecosystem,1948656180.8715303
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Wyoming,Total Ecosystem,909290150.3428493
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Nevada,Total Ecosystem,410892438.98321503
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Montana,Total Ecosystem,2969650142.132837
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2035,Arizona,Total Ecosystem,392961250.6656361
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Idaho,Total Ecosystem,2594175144.6824656
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,New Mexico,Total Ecosystem,898261856.8248444
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,California,Total Ecosystem,2991445286.230544
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Oregon,Total Ecosystem,3631367828.657739
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Washington,Total Ecosystem,3401505186.5972085
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Utah,Total Ecosystem,1100857056.9272444
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Colorado,Total Ecosystem,1947119823.8863308
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Wyoming,Total Ecosystem,909565431.4302499
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Nevada,Total Ecosystem,414159304.11652833
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Montana,Total Ecosystem,2971709353.413759
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2036,Arizona,Total Ecosystem,391668315.13544357
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Idaho,Total Ecosystem,2611765045.665326
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,New Mexico,Total Ecosystem,912846979.7899271
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,California,Total Ecosystem,3001278581.7985115
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Oregon,Total Ecosystem,3629835358.4631515
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Washington,Total Ecosystem,3398752888.94624
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Utah,Total Ecosystem,1113103854.3804526
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Colorado,Total Ecosystem,1965239640.4117558
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Wyoming,Total Ecosystem,917364406.5308828
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Nevada,Total Ecosystem,420734226.6674727
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Montana,Total Ecosystem,2999046147.2120423
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2037,Arizona,Total Ecosystem,399138002.62835455
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Idaho,Total Ecosystem,2626818826.643679
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,New Mexico,Total Ecosystem,907616827.043119
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,California,Total Ecosystem,2992435026.197167
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Oregon,Total Ecosystem,3635051281.9462504
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Washington,Total Ecosystem,3407030386.6965704
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Utah,Total Ecosystem,1104137141.3362095
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Colorado,Total Ecosystem,1953689068.896315
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Wyoming,Total Ecosystem,917782349.3655936
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Nevada,Total Ecosystem,418097399.14609194
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Montana,Total Ecosystem,3022528046.5020947
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2038,Arizona,Total Ecosystem,394671453.0083731
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Idaho,Total Ecosystem,2636843103.164369
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,New Mexico,Total Ecosystem,905386375.8789235
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,California,Total Ecosystem,2953297423.8711495
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Oregon,Total Ecosystem,3610738545.962858
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Washington,Total Ecosystem,3407870491.665164
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Utah,Total Ecosystem,1102166920.7699049
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Colorado,Total Ecosystem,1953616838.514188
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Wyoming,Total Ecosystem,920000658.5682667
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Nevada,Total Ecosystem,415576354.95480645
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Montana,Total Ecosystem,3034301088.5034223
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2039,Arizona,Total Ecosystem,392001474.9031787
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Idaho,Total Ecosystem,2646560358.5564084
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,New Mexico,Total Ecosystem,911960449.0615896
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,California,Total Ecosystem,2963858443.156574
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Oregon,Total Ecosystem,3607786425.118436
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Washington,Total Ecosystem,3407418174.048644
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Utah,Total Ecosystem,1114936735.64369
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Colorado,Total Ecosystem,1970998471.7190456
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Wyoming,Total Ecosystem,927970831.5893819
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Nevada,Total Ecosystem,421270975.7090633
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Montana,Total Ecosystem,3057762806.0350733
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2040,Arizona,Total Ecosystem,395266230.5127499
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Idaho,Total Ecosystem,2653573852.090764
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,New Mexico,Total Ecosystem,917367755.856512
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,California,Total Ecosystem,2947477516.6821823
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Oregon,Total Ecosystem,3607322913.420046
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Washington,Total Ecosystem,3407393365.749235
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Utah,Total Ecosystem,1111609679.675133
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Colorado,Total Ecosystem,1977431422.3777874
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Wyoming,Total Ecosystem,930149934.7284988
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Nevada,Total Ecosystem,418958582.0283004
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Montana,Total Ecosystem,3064049438.341754
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2041,Arizona,Total Ecosystem,395150812.95194054
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Idaho,Total Ecosystem,2663188587.055874
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,New Mexico,Total Ecosystem,917729828.5274428
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,California,Total Ecosystem,2956393628.3648844
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Oregon,Total Ecosystem,3607784128.3219585
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Washington,Total Ecosystem,3405447579.2984676
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Utah,Total Ecosystem,1120060127.3075721
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Colorado,Total Ecosystem,1985902027.7139144
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Wyoming,Total Ecosystem,936066276.4588463
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Nevada,Total Ecosystem,423755531.41003126
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Montana,Total Ecosystem,3070861178.2582684
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2042,Arizona,Total Ecosystem,395920889.70405334
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Idaho,Total Ecosystem,2647063012.3280816
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,New Mexico,Total Ecosystem,917909384.7663628
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,California,Total Ecosystem,2939774264.913351
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Oregon,Total Ecosystem,3601280548.9092684
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Washington,Total Ecosystem,3405755122.507332
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Utah,Total Ecosystem,1112718851.790157
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Colorado,Total Ecosystem,1975809463.9807608
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Wyoming,Total Ecosystem,933395475.9204912
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Nevada,Total Ecosystem,420182453.75238526
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Montana,Total Ecosystem,3072826215.7153387
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2043,Arizona,Total Ecosystem,396380543.82896864
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Idaho,Total Ecosystem,2659157907.839136
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,New Mexico,Total Ecosystem,918927140.7759548
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,California,Total Ecosystem,2941158031.939101
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Oregon,Total Ecosystem,3602901162.3829093
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Washington,Total Ecosystem,3409768334.453285
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Utah,Total Ecosystem,1110826802.070214
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Colorado,Total Ecosystem,1974482545.252172
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Wyoming,Total Ecosystem,936457937.5014755
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Nevada,Total Ecosystem,420159685.67330325
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Montana,Total Ecosystem,3087096120.746715
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2044,Arizona,Total Ecosystem,395516472.41729397
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Idaho,Total Ecosystem,2652123732.9577603
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,New Mexico,Total Ecosystem,923022284.9116786
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,California,Total Ecosystem,2944892507.2000546
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Oregon,Total Ecosystem,3583366637.338596
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Washington,Total Ecosystem,3388463554.749691
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Utah,Total Ecosystem,1119551283.9966943
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Colorado,Total Ecosystem,1983060149.5806553
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Wyoming,Total Ecosystem,940285063.3928511
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Nevada,Total Ecosystem,424602740.7448703
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Montana,Total Ecosystem,3073683629.5185165
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2045,Arizona,Total Ecosystem,396073562.6468702
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Idaho,Total Ecosystem,2657921123.1153755
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,New Mexico,Total Ecosystem,930755190.5564923
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,California,Total Ecosystem,2954294342.8604403
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Oregon,Total Ecosystem,3585611753.8281507
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Washington,Total Ecosystem,3383990403.3222785
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Utah,Total Ecosystem,1133650505.1862543
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Colorado,Total Ecosystem,1999629313.7817178
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Wyoming,Total Ecosystem,944426205.2341413
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Nevada,Total Ecosystem,429917546.68531877
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Montana,Total Ecosystem,3089063715.7752695
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2046,Arizona,Total Ecosystem,401187681.73727304
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Idaho,Total Ecosystem,2665521267.12702
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,New Mexico,Total Ecosystem,932034777.2406405
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,California,Total Ecosystem,2949518816.8335414
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Oregon,Total Ecosystem,3577489743.1517754
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Washington,Total Ecosystem,3380439770.3481345
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Utah,Total Ecosystem,1139553362.1017265
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Colorado,Total Ecosystem,2007296063.154942
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Wyoming,Total Ecosystem,948307047.7033437
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Nevada,Total Ecosystem,431016770.24609494
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Montana,Total Ecosystem,3105021809.10804
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2047,Arizona,Total Ecosystem,405224538.5703196
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Idaho,Total Ecosystem,2661674800.7197347
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,New Mexico,Total Ecosystem,934670027.3190807
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,California,Total Ecosystem,2949003299.177457
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Oregon,Total Ecosystem,3572238181.3830748
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Washington,Total Ecosystem,3375797028.826294
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Utah,Total Ecosystem,1147380579.2710783
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Colorado,Total Ecosystem,2014855287.9895144
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Wyoming,Total Ecosystem,954984238.6046172
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Nevada,Total Ecosystem,435455565.43792915
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Montana,Total Ecosystem,3115659340.8151383
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2048,Arizona,Total Ecosystem,406155756.8914337
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Idaho,Total Ecosystem,2667916871.1722193
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,New Mexico,Total Ecosystem,927029269.2774361
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,California,Total Ecosystem,2932303287.6630626
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Oregon,Total Ecosystem,3567909400.27769
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Washington,Total Ecosystem,3368798035.9193892
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Utah,Total Ecosystem,1140028674.941385
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Colorado,Total Ecosystem,2007311030.0775845
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Wyoming,Total Ecosystem,955257467.6415049
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Nevada,Total Ecosystem,432761947.37960804
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Montana,Total Ecosystem,3120309261.680148
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2049,Arizona,Total Ecosystem,402049688.78096366
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Idaho,Total Ecosystem,2676087192.2219133
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,New Mexico,Total Ecosystem,932635300.839913
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,California,Total Ecosystem,2917750538.261097
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Oregon,Total Ecosystem,3574905641.929355
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Washington,Total Ecosystem,3376210295.916092
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Utah,Total Ecosystem,1149055127.2690601
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Colorado,Total Ecosystem,2020652161.7674866
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Wyoming,Total Ecosystem,964436431.8277526
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Nevada,Total Ecosystem,434373676.60105926
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Montana,Total Ecosystem,3147475627.144186
+137,Reforestation CanESM2,CanESM2,Reforestation,1,2050,Arizona,Total Ecosystem,406538155.7953578
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Idaho,Total Ecosystem,2585573497.601532
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,New Mexico,Total Ecosystem,852190851.0362096
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,California,Total Ecosystem,3089107007.4563293
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Oregon,Total Ecosystem,3725267681.1213374
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Washington,Total Ecosystem,3433553200.2970996
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Utah,Total Ecosystem,1038470585.376423
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Colorado,Total Ecosystem,1864376827.0884516
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Wyoming,Total Ecosystem,871623423.981351
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Nevada,Total Ecosystem,382604328.90623224
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Montana,Total Ecosystem,2883431295.7620363
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2020,Arizona,Total Ecosystem,377102449.08835405
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Idaho,Total Ecosystem,2585589475.7556324
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,New Mexico,Total Ecosystem,853026901.9279156
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,California,Total Ecosystem,3085336070.9041324
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Oregon,Total Ecosystem,3731743994.0039353
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Washington,Total Ecosystem,3440687342.644213
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Utah,Total Ecosystem,1036417147.102383
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Colorado,Total Ecosystem,1866287953.3756702
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Wyoming,Total Ecosystem,872637758.5198854
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Nevada,Total Ecosystem,380213680.08843154
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Montana,Total Ecosystem,2894801776.797593
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2021,Arizona,Total Ecosystem,376705597.86657655
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Idaho,Total Ecosystem,2585388064.8590264
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,New Mexico,Total Ecosystem,850574880.5401318
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,California,Total Ecosystem,3091563124.0886526
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Oregon,Total Ecosystem,3734977535.548319
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Washington,Total Ecosystem,3437031973.502189
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Utah,Total Ecosystem,1034382404.590576
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Colorado,Total Ecosystem,1865572358.9993114
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Wyoming,Total Ecosystem,874224978.5957153
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Nevada,Total Ecosystem,380399727.82689404
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Montana,Total Ecosystem,2902429865.222501
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2022,Arizona,Total Ecosystem,374660278.5922009
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Idaho,Total Ecosystem,2590088747.2739525
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,New Mexico,Total Ecosystem,857040271.0405376
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,California,Total Ecosystem,3095634817.636722
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Oregon,Total Ecosystem,3729632509.234497
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Washington,Total Ecosystem,3431735172.7543893
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Utah,Total Ecosystem,1045936448.3087919
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Colorado,Total Ecosystem,1877915198.3076105
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Wyoming,Total Ecosystem,878288968.8929094
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Nevada,Total Ecosystem,386706321.7827711
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Montana,Total Ecosystem,2901151219.4930224
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2023,Arizona,Total Ecosystem,378216833.6116093
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Idaho,Total Ecosystem,2595740112.262502
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,New Mexico,Total Ecosystem,864192998.2738187
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,California,Total Ecosystem,3043728164.8196826
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Oregon,Total Ecosystem,3704555379.167917
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Washington,Total Ecosystem,3431965373.0708566
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Utah,Total Ecosystem,1047193787.7571334
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Colorado,Total Ecosystem,1883014220.392366
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Wyoming,Total Ecosystem,879216634.091463
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Nevada,Total Ecosystem,387381028.6882278
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Montana,Total Ecosystem,2905728298.1665325
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2024,Arizona,Total Ecosystem,377802560.9924463
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Idaho,Total Ecosystem,2586204963.3853006
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,New Mexico,Total Ecosystem,861871590.2363027
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,California,Total Ecosystem,3014087722.380302
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Oregon,Total Ecosystem,3690777982.9684916
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Washington,Total Ecosystem,3427688817.036411
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Utah,Total Ecosystem,1042632031.5644653
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Colorado,Total Ecosystem,1881452605.958973
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Wyoming,Total Ecosystem,875371505.7299879
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Nevada,Total Ecosystem,384313524.34749985
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Montana,Total Ecosystem,2896027400.0558376
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2025,Arizona,Total Ecosystem,375592750.2918124
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Idaho,Total Ecosystem,2586679391.422757
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,New Mexico,Total Ecosystem,861076998.1264526
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,California,Total Ecosystem,3003353398.485397
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Oregon,Total Ecosystem,3691912527.7644944
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Washington,Total Ecosystem,3430809711.689212
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Utah,Total Ecosystem,1039238956.9167215
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Colorado,Total Ecosystem,1880072424.4318676
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Wyoming,Total Ecosystem,876378204.0174111
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Nevada,Total Ecosystem,381583182.1084527
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Montana,Total Ecosystem,2898255509.537241
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2026,Arizona,Total Ecosystem,374581116.7118743
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Idaho,Total Ecosystem,2594345655.94619
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,New Mexico,Total Ecosystem,859615570.0106913
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,California,Total Ecosystem,2985834278.345308
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Oregon,Total Ecosystem,3678954516.846149
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Washington,Total Ecosystem,3432737103.8103867
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Utah,Total Ecosystem,1036766848.7512457
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Colorado,Total Ecosystem,1881739820.0221186
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Wyoming,Total Ecosystem,881565412.0297781
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Nevada,Total Ecosystem,380881297.99260473
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Montana,Total Ecosystem,2918049763.281673
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2027,Arizona,Total Ecosystem,371684587.82005835
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Idaho,Total Ecosystem,2605945951.96232
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,New Mexico,Total Ecosystem,857023981.6109166
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,California,Total Ecosystem,3001350520.433982
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Oregon,Total Ecosystem,3683301927.614025
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Washington,Total Ecosystem,3437750511.117786
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Utah,Total Ecosystem,1038959764.2346956
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Colorado,Total Ecosystem,1883149542.1540208
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Wyoming,Total Ecosystem,885571995.5037278
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Nevada,Total Ecosystem,383870867.7546602
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Montana,Total Ecosystem,2931770446.48187
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2028,Arizona,Total Ecosystem,369803880.6335441
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Idaho,Total Ecosystem,2611224325.7523117
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,New Mexico,Total Ecosystem,859108946.0140698
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,California,Total Ecosystem,2991293730.4183517
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Oregon,Total Ecosystem,3672418387.3318
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Washington,Total Ecosystem,3436231280.559067
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Utah,Total Ecosystem,1038809685.3591844
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Colorado,Total Ecosystem,1891438145.4883256
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Wyoming,Total Ecosystem,889733692.6367007
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Nevada,Total Ecosystem,383085882.7322962
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Montana,Total Ecosystem,2942011566.1660204
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2029,Arizona,Total Ecosystem,368925209.3249911
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Idaho,Total Ecosystem,2601239348.887645
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,New Mexico,Total Ecosystem,854336807.9610537
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,California,Total Ecosystem,2981438869.063146
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Oregon,Total Ecosystem,3665698438.861742
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Washington,Total Ecosystem,3432333716.2449512
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Utah,Total Ecosystem,1031611389.1974802
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Colorado,Total Ecosystem,1884456107.8438642
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Wyoming,Total Ecosystem,888136749.1656666
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Nevada,Total Ecosystem,381025074.1398605
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Montana,Total Ecosystem,2949514576.4764524
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2030,Arizona,Total Ecosystem,366953617.74589217
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Idaho,Total Ecosystem,2601510828.875207
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,New Mexico,Total Ecosystem,858408277.4960507
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,California,Total Ecosystem,2990915672.1274753
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Oregon,Total Ecosystem,3662197673.7300344
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Washington,Total Ecosystem,3429968900.505485
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Utah,Total Ecosystem,1041003256.1837313
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Colorado,Total Ecosystem,1895527813.0093186
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Wyoming,Total Ecosystem,890104286.6387404
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Nevada,Total Ecosystem,382566454.4640747
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Montana,Total Ecosystem,2952197981.331185
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2031,Arizona,Total Ecosystem,371816451.3638689
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Idaho,Total Ecosystem,2600734188.5416765
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,New Mexico,Total Ecosystem,863822918.6569525
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,California,Total Ecosystem,2987164486.7071667
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Oregon,Total Ecosystem,3642135855.618087
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Washington,Total Ecosystem,3422949949.032568
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Utah,Total Ecosystem,1043702200.4939109
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Colorado,Total Ecosystem,1901991825.1230159
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Wyoming,Total Ecosystem,889795758.5961547
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Nevada,Total Ecosystem,384921560.6845516
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Montana,Total Ecosystem,2953903525.6561527
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2032,Arizona,Total Ecosystem,374479316.2758768
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Idaho,Total Ecosystem,2612599732.340581
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,New Mexico,Total Ecosystem,865153734.6583257
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,California,Total Ecosystem,2994731601.485082
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Oregon,Total Ecosystem,3644379018.8490663
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Washington,Total Ecosystem,3425033994.642449
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Utah,Total Ecosystem,1052931266.7106603
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Colorado,Total Ecosystem,1915098306.934598
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Wyoming,Total Ecosystem,895971648.1647093
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Nevada,Total Ecosystem,387410264.0722107
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Montana,Total Ecosystem,2974687761.91512
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2033,Arizona,Total Ecosystem,375756558.0836819
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Idaho,Total Ecosystem,2615097051.461738
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,New Mexico,Total Ecosystem,870784384.385574
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,California,Total Ecosystem,2943637152.329628
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Oregon,Total Ecosystem,3625983029.1045914
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Washington,Total Ecosystem,3416865090.5456386
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Utah,Total Ecosystem,1048062734.6749072
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Colorado,Total Ecosystem,1925023579.461152
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Wyoming,Total Ecosystem,901373486.2992514
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Nevada,Total Ecosystem,384330314.5198706
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Montana,Total Ecosystem,2981508277.4898973
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2034,Arizona,Total Ecosystem,374221288.89323103
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Idaho,Total Ecosystem,2629549639.57907
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,New Mexico,Total Ecosystem,870575920.3364167
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,California,Total Ecosystem,2940597364.00257
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Oregon,Total Ecosystem,3622359145.707022
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Washington,Total Ecosystem,3421836887.1487885
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Utah,Total Ecosystem,1051810786.9224888
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Colorado,Total Ecosystem,1927999431.8834307
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Wyoming,Total Ecosystem,907268323.8034754
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Nevada,Total Ecosystem,388271835.9499765
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Montana,Total Ecosystem,3001678489.9769745
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2035,Arizona,Total Ecosystem,374122604.9970742
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Idaho,Total Ecosystem,2617615069.7109046
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,New Mexico,Total Ecosystem,869361994.2552614
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,California,Total Ecosystem,2940103784.6874704
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Oregon,Total Ecosystem,3624540569.469192
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Washington,Total Ecosystem,3424212145.980491
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Utah,Total Ecosystem,1059167825.0168366
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Colorado,Total Ecosystem,1934771849.1278145
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Wyoming,Total Ecosystem,910907413.6116419
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Nevada,Total Ecosystem,390637408.24691963
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Montana,Total Ecosystem,3004267673.09521
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2036,Arizona,Total Ecosystem,376084042.4676901
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Idaho,Total Ecosystem,2633378872.069201
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,New Mexico,Total Ecosystem,869299482.0054371
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,California,Total Ecosystem,2948289653.1078753
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Oregon,Total Ecosystem,3629411629.7306733
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Washington,Total Ecosystem,3424119572.82087
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Utah,Total Ecosystem,1062254946.4945008
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Colorado,Total Ecosystem,1939753529.945038
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Wyoming,Total Ecosystem,914924372.9310105
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Nevada,Total Ecosystem,391251131.4235096
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Montana,Total Ecosystem,3021767547.8774757
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2037,Arizona,Total Ecosystem,376741321.5989714
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Idaho,Total Ecosystem,2636924484.898682
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,New Mexico,Total Ecosystem,871700887.0011982
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,California,Total Ecosystem,2955782937.527018
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Oregon,Total Ecosystem,3625684669.5354786
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Washington,Total Ecosystem,3425327369.8925066
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Utah,Total Ecosystem,1061552030.5564944
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Colorado,Total Ecosystem,1940198001.859363
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Wyoming,Total Ecosystem,916412432.409103
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Nevada,Total Ecosystem,392227841.732855
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Montana,Total Ecosystem,3028107398.6841598
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2038,Arizona,Total Ecosystem,378404422.55996966
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Idaho,Total Ecosystem,2646271218.095738
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,New Mexico,Total Ecosystem,870897952.8809744
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,California,Total Ecosystem,2913116668.630822
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Oregon,Total Ecosystem,3600169021.7542014
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Washington,Total Ecosystem,3419103084.9622583
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Utah,Total Ecosystem,1059722745.9088451
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Colorado,Total Ecosystem,1937831263.4011455
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Wyoming,Total Ecosystem,920557989.2576349
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Nevada,Total Ecosystem,390682804.26408243
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Montana,Total Ecosystem,3036222966.7397504
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2039,Arizona,Total Ecosystem,376580334.0329329
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Idaho,Total Ecosystem,2652694774.0336456
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,New Mexico,Total Ecosystem,869916304.755552
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,California,Total Ecosystem,2902982969.216222
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Oregon,Total Ecosystem,3598989373.036248
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Washington,Total Ecosystem,3419935646.839559
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Utah,Total Ecosystem,1061091805.4717666
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Colorado,Total Ecosystem,1935892806.3830853
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Wyoming,Total Ecosystem,925249696.8560855
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Nevada,Total Ecosystem,391392600.0486196
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Montana,Total Ecosystem,3046834120.1219473
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2040,Arizona,Total Ecosystem,374808051.03617483
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Idaho,Total Ecosystem,2648235327.6660843
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,New Mexico,Total Ecosystem,875130489.9864092
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,California,Total Ecosystem,2893467749.7234907
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Oregon,Total Ecosystem,3585933884.267263
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Washington,Total Ecosystem,3416959804.3579307
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Utah,Total Ecosystem,1060581822.9354678
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Colorado,Total Ecosystem,1936718594.3643777
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Wyoming,Total Ecosystem,924618301.6283785
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Nevada,Total Ecosystem,390900650.462705
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Montana,Total Ecosystem,3044012852.028871
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2041,Arizona,Total Ecosystem,379745885.4562537
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Idaho,Total Ecosystem,2655551070.3852644
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,New Mexico,Total Ecosystem,868944764.2479984
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,California,Total Ecosystem,2909961749.81334
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Oregon,Total Ecosystem,3586833141.6588902
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Washington,Total Ecosystem,3417644541.873342
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Utah,Total Ecosystem,1062988513.720884
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Colorado,Total Ecosystem,1930744629.63171
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Wyoming,Total Ecosystem,925283688.6498218
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Nevada,Total Ecosystem,396212812.31908935
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Montana,Total Ecosystem,3043938205.425929
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2042,Arizona,Total Ecosystem,379114022.7116673
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Idaho,Total Ecosystem,2641749824.5722914
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,New Mexico,Total Ecosystem,875505962.5095311
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,California,Total Ecosystem,2901641336.2748485
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Oregon,Total Ecosystem,3575833405.41012
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Washington,Total Ecosystem,3414990596.790475
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Utah,Total Ecosystem,1064203062.3255035
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Colorado,Total Ecosystem,1936830471.6653328
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Wyoming,Total Ecosystem,925879376.3128891
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Nevada,Total Ecosystem,396068903.951187
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Montana,Total Ecosystem,3045769560.23349
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2043,Arizona,Total Ecosystem,381659768.2335113
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Idaho,Total Ecosystem,2642568758.8881288
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,New Mexico,Total Ecosystem,879283850.3903241
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,California,Total Ecosystem,2894530480.5122766
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Oregon,Total Ecosystem,3566276830.669066
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Washington,Total Ecosystem,3412979388.112576
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Utah,Total Ecosystem,1063252150.8232745
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Colorado,Total Ecosystem,1942864896.355641
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Wyoming,Total Ecosystem,927459631.8937917
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Nevada,Total Ecosystem,394980277.34299016
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Montana,Total Ecosystem,3052478923.0768785
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2044,Arizona,Total Ecosystem,381191203.0853359
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Idaho,Total Ecosystem,2654094980.351627
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,New Mexico,Total Ecosystem,887816275.0037409
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,California,Total Ecosystem,2908128397.3514047
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Oregon,Total Ecosystem,3564823690.657148
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Washington,Total Ecosystem,3403784926.087632
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Utah,Total Ecosystem,1071485480.8234416
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Colorado,Total Ecosystem,1958022935.4444933
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Wyoming,Total Ecosystem,933813505.8057805
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Nevada,Total Ecosystem,399140616.63470024
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Montana,Total Ecosystem,3058731630.1484423
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2045,Arizona,Total Ecosystem,383031220.25979716
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Idaho,Total Ecosystem,2653437020.1156487
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,New Mexico,Total Ecosystem,891643398.2531866
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,California,Total Ecosystem,2909794210.8890367
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Oregon,Total Ecosystem,3558264464.011442
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Washington,Total Ecosystem,3399020551.33598
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Utah,Total Ecosystem,1073006765.6867371
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Colorado,Total Ecosystem,1961758629.8787038
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Wyoming,Total Ecosystem,935385218.8534883
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Nevada,Total Ecosystem,400195331.663361
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Montana,Total Ecosystem,3057017683.436738
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2046,Arizona,Total Ecosystem,383685160.11378866
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Idaho,Total Ecosystem,2652922685.669549
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,New Mexico,Total Ecosystem,891459036.5362855
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,California,Total Ecosystem,2892001172.4903784
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Oregon,Total Ecosystem,3547198569.3725667
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Washington,Total Ecosystem,3392034261.1090765
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Utah,Total Ecosystem,1069952493.4550799
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Colorado,Total Ecosystem,1962282974.3841105
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Wyoming,Total Ecosystem,937346017.3805982
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Nevada,Total Ecosystem,398690232.2169986
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Montana,Total Ecosystem,3060805548.263526
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2047,Arizona,Total Ecosystem,382569040.66272694
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Idaho,Total Ecosystem,2652663993.3716984
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,New Mexico,Total Ecosystem,895508773.0163507
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,California,Total Ecosystem,2878258997.8825965
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Oregon,Total Ecosystem,3547183689.50773
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Washington,Total Ecosystem,3388644795.28442
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Utah,Total Ecosystem,1074698232.8474555
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Colorado,Total Ecosystem,1969169920.8632288
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Wyoming,Total Ecosystem,941796847.3223584
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Nevada,Total Ecosystem,398805410.11081505
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Montana,Total Ecosystem,3068799154.352028
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2048,Arizona,Total Ecosystem,383611352.2083738
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Idaho,Total Ecosystem,2654172856.29241
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,New Mexico,Total Ecosystem,899596284.8341448
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,California,Total Ecosystem,2879378986.7060204
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Oregon,Total Ecosystem,3540342716.7106414
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Washington,Total Ecosystem,3384655976.751097
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Utah,Total Ecosystem,1078305256.4571102
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Colorado,Total Ecosystem,1976650742.8436358
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Wyoming,Total Ecosystem,942060438.548774
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Nevada,Total Ecosystem,400394228.3138714
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Montana,Total Ecosystem,3071961027.4421225
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2049,Arizona,Total Ecosystem,387605213.8357449
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Idaho,Total Ecosystem,2670329459.181986
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,New Mexico,Total Ecosystem,898496967.4164342
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,California,Total Ecosystem,2895321626.1129704
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Oregon,Total Ecosystem,3544469417.228977
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Washington,Total Ecosystem,3390850222.446648
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Utah,Total Ecosystem,1090019935.1269495
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Colorado,Total Ecosystem,1989105612.4594755
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Wyoming,Total Ecosystem,949544563.3885541
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Nevada,Total Ecosystem,405385916.14217746
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Montana,Total Ecosystem,3090576770.873778
+138,Reforestation HadGEM2-ES365,HadGEM2-ES365,Reforestation,1,2050,Arizona,Total Ecosystem,386053874.5203508

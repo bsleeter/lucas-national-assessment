@@ -1,0 +1,261 @@
+ScenarioID,Timestep,FromSecondaryStratumID,FlowGroupID,TransitionGroupID,FromStockTypeID,Amount
+158,2001,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,0
+158,2002,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,53501.7004
+158,2003,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,40374.2273
+158,2004,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,23323.1147
+158,2005,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,7228.0341
+158,2006,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,85778.3941
+158,2007,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,37785.4237
+158,2008,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,406068.7531
+158,2009,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,25330.14
+158,2010,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,6188.7254
+158,2011,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,11125.6661
+158,2012,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,104178.1324
+158,2013,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,143024.5364
+158,2014,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,19822.5556
+158,2015,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,84759.0696
+158,2016,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,61584.5051
+158,2017,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,221983.013
+158,2018,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,319022.9103
+158,2019,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,32191.4341
+158,2020,California,LULC: Emission [Type],Fire,Biomass: Coarse Root,938564.2346
+158,2001,California,LULC: Emission [Type],Fire,Biomass: Fine Root,0
+158,2002,California,LULC: Emission [Type],Fire,Biomass: Fine Root,6985.0267
+158,2003,California,LULC: Emission [Type],Fire,Biomass: Fine Root,4910.9547
+158,2004,California,LULC: Emission [Type],Fire,Biomass: Fine Root,3231.9137
+158,2005,California,LULC: Emission [Type],Fire,Biomass: Fine Root,863.5724
+158,2006,California,LULC: Emission [Type],Fire,Biomass: Fine Root,9211.4222
+158,2007,California,LULC: Emission [Type],Fire,Biomass: Fine Root,5699.1431
+158,2008,California,LULC: Emission [Type],Fire,Biomass: Fine Root,40006.8821
+158,2009,California,LULC: Emission [Type],Fire,Biomass: Fine Root,3001.6995
+158,2010,California,LULC: Emission [Type],Fire,Biomass: Fine Root,623.5127
+158,2011,California,LULC: Emission [Type],Fire,Biomass: Fine Root,1743.5492
+158,2012,California,LULC: Emission [Type],Fire,Biomass: Fine Root,11315.1273
+158,2013,California,LULC: Emission [Type],Fire,Biomass: Fine Root,16788.6346
+158,2014,California,LULC: Emission [Type],Fire,Biomass: Fine Root,1858.4688
+158,2015,California,LULC: Emission [Type],Fire,Biomass: Fine Root,8925.1135
+158,2016,California,LULC: Emission [Type],Fire,Biomass: Fine Root,5881.9528
+158,2017,California,LULC: Emission [Type],Fire,Biomass: Fine Root,26903.2568
+158,2018,California,LULC: Emission [Type],Fire,Biomass: Fine Root,45582.3685
+158,2019,California,LULC: Emission [Type],Fire,Biomass: Fine Root,4837.8022
+158,2020,California,LULC: Emission [Type],Fire,Biomass: Fine Root,116122.7896
+158,2001,California,LULC: Emission [Type],Fire,Biomass: Foliage,0
+158,2002,California,LULC: Emission [Type],Fire,Biomass: Foliage,113261.4697
+158,2003,California,LULC: Emission [Type],Fire,Biomass: Foliage,72656.3635
+158,2004,California,LULC: Emission [Type],Fire,Biomass: Foliage,59396.119
+158,2005,California,LULC: Emission [Type],Fire,Biomass: Foliage,23585.6514
+158,2006,California,LULC: Emission [Type],Fire,Biomass: Foliage,196203.3518
+158,2007,California,LULC: Emission [Type],Fire,Biomass: Foliage,108069.0456
+158,2008,California,LULC: Emission [Type],Fire,Biomass: Foliage,693388.6763
+158,2009,California,LULC: Emission [Type],Fire,Biomass: Foliage,49135.4062
+158,2010,California,LULC: Emission [Type],Fire,Biomass: Foliage,9895.7
+158,2011,California,LULC: Emission [Type],Fire,Biomass: Foliage,23979.7708
+158,2012,California,LULC: Emission [Type],Fire,Biomass: Foliage,188267.3918
+158,2013,California,LULC: Emission [Type],Fire,Biomass: Foliage,277685.0619
+158,2014,California,LULC: Emission [Type],Fire,Biomass: Foliage,27083.6044
+158,2015,California,LULC: Emission [Type],Fire,Biomass: Foliage,159692.6718
+158,2016,California,LULC: Emission [Type],Fire,Biomass: Foliage,106323.9032
+158,2017,California,LULC: Emission [Type],Fire,Biomass: Foliage,459552.8316
+158,2018,California,LULC: Emission [Type],Fire,Biomass: Foliage,719827.1718
+158,2019,California,LULC: Emission [Type],Fire,Biomass: Foliage,66700.1358
+158,2020,California,LULC: Emission [Type],Fire,Biomass: Foliage,1917979.278
+158,2001,California,LULC: Emission [Type],Fire,Biomass: Merchantable,0.0000
+158,2002,California,LULC: Emission [Type],Fire,Biomass: Merchantable,20018.4841
+158,2003,California,LULC: Emission [Type],Fire,Biomass: Merchantable,3280.0038
+158,2004,California,LULC: Emission [Type],Fire,Biomass: Merchantable,94302.9212
+158,2005,California,LULC: Emission [Type],Fire,Biomass: Merchantable,103542.7563
+158,2006,California,LULC: Emission [Type],Fire,Biomass: Merchantable,549796.1217
+158,2007,California,LULC: Emission [Type],Fire,Biomass: Merchantable,340203.9826
+158,2008,California,LULC: Emission [Type],Fire,Biomass: Merchantable,157455.6635
+158,2009,California,LULC: Emission [Type],Fire,Biomass: Merchantable,19451.0149
+158,2010,California,LULC: Emission [Type],Fire,Biomass: Merchantable,3114.6859
+158,2011,California,LULC: Emission [Type],Fire,Biomass: Merchantable,14568.1402
+158,2012,California,LULC: Emission [Type],Fire,Biomass: Merchantable,30323.1740
+158,2013,California,LULC: Emission [Type],Fire,Biomass: Merchantable,105145.3715
+158,2014,California,LULC: Emission [Type],Fire,Biomass: Merchantable,43745.3145
+158,2015,California,LULC: Emission [Type],Fire,Biomass: Merchantable,42112.9457
+158,2016,California,LULC: Emission [Type],Fire,Biomass: Merchantable,388404.5891
+158,2017,California,LULC: Emission [Type],Fire,Biomass: Merchantable,500017.6863
+158,2018,California,LULC: Emission [Type],Fire,Biomass: Merchantable,546058.0142
+158,2019,California,LULC: Emission [Type],Fire,Biomass: Merchantable,30506.0177
+158,2020,California,LULC: Emission [Type],Fire,Biomass: Merchantable,2060218.2022
+158,2001,California,LULC: Emission [Type],Fire,Biomass: Other Wood,0.0000
+158,2002,California,LULC: Emission [Type],Fire,Biomass: Other Wood,91235.0821
+158,2003,California,LULC: Emission [Type],Fire,Biomass: Other Wood,111979.5173
+158,2004,California,LULC: Emission [Type],Fire,Biomass: Other Wood,91473.7943
+158,2005,California,LULC: Emission [Type],Fire,Biomass: Other Wood,48101.9039
+158,2006,California,LULC: Emission [Type],Fire,Biomass: Other Wood,255298.1471
+158,2007,California,LULC: Emission [Type],Fire,Biomass: Other Wood,197632.5465
+158,2008,California,LULC: Emission [Type],Fire,Biomass: Other Wood,295099.9309
+158,2009,California,LULC: Emission [Type],Fire,Biomass: Other Wood,33113.9625
+158,2010,California,LULC: Emission [Type],Fire,Biomass: Other Wood,3980.3098
+158,2011,California,LULC: Emission [Type],Fire,Biomass: Other Wood,17200.1103
+158,2012,California,LULC: Emission [Type],Fire,Biomass: Other Wood,63088.7813
+158,2013,California,LULC: Emission [Type],Fire,Biomass: Other Wood,131758.9006
+158,2014,California,LULC: Emission [Type],Fire,Biomass: Other Wood,36462.7128
+158,2015,California,LULC: Emission [Type],Fire,Biomass: Other Wood,81778.1018
+158,2016,California,LULC: Emission [Type],Fire,Biomass: Other Wood,449503.6266
+158,2017,California,LULC: Emission [Type],Fire,Biomass: Other Wood,375497.1130
+158,2018,California,LULC: Emission [Type],Fire,Biomass: Other Wood,583546.5800
+158,2019,California,LULC: Emission [Type],Fire,Biomass: Other Wood,63725.6781
+158,2020,California,LULC: Emission [Type],Fire,Biomass: Other Wood,1835540.4719
+158,2001,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,569584.3466
+158,2003,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,523720.2534
+158,2004,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,273990.7542
+158,2005,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,88238.3224
+158,2006,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,796078.8725
+158,2007,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,454513.4468
+158,2008,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,3597377.3766
+158,2009,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,255664.0884
+158,2010,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,58096.5669
+158,2011,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,110852.4240
+158,2012,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,1024569.9959
+158,2013,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,1294469.0715
+158,2014,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,196045.8096
+158,2015,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,809310.8813
+158,2016,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,644974.2785
+158,2017,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,2130190.3137
+158,2018,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,3096249.8855
+158,2019,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,318274.8207
+158,2020,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,9043351.8625
+158,2001,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,35801.1460
+158,2003,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,35158.7296
+158,2004,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,12641.7523
+158,2005,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,6057.4962
+158,2006,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,39241.6738
+158,2007,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,26011.0536
+158,2008,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,197036.6675
+158,2009,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,19605.1695
+158,2010,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,2948.5390
+158,2011,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,5756.9131
+158,2012,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,61825.6759
+158,2013,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,74657.1054
+158,2014,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,10857.9058
+158,2015,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,47862.8124
+158,2016,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,42223.8138
+158,2017,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,177158.9162
+158,2018,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,207650.6371
+158,2019,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,22654.9390
+158,2020,California,LULC: Emission [Type],Fire,DOM: Aboveground Medium,615950.5670
+158,2001,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,711028.9352
+158,2003,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,677148.2825
+158,2004,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,503288.5669
+158,2005,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,96363.9694
+158,2006,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,790125.1180
+158,2007,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,570631.7808
+158,2008,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,5117013.0534
+158,2009,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,361989.4523
+158,2010,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,67336.7071
+158,2011,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,168088.5311
+158,2012,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,1178645.2058
+158,2013,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,1774023.3570
+158,2014,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,402362.9527
+158,2015,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,1722119.1561
+158,2016,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,1347229.6474
+158,2017,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,3702314.9110
+158,2018,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,5293346.4996
+158,2019,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,558571.2659
+158,2020,California,LULC: Emission [Type],Fire,DOM: Aboveground Slow,13532421.0023
+158,2001,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,387551.6997
+158,2003,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,312207.6990
+158,2004,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,217082.3229
+158,2005,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,60467.1203
+158,2006,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,538349.8915
+158,2007,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,350434.2008
+158,2008,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,2768225.9360
+158,2009,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,185585.5054
+158,2010,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,34621.9706
+158,2011,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,89839.3490
+158,2012,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,679488.1354
+158,2013,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,1015199.8185
+158,2014,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,145803.3224
+158,2015,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,613659.8799
+158,2016,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,390080.5316
+158,2017,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,1507076.7687
+158,2018,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,2460098.9963
+158,2019,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,277894.7146
+158,2020,California,LULC: Emission [Type],Fire,DOM: Aboveground Very Fast,6454722.2027
+158,2001,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,19962.1860
+158,2003,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,16125.9431
+158,2004,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,8571.1279
+158,2005,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,3330.6624
+158,2006,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,31404.5115
+158,2007,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,15496.8209
+158,2008,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,131596.0312
+158,2009,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,8473.9530
+158,2010,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,1963.4698
+158,2011,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,3506.1259
+158,2012,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,35467.8909
+158,2013,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,47690.4352
+158,2014,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,5846.8820
+158,2015,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,26970.8797
+158,2016,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,19663.7995
+158,2017,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,74247.3877
+158,2018,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,105586.7236
+158,2019,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,10733.5446
+158,2020,California,LULC: Emission [Type],Fire,DOM: Aboveground Fast,321166.7753
+158,2001,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,4102.8112
+158,2003,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,3039.5439
+158,2004,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,1736.4775
+158,2005,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,628.9759
+158,2006,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,5662.2569
+158,2007,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,3515.6578
+158,2008,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,23451.9614
+158,2009,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,1727.2105
+158,2010,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,347.6970
+158,2011,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,955.0335
+158,2012,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,6932.8013
+158,2013,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,9136.7981
+158,2014,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,1300.4249
+158,2015,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,4381.0185
+158,2016,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,2777.9016
+158,2017,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,12655.3641
+158,2018,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,21044.0382
+158,2019,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,2562.8224
+158,2020,California,LULC: Emission [Type],Fire,DOM: Belowground Very Fast,59111.5781
+158,2001,California,LULC: Emission [Type],Fire,DOM: Snag Branch,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Snag Branch,597433.7187
+158,2003,California,LULC: Emission [Type],Fire,DOM: Snag Branch,493877.0835
+158,2004,California,LULC: Emission [Type],Fire,DOM: Snag Branch,272837.1662
+158,2005,California,LULC: Emission [Type],Fire,DOM: Snag Branch,83963.1039
+158,2006,California,LULC: Emission [Type],Fire,DOM: Snag Branch,779181.7700
+158,2007,California,LULC: Emission [Type],Fire,DOM: Snag Branch,468660.2403
+158,2008,California,LULC: Emission [Type],Fire,DOM: Snag Branch,3501196.3869
+158,2009,California,LULC: Emission [Type],Fire,DOM: Snag Branch,249937.1788
+158,2010,California,LULC: Emission [Type],Fire,DOM: Snag Branch,47086.8570
+158,2011,California,LULC: Emission [Type],Fire,DOM: Snag Branch,99819.7046
+158,2012,California,LULC: Emission [Type],Fire,DOM: Snag Branch,876507.3014
+158,2013,California,LULC: Emission [Type],Fire,DOM: Snag Branch,1258362.6305
+158,2014,California,LULC: Emission [Type],Fire,DOM: Snag Branch,180639.2818
+158,2015,California,LULC: Emission [Type],Fire,DOM: Snag Branch,886274.3388
+158,2016,California,LULC: Emission [Type],Fire,DOM: Snag Branch,707923.5274
+158,2017,California,LULC: Emission [Type],Fire,DOM: Snag Branch,2320953.2162
+158,2018,California,LULC: Emission [Type],Fire,DOM: Snag Branch,3247471.1688
+158,2019,California,LULC: Emission [Type],Fire,DOM: Snag Branch,367654.4610
+158,2020,California,LULC: Emission [Type],Fire,DOM: Snag Branch,8625469.5271
+158,2001,California,LULC: Emission [Type],Fire,DOM: Snag Stem,0.0000
+158,2002,California,LULC: Emission [Type],Fire,DOM: Snag Stem,133994.5854
+158,2003,California,LULC: Emission [Type],Fire,DOM: Snag Stem,92919.1373
+158,2004,California,LULC: Emission [Type],Fire,DOM: Snag Stem,45667.7084
+158,2005,California,LULC: Emission [Type],Fire,DOM: Snag Stem,22408.2101
+158,2006,California,LULC: Emission [Type],Fire,DOM: Snag Stem,222098.1412
+158,2007,California,LULC: Emission [Type],Fire,DOM: Snag Stem,93707.8404
+158,2008,California,LULC: Emission [Type],Fire,DOM: Snag Stem,916589.0566
+158,2009,California,LULC: Emission [Type],Fire,DOM: Snag Stem,55506.3217
+158,2010,California,LULC: Emission [Type],Fire,DOM: Snag Stem,12876.0359
+158,2011,California,LULC: Emission [Type],Fire,DOM: Snag Stem,21811.2419
+158,2012,California,LULC: Emission [Type],Fire,DOM: Snag Stem,239617.2563
+158,2013,California,LULC: Emission [Type],Fire,DOM: Snag Stem,326241.4038
+158,2014,California,LULC: Emission [Type],Fire,DOM: Snag Stem,37541.2302
+158,2015,California,LULC: Emission [Type],Fire,DOM: Snag Stem,156957.1023
+158,2016,California,LULC: Emission [Type],Fire,DOM: Snag Stem,103621.9193
+158,2017,California,LULC: Emission [Type],Fire,DOM: Snag Stem,488455.0147
+158,2018,California,LULC: Emission [Type],Fire,DOM: Snag Stem,661992.3521
+158,2019,California,LULC: Emission [Type],Fire,DOM: Snag Stem,62931.2591
+158,2020,California,LULC: Emission [Type],Fire,DOM: Snag Stem,2133623.6665
