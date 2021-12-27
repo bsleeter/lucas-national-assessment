@@ -103,8 +103,12 @@ The LUCAS model available through this repository has four pre-built scenarios a
 2. Open the "Spatial Model CONUS v1.1.ssim" library which can be found in the cloned repository location.
 3. Prior to running scenarios, it is advisable to set up multiprocessing parameters. To do so we navigate to "File>Library Properties" and select the "Multiprocessing" tab from the top. Under the "General" options, click on the "Enable multiprocessing" and "Run multiple scenarios in parallel" check boxes. Select the number of jobs to process at one time. This value should be automatically set to one minus the number of logical cores available on the local computer. Users should adjust this value based on available computing resources. 
 
-<a href="https://github.com/bsleeter/lucas-national-assessment">
+  <a href="https://github.com/bsleeter/lucas-national-assessment">
     <img src="images/multiprocessing.jpg" alt="Logo" width="600">
+  </a>
+  
+  <a href="https://github.com/bsleeter/lucas-national-assessment">
+    <img src="images/ui.jpg" alt="Logo" width="600" >
   </a>
 
 4. In the Library Explorer, navigate to the folder named "00 Final Scenarios" and select one or more of the pre-built scenarios to run. Right-click on a scenario and select "Run". The scenarios available include:
