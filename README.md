@@ -52,11 +52,10 @@
 This repository provides access to the Land Use and Carbon Scenario Simulator model used to estimate recent historical carbon stocks and fluxes in U.S. forests between 2001 and 2020. The modeling approach links the Carbon Budget Model of the Canadian Forest Sector (CBM-CFS3) with the LUCAS model of land use and land cover change to provide annual spatially explicit carbon estimates at 1-km resolution. The repository includes a fully-functioning LUCAS model along with a peer-reviewed manuscript published in Carbon Balance and Management.  
 
 ### Model outputs
-A set of spatial outputs are available from the U.S. Geological Survey's [ScienceBase data archive](https://www.sciencebase.gov/catalog/item/61aa50dad34eb622f699df78). Annual spatially explicit carbon stock maps are available for a wide range of carbon pools. 
+A set of spatial outputs are available from the U.S. Geological Survey's [ScienceBase data archive](https://www.sciencebase.gov/catalog/item/61aa50dad34eb622f699df78). Annual spatially explicit carbon stock maps are available for a wide range of carbon pools. In addition to spatial output, a set of tabular output summaries are also available. For questions about data availability please contact bsleeter@usgs.gov.
 
-In addition to spatial output, a set of tabular output summaries are also available.
-
-For questions about data availability please contact bsleeter@usgs.gov.
+### Manuscript and data
+The manuscript accepted for publication at Carbon Balance & Management is contained within the manuscript folder of this repository. The paper was written using R Markdown. The complete markdown file along with the data sub-folder are available for the purposes of reproducibility. The final rendered pdf is also available for download. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
