@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Wetland Herbaceous [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+130,255,0,0,255,Ag Contraction: Wetland Herbaceous
+0,232,232,232,255,No Occurrence

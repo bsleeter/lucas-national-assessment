@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Lodgepole Pine Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+110,128,0,128,255,Ag Contraction: Lodgepole Pine Group
+0,232,232,232,255,No Occurrence

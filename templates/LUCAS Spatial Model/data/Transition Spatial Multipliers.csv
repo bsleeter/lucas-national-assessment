@@ -1,0 +1,114 @@
+Iteration,Timestep,TransitionGroupID,TransitionMultiplierTypeID,MultiplierFileName
+,2002,Ag Contraction,,ag-contraction-2001-2006.tif
+,2002,Ag Expansion,,ag-expansion-2001-2006.tif
+,2002,Fire,,sm-national-fire 2002.tif
+,2002,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2002.tif(2).tif
+,2002,Forest Harvest: Forest Selection [Type],,forest-selection-2002.tif(2).tif
+,2002,Insect: High Severity [Type],,insect-high-severity-2002.tif
+,2002,Insect: Low Severity [Type],,insect-low-severity-2002.tif
+,2002,Insect: Medium Severity [Type],,insect-medium-severity-2002.tif
+,2002,Intensification,,intensification-2001-2006.tif
+,2002,Urbanization,,urbanization-2001-2006.tif(2).tif
+,2003,Fire,,sm-national-fire 2003.tif
+,2003,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2003.tif(2).tif
+,2003,Forest Harvest: Forest Selection [Type],,forest-selection-2003.tif(2).tif
+,2003,Insect: High Severity [Type],,insect-high-severity-2003.tif
+,2003,Insect: Low Severity [Type],,insect-low-severity-2003.tif
+,2003,Insect: Medium Severity [Type],,insect-medium-severity-2003.tif
+,2004,Fire,,sm-national-fire 2004.tif
+,2004,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2004.tif(2).tif
+,2004,Forest Harvest: Forest Selection [Type],,forest-selection-2004.tif(2).tif
+,2004,Insect: High Severity [Type],,insect-high-severity-2004.tif
+,2004,Insect: Low Severity [Type],,insect-low-severity-2004.tif
+,2004,Insect: Medium Severity [Type],,insect-medium-severity-2004.tif
+,2005,Fire,,sm-national-fire 2005.tif
+,2005,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2005.tif(2).tif
+,2005,Forest Harvest: Forest Selection [Type],,forest-selection-2005.tif(2).tif
+,2005,Insect: High Severity [Type],,insect-high-severity-2005.tif
+,2005,Insect: Low Severity [Type],,insect-low-severity-2005.tif
+,2005,Insect: Medium Severity [Type],,insect-medium-severity-2005.tif
+,2006,Fire,,sm-national-fire 2006.tif
+,2006,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2006.tif(2).tif
+,2006,Forest Harvest: Forest Selection [Type],,forest-selection-2006.tif(2).tif
+,2006,Insect: High Severity [Type],,insect-high-severity-2006.tif
+,2006,Insect: Low Severity [Type],,insect-low-severity-2006.tif
+,2006,Insect: Medium Severity [Type],,insect-medium-severity-2006.tif
+,2007,Ag Contraction,,ag-contraction-2006-2011.tif
+,2007,Ag Expansion,,ag-expansion-2006-2011.tif
+,2007,Fire,,sm-national-fire 2007.tif
+,2007,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2007.tif(2).tif
+,2007,Forest Harvest: Forest Selection [Type],,forest-selection-2007.tif(2).tif
+,2007,Insect: High Severity [Type],,insect-high-severity-2007.tif
+,2007,Insect: Low Severity [Type],,insect-low-severity-2007.tif
+,2007,Insect: Medium Severity [Type],,insect-medium-severity-2007.tif
+,2007,Intensification,,intensification-2006-2011.tif
+,2007,Urbanization,,urbanization-2006-2011.tif(2).tif
+,2008,Fire,,sm-national-fire 2008.tif
+,2008,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2008.tif(2).tif
+,2008,Forest Harvest: Forest Selection [Type],,forest-selection-2008.tif(2).tif
+,2008,Insect: High Severity [Type],,insect-high-severity-2008.tif
+,2008,Insect: Low Severity [Type],,insect-low-severity-2008.tif
+,2008,Insect: Medium Severity [Type],,insect-medium-severity-2008.tif
+,2009,Fire,,sm-national-fire 2009.tif
+,2009,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2009.tif(2).tif
+,2009,Forest Harvest: Forest Selection [Type],,forest-selection-2009.tif(2).tif
+,2009,Insect: High Severity [Type],,insect-high-severity-2009.tif
+,2009,Insect: Low Severity [Type],,insect-low-severity-2009.tif
+,2009,Insect: Medium Severity [Type],,insect-medium-severity-2009.tif
+,2010,Fire,,sm-national-fire 2010.tif
+,2010,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2010.tif(2).tif
+,2010,Forest Harvest: Forest Selection [Type],,forest-selection-2010.tif(2).tif
+,2010,Insect: High Severity [Type],,insect-high-severity-2010.tif
+,2010,Insect: Low Severity [Type],,insect-low-severity-2010.tif
+,2010,Insect: Medium Severity [Type],,insect-medium-severity-2010.tif
+,2011,Fire,,sm-national-fire 2011.tif
+,2011,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2011.tif(2).tif
+,2011,Forest Harvest: Forest Selection [Type],,forest-selection-2011.tif(2).tif
+,2011,Insect: High Severity [Type],,insect-high-severity-2011.tif
+,2011,Insect: Low Severity [Type],,insect-low-severity-2011.tif
+,2011,Insect: Medium Severity [Type],,insect-medium-severity-2011.tif
+,2012,Ag Contraction,,ag-contraction-2011-2016.tif
+,2012,Ag Expansion,,ag-expansion-2011-2016.tif
+,2012,Fire,,sm-national-fire 2012.tif
+,2012,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2012.tif(2).tif
+,2012,Forest Harvest: Forest Selection [Type],,forest-selection-2012.tif(2).tif
+,2012,Insect: High Severity [Type],,insect-high-severity-2012.tif
+,2012,Insect: Low Severity [Type],,insect-low-severity-2012.tif
+,2012,Insect: Medium Severity [Type],,insect-medium-severity-2012.tif
+,2012,Intensification,,intensification-2011-2016.tif
+,2012,Urbanization,,urbanization-2011-2016.tif(2).tif
+,2013,Fire,,sm-national-fire 2013.tif
+,2013,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2013.tif(2).tif
+,2013,Forest Harvest: Forest Selection [Type],,forest-selection-2013.tif(2).tif
+,2013,Insect: High Severity [Type],,insect-high-severity-2013.tif
+,2013,Insect: Low Severity [Type],,insect-low-severity-2013.tif
+,2013,Insect: Medium Severity [Type],,insect-medium-severity-2013.tif
+,2014,Fire,,sm-national-fire 2014.tif
+,2014,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2014.tif(2).tif
+,2014,Forest Harvest: Forest Selection [Type],,forest-selection-2014.tif(2).tif
+,2014,Insect: High Severity [Type],,insect-high-severity-2014.tif
+,2014,Insect: Low Severity [Type],,insect-low-severity-2014.tif
+,2014,Insect: Medium Severity [Type],,insect-medium-severity-2014.tif
+,2015,Fire,,sm-national-fire 2015.tif
+,2015,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2015.tif
+,2015,Forest Harvest: Forest Selection [Type],,forest-selection-2015.tif
+,2015,Insect: High Severity [Type],,insect-high-severity-2015.tif
+,2015,Insect: Low Severity [Type],,insect-low-severity-2015.tif
+,2015,Insect: Medium Severity [Type],,insect-medium-severity-2015.tif
+,2016,Fire,,sm-national-fire 2016.tif
+,2016,Forest Harvest: Forest Clearcut [Type],,forest-clearcut-2016.tif
+,2016,Forest Harvest: Forest Selection [Type],,forest-selection-2016.tif
+,2016,Insect: High Severity [Type],,projection-all-cells-1.tif(2).tif
+,2016,Insect: Low Severity [Type],,projection-all-cells-1.tif(2).tif
+,2016,Insect: Medium Severity [Type],,projection-all-cells-1.tif(2).tif
+,2017,Ag Contraction,,projection-all-cells-1.tif(2).tif
+,2017,Ag Expansion,,projection-ag-expansion.tif(2).tif
+,2017,Fire,,sm-national-fire 2017.tif
+,2017,Forest Harvest: Forest Clearcut [Type],,projection-harvest.tif(2).tif
+,2017,Forest Harvest: Forest Selection [Type],,projection-harvest.tif(2).tif
+,2017,Intensification,,projection-all-cells-1.tif(2).tif
+,2017,Urbanization,,projection-urbanization.tif
+,2018,Fire,,sm-national-fire 2018.tif
+,2019,Fire,,sm-national-fire 2019.tif
+,2020,Fire,,sm-national-fire 2020.tif
+,2021,Fire,,projection-all-cells-1.tif(2).tif

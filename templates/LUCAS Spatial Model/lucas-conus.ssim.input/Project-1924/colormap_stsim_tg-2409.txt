@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Succession Post Fire: Pinyon/Juniper Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+218,255,0,128,255,Succession Post Fire: Pinyon/Juniper Group
+0,232,232,232,255,No Occurrence

@@ -1,0 +1,6 @@
+# Syncrosim Generated State Class Color Map (QGIS-compatible),,,,,
+INTERPOLATION:EXACT
+910,0,128,0,255,Alder/Maple Group
+370,165,42,42,255,California Mixed Conifer Group
+220,0,0,255,255,Ponderosa Pine Group
+920,0,255,255,255,Western Oak Group

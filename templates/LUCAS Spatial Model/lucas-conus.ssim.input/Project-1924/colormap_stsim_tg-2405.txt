@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Succession Post Fire: Oak/Hickory Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+214,255,0,128,255,Succession Post Fire: Oak/Hickory Group
+0,232,232,232,255,No Occurrence

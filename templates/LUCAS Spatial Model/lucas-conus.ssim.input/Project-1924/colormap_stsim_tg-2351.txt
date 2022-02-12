@@ -1,0 +1,9 @@
+# Syncrosim Generated Transition Group (Intensification) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+14,0,0,255,255,Intensification: Low to High
+13,255,0,0,255,Intensification: Low to Medium
+15,255,255,0,255,Intensification: Medium to High
+12,255,165,0,255,Intensification: Open to High
+10,0,128,0,255,Intensification: Open to Low
+11,0,128,128,255,Intensification: Open to Medium
+0,232,232,232,255,No Occurrence

@@ -1,0 +1,7 @@
+# Syncrosim Generated Net Biome Productivity Color Map (QGIS-compatible),,,,,
+INTERPOLATION:DISCRETE
+0,255,255,0,255,0
+-10,0,0,255,255,-10
+5,255,165,0,255,5
+-5,0,255,255,255,-5
+7.1347,255,0,0,255,7.1347

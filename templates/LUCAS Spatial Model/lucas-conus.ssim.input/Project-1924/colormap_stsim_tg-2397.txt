@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Succession Post Fire: Exotic Softwoods Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+206,128,0,255,255,Succession Post Fire: Exotic Softwoods Group
+0,232,232,232,255,No Occurrence

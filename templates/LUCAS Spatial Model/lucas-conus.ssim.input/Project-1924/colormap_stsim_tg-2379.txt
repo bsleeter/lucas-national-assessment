@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Tanoak/Laurel Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+122,128,128,128,255,Ag Contraction: Tanoak/Laurel Group
+0,232,232,232,255,No Occurrence

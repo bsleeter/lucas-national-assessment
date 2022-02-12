@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Expansion: Cropland [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+51,0,128,128,255,Ag Expansion: Cropland
+0,232,232,232,255,No Occurrence

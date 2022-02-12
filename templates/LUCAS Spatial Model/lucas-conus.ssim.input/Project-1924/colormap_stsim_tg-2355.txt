@@ -1,0 +1,3 @@
+# Syncrosim Generated Transition Group (Ag Change) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+0,232,232,232,255,No Occurrence

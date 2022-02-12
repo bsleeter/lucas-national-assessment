@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Forest Harvest: Salvage Logging [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+42,0,255,255,255,Forest Harvest: Salvage Logging
+0,232,232,232,255,No Occurrence

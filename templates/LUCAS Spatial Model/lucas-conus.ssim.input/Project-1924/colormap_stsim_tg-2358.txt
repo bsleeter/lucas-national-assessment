@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Aspen/Birch Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+101,165,42,42,255,Ag Contraction: Aspen/Birch Group
+0,232,232,232,255,No Occurrence

@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Pinyon/Juniper Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+118,255,255,0,255,Ag Contraction: Pinyon/Juniper Group
+0,232,232,232,255,No Occurrence

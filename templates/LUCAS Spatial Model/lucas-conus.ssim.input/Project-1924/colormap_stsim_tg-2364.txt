@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+107,0,128,128,255,Ag Contraction: Fir/Spruce/Mountain Hemlock Group
+0,232,232,232,255,No Occurrence

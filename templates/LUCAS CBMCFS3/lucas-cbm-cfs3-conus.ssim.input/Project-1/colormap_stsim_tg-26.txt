@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (97% clear-cut [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+196,255,255,0,255,97% clear-cut
+0,232,232,232,255,No Occurrence

@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Succession Post Fire: Redwood Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+220,255,0,128,255,Succession Post Fire: Redwood Group
+0,232,232,232,255,No Occurrence

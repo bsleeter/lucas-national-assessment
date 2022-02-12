@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Western White Pine Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+126,0,0,255,255,Ag Contraction: Western White Pine Group
+0,232,232,232,255,No Occurrence

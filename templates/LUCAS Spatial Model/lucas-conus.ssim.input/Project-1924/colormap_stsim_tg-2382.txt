@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Western Oak Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+125,128,0,128,255,Ag Contraction: Western Oak Group
+0,232,232,232,255,No Occurrence

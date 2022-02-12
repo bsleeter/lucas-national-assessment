@@ -1,0 +1,75 @@
+TransitionGroupID,StateClassID,StateAttributeTypeID,NeighborhoodRadius,UpdateFrequency
+Ag Contraction: Alder/Maple Group [Type],Forest: Alder/Maple Group,,1500.0000,20
+Ag Contraction: Aspen/Birch Group [Type],Forest: Aspen/Birch Group,,1500.0000,20
+Ag Contraction: California Mixed Conifer Group [Type],Forest: California Mixed Conifer Group,,1500.0000,20
+Ag Contraction: Douglas-fir Coastal Group [Type],Forest: Douglas-fir Coastal Group,,1500.0000,20
+Ag Contraction: Douglas-fir Inland Group [Type],Forest: Douglas-fir Inland Group,,1500.0000,20
+Ag Contraction: Elm/Ash/Cottonwood Group [Type],Forest: Elm/Ash/Cottonwood Group,,1500.0000,20
+Ag Contraction: Exotic Hardwoods Group [Type],Forest: Exotic Hardwoods Group,,1500.0000,20
+Ag Contraction: Exotic Softwoods Group [Type],Forest: Exotic Softwoods Group,,1500.0000,20
+Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],Forest: Fir/Spruce/Mountain Hemlock Group,,1500.0000,20
+Ag Contraction: Grassland [Type],Grassland: All,,1500.0000,20
+Ag Contraction: Hemlock/Sitka Spruce Group [Type],Forest: Hemlock/Sitka Spruce Group,,1500.0000,20
+Ag Contraction: Loblolly/Shortleaf Pine Group [Type],Forest: Loblolly/Shortleaf Pine Group,,1500.0000,20
+Ag Contraction: Lodgepole Pine Group [Type],Forest: Lodgepole Pine Group,,1500.0000,20
+Ag Contraction: Longleaf/Slash Pine Group [Type],Forest: Longleaf/Slash Pine Group,,1500.0000,20
+Ag Contraction: Maple/Beech/Birch Group [Type],Forest: Maple/Beech/Birch Group,,1500.0000,20
+Ag Contraction: Oak/Gum/Cypress Group [Type],Forest: Oak/Gum/Cypress Group,,1500.0000,20
+Ag Contraction: Oak/Hickory Group [Type],Forest: Oak/Hickory Group,,1500.0000,20
+Ag Contraction: Oak/Pine Group [Type],Forest: Oak/Pine Group,,1500.0000,20
+Ag Contraction: Other Western Hardwoods Group [Type],Forest: Other Western Hardwoods Group,,1500.0000,20
+Ag Contraction: Other Western Softwood Group [Type],Forest: Other Western Softwood Group,,1500.0000,20
+Ag Contraction: Pinyon/Juniper Group [Type],Forest: Pinyon/Juniper Group,,1500.0000,20
+Ag Contraction: Ponderosa Pine Group [Type],Forest: Ponderosa Pine Group,,1500.0000,20
+Ag Contraction: Redwood Group [Type],Forest: Redwood Group,,1500.0000,20
+Ag Contraction: Shrubland [Type],Shrubland: All,,1500.0000,20
+Ag Contraction: Spruce/Fir Group [Type],Forest: Spruce/Fir Group,,1500.0000,20
+Ag Contraction: Tanoak/Laurel Group [Type],Forest: Tanoak/Laurel Group,,1500.0000,20
+Ag Contraction: Tropical Hardwoods Group [Type],Forest: Tropical Hardwoods Group,,1500.0000,20
+Ag Contraction: Western Larch Group [Type],Forest: Western Larch Group,,1500.0000,20
+Ag Contraction: Western Oak Group [Type],Forest: Western Oak Group,,1500.0000,20
+Ag Contraction: Western White Pine Group [Type],Forest: Western White Pine Group,,1500.0000,20
+Ag Contraction: Wetland Herbaceous [Type],Wetland: Herbaceous,,1500.0000,20
+Ag Contraction: Wetland Woody [Type],Wetland: Woody,,1500.0000,20
+Ag Contraction: White/Red/Jack Pine Group [Type],Forest: White/Red/Jack Pine Group,,1500.0000,20
+Ag Expansion: Cropland [Type],Agriculture: Cropland,,1500.0000,20
+Ag Expansion: Pasture [Type],Agriculture: Pasture,,1500.0000,20
+Intensification: Low to High [Type],Developed: High Intensity,,1500.0000,5
+Intensification: Low to Medium [Type],Developed: Medium Intensity,,1500.0000,5
+Intensification: Medium to High [Type],Developed: High Intensity,,1500.0000,5
+Intensification: Open to High [Type],Developed: High Intensity,,1500.0000,5
+Intensification: Open to Low [Type],Developed: Low Intensity,,1500.0000,5
+Intensification: Open to Medium [Type],Developed: Medium Intensity,,1500.0000,5
+Succession Post Fire: Alder/Maple Group [Type],Forest: Alder/Maple Group,,1500.0000,20
+Succession Post Fire: Aspen/Birch Group [Type],Forest: Aspen/Birch Group,,1500.0000,20
+Succession Post Fire: California Mixed Conifer Group [Type],Forest: California Mixed Conifer Group,,1500.0000,20
+Succession Post Fire: Douglas-fir Coastal Group [Type],Forest: Douglas-fir Coastal Group,,1500.0000,20
+Succession Post Fire: Douglas-fir Inland Group [Type],Forest: Douglas-fir Inland Group,,1500.0000,20
+Succession Post Fire: Elm/Ash/Cottonwood Group [Type],Forest: Elm/Ash/Cottonwood Group,,1500.0000,20
+Succession Post Fire: Exotic Hardwoods Group [Type],Forest: Exotic Hardwoods Group,,1500.0000,20
+Succession Post Fire: Exotic Softwoods Group [Type],Forest: Exotic Softwoods Group,,1500.0000,20
+Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],Forest: Fir/Spruce/Mountain Hemlock Group,,1500.0000,20
+Succession Post Fire: Hemlock/Sitka Spruce Group [Type],Forest: Hemlock/Sitka Spruce Group,,1500.0000,20
+Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],Forest: Loblolly/Shortleaf Pine Group,,1500.0000,20
+Succession Post Fire: Lodgepole Pine Group [Type],Forest: Lodgepole Pine Group,,1500.0000,20
+Succession Post Fire: Longleaf/Slash Pine Group [Type],Forest: Longleaf/Slash Pine Group,,1500.0000,20
+Succession Post Fire: Maple/Beech/Birch Group [Type],Forest: Maple/Beech/Birch Group,,1500.0000,20
+Succession Post Fire: Oak/Gum/Cypress Group [Type],Forest: Oak/Gum/Cypress Group,,1500.0000,20
+Succession Post Fire: Oak/Hickory Group [Type],Forest: Oak/Hickory Group,,1500.0000,20
+Succession Post Fire: Oak/Pine Group [Type],Forest: Oak/Pine Group,,1500.0000,20
+Succession Post Fire: Other Western Hardwoods Group [Type],Forest: Other Western Hardwoods Group,,1500.0000,20
+Succession Post Fire: Other Western Softwood Group [Type],Forest: Other Western Softwood Group,,1500.0000,20
+Succession Post Fire: Pinyon/Juniper Group [Type],Forest: Pinyon/Juniper Group,,1500.0000,20
+Succession Post Fire: Ponderosa Pine Group [Type],Forest: Ponderosa Pine Group,,1500.0000,20
+Succession Post Fire: Redwood Group [Type],Forest: Redwood Group,,1500.0000,20
+Succession Post Fire: Spruce/Fir Group [Type],Forest: Spruce/Fir Group,,1500.0000,20
+Succession Post Fire: Tanoak/Laurel Group [Type],Forest: Tanoak/Laurel Group,,1500.0000,20
+Succession Post Fire: Tropical Hardwoods Group [Type],Forest: Tropical Hardwoods Group,,1500.0000,20
+Succession Post Fire: Western Larch Group [Type],Forest: Western Larch Group,,1500.0000,20
+Succession Post Fire: Western Oak Group [Type],Forest: Western Oak Group,,1500.0000,20
+Succession Post Fire: Western White Pine Group [Type],Forest: Western White Pine Group,,1500.0000,20
+Succession Post Fire: White/Red/Jack Pine Group [Type],Forest: White/Red/Jack Pine Group,,1500.0000,20
+Urbanization: High [Type],Developed: High Intensity,,1500.0000,5
+Urbanization: Low [Type],Developed: Low Intensity,,1500.0000,5
+Urbanization: Medium [Type],Developed: Medium Intensity,,1500.0000,5
+Urbanization: Open [Type],Developed: Open Space,,1500.0000,5

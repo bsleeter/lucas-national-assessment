@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Expansion: Pasture [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+50,255,165,0,255,Ag Expansion: Pasture
+0,232,232,232,255,No Occurrence

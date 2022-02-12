@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Forest Harvest: Forest Selection [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+41,0,128,0,255,Forest Harvest: Forest Selection
+0,232,232,232,255,No Occurrence

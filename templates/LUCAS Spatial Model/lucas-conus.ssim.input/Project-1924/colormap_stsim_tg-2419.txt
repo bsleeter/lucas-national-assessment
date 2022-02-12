@@ -1,0 +1,31 @@
+# Syncrosim Generated Transition Group (Succession: Post Fire Recovery) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+200,128,0,64,255,Succession Post Fire: Alder/Maple Group
+201,128,0,255,255,Succession Post Fire: Aspen/Birch Group
+202,128,0,255,255,Succession Post Fire: California Mixed Conifer Group
+203,255,0,128,255,Succession Post Fire: Douglas-fir Coastal Group
+204,128,0,255,255,Succession Post Fire: Elm/Ash/Cottonwood Group
+205,255,0,128,255,Succession Post Fire: Exotic Hardwoods Group
+206,128,0,255,255,Succession Post Fire: Exotic Softwoods Group
+207,255,0,128,255,Succession Post Fire: Fir/Spruce/Mountain Hemlock Group
+208,255,0,128,255,Succession Post Fire: Hemlock/Sitka Spruce Group
+209,128,0,255,255,Succession Post Fire: Loblolly/Shortleaf Pine Group
+210,255,0,128,255,Succession Post Fire: Lodgepole Pine Group
+211,64,0,128,255,Succession Post Fire: Longleaf/Slash Pine Group
+212,255,0,128,255,Succession Post Fire: Maple/Beech/Birch Group
+213,128,0,255,255,Succession Post Fire: Oak/Gum/Cypress Group
+214,255,0,128,255,Succession Post Fire: Oak/Hickory Group
+215,255,0,128,255,Succession Post Fire: Oak/Pine Group
+216,128,0,255,255,Succession Post Fire: Other Western Hardwoods Group
+217,255,0,255,255,Succession Post Fire: Other Western Softwood Group
+218,255,0,128,255,Succession Post Fire: Pinyon/Juniper Group
+219,128,0,255,255,Succession Post Fire: Ponderosa Pine Group
+220,255,0,128,255,Succession Post Fire: Redwood Group
+221,255,0,128,255,Succession Post Fire: Spruce/Fir Group
+222,255,0,128,255,Succession Post Fire: Tanoak/Laurel Group
+223,255,0,128,255,Succession Post Fire: Tropical Hardwoods Group
+224,255,0,128,255,Succession Post Fire: Western Larch Group
+225,255,0,128,255,Succession Post Fire: Western Oak Group
+226,255,0,128,255,Succession Post Fire: Western White Pine Group
+227,255,0,128,255,Succession Post Fire: White/Red/Jack Pine Group
+0,232,232,232,255,No Occurrence

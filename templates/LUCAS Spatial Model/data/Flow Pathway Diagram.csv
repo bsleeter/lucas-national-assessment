@@ -1,0 +1,21 @@
+StockTypeID,Location
+Atmosphere,E1
+Atmosphere: CH4,A4
+Atmosphere: CO,A3
+Atmosphere: CO2,A2
+Biomass: Coarse Root,G2
+Biomass: Fine Root,F2
+Biomass: Foliage,E2
+Biomass: Merchantable,C2
+Biomass: Other Wood,D2
+DOM: Aboveground Fast,D4
+DOM: Aboveground Medium,E4
+DOM: Aboveground Slow,F4
+DOM: Aboveground Very Fast,C4
+DOM: Belowground Fast,D5
+DOM: Belowground Slow,F5
+DOM: Belowground Very Fast,C5
+DOM: Black Carbon,F3
+DOM: Snag Branch,D3
+DOM: Snag Stem,E3
+Forestry Sector,A1

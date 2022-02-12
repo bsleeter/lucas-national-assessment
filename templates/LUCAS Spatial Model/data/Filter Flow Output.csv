@@ -1,0 +1,69 @@
+FlowGroupID,Summary,Spatial,AvgSpatial
+Biomass Turnover: Coarse Roots -> AG Fast [Type],Yes,No,No
+Biomass Turnover: Coarse Roots -> BG Fast [Type],Yes,No,No
+Biomass Turnover: Fine Roots -> AG Very Fast [Type],Yes,No,No
+Biomass Turnover: Fine Roots -> BG Very Fast [Type],Yes,No,No
+Biomass Turnover: Foliage -> AG Very Fast [Type],Yes,No,No
+Biomass Turnover: Merchantable -> Snag Stems [Type],Yes,No,No
+Biomass Turnover: Other Wood -> AG Fast [Type],Yes,No,No
+Biomass Turnover: Other Wood -> Snag Branches [Type],Yes,No,No
+Biomass Turnover: Total,Yes,No,No
+Decay: AG Fast -> AG Slow [Type],Yes,No,No
+Decay: AG Medium -> AG Slow [Type],Yes,No,No
+Decay: AG Very Fast -> AG Slow [Type],Yes,No,No
+Decay: BG Fast -> BG Slow [Type],Yes,No,No
+Decay: BG Very Fast -> BG Slow [Type],Yes,No,No
+Decay: Snag Branch -> AG Slow [Type],Yes,No,No
+Decay: Snag Stem -> AG Slow [Type],Yes,No,No
+Decay: Total,Yes,No,No
+Emission: AG Fast -> Atmosphere [Type],Yes,No,No
+Emission: AG Medium -> Atmosphere [Type],Yes,No,No
+Emission: AG Slow -> Atmosphere [Type],Yes,No,No
+Emission: AG Very Fast -> Atmosphere [Type],Yes,No,No
+Emission: BG Fast -> Atmosphere [Type],Yes,No,No
+Emission: BG Slow -> Atmosphere [Type],Yes,No,No
+Emission: BG Very Fast -> Atmosphere [Type],Yes,No,No
+Emission: Snag Branch -> Atmosphere [Type],Yes,No,No
+Emission: Snag Stem -> Atmosphere [Type],Yes,No,No
+Emission: Total Rh,Yes,Yes,Yes
+LULC: Emission,Yes,Yes,Yes
+LULC: Emission CH4,Yes,No,No
+LULC: Emission CO,Yes,No,No
+LULC: Emission CO2,Yes,No,No
+LULC: Emission DOM,Yes,No,No
+LULC: Emission DOM CH4 [Type],Yes,No,No
+LULC: Emission DOM CO [Type],Yes,No,No
+LULC: Emission DOM CO2 [Type],Yes,No,No
+LULC: Emission Live,Yes,No,No
+LULC: Emission Live CH4 [Type],Yes,No,No
+LULC: Emission Live CO [Type],Yes,No,No
+LULC: Emission Live CO2 [Type],Yes,No,No
+LULC: Harvest,Yes,Yes,Yes
+LULC: Harvest DOM [Type],Yes,No,No
+LULC: Harvest Live [Type],Yes,No,No
+LULC: Mortality,Yes,Yes,Yes
+LULC: Mortality Live [Type],Yes,No,No
+LULC: Transfer,Yes,No,No
+LULC: Transfer DOM [Type],Yes,No,No
+Net Biome Productivity,Yes,Yes,Yes
+Net Ecosystem Productivity,Yes,Yes,Yes
+Net Growth Forest: Atmosphere -> Coarse Roots [Type],Yes,No,No
+Net Growth Forest: Atmosphere -> Fine Roots [Type],Yes,No,No
+Net Growth Forest: Atmosphere -> Foliage [Type],Yes,No,No
+Net Growth Forest: Atmosphere -> Merchantable [Type],Yes,No,No
+Net Growth Forest: Atmosphere -> Other Wood [Type],Yes,No,No
+Net Growth Forest: Total,Yes,No,No
+Net Growth Non Forest: Atmosphere -> Coarse Roots [Type],Yes,No,No
+Net Growth Non Forest: Atmosphere -> Fine Roots [Type],Yes,No,No
+Net Growth Non Forest: Atmosphere -> Foliage [Type],Yes,No,No
+Net Growth Non Forest: Atmosphere -> Merchantable [Type],Yes,No,No
+Net Growth Non Forest: Atmosphere -> Other Wood [Type],Yes,No,No
+Net Growth Non Forest: Total,Yes,No,No
+Net Growth: Total,Yes,No,No
+Net Primary Productivity,Yes,Yes,Yes
+Q10 Fast Flows,Yes,No,No
+Q10 Slow Flows,Yes,No,No
+Transfer: AG Slow -> BG Slow [Type],Yes,No,No
+Transfer: Snag Branch -> AG Fast [Type],Yes,No,No
+Transfer: Snag Stem -> AG Medium [Type],Yes,No,No
+Transfer: Total,Yes,No,No

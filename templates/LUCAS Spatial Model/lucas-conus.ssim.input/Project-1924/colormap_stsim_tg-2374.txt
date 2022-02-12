@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Other Western Softwood Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+117,255,165,0,255,Ag Contraction: Other Western Softwood Group
+0,232,232,232,255,No Occurrence

@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Succession Post Fire: Other Western Hardwoods Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+216,128,0,255,255,Succession Post Fire: Other Western Hardwoods Group
+0,232,232,232,255,No Occurrence

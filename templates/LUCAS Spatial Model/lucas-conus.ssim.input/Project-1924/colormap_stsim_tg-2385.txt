@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Grassland [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+128,128,0,128,255,Ag Contraction: Grassland
+0,232,232,232,255,No Occurrence

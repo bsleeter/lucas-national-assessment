@@ -1,0 +1,35 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Pasture) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+100,128,0,128,255,Ag Contraction: Alder/Maple Group
+101,165,42,42,255,Ag Contraction: Aspen/Birch Group
+102,255,0,0,255,Ag Contraction: California Mixed Conifer Group
+103,0,0,255,255,Ag Contraction: Douglas-fir Coastal Group
+104,0,128,0,255,Ag Contraction: Elm/Ash/Cottonwood Group
+105,0,255,255,255,Ag Contraction: Exotic Hardwoods Group
+106,0,255,255,255,Ag Contraction: Exotic Softwoods Group
+107,0,128,128,255,Ag Contraction: Fir/Spruce/Mountain Hemlock Group
+128,128,0,128,255,Ag Contraction: Grassland
+108,255,255,0,255,Ag Contraction: Hemlock/Sitka Spruce Group
+109,0,0,255,255,Ag Contraction: Loblolly/Shortleaf Pine Group
+110,128,0,128,255,Ag Contraction: Lodgepole Pine Group
+111,255,165,0,255,Ag Contraction: Longleaf/Slash Pine Group
+112,255,0,0,255,Ag Contraction: Maple/Beech/Birch Group
+113,0,128,0,255,Ag Contraction: Oak/Gum/Cypress Group
+114,165,42,42,255,Ag Contraction: Oak/Hickory Group
+115,128,128,128,255,Ag Contraction: Oak/Pine Group
+116,255,0,0,255,Ag Contraction: Other Western Hardwoods Group
+117,255,165,0,255,Ag Contraction: Other Western Softwood Group
+118,255,255,0,255,Ag Contraction: Pinyon/Juniper Group
+119,0,128,0,255,Ag Contraction: Ponderosa Pine Group
+120,165,42,42,255,Ag Contraction: Redwood Group
+129,0,128,128,255,Ag Contraction: Shrubland
+121,0,128,128,255,Ag Contraction: Spruce/Fir Group
+122,128,128,128,255,Ag Contraction: Tanoak/Laurel Group
+123,0,255,255,255,Ag Contraction: Tropical Hardwoods Group
+124,0,0,255,255,Ag Contraction: Western Larch Group
+125,128,0,128,255,Ag Contraction: Western Oak Group
+126,0,0,255,255,Ag Contraction: Western White Pine Group
+130,255,0,0,255,Ag Contraction: Wetland Herbaceous
+131,255,165,0,255,Ag Contraction: Wetland Woody
+127,165,42,42,255,Ag Contraction: White/Red/Jack Pine Group
+0,232,232,232,255,No Occurrence

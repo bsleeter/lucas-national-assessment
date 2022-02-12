@@ -1,0 +1,23 @@
+Name,Description
+Atmosphere,Used for baseline flows
+Atmosphere: CH4,Used only for transition triggered flows
+Atmosphere: CO,Used only for transition triggered flows
+Atmosphere: CO2,Used only for transition triggered flows
+Biomass: Coarse Root,Carbon in live coarse roots
+Biomass: Fine Root,Carbon in live fine roots
+Biomass: Foliage,Carbon in live foliage
+Biomass: Merchantable,Carbon in live stemwood and associated bark
+Biomass: Other Wood,"Carbon in branches, sapling and submerchantable stem wood (including associated bark), and tops and stumps of merchantable trees (including the associated bark)"
+Black Carbon,Stable carbon from incomplete combustion after fire
+DOM: Aboveground Fast,"Fine and small woody debris plus dead coarse roots in the forest ﬂoor, approximately ≥5 and <75 mm diameter"
+DOM: Aboveground Medium,Coarse woody debris on the ground
+DOM: Aboveground Slow,"F, H and O horizons"
+DOM: Aboveground Very Fast,"The L horizon comprised of foliar litter plus dead ﬁne roots, approximately <5 mm diameter"
+DOM: Belowground Fast,"Dead coarse roots in the mineral soil, approximately ≥5 diameter"
+DOM: Belowground Slow,Humiﬁed organic matter in the mineral soil
+DOM: Belowground Very Fast,"Dead ﬁne roots in the mineral soil, approximately <5 mm diameter"
+DOM: Black Carbon,Stable carbon from incomplete combustion after fire
+DOM: Snag Branch,Carbon in DOM with input from the Merchantable biomass pool; default decay rate is half the default decay rate for the medium pool to the stem snag pool
+DOM: Snag Stem,Carbon in DOM with input from the Merchantable biomass pool; default decay rate is half the default decay rate for the medium pool to the stem snag pool
+Forestry Sector,Used only for transition triggered flows
+Peat,

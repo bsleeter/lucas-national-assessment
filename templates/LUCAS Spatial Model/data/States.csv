@@ -1,0 +1,45 @@
+Iteration,Timestep,StratumIDSource,StateClassIDSource,StratumIDDest,StateClassIDDest,AgeMin,AgeMax,Location
+,,,Agriculture: Cropland,,Agriculture: Cropland,,,G2
+,,,Agriculture: Pasture,,Agriculture: Pasture,,,G3
+,,,Barren: All,,Barren: All,,,C9
+,,,Developed: High Intensity,,Developed: High Intensity,,,F4
+,,,Developed: Low Intensity,,Developed: Low Intensity,,,F2
+,,,Developed: Medium Intensity,,Developed: Medium Intensity,,,F3
+,,,Developed: Open Space,,Developed: Open Space,,,F1
+,,,Developed: Transportation,,Developed: Transportation,,,F5
+,,,Forest: Alder/Maple Group,,Forest: Alder/Maple Group,,,A4
+,,,Forest: Aspen/Birch Group,,Forest: Aspen/Birch Group,,,A3
+,,,Forest: California Mixed Conifer Group,,Forest: California Mixed Conifer Group,,,D3
+,,,Forest: Douglas-fir Coastal Group,,Forest: Douglas-fir Coastal Group,,,B6
+,,,Forest: Douglas-fir Inland Group,,Forest: Douglas-fir Inland Group,,,E6
+,,,Forest: Elm/Ash/Cottonwood Group,,Forest: Elm/Ash/Cottonwood Group,,,A1
+,,,Forest: Exotic Hardwoods Group,,Forest: Exotic Hardwoods Group,,,D2
+,,,Forest: Exotic Softwoods Group,,Forest: Exotic Softwoods Group,,,D4
+,,,Forest: Fir/Spruce/Mountain Hemlock Group,,Forest: Fir/Spruce/Mountain Hemlock Group,,,C1
+,,,Forest: Hemlock/Sitka Spruce Group,,Forest: Hemlock/Sitka Spruce Group,,,C3
+,,,Forest: Loblolly/Shortleaf Pine Group,,Forest: Loblolly/Shortleaf Pine Group,,,B4
+,,,Forest: Lodgepole Pine Group,,Forest: Lodgepole Pine Group,,,C2
+,,,Forest: Longleaf/Slash Pine Group,,Forest: Longleaf/Slash Pine Group,,,B3
+,,,Forest: Maple/Beech/Birch Group,,Forest: Maple/Beech/Birch Group,,,A2
+,,,Forest: Oak/Gum/Cypress Group,,Forest: Oak/Gum/Cypress Group,,,D7
+,,,Forest: Oak/Hickory Group,,Forest: Oak/Hickory Group,,,D6
+,,,Forest: Oak/Pine Group,,Forest: Oak/Pine Group,,,D5
+,,,Forest: Other Western Hardwoods Group,,Forest: Other Western Hardwoods Group,,,A7
+,,,Forest: Other Western Softwood Group,,Forest: Other Western Softwood Group,,,C7
+,,,Forest: Pinyon/Juniper Group,,Forest: Pinyon/Juniper Group,,,B5
+,,,Forest: Ponderosa Pine Group,,Forest: Ponderosa Pine Group,,,B7
+,,,Forest: Redwood Group,,Forest: Redwood Group,,,C6
+,,,Forest: Spruce/Fir Group,,Forest: Spruce/Fir Group,,,B2
+,,,Forest: Tanoak/Laurel Group,,Forest: Tanoak/Laurel Group,,,A6
+,,,Forest: Tropical Hardwoods Group,,Forest: Tropical Hardwoods Group,,,D1
+,,,Forest: Western Larch Group,,Forest: Western Larch Group,,,C4
+,,,Forest: Western Oak Group,,Forest: Western Oak Group,,,A5
+,,,Forest: Western White Pine Group,,Forest: Western White Pine Group,,,C5
+,,,Forest: White/Red/Jack Pine Group,,Forest: White/Red/Jack Pine Group,,,B1
+,,,Grassland: All,,Grassland: All,,,D9
+,,,Shrubland: All,,Shrubland: All,,,G9
+,,,Shrubland: Post Fire Shrub,,Shrubland: Post Fire Shrub,,,A8
+,,,Snow/Ice: All,,Snow/Ice: All,,,B9
+,,,Water: All,,Water: All,,,A9
+,,,Wetland: Herbaceous,,Wetland: Herbaceous,,,F9
+,,,Wetland: Woody,,Wetland: Woody,,,E9

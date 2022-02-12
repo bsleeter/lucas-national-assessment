@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Succession Post Fire: Western Larch Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+224,255,0,128,255,Succession Post Fire: Western Larch Group
+0,232,232,232,255,No Occurrence

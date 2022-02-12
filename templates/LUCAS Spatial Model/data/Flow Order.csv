@@ -1,0 +1,48 @@
+Iteration,Timestep,FlowTypeID,Order
+,,Biomass Turnover: Coarse Roots -> AG Fast,6.0000
+,,Biomass Turnover: Coarse Roots -> BG Fast,6.0000
+,,Biomass Turnover: Fine Roots -> AG Very Fast,6.0000
+,,Biomass Turnover: Fine Roots -> BG Very Fast,6.0000
+,,Biomass Turnover: Foliage -> AG Very Fast,6.0000
+,,Biomass Turnover: Merchantable -> Snag Stems,6.0000
+,,Biomass Turnover: Other Wood -> AG Fast,6.0000
+,,Biomass Turnover: Other Wood -> Snag Branches,6.0000
+,,Decay: AG Fast -> AG Slow,6.5000
+,,Decay: AG Medium -> AG Slow,4.0000
+,,Decay: AG Very Fast -> AG Slow,6.5000
+,,Decay: BG Fast -> BG Slow,6.5000
+,,Decay: BG Very Fast -> BG Slow,6.5000
+,,Decay: Snag Branch -> AG Slow,4.0000
+,,Decay: Snag Stem -> AG Slow,4.0000
+,,Emission: AG Fast -> Atmosphere,6.5000
+,,Emission: AG Medium -> Atmosphere,4.0000
+,,Emission: AG Slow -> Atmosphere,6.6000
+,,Emission: AG Very Fast -> Atmosphere,6.5000
+,,Emission: BG Fast -> Atmosphere,6.5000
+,,Emission: BG Slow -> Atmosphere,5.0000
+,,Emission: BG Very Fast -> Atmosphere,6.5000
+,,Emission: Snag Branch -> Atmosphere,4.0000
+,,Emission: Snag Stem -> Atmosphere,4.0000
+,,LULC: Emission DOM CH4,10.0000
+,,LULC: Emission DOM CO,10.0000
+,,LULC: Emission DOM CO2,10.0000
+,,LULC: Emission Live CH4,11.0000
+,,LULC: Emission Live CO,11.0000
+,,LULC: Emission Live CO2,11.0000
+,,LULC: Harvest DOM,10.0000
+,,LULC: Harvest Live,11.0000
+,,LULC: Mortality Live,11.0000
+,,LULC: Transfer DOM,10.0000
+,,Net Growth Forest: Atmosphere -> Coarse Roots,7.0000
+,,Net Growth Forest: Atmosphere -> Fine Roots,7.0000
+,,Net Growth Forest: Atmosphere -> Foliage,7.0000
+,,Net Growth Forest: Atmosphere -> Merchantable,7.0000
+,,Net Growth Forest: Atmosphere -> Other Wood,7.0000
+,,Net Growth Non Forest: Atmosphere -> Coarse Roots,7.0000
+,,Net Growth Non Forest: Atmosphere -> Fine Roots,7.0000
+,,Net Growth Non Forest: Atmosphere -> Foliage,7.0000
+,,Net Growth Non Forest: Atmosphere -> Merchantable,7.0000
+,,Net Growth Non Forest: Atmosphere -> Other Wood,7.0000
+,,Transfer: AG Slow -> BG Slow,6.7000
+,,Transfer: Snag Branch -> AG Fast,3.0000
+,,Transfer: Snag Stem -> AG Medium,3.0000

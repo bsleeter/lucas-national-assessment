@@ -1,0 +1,36 @@
+StockGroupID,Summary,Spatial,AvgSpatial
+Atmosphere,Yes,Yes,Yes
+Atmosphere [Type],Yes,No,No
+Atmosphere: CH4 [Type],Yes,No,No
+Atmosphere: CO [Type],Yes,No,No
+Atmosphere: CO2 [Type],Yes,No,No
+Biomass: Aboveground,Yes,Yes,Yes
+Biomass: Belowground,Yes,Yes,Yes
+Biomass: Coarse Root [Type],Yes,Yes,No
+Biomass: Fine Root [Type],Yes,Yes,No
+Biomass: Foliage [Type],Yes,Yes,No
+Biomass: Merchantable [Type],Yes,Yes,No
+Biomass: Other Wood [Type],Yes,Yes,No
+Biomass: Total,Yes,Yes,Yes
+Black Carbon [Type],Yes,No,No
+DOM: Aboveground,Yes,Yes,Yes
+DOM: Aboveground Fast [Type],Yes,No,No
+DOM: Aboveground Medium [Type],Yes,No,No
+DOM: Aboveground Slow [Type],Yes,No,No
+DOM: Aboveground Very Fast [Type],Yes,No,No
+DOM: Belowground,Yes,Yes,Yes
+DOM: Belowground Fast [Type],Yes,No,No
+DOM: Belowground Slow [Type],Yes,No,No
+DOM: Belowground Very Fast [Type],Yes,No,No
+DOM: Black Carbon [Type],Yes,No,No
+DOM: Deadwood,Yes,Yes,Yes
+DOM: Down Deadwood,Yes,Yes,Yes
+DOM: Litter,Yes,Yes,Yes
+DOM: Snag Branch [Type],Yes,No,No
+DOM: Snag Stem [Type],Yes,No,No
+DOM: Soil,Yes,Yes,Yes
+DOM: Standing Deadwood,Yes,Yes,Yes
+DOM: Total,Yes,Yes,Yes
+Forestry Sector [Type],Yes,No,No
+Peat [Type],Yes,No,No
+Total Ecosystem,Yes,Yes,Yes

@@ -1,0 +1,15 @@
+StockTypeID,StateAttributeTypeID
+Biomass: Coarse Root,Carbon Initial Conditions: Coarse Roots
+Biomass: Fine Root,Carbon Initial Conditions: Fine Roots
+Biomass: Foliage,Carbon Initial Conditions: Foliage
+Biomass: Merchantable,Carbon Initial Conditions: Merchantable
+Biomass: Other Wood,Carbon Initial Conditions: Other Wood
+DOM: Aboveground Fast,Carbon Initial Conditions: Aboveground Fast
+DOM: Aboveground Medium,Carbon Initial Conditions: Aboveground Medium
+DOM: Aboveground Slow,Carbon Initial Conditions: Aboveground Slow
+DOM: Aboveground Very Fast,Carbon Initial Conditions: Aboveground Very Fast
+DOM: Belowground Fast,Carbon Initial Conditions: Belowground Fast
+DOM: Belowground Slow,Carbon Initial Conditions: Belowground Slow
+DOM: Belowground Very Fast,Carbon Initial Conditions: Belowground Very Fast
+DOM: Snag Branch,Carbon Initial Conditions: Snag Branch
+DOM: Snag Stem,Carbon Initial Conditions: Snag Stem

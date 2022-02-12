@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Wildfire [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+1,255,0,0,255,Wildfire
+0,232,232,232,255,No Occurrence

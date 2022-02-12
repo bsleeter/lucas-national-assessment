@@ -1,0 +1,7 @@
+# Syncrosim Generated Transition Group (Urbanization) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+4,128,0,128,255,Urbanization: High
+2,165,42,42,255,Urbanization: Low
+3,0,255,255,255,Urbanization: Medium
+1,128,128,128,255,Urbanization: Open
+0,232,232,232,255,No Occurrence

@@ -1,0 +1,94 @@
+TransitionGroupID,Summary,SummaryByStateClass,TimeSinceTransition,Spatial,SpatialEvents,SpatialTimeSinceTransition,SpatialProbability,AvgSpatialTimeSinceTransition
+Ag Contraction,Yes,No,No,Yes,No,No,Yes,No
+Ag Contraction: Alder/Maple Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Aspen/Birch Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: California Mixed Conifer Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Douglas-fir Coastal Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Douglas-fir Inland Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Elm/Ash/Cottonwood Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Exotic Hardwoods Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Exotic Softwoods Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Fir/Spruce/Mountain Hemlock Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Grassland [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Hemlock/Sitka Spruce Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Loblolly/Shortleaf Pine Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Lodgepole Pine Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Longleaf/Slash Pine Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Maple/Beech/Birch Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Oak/Gum/Cypress Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Oak/Hickory Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Oak/Pine Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Other Western Hardwoods Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Other Western Softwood Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Pinyon/Juniper Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Ponderosa Pine Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Redwood Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Shrubland [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Spruce/Fir Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Tanoak/Laurel Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Tropical Hardwoods Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Western Larch Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Western Oak Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Western White Pine Group [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Wetland Herbaceous [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: Wetland Woody [Type],Yes,No,No,No,No,No,No,No
+Ag Contraction: White/Red/Jack Pine Group [Type],Yes,No,No,No,No,No,No,No
+Ag Expansion,Yes,No,No,Yes,No,No,Yes,No
+Ag Expansion: Cropland [Type],Yes,No,No,No,No,No,No,No
+Ag Expansion: Pasture [Type],Yes,No,No,No,No,No,No,No
+Fire,Yes,No,No,Yes,No,No,Yes,No
+Fire: High Severity [Type],Yes,No,No,No,No,No,No,No
+Fire: Low Severity [Type],Yes,No,No,No,No,No,No,No
+Fire: Medium Severity [Type],Yes,No,No,No,No,No,No,No
+Forest Harvest,Yes,No,No,Yes,No,No,Yes,No
+Forest Harvest: Forest Clearcut [Type],Yes,No,No,No,No,No,No,No
+Forest Harvest: Forest Selection [Type],Yes,No,No,No,No,No,No,No
+Forest Harvest: Forest Selection 20% [Type],Yes,No,No,No,No,No,No,No
+Forest Harvest: Forest Selection 85% [Type],Yes,No,No,No,No,No,No,No
+Forest Harvest: Salvage Logging [Type],Yes,No,No,No,No,No,No,No
+Insect,Yes,No,No,Yes,No,No,Yes,No
+Insect: High Severity [Type],Yes,No,No,No,No,No,No,No
+Insect: Low Severity [Type],Yes,No,No,No,No,No,No,No
+Insect: Medium Severity [Type],Yes,No,No,No,No,No,No,No
+Intensification,Yes,No,No,Yes,No,No,Yes,No
+Intensification: Low to High [Type],Yes,No,No,No,No,No,No,No
+Intensification: Low to Medium [Type],Yes,No,No,No,No,No,No,No
+Intensification: Medium to High [Type],Yes,No,No,No,No,No,No,No
+Intensification: Open to High [Type],Yes,No,No,No,No,No,No,No
+Intensification: Open to Low [Type],Yes,No,No,No,No,No,No,No
+Intensification: Open to Medium [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Alder/Maple Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Aspen/Birch Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: California Mixed Conifer Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Douglas-fir Coastal Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Douglas-fir Inland Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Elm/Ash/Cottonwood Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Exotic Hardwoods Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Exotic Softwoods Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Fir/Spruce/Mountain Hemlock Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Hemlock/Sitka Spruce Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Loblolly/Shortleaf Pine Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Lodgepole Pine Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Longleaf/Slash Pine Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Maple/Beech/Birch Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Oak/Gum/Cypress Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Oak/Hickory Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Oak/Pine Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Other Western Hardwoods Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Other Western Softwood Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Pinyon/Juniper Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Ponderosa Pine Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Redwood Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Spruce/Fir Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Tanoak/Laurel Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Tropical Hardwoods Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Western Larch Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Western Oak Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: Western White Pine Group [Type],Yes,No,No,No,No,No,No,No
+Succession Post Fire: White/Red/Jack Pine Group [Type],Yes,No,No,No,No,No,No,No
+Succession: Post Fire Recovery,Yes,No,No,Yes,No,No,Yes,No
+Urbanization,Yes,No,No,Yes,No,No,Yes,No
+Urbanization: High [Type],Yes,No,No,No,No,No,No,No
+Urbanization: Low [Type],Yes,No,No,No,No,No,No,No
+Urbanization: Medium [Type],Yes,No,No,No,No,No,No,No
+Urbanization: Open [Type],Yes,No,No,No,No,No,No,No

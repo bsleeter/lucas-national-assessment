@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Ag Contraction: Maple/Beech/Birch Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+112,255,0,0,255,Ag Contraction: Maple/Beech/Birch Group
+0,232,232,232,255,No Occurrence

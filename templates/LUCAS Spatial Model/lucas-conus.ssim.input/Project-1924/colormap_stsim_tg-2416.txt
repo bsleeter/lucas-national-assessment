@@ -1,0 +1,4 @@
+# Syncrosim Generated Transition Group (Succession Post Fire: Western Oak Group [Type]) Color Map (QGIS-compatible) Export File,,,,,
+INTERPOLATION:EXACT
+225,255,0,128,255,Succession Post Fire: Western Oak Group
+0,232,232,232,255,No Occurrence
